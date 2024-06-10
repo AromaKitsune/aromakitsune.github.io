@@ -63,4 +63,12 @@ List of games that use this font:
 
 2. Add the CIA file to SD Card.
 
-3. Install it with GodMode9.
+1. Launch GodMode9.
+
+3. Browse and select the CIA file.
+
+4. Select `CIA image options...` → `Install game image`.
+
+5. Reboot a 3DS.
+
+6. A system font has been restored.
