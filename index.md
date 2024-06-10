@@ -19,13 +19,13 @@ Welcome to the Console OS Mods Café!
 
 - [System Font Customization Guide](/3DS-System-Font-Customization)
 
-- Home Menu UI
+- Home Menu UI (soon™)
 
 ---
 
 ## Wii U
 
-- Custom System Fonts
+- Custom System Fonts (soon™)
 
-- System Font Customization Guide
+- System Font Customization Guide (soon™)
 
