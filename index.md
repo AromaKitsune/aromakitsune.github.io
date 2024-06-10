@@ -11,7 +11,7 @@ title: Home
 
 Welcome to the Console OS Mods Café!
 
-Here you can find some system title mods resources for 3DS and Wii U.
+Here you can find some system title mods resource for 3DS and Wii U.
 
 ---
 
