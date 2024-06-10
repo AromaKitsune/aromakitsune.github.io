@@ -75,7 +75,7 @@ What you need:
 9. Switch back to the first FontForge window and merge the font again.
 - Still not right? Revert again, switch to the second FontForge window and revert the font file to undo the scale.
 - Keep messing around with the scale value until you get the scale right.
-- The 3DS font's glyphs scale should be about the same as the custom font's one.
+- The 3DS font's glyphs scale should be about the same as the custom font's glyphs.
 
     ![](/images/3DS/3DS-System-Font-Customization_09.png)
 
@@ -134,7 +134,7 @@ What you need:
 
 5. A custom font has been installed!
 
-<div align="center"><p><img src="/images/3DS/3DS-System-Font-Customization_01.png"/></p></div>
+<div align="center"><p><img src="/images/3DS/3DS-System-Font-Customization_14.png"/></p></div>
 
 - The button glyphs should be preserved. The ZL/ZR/C-Stick/Start glyphs are part of the game's digital manual, not the font.
 
