@@ -12,7 +12,6 @@ Follow the guide here:
 - [3DS - Luma3DS](https://3ds.hacks.guide/)
 - [Wii U - Aroma](https://wiiu.hacks.guide/)
 
-
 Discord: aromakitsune
 
 ---
