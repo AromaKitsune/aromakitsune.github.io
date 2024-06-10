@@ -1,0 +1,66 @@
+---
+layout: page
+title: 3DS - Custom System Fonts
+permalink: /3DS-Custom-System-Fonts
+---
+
+Custom system fonts for the Nintendo 3DS
+
+[System Font Customization Guide](/3DS-System-Font-Customization)
+
+---
+
+## Pop Happiness
+
+<div align="center"><p><img src="/images/3DS/Pop-Happiness-Font.png"/></p></div>
+
+![](/images/Pop-Happiness-Font_1.png)
+
+![](/images/Pop-Happiness-Font_2.png)
+
+List of games that use this font:
+- Luigi's Mansion
+- Super Mario Sunshine
+- Super Mario Galaxy
+- Super Mario Galaxy 2
+- Hyperdimension Neptunia
+- Hyperdimension Neptunia Mk2
+- Kirby's Return to Dream Land / Adventure Wii
+- Hyperdimension Neptunia Victory / Re;Birth3
+- Mario Tennis Open
+- Mario Kart Arcade GP DX
+- Mario Golf: World Tour
+
+[Download font](/files/3DS/PopHappinessFont.cia)
+
+[Download font (TTF)](/files/PopHappinessStd-EB.ttf)
+
+---
+
+## Installing a custom font
+
+⚠️ Make a NAND backup before proceeding! If you bricked your OS, see the restore section below.
+
+⚠️ Never uninstall CFW while any modded system titles are installed. It will result in an unbootable state and you'll need the [ntrboot](https://www.flashcarts.net/ds-quick-start-guide) DS flashcart to recover.
+
+1. Download a custom system font (`.cia`) from above.
+
+2. Add it to SD Card.
+
+3. Launch GodMode9.
+
+4. Browse and select the CIA file.
+
+5. Select `CIA image options...` → `Install game image`. CIA files are already encrypted, so there's no need to.
+
+6. Reboot a 3DS.
+
+7. A custom font has been installed.
+
+## Restoring an original font
+
+1. Download the [original system font](/files/3DS/SystemFont.cia).
+
+2. Add the CIA file to SD Card.
+
+3. Install it with GodMode9.

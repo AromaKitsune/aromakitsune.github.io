@@ -1,7 +1,20 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /About
+---
+
+This site hosts various system title mods for 3DS and Wii U.
+
+You need custom firmware installed on your console.
+
+Follow the guide here:
+- [3DS - Luma3DS](https://3ds.hacks.guide/)
+- [Wii U - Aroma](https://wiiu.hacks.guide/)
+
+
+Discord: aromakitsune
+
 ---
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
