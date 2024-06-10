@@ -4,7 +4,7 @@ title: 3DS - System Font Customization
 permalink: /3DS-System-Font-Customization
 ---
 
-This tutorial shows how to customize the look of a system font on the Nintendo 3DS.
+A guide how to customize the look of a system font on the Nintendo 3DS.
 
 ---
 
