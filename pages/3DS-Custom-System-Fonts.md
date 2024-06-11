@@ -39,9 +39,9 @@ List of games that use this font:
 
 ## Installing a custom font
 
-⚠️ Make a NAND backup before proceeding! If you bricked your OS, see the restore section below.
+⚠️ Create a NAND backup before proceeding! If you bricked your OS, see the restore section below.
 
-⚠️ Never uninstall CFW while any modded system titles are installed. It will result in an unbootable state and you'll need the [ntrboot](https://www.flashcarts.net/ds-quick-start-guide) DS flashcart to recover.
+⚠️ Never uninstall CFW while any modded system titles are installed. It will result in an unbootable state and you'll need the [ntrboot](https://www.flashcarts.net/ds-quick-start-guide) DS flashcart to recover it.
 
 1. Download a custom system font (`.cia`) from above.
 

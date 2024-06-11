@@ -14,9 +14,9 @@ A guide for customizing a system font on the Nintendo 3DS.
 
 ---
 
-⚠️ Make a NAND backup before proceeding! If you bricked your console OS, see the [restore](#restoring-an-original-font) section.
+⚠️ Create a NAND backup before proceeding! If you bricked your console OS, see the [restore](#restoring-an-original-font) section.
 
-⚠️ Never uninstall CFW while any modded system titles are installed. It will result in an unbootable state and you'll need the [ntrboot](https://www.flashcarts.net/ds-quick-start-guide) DS flashcart to recover.
+⚠️ Never uninstall CFW while any modded system titles are installed. It will result in an unbootable state and you'll need the [ntrboot](https://www.flashcarts.net/ds-quick-start-guide) DS flashcart to recover it.
 
 What you need:
 - [Luma3DS custom firmware](https://3ds.hacks.guide/)
