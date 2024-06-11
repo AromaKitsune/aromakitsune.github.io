@@ -45,7 +45,7 @@ List of games that use this font:
 
 1. Download a custom system font (`.cia`) from above.
 
-2. Add it to SD Card.
+2. Add it to the SD Card.
 
 3. Launch GodMode9.
 
@@ -61,11 +61,11 @@ List of games that use this font:
 
 1. Download the [original system font](/files/3DS/SystemFont.cia).
 
-2. Add the CIA file to SD Card.
+2. Add the `SystemFont.cia` file to the SD Card.
 
 1. Launch GodMode9.
 
-3. Browse and select the CIA file.
+3. Browse and select the `SystemFont.cia` file.
 
 4. Select `CIA image options...` → `Install game image`.
 

@@ -120,7 +120,7 @@ What you need:
 
 17. You should have the `SystemFont.cia`, rename "SystemFont" to anything you want.
 
-18. Add the CIA file to SD Card.
+18. Add the CIA file to the SD Card.
 
 ## Installing a custom font
 
@@ -142,11 +142,11 @@ What you need:
 
 1. Download the [original system font](/files/3DS/SystemFont.cia).
 
-2. Add the CIA file to SD Card.
+2. Add the `SystemFont.cia` file to the SD Card.
 
 1. Launch GodMode9.
 
-3. Browse and select the CIA file.
+3. Browse and select the `SystemFont.cia` file.
 
 4. Select `CIA image options...` → `Install game image`.
 
