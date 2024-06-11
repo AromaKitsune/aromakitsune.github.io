@@ -4,7 +4,7 @@ title: About
 permalink: /About
 ---
 
-### Kitsune Mods Café - 3DS & Wii U Mods Resource
+<div align="center"><h3>Kitsune Mods Café - 3DS & Wii U Mods Resource</h3></div>
 
 This site hosts various system title mods for 3DS and Wii U.
 
