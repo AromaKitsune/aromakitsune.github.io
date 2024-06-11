@@ -32,8 +32,6 @@ Custom Home Menu UI for the Nintendo 3DS
 
 1. Download a custom Home Menu UI (`.zip`) from above.
 
-- test
-
 2. Extract the zip file and enter the `LayeredFS` folder.
 
 3. Choose the region folder that matches your 3DS region.
