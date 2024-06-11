@@ -4,11 +4,13 @@ title: About
 permalink: /About
 ---
 
-<div align="center"><h3>Kitsune Mods Café - 3DS & Wii U Mods Resource</h3></div>
+## Kitsune Mods Café - 3DS & Wii U Mods Resource
 
 This site hosts various system title mods for 3DS and Wii U.
 
-You need custom firmware installed on your console.
+---
+
+You need custom firmware installed on your console to use those mods.
 
 Follow the guide here:
 - [3DS - Luma3DS](https://3ds.hacks.guide/)

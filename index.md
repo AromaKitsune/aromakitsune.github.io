@@ -6,10 +6,9 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: page
-title: Home
 ---
 
-Welcome to the Kitsune Mods Café!
+## Welcome to the Kitsune Mods Café!
 
 Here you can find some system title mods for 3DS and Wii U.
 
