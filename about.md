@@ -4,6 +4,8 @@ title: About
 permalink: /About
 ---
 
+3DS & Wii U System Title Mods Resource
+
 This site hosts various system title mods for 3DS and Wii U.
 
 You need custom firmware installed on your console.
