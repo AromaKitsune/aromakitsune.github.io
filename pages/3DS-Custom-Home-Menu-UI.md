@@ -22,6 +22,8 @@ Custom Home Menu UI for the Nintendo 3DS
 
 [Download - JPN](/files/3DS/Kitsune-CustomHomeMenuUI_JPN.cia)
 
+- A system font is a separate system title. To install a custom font, [go here](/3DS-Custom-System-Fonts).
+
 ---
 
 ## Installing a custom Home Menu UI (LayeredFS)
@@ -29,6 +31,8 @@ Custom Home Menu UI for the Nintendo 3DS
 ℹ️ Luma3DS's applet patching is unstable and causes Home Menu to randomly crash if Home Menu is opened several times. Consider using the CIA file method for now.
 
 1. Download a custom Home Menu UI (`.zip`) from above.
+
+- test
 
 2. Extract the zip file and enter the `LayeredFS` folder.
 
