@@ -21,7 +21,7 @@ Here you can find some system title mods for 3DS and Wii U.
 
 - [System Font Customization Guide](/3DS-System-Font-Customization)
 
-- Home Menu UI (soon™)
+- [Custom Home Menu UI](/3DS-Custom-Home-Menu-UI)
 
 ---
 
