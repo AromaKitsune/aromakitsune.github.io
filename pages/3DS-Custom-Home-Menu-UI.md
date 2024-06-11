@@ -65,7 +65,7 @@ Custom Home Menu UI for the Nintendo 3DS
 
 ## Installing a custom Home Menu UI (CIA)
 
-⚠️ Make a NAND backup before proceeding! If you bricked your OS, see the restore section below.
+⚠️ Create a NAND backup before proceeding! If you bricked your OS, see the restore section below.
 
 ⚠️ Never uninstall CFW while any modded system titles are installed. It will result in an unbootable state and you'll need the [ntrboot](https://www.flashcarts.net/ds-quick-start-guide) DS flashcart to recover.
 
