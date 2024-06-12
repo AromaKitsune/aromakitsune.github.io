@@ -45,7 +45,7 @@ What you need:
 
     ![](/images/3DS/3DS-System-Font-Customization_04.png)
 
-4. Click `Elements` → `Merge Fonts...` and click `OK`.
+4. Switch to the first FontForge window (custom font), click `Elements` → `Merge Fonts...` and click `OK`.
 
     <div align="center"><p><img src="/images/3DS/3DS-System-Font-Customization_05.png"/></p></div>
 
