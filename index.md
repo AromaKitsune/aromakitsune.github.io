@@ -23,7 +23,7 @@ Here you can find some system title mods for 3DS and Wii U.
 
 - [Custom Home Menu UI](/3DS-Custom-Home-Menu-UI)
 
-- Home Menu UI Layout Customization (soon™)
+- [Home Menu UI Layout Customization Guide](/3DS-Home-Menu-UI-Layout-Customization)
 
 ---
 

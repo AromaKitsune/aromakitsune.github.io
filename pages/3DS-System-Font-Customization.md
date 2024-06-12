@@ -18,7 +18,7 @@ A guide for customizing a system font on the Nintendo 3DS.
 
 ⚠️ Never uninstall CFW while any modded system titles are installed. It will result in an unbootable state and you'll need the [ntrboot](https://www.flashcarts.net/ds-quick-start-guide) DS flashcart to recover it.
 
-What you need:
+**What you need:**
 - [Luma3DS custom firmware](https://3ds.hacks.guide/)
 - [Python](https://www.python.org/)
 - [FontForge](https://fontforge.org/)
@@ -38,6 +38,9 @@ What you need:
     ![](/images/3DS/3DS-System-Font-Customization_02.png)
 
 3. Click `File` → `Open`, select the 3DS font file. Do not launch another FontForge window from Start Menu or Desktop, both fonts need to be opened in the same FontForge instance.
+- You should have two FontForge windows:
+  - Custom font (FontForge window A)
+  - 3DS font (FontForge window B)
 
     ![](/images/3DS/3DS-System-Font-Customization_03.png)
 
@@ -45,7 +48,7 @@ What you need:
 
     ![](/images/3DS/3DS-System-Font-Customization_04.png)
 
-4. Switch to the first FontForge window (custom font), click `Elements` → `Merge Fonts...` and click `OK`.
+4. Switch to FontForge window A, click `Elements` → `Merge Fonts...` and click `OK`.
 
     <div align="center"><p><img src="/images/3DS/3DS-System-Font-Customization_05.png"/></p></div>
 
@@ -59,7 +62,7 @@ What you need:
 
 5. Click `File` → `Revert File` to undo the merge.
 
-6. Switch to the second FontForge window (3DS font), select all the glyphs (`Ctrl`+`A`).
+6. Switch to FontForge window B, select all the glyphs (`Ctrl`+`A`).
 
 7. Click `Elements` → `Transformations` → `Transform...` or just press `Ctrl`+`\`.
 
@@ -72,8 +75,8 @@ What you need:
 
     <div align="center"><p><img src="/images/3DS/3DS-System-Font-Customization_08.png"/></p></div>
 
-9. Switch back to the first FontForge window and merge the font again.
-- Still not right? Revert again, switch to the second FontForge window and revert the font file to undo the scale.
+9. Switch back to FontForge window A and merge the font again.
+- Still not right? Revert again, switch to FontForge window B and revert the font file to undo the scale.
 - Keep messing around with the scale value until you get the scale right.
 - The 3DS font's glyphs scale should be about the same as the custom font's glyphs.
 

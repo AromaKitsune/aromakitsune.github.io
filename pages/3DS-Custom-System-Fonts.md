@@ -18,7 +18,7 @@ Custom system fonts for the Nintendo 3DS
 
 ![](/images/Pop-Happiness-Font_2.png)
 
-List of games that use this font:
+**List of games that use this font:**
 - Luigi's Mansion
 - Super Mario Sunshine
 - Super Mario Galaxy
