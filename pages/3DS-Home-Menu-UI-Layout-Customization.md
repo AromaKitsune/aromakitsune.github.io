@@ -202,9 +202,9 @@ Let's fix the BCLYT file.
 
 ## UI element colors
 
-⚠️ After importing the BCLYT/BCLAN/BCLIM files into the `*.LZ` files with Kuriimu2, the offsets for the color values are no longer the same, as these values have been moved to different addresses. If you did that already, you have to hex-edit the BCLYT files instead.
+After importing the BCLYT/BCLAN/BCLIM files into the `*.LZ` files with Kuriimu2, the offsets for the color values are no longer the same, as these values have been moved to different addresses. If you did that already, you have to hex-edit the BCLYT files instead.
 
-- Each value consists of 4 bytes for color & alpha (`RR GG BB AA`). I suggest changing only the RGB values.
+Each value consists of 4 bytes for color & alpha (`RR GG BB AA`). I suggest changing only the RGB values.
 
 Applets - `launcher.LZ/blyt/LncBase_D_01.bclyt`
 
