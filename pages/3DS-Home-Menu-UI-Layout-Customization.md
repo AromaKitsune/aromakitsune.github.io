@@ -15,7 +15,7 @@ A guide for customizing a Home Menu UI layout on the Nintendo 3DS.
 
 ---
 
-I recommend following [derberg's 3DS Home Menu Customization Guide](https://3ds.codeberg.page/homemenu/) for setup and extraction before proceeding.
+If this is your first time modding a Home Menu, follow [derberg's 3DS Home Menu Customization Guide](https://3ds.codeberg.page/homemenu/) for setup and extraction before proceeding.
 
 If you have any questions, please ask us or me (aromakitsune) on the [Custom 3DS Assets Discord](https://discord.gg/0z7IGZ5Sv3D0mEN0).
 
