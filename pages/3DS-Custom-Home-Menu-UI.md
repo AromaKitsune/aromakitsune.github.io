@@ -22,6 +22,8 @@ Custom Home Menu UI for the Nintendo 3DS
 
 [Download - JPN](/files/3DS/Kitsune-CustomHomeMenuUI_JPN.cia)
 
+- Target system firmware version: `11.17.0-50`
+
 - A system font is a separate system title. To install a custom font, [go here](/3DS-Custom-System-Fonts).
 
 ---
