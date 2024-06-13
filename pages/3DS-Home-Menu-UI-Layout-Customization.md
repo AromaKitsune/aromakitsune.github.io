@@ -84,11 +84,11 @@ Let's fix the BCLYT file.
         ```
         Save it as `.bat`, drag & drop the BCLYT file in the batch file, enter the created `bclyt` folder and move on to the next step.
 
-6. Launch Switch-Toolbox
+6. Launch Switch-Toolbox.
 
 7. Drag & drop the `B.bclyt` file in the Switch-Toolbox window.
 
-8. Do not edit anything, just save. `Ctrl+S` doesn’t have any effect, so click the Save button.
+8. Do not edit anything, just save. `Ctrl`+`S` isn't coded to save in Layout Editor, so click the `💾` save button and the "saved" dialog should appear.
     - You should have the corrupted BCLYT as its file size has been decreased. This is normal.
 
 9. Close the layout editor window.
@@ -99,18 +99,18 @@ Let's fix the BCLYT file.
 - Refer to the [Assets Documentation](https://docs.google.com/spreadsheets/d/1Q-Im3P5zSqNi6zYqaXtyS138hCdcIJDY7WxRt_FWdrg) for some lists of known panes to edit.
 - Each pane has its properties you can edit: positions (translate), size, colors, rotations, transparency, etc.
 - To hide the UI elements, untick the `Pane visible` checkbox and set the `Alpha` value to `0`.
-- If the UI elements don't actually move to your desired position, then the elements' position values are likely hardcoded in the BCLAN (Layout Animation) files and you have to edit them instead. In this case, the applets' X position values are hardcoded in `launcher.LZ/anim/LncBase_D_01_MvsToggle.bclan` (removes the Miiverse applet from the Korean 3DS system), in which you can only move them vertically. Switch-Toolbox can edit BCLAN files without any issues, so hex editing isn't needed.
+- If the UI elements don't actually move to your desired position, then the elements' position values are likely hardcoded in the BCLAN (Layout Animation) files and you have to edit them instead. In this case, the applets' X position values are hardcoded in `launcher.LZ/anim/LncBase_D_01_MvsToggle.bclan` ([used for removing the Miiverse applet from the Korean 3DS systems](https://tcrf.net/Nintendo_3DS#Home_Menu_.2B_Revisions)), in which you can only move them vertically. Switch-Toolbox can edit BCLAN files without any issues, so hex editing isn't needed.
 - In order to keep the `C.bclyt`'s file size the same as `B.bclyt`'s, you should edit only the values in the Pane and Colors tabs. Adding or removing some items may change the file size which makes it harder to manually fix it with hex editor. Avoid doing the following edits:
   - Adding new Panes
-  - Deleting the existing Panes (it may crash on a 3DS, so make them invisible instead)
+  - Deleting the existing Panes (It will crash on a 3DS, so make them invisible instead.)
   - Adding/removing links to textures in the Texture Maps tab 
-  - Editing the texts in the Text Pane. You should edit the MSBT files instead
+  - Editing the texts in the Text Pane (You should [edit the MSBT files](https://github.com/IcySon55/3DLandMSBTeditor) instead.)
 
     ![](/images/3DS/3DS-Home-Menu-UI-Layout-Customization_03.png)
 
-12.	When done editing, click the Save button and you can close Switch-Toolbox.
+12.	When done editing, click the `💾` save button and you can close Switch-Toolbox.
 
-    - You should have another corrupted BCLYT file. (Again, this is normal.) The file size of the edited BCLYT has been decreased by 432 bytes. Make sure both the `B.bclyt`'s and `C.bclyt`'s file sizes are the same. We will be restoring them on the next steps.
+    - You should have another corrupted BCLYT file. Again, this is normal. The file size of the edited BCLYT has been decreased by 432 bytes. Make sure both the `B.bclyt`'s and `C.bclyt`'s file sizes are the same. We will be restoring them on the next steps.
 
     ![](/images/3DS/3DS-Home-Menu-UI-Layout-Customization_04.png)
 
@@ -120,7 +120,7 @@ Let's fix the BCLYT file.
 
 15.	Click the `C.bclyt` tab, then the `B.bclyt` tab.
 
-16.	Press `Ctrl+K` to compare between the `B.bclyt` & `C.bclyt` files, click `OK`.
+16.	Press `Ctrl`+`K` to compare between the `B.bclyt` & `C.bclyt` files, click `OK`.
 
     ![](/images/3DS/3DS-Home-Menu-UI-Layout-Customization_05.png)
 
@@ -134,13 +134,13 @@ Let's fix the BCLYT file.
 
 20.	Select a few lines of bytes forward (ex: from `80` to `3F`).
 
-21.	Copy
+21.	Copy.
 
     ![](/images/3DS/3DS-Home-Menu-UI-Layout-Customization_07.png)
 
 22.	Go to the `A.bclyt` tab.
 
-23.	Press `Ctrl+F` to find.
+23.	Press `Ctrl`+`F` to find.
 
 24.	Go to the `Hex-values` tab.
 
@@ -156,7 +156,7 @@ Let's fix the BCLYT file.
 
     ![](/images/3DS/3DS-Home-Menu-UI-Layout-Customization_10.png)
 
-28.	Select the bytes from here, all the way to 0x0 by pressing `Ctrl+Shift+Home`.
+28.	Select the bytes from here, all the way to 0x0 by pressing `Ctrl`+`Shift`+`Home`.
 
 29.	Copy.
 
@@ -170,11 +170,11 @@ Let's fix the BCLYT file.
 
     ![](/images/3DS/3DS-Home-Menu-UI-Layout-Customization_12.png)
 
-33.	Select the bytes from here, all the way to 0x0 by pressing `Ctrl+Shift+Home`.
+33.	Select the bytes from here, all the way to 0x0 by pressing `Ctrl`+`Shift`+`Home`.
 
     ![](/images/3DS/3DS-Home-Menu-UI-Layout-Customization_13.png)
 
-34.	Paste with `Ctrl+V`. Don't paste-overwrite with `Ctrl+B`.
+34.	Paste with `Ctrl`+`V`. Don't paste-overwrite with `Ctrl`+`B`.
 
     - The bytes at the beginning of the edited BCLYT are restored.
 
@@ -182,7 +182,9 @@ Let's fix the BCLYT file.
 
 35.	If done correctly, save it and close HxD.
 
-    - Now we have fixed the BCLYT file! `A.bclyt`, `B.bclyt` and `C.bclyt.bak` can be deleted as they're not needed anymore. To make another edit to a fixed BCLYT, make 3 copies of the `C.bclyt` file and repeat step 5.
+    - Now we have fixed the BCLYT file!
+    - `A.bclyt`, `B.bclyt` and `C.bclyt.bak` can be deleted as they're not needed anymore.
+    - To make another edit to a fixed BCLYT file, make 3 copies of the `C.bclyt` file and repeat step 5.
 
     ![](/images/3DS/3DS-Home-Menu-UI-Layout-Customization_15.png)
 
