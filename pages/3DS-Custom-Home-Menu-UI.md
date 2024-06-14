@@ -67,7 +67,7 @@ Custom Home Menu UI for the Nintendo 3DS
 
 ## Backing up a Home Menu title (CIA)
 
-Following this section is **recommended** as you'll be able to restore a Home Menu title if a custom Home Menu title is installed with a CIA file.
+ℹ️ Following this section is **recommended** as you'll be able to restore a Home Menu title if a custom Home Menu title is installed with a CIA file.
 
 1. Launch GodMode9.
 
@@ -103,7 +103,7 @@ Following this section is **recommended** as you'll be able to restore a Home Me
 
 ## Restoring a Home Menu title (CIA) - Method 1
 
-If you previously dumped the `homemenu.cia` file with GodMode9, follow this section.
+ℹ️ If you previously dumped the `homemenu.cia` file with GodMode9, follow this section.
 
 1. Launch GodMode9.
 
@@ -117,7 +117,9 @@ If you previously dumped the `homemenu.cia` file with GodMode9, follow this sect
 
 ## Restoring a Home Menu title (CIA) - Method 2
 
-If you lost the `homemenu.cia` file from your SD Card and computer, follow this section.
+ℹ️ If you lost the `homemenu.cia` file from your SD Card and computer, follow this section.
+
+ℹ️ The target system firmware version is `11.17.0-50`.
 
 1. Download the original Home Menu title: [EUR](/files/3DS/HomeMenu_EUR.cia) / [USA](/files/3DS/HomeMenu_USA.cia) / [JPN](/files/3DS/HomeMenu_JPN.cia)
 
