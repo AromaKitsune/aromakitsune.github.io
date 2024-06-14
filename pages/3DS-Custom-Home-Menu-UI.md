@@ -103,7 +103,7 @@ Custom Home Menu UI for the Nintendo 3DS
 
 ## Restoring the Home Menu title (CIA) - Method 1
 
-ℹ️ If you previously dumped the `homemenu.cia` file with GodMode9, follow this section.
+ℹ️ If you've dumped the `homemenu.cia` file with GodMode9, follow this section.
 
 1. Launch GodMode9.
 
@@ -117,7 +117,7 @@ Custom Home Menu UI for the Nintendo 3DS
 
 ## Restoring the Home Menu title (CIA) - Method 2
 
-ℹ️ If you lost the `homemenu.cia` file from your SD Card and computer, follow this section.
+ℹ️ If you've lost the `homemenu.cia` file from your SD Card and computer, follow this section.
 
 ℹ️ The target system firmware version is `11.17.0-50`.
 
@@ -134,3 +134,42 @@ Custom Home Menu UI for the Nintendo 3DS
 6. Reboot a 3DS.
 
 7. The Home Menu UI has been restored.
+
+## Restoring the Home Menu title (CIA) - Method 3
+
+ℹ️ If you've installed a custom Home Menu title to your system running on older firmware version without any backups, follow this section.
+
+1. Go to [Darthsternie's Firmware Archive](https://darthsternie.net/3ds-firmwares/).
+
+2. Download a firmware archive matching your system's region and current firmware version.
+- If you don't know your system's current firmware version and can't boot to Home Menu:
+- Launch GodMode9
+- Go to `CTRNAND/title/000400db/????????/content`.
+  - EUR: `00017102`
+  - USA: `00017302`
+  - JPN: `00017202`
+- Select the `.app` file.
+- Select `NCCH image options...` → `Mount image to drive`.
+- Answer "Yes" to browse inside the `.app` file.
+- Go to the `romfs` folder.
+- Open the `titleversion.txt` file with hex editor or text viewer.
+- Take a note of the firmware version.
+
+3. Extract a firmware archive and find the `.cia` file for Home Menu inside the `updates` folder.
+- EUR: `0004003000009802.cia`
+- USA: `0004003000008F02.cia`
+- JPN: `0004003000008202.cia`
+
+4. Rename the `[TitleID].cia` file to `HomeMenu.cia`.
+
+5. Place it in the SD Card.
+
+6. Launch GodMode9.
+
+7. Browse and select the `HomeMenu.cia` file.
+
+8. Select `CIA image options...` → `Install game image`.
+
+9. Reboot a 3DS.
+
+10. The Home Menu UI has been restored.
