@@ -23,7 +23,7 @@ A guide for customizing the system font on the Nintendo 3DS.
 - [Python](https://www.python.org/)
 - [FontForge](https://fontforge.org/)
 - [FontTool](/files/3DS/FontTool.zip) (tweaked to work with Python 3)
-- [CTR Font Converter](/files/3DS/CTR_FontConverter.zip) (legal edition)
+- [CTR Font Converter](/files/3DS/CTR_FontConverter.zip) (Legal Edition)
 - [3DS font](/files/3DS/nintendo_NTLG-DB_001.ttf) (extracted from the Internet Browser applet)
 - A font you want to install on a 3DS (TTF or OTF)
 
