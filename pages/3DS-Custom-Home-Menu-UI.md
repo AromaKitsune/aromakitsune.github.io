@@ -16,11 +16,11 @@ Custom Home Menu UI for the Nintendo 3DS
 
 [Download - LayeredFS](/files/3DS/Kitsune-CustomHomeMenuUI.zip)
 
-[Download - EUR](/files/3DS/Kitsune-CustomHomeMenuUI_EUR.cia)
+[Download - CIA (EUR)](/files/3DS/Kitsune-CustomHomeMenuUI_EUR.cia)
 
-[Download - USA](/files/3DS/Kitsune-CustomHomeMenuUI_USA.cia)
+[Download - CIA (USA)](/files/3DS/Kitsune-CustomHomeMenuUI_USA.cia)
 
-[Download - JPN](/files/3DS/Kitsune-CustomHomeMenuUI_JPN.cia)
+[Download - CIA (JPN)](/files/3DS/Kitsune-CustomHomeMenuUI_JPN.cia)
 
 - Target system firmware version: `11.17.0-50`
 
