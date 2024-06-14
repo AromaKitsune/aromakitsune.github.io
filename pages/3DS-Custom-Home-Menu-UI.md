@@ -24,7 +24,7 @@ Custom Home Menu UI for the Nintendo 3DS
 
 - Target system firmware version: `11.17.0-50`
 
-- A system font is a separate system title. To install a custom font, [go here](/3DS-Custom-System-Fonts).
+- The system font is a separate system title. To install a custom font, [go here](/3DS-Custom-System-Fonts).
 
 ---
 
@@ -48,7 +48,7 @@ Custom Home Menu UI for the Nintendo 3DS
 
 8. A custom Home Menu UI has been installed.
 
-## Restoring a Home Menu UI (LayeredFS)
+## Restoring the Home Menu UI (LayeredFS)
 
 1. Launch the Luma3DS config by holding the `Select` button while booting.
 
@@ -56,7 +56,7 @@ Custom Home Menu UI for the Nintendo 3DS
 
 3. Save and exit.
 
-4. A Home Menu UI has been restored.
+4. The Home Menu UI has been restored.
 
 5. Go to `SD:\luma\titles` and delete the `000400300000??02` folder (optional).
 - EUR: `0004003000009802`
@@ -65,7 +65,7 @@ Custom Home Menu UI for the Nintendo 3DS
 
 ---
 
-## Backing up a Home Menu title (CIA)
+## Backing up the Home Menu title (CIA)
 
 ℹ️ Following this section is **recommended** as you'll be able to restore a Home Menu title if a custom Home Menu title is installed with the CIA file.
 
@@ -101,7 +101,7 @@ Custom Home Menu UI for the Nintendo 3DS
 
 7. A custom Home Menu UI has been installed.
 
-## Restoring a Home Menu title (CIA) - Method 1
+## Restoring the Home Menu title (CIA) - Method 1
 
 ℹ️ If you previously dumped the `homemenu.cia` file with GodMode9, follow this section.
 
@@ -113,9 +113,9 @@ Custom Home Menu UI for the Nintendo 3DS
 
 4. Reboot a 3DS.
 
-5. A Home Menu UI has been restored.
+5. The Home Menu UI has been restored.
 
-## Restoring a Home Menu title (CIA) - Method 2
+## Restoring the Home Menu title (CIA) - Method 2
 
 ℹ️ If you lost the `homemenu.cia` file from your SD Card and computer, follow this section.
 
@@ -133,4 +133,4 @@ Custom Home Menu UI for the Nintendo 3DS
 
 6. Reboot a 3DS.
 
-7. A Home Menu UI has been restored.
+7. The Home Menu UI has been restored.

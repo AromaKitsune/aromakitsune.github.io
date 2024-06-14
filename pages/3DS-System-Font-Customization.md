@@ -4,7 +4,7 @@ title: 3DS - System Font Customization
 permalink: /3DS-System-Font-Customization
 ---
 
-A guide for customizing a system font on the Nintendo 3DS.
+A guide for customizing the system font on the Nintendo 3DS.
 
 ---
 
@@ -141,9 +141,9 @@ A guide for customizing a system font on the Nintendo 3DS.
 
 - The button glyphs should be preserved. The ZL/ZR/C-Stick/Start glyphs are part of the game's digital manual, not the font.
 
-## Restoring an original font
+## Restoring the system font
 
-1. Download an [original system font](/files/3DS/SystemFont.cia).
+1. Download the [original system font](/files/3DS/SystemFont.cia).
 
 2. Add the `SystemFont.cia` file to the SD Card.
 
@@ -155,7 +155,7 @@ A guide for customizing a system font on the Nintendo 3DS.
 
 5. Reboot a 3DS.
 
-6. A system font has been restored.
+6. The system font has been restored.
 
 ---
 
