@@ -99,7 +99,7 @@ Let's fix the BCLYT file.
 - Refer to the [Assets Documentation](https://docs.google.com/spreadsheets/d/1Q-Im3P5zSqNi6zYqaXtyS138hCdcIJDY7WxRt_FWdrg) for some lists of known panes to edit.
 - Each pane has its properties you can edit: positions (translate), size, colors, rotations, transparency, etc.
 - To hide the UI elements, untick the `Pane visible` checkbox and set the `Alpha` value to `0`.
-- If the UI elements don't actually move to your desired position, then the elements' position values are likely hardcoded in the BCLAN (Layout Animation) files and you have to edit them instead. In this case, the applets' X position values are hardcoded in `launcher.LZ/anim/LncBase_D_01_MvsToggle.bclan` ([used for removing the Miiverse applet from the Korean 3DS systems](https://tcrf.net/Nintendo_3DS#Home_Menu_.2B_Revisions)), in which you can only move them vertically. Switch-Toolbox can edit BCLAN files without any issues, so hex editing isn't needed.
+- If the UI elements don't actually move to your desired position, then the elements' position values are likely hardcoded in the BCLAN (Layout Animation) files and you have to edit them instead. In this case, the applets' X position values are hardcoded in `launcher.LZ/anim/LncBase_D_01_MvsToggle.bclan` ([used for removing the Miiverse applet from the Korean 3DS systems](https://tcrf.net/Nintendo_3DS#Home_Menu_.2B_Revisions)), in which you can only move them vertically. Switch-Toolbox can edit the BCLAN files without any issues, so hex editing isn't needed.
 - In order to keep the `C.bclyt`'s file size the same as `B.bclyt`'s, you should edit only the values in the Pane and Colors tabs. Adding or removing some items may change the file size which makes it harder to manually fix it with hex editor. Avoid doing the following edits:
   - Adding new Panes
   - Deleting the existing Panes (It will crash on a 3DS, so make them invisible instead.)
@@ -184,7 +184,7 @@ Let's fix the BCLYT file.
 
     - Now we have fixed the BCLYT file!
     - `A.bclyt`, `B.bclyt` and `C.bclyt.bak` can be deleted as they're not needed anymore.
-    - To make another edit to a fixed BCLYT file, make 3 copies of the `C.bclyt` file and repeat step 5.
+    - To make another edit to the fixed BCLYT file, make 3 copies of the `C.bclyt` file and repeat step 5.
 
     ![](/images/3DS/3DS-Home-Menu-UI-Layout-Customization_15.png)
 
@@ -196,7 +196,7 @@ Let's fix the BCLYT file.
 
 39.	Save.
 
-40.	Compress the `*.LZ` file and that's it! You can now apply your edited UI to the Home Menu on your 3DS using LayeredFS or build a CIA file.
+40.	Compress the `*.LZ` file and that's it! You can now apply your edited UI to the Home Menu on your 3DS using LayeredFS or build the CIA file.
 
 ---
 

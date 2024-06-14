@@ -67,7 +67,7 @@ Custom Home Menu UI for the Nintendo 3DS
 
 ## Backing up a Home Menu title (CIA)
 
-ℹ️ Following this section is **recommended** as you'll be able to restore a Home Menu title if a custom Home Menu title is installed with a CIA file.
+ℹ️ Following this section is **recommended** as you'll be able to restore a Home Menu title if a custom Home Menu title is installed with the CIA file.
 
 1. Launch GodMode9.
 
@@ -77,7 +77,7 @@ Custom Home Menu UI for the Nintendo 3DS
 
 4. Proceed dumping this title.
 
-5. Answer "No" when asked to decrypt a CIA file.
+5. Answer "No" when asked to decrypt the CIA file.
 
 6. The `homemenu.cia` file is saved to `SD:\gm9\out`. Copy that file to your computer, keep it in a safe place.
 
