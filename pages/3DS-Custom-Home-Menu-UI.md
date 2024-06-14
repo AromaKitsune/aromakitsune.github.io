@@ -65,9 +65,25 @@ Custom Home Menu UI for the Nintendo 3DS
 
 ---
 
-## Installing a custom Home Menu UI (CIA)
+## Backing up a Home Menu title (CIA)
 
-⚠️ Create a NAND backup before proceeding! If you bricked your OS, see the restore section below.
+Following this section is **recommended** as you'll be able to restore a Home Menu title if a custom Home Menu title is installed with a CIA file.
+
+1. Launch GodMode9.
+
+2. Press the `Home` button.
+
+3. Select `Scripts...` → `GM9Megascript` → `Miscellaneous` → `Title Options` → `Dump HomeMenu to .cia`.
+
+4. Proceed dumping this title.
+
+5. Answer "No" when asked to decrypt a CIA file.
+
+6. The `homemenu.cia` file is saved to `SD:\gm9\out`. Copy that file to your computer, keep it in a safe place.
+
+## Installing a custom Home Menu title (CIA)
+
+⚠️ Have a backed up `homemenu.cia` file before proceeding! If you bricked your OS, see the restore section below.
 
 ⚠️ Never uninstall CFW while any modded system titles are installed. It will result in an unbootable state and you'll need the [ntrboot](https://www.flashcarts.net/ds-quick-start-guide) DS flashcart to recover.
 
@@ -85,18 +101,34 @@ Custom Home Menu UI for the Nintendo 3DS
 
 7. A custom Home Menu UI has been installed.
 
-## Restoring a Home Menu UI (CIA)
+## Restoring a Home Menu title (CIA) - Method 1
+
+If you previously dumped the `homemenu.cia` file with GodMode9, follow this section.
+
+1. Launch GodMode9.
+
+2. Go to `SDCARD/gm9/out` and select the `homemenu.cia` file.
+
+3. Select `CIA image options...` → `Install game image`.
+
+4. Reboot a 3DS.
+
+5. A Home Menu UI has been restored.
+
+## Restoring a Home Menu title (CIA) - Method 2
+
+If you lost the `homemenu.cia` file from your SD Card and computer, follow this section.
 
 1. Download the original Home Menu title: [EUR](/files/3DS/HomeMenu_EUR.cia) / [USA](/files/3DS/HomeMenu_USA.cia) / [JPN](/files/3DS/HomeMenu_JPN.cia)
 
 2. Add the `HomeMenu_???.cia` file to the SD Card.
 
-1. Launch GodMode9.
+3. Launch GodMode9.
 
-3. Browse and select the `HomeMenu_???.cia` file.
+4. Browse and select the `HomeMenu_???.cia` file.
 
-4. Select `CIA image options...` → `Install game image`.
+5. Select `CIA image options...` → `Install game image`.
 
-5. Reboot a 3DS.
+6. Reboot a 3DS.
 
-6. A Home Menu UI has been restored.
+7. A Home Menu UI has been restored.
