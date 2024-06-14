@@ -137,7 +137,7 @@ Custom Home Menu UI for the Nintendo 3DS
 
 ## Restoring the Home Menu title (CIA) - Method 3
 
-ℹ️ If you've installed a custom Home Menu title to your system running on older firmware version without any backups, follow this section.
+ℹ️ If you've installed a custom Home Menu title to your system running on older/future firmware version without any backups, follow this section.
 
 1. Go to [Darthsternie's Firmware Archive](https://darthsternie.net/3ds-firmwares/).
 
