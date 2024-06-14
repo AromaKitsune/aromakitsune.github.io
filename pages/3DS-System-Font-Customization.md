@@ -143,7 +143,7 @@ A guide for customizing a system font on the Nintendo 3DS.
 
 ## Restoring an original font
 
-1. Download the [original system font](/files/3DS/SystemFont.cia).
+1. Download an [original system font](/files/3DS/SystemFont.cia).
 
 2. Add the `SystemFont.cia` file to the SD Card.
 
