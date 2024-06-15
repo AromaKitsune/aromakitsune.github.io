@@ -121,7 +121,9 @@ Custom Home Menu UI for the Nintendo 3DS
 
 ℹ️ The target system firmware version is `11.17.0-50`.
 
-1. Download an original Home Menu title: [EUR](/files/3DS/HomeMenu_EUR.cia) / [USA](/files/3DS/HomeMenu_USA.cia) / [JPN](/files/3DS/HomeMenu_JPN.cia)
+1. Download an original Home Menu title:
+- [EUR](/files/3DS/HomeMenu_EUR.cia) / [USA](/files/3DS/HomeMenu_USA.cia) / [JPN](/files/3DS/HomeMenu_JPN.cia)
+- Obtained from [Darthsternie's Firmware Archive](https://darthsternie.net/3ds-firmwares/)
 
 2. Add the `HomeMenu_[region].cia` file to the SD Card.
 
