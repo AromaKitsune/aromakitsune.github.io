@@ -36,7 +36,7 @@ Custom Home Menu UI for the Nintendo 3DS
 
 2. Extract the zip file and enter the `LayeredFS` folder.
 
-3. Choose the region folder that matches your 3DS region.
+3. Enter a folder matching your console region.
 
 4. Copy the `luma` folder to the root of the SD Card.
 
@@ -141,7 +141,7 @@ Custom Home Menu UI for the Nintendo 3DS
 
 1. Go to [Darthsternie's Firmware Archive](https://darthsternie.net/3ds-firmwares/).
 
-2. Download a firmware archive matching your system's region and current firmware version.
+2. Download a firmware archive matching your console region and current firmware version.
 - If you don't know your system's current firmware version and can't boot to Home Menu:
 - Launch GodMode9
 - Go to `CTRNAND/title/000400db/????????/content`.
