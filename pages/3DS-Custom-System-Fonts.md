@@ -31,9 +31,9 @@ Custom system fonts for the Nintendo 3DS
 - Mario Kart Arcade GP DX
 - Mario Golf: World Tour
 
-[Download font](/files/3DS/PopHappinessFont.cia)
+[Download font (for 3DS)](/files/3DS/PopHappinessFont.cia)
 
-[Download font (TTF)](/files/PopHappinessStd-EB.ttf)
+[Download font (for anything else)](/files/PopHappinessStd-EB.ttf)
 
 ---
 

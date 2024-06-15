@@ -95,7 +95,7 @@ Let's fix the BCLYT file.
 
 10. Drag & drop the `C.bclyt` file in the Switch-Toolbox window.
 
-11.	Edit any UI elements however you'd like. There are a few limits of what you can edit
+11.	Edit any UI elements however you'd like. There are some limits of what you can edit.
 - Refer to the [Assets Documentation](https://docs.google.com/spreadsheets/d/1Q-Im3P5zSqNi6zYqaXtyS138hCdcIJDY7WxRt_FWdrg) for some lists of known panes to edit.
 - Each pane has its properties you can edit: positions (translate), size, colors, rotations, transparency, etc.
 - To hide the UI elements, untick the `Pane visible` checkbox and set the `Alpha` value to `0`.
