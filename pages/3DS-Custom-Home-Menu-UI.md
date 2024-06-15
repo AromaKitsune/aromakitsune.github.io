@@ -123,11 +123,11 @@ Custom Home Menu UI for the Nintendo 3DS
 
 1. Download an original Home Menu title: [EUR](/files/3DS/HomeMenu_EUR.cia) / [USA](/files/3DS/HomeMenu_USA.cia) / [JPN](/files/3DS/HomeMenu_JPN.cia)
 
-2. Add the `HomeMenu_???.cia` file to the SD Card.
+2. Add the `HomeMenu_[region].cia` file to the SD Card.
 
 3. Launch GodMode9.
 
-4. Browse and select the `HomeMenu_???.cia` file.
+4. Browse and select the `HomeMenu_[region].cia` file.
 
 5. Select `CIA image options...` → `Install game image`.
 
