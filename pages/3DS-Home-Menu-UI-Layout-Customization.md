@@ -4,7 +4,7 @@ title: 3DS - Home Menu UI Layout Customization
 permalink: /3DS-Home-Menu-UI-Layout-Customization
 ---
 
-A guide for customizing the Home Menu UI layout on the Nintendo 3DS.
+A guide for customizing the Home Menu UI layout (BCLYT) on the Nintendo 3DS.
 
 ---
 

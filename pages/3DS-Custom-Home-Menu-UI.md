@@ -6,6 +6,10 @@ permalink: /3DS-Custom-Home-Menu-UI
 
 Custom Home Menu UI for the Nintendo 3DS
 
+[Home Menu Customization Guide (by derberg)](https://3ds.codeberg.page/homemenu/)
+
+[Home Menu UI Layout Customization Guide (BCLYT edit)](/3DS-Home-Menu-UI-Layout-Customization)
+
 ---
 
 ## Kitsune's Custom Home Menu UI
