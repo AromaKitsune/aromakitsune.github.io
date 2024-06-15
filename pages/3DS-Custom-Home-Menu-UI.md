@@ -77,9 +77,9 @@ Custom Home Menu UI for the Nintendo 3DS
 
 4. Proceed dumping this title.
 
-5. Answer "No" when asked to decrypt the CIA file.
+5. Answer "No" if asked to decrypt the CIA file.
 
-6. The `homemenu.cia` file is saved to `SD:\gm9\out`. Copy that file to your computer, keep it in a safe place.
+6. The `homemenu.cia` file is saved to `SD:\gm9\out`. Copy that file to a safe place in your computer.
 
 ## Installing a custom Home Menu title (CIA)
 
