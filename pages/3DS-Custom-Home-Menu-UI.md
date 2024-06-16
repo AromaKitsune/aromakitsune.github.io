@@ -18,10 +18,11 @@ Custom Home Menu UI for the Nintendo 3DS
 
 <div align="center"><p><img src="/images/3DS/3DS-Custom-Home-Menu-UI_2.png"/></p></div>
 
-**Mod info:**
-- Target system firmware version: `11.17.0-50`
-- The system font is a separate system title. To install a custom font, [go here](/3DS-Custom-System-Fonts).
-- Last updated: 2024-05-23
+Target system firmware version: `11.17.0-50`
+
+The system font is a separate system title. To install a custom font, [go here](/3DS-Custom-System-Fonts).
+
+Last updated: 2024-05-23
 
 [Download - LayeredFS](/files/3DS/Kitsune-CustomHomeMenuUI.zip)
 
