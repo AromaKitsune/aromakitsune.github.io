@@ -36,7 +36,7 @@ Last updated: 2024-05-23
 
 ## Installing a custom Home Menu UI (LayeredFS)
 
-ℹ️ Luma3DS's applet patching is unstable and causes Home Menu to randomly crash if Home Menu is opened several times. Consider using the CIA file method for now.
+ℹ️ LayeredFS patching is unstable for applets which causes Home Menu to randomly crash if Home Menu is opened several times (by suspending a game or exiting an applet). Consider using the CIA file method for now.
 
 1. Download a custom Home Menu UI (`.zip`) from above.
 
