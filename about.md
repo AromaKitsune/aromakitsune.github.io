@@ -6,8 +6,6 @@ permalink: /About
 
 ## Kitsune Mods Café - 3DS & Wii U Mods Resource
 
----
-
 This site hosts various system title mods resources for 3DS and Wii U.
 
 You need custom firmware installed on your console to use those mods.
@@ -16,9 +14,13 @@ Follow the guide here:
 - [3DS - Luma3DS](https://3ds.hacks.guide/)
 - [Wii U - Aroma](https://wiiu.hacks.guide/)
 
+---
+
 Discord: AromaKitsune
 
-<div align="right"><p><a href="https://github.com/LumaTeam/Luma3DS">Luma3DS logo by Luma Team</a></p></div>
+[GitHub](https://github.com/AromaKitsune) / [Twitter](https://x.com/AromaKitsune) / [YouTube](https://www.youtube.com/@AromaKitsune)
+
+<div align="right"><p><a href="https://github.com/LumaTeam/Luma3DS">Luma3DS logo by LumaTeam</a></p></div>
 
 ---
 
