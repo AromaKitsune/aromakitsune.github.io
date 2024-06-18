@@ -64,7 +64,7 @@ Last updated: 2024-05-23
 
 4. The Home Menu UI has been restored.
 
-5. Go to `SD:\luma\titles` and delete the `000400300000??02` folder (optional).
+5. (Optional) Go to `SD:\luma\titles` and delete the `000400300000??02` folder.
 - EUR: `0004003000009802`
 - JPN: `0004003000008202`
 - USA: `0004003000008F02`
