@@ -111,7 +111,7 @@ A guide for customizing the system font on the Nintendo 3DS.
 
 15. Go to the `FontTool` folder.
 
-16. Open the Terminal window and enter:
+16. Launch the Terminal window and enter:
 
     ```
     python FontTool.py -font SystemFont.bcfnt
