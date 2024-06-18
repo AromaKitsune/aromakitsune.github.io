@@ -58,6 +58,18 @@ Let's fix the BCLYT file.
 
 ---
 
+## Previewing the layout
+
+Skip this section if you want to edit one of those BCLYT files listed above.
+
+1. Launch Switch-Toolbox.
+
+2. Drag & drop the `*.LZ` file in the Switch-Toolbox window.
+
+3. Search for the `bclyt` files and open any of those to see what it looks like. You might know what those layouts are, based on their file names.
+
+4. Once you found what you're looking for, you can close Switch-Toolbox.
+
 ## Editing the layout
 
 1. Launch Kuriimu2.
