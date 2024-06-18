@@ -4,8 +4,6 @@ title: About
 permalink: /About
 ---
 
-## Kitsune Mods Café - 3DS & Wii U Mods Resource
-
 This site hosts various system title mods resources for 3DS and Wii U.
 
 You need custom firmware installed on your console to use those mods.
