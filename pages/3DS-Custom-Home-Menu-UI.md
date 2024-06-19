@@ -152,7 +152,7 @@ Last updated: 2024-05-23
 2. Download a firmware archive matching your console region and current firmware version.
 - If you don't know your system's current firmware version and can't boot to Home Menu:
 - Launch GodMode9
-- Go to `CTRNAND/title/000400db/????????/content`.
+- Go to `CTRNAND/title/000400db/00017?02/content`.
   - EUR: `00017102`
   - USA: `00017302`
   - JPN: `00017202`
