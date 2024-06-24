@@ -34,7 +34,9 @@ Last updated: 2024-05-23
 
 ---
 
-## Installing a custom Home Menu UI (LayeredFS)
+## Installation method 1: LayeredFS
+
+## Installing a custom Home Menu UI
 
 ℹ️ LayeredFS patching is unstable for applets which causes Home Menu to randomly crash if Home Menu is opened several times (by suspending a game or exiting an applet). Consider using the CIA file method for now.
 
@@ -54,7 +56,7 @@ Last updated: 2024-05-23
 
 8. A custom Home Menu UI has been installed.
 
-## Restoring the Home Menu UI (LayeredFS)
+## Restoring the Home Menu UI
 
 1. Launch the Luma3DS config by holding the `Select` button while booting.
 
@@ -64,16 +66,18 @@ Last updated: 2024-05-23
 
 4. The Home Menu UI has been restored.
 
-5. (Optional) Go to `SD:\luma\titles` and delete the `000400300000??02` folder.
+5. (Optional) Go to `SDCARD:/luma/titles` and delete the `000400300000??02` folder.
 - EUR: `0004003000009802`
 - JPN: `0004003000008202`
 - USA: `0004003000008F02`
 
 ---
 
-## Backing up the Home Menu title (CIA)
+## Installation method 2: CIA file
 
-ℹ️ Following this section is **recommended** as you'll be able to restore a Home Menu title if a custom Home Menu title is installed with the CIA file.
+## Backing up the Home Menu title
+
+ℹ️ It is **recommended** to backup your Home Menu title as you'll be able to restore a Home Menu title if a custom Home Menu title is installed with the CIA file.
 
 1. Launch GodMode9.
 
@@ -85,9 +89,9 @@ Last updated: 2024-05-23
 
 5. Answer "No" if asked to decrypt the CIA file.
 
-6. The `homemenu.cia` file is saved to `SD:\gm9\out`. Copy that file to a safe place in your computer.
+6. The `homemenu.cia` file is saved to `SDCARD:/gm9/out`. Copy that file to a safe place in your computer.
 
-## Installing a custom Home Menu title (CIA)
+## Installing a custom Home Menu title
 
 ⚠️ Have a backed up `homemenu.cia` file before proceeding! If you bricked your OS, see the restore section below.
 
@@ -107,13 +111,13 @@ Last updated: 2024-05-23
 
 7. A custom Home Menu UI has been installed.
 
-## Restoring the Home Menu title (CIA) - Method 1
+## Restoring the Home Menu title - Method 1
 
 ℹ️ If you've dumped the `homemenu.cia` file with GodMode9, follow this section.
 
 1. Launch GodMode9.
 
-2. Go to `SDCARD` → `/gm9/out` and select the `homemenu.cia` file.
+2. Go to `SDCARD:/gm9/out` and select the `homemenu.cia` file.
 
 3. Select `CIA image options...` → `Install game image`.
 
@@ -121,7 +125,7 @@ Last updated: 2024-05-23
 
 5. The Home Menu UI has been restored.
 
-## Restoring the Home Menu title (CIA) - Method 2
+## Restoring the Home Menu title - Method 2
 
 ℹ️ If you've lost the `homemenu.cia` file from your SD Card and computer, follow this section.
 
@@ -131,11 +135,11 @@ Last updated: 2024-05-23
 - [EUR](/files/3DS/HomeMenu_EUR.cia) / [USA](/files/3DS/HomeMenu_USA.cia) / [JPN](/files/3DS/HomeMenu_JPN.cia)
 - Obtained from [Darthsternie's Firmware Archive](https://darthsternie.net/3ds-firmwares/)
 
-2. Add the `HomeMenu_[region].cia` file to the SD Card.
+2. Add the `HomeMenu_???.cia` file to the SD Card.
 
 3. Launch GodMode9.
 
-4. Browse and select the `HomeMenu_[region].cia` file.
+4. Browse and select the `HomeMenu_???.cia` file.
 
 5. Select `CIA image options...` → `Install game image`.
 
@@ -143,7 +147,7 @@ Last updated: 2024-05-23
 
 7. The Home Menu UI has been restored.
 
-## Restoring the Home Menu title (CIA) - Method 3
+## Restoring the Home Menu title - Method 3
 
 ℹ️ If you've installed a custom Home Menu title to your system running on older/future firmware version without any backups, follow this section.
 
@@ -152,7 +156,7 @@ Last updated: 2024-05-23
 2. Download a firmware archive matching your console region and current firmware version.
 - If you don't know your system's current firmware version and can't boot to Home Menu:
 - Launch GodMode9
-- Go to `CTRNAND` → `/title/000400db/00017?02/content`.
+- Go to `CTRNAND:/title/000400db/00017?02/content`.
   - EUR: `00017102`
   - USA: `00017302`
   - JPN: `00017202`
@@ -168,7 +172,7 @@ Last updated: 2024-05-23
 - USA: `0004003000008F02.cia`
 - JPN: `0004003000008202.cia`
 
-4. Rename the `[TitleID].cia` file to `HomeMenu.cia`.
+4. Rename the `000400300000??02.cia` file to `HomeMenu.cia`.
 
 5. Place it in the SD Card.
 
@@ -181,3 +185,40 @@ Last updated: 2024-05-23
 9. Reboot a 3DS.
 
 10. The Home Menu UI has been restored.
+
+## Restoring the Home Menu title - Method 4
+
+ℹ️ If you have any issues downloading a firmware archive, follow this section.
+
+1. Download [3DNUS](https://github.com/wyatt8740/3DNUS).
+
+2. Launch 3DNUS.
+
+3. Input your system's current firmware version (ex: `11.17.0-50E`).
+
+4. Click "New 3DS" or "Old 3DS" for your 3DS system model.
+
+5. Click "Begin Download", and wait for the download to complete.
+
+6. Enter the firmware folder and find the `.cia` file for Home Menu inside the `updates` folder.
+- EUR: `0004003000009802.cia`
+- USA: `0004003000008F02.cia`
+- JPN: `0004003000008202.cia`
+
+7. Rename the `000400300000??02.cia` file to `HomeMenu.cia`.
+
+8. Place it in the SD Card.
+
+9. Launch GodMode9.
+
+10. Browse and select the `HomeMenu.cia` file.
+
+11. Select `CIA image options...` → `Install game image`.
+
+12. Reboot a 3DS.
+
+13. The Home Menu UI has been restored.
+
+## Restoring the Home Menu title - Last Resort
+
+If none of those restoration methods work for you, [CTRTransfer](https://3ds.hacks.guide/ctrtransfer) is the only option.

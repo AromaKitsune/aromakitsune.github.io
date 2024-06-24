@@ -82,7 +82,7 @@ Skip this section if you want to edit one of those BCLYT files listed above.
 
     ![](/images/3DS/3DS-Home-Menu-UI-Layout-Customization_02.png)
 
-5. Make 3 copies of the extracted BCLYT file, rename each file to prepend with a prefix `A-` / `B-` / `C-`, for example:
+5. Make 3 copies of the extracted BCLYT file, add `A-`, `B-` and `C-` to each file name, for example:
     - `A-LncBase_D_01.bclyt` or `A.bclyt`
     - `B-LncBase_D_01.bclyt` or `B.bclyt`
     - `C-LncBase_D_01.bclyt` or `C.bclyt`
