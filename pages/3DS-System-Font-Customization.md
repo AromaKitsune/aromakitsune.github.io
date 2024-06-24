@@ -19,12 +19,19 @@ A guide for customizing the system font on the Nintendo 3DS.
 ⚠️ Never uninstall CFW while any modded system titles are installed. It will result in an unbootable state and you'll need the [ntrboot](https://www.flashcarts.net/ds-quick-start-guide) DS flashcart to recover it.
 
 **What you need:**
+
 - [Luma3DS custom firmware](https://3ds.hacks.guide/)
+
 - [Python](https://www.python.org/)
+
 - [FontForge](https://fontforge.org/)
+
 - [FontTool](/files/3DS/FontTool.zip) (tweaked to work with Python 3)
+
 - [CTR Font Converter](/files/3DS/CTR_FontConverter.zip) (Legal Edition)
+
 - [3DS font](/files/3DS/nintendo_NTLG-DB_001.ttf) (extracted from the Internet Browser applet)
+
 - A font you want to install on a 3DS (TTF or OTF)
 
 ---
@@ -38,9 +45,11 @@ A guide for customizing the system font on the Nintendo 3DS.
     ![](/images/3DS/3DS-System-Font-Customization_02.png)
 
 3. Click `File` → `Open`, select the 3DS font file. Do not launch another FontForge window from Start Menu or Desktop, both fonts need to be opened in the same FontForge instance.
-- You should have two FontForge windows:
-  - Custom font (FontForge window A)
-  - 3DS font (FontForge window B)
+    - You should have two FontForge windows:
+
+        - Custom font (FontForge window A)
+
+        - 3DS font (FontForge window B)
 
     ![](/images/3DS/3DS-System-Font-Customization_03.png)
 
@@ -67,25 +76,34 @@ A guide for customizing the system font on the Nintendo 3DS.
 7. Click `Elements` → `Transformations` → `Transform...` or just press `Ctrl`+`\`.
 
 8. On the Transform dialog
-- Set `Origin` to `Glyph Origin`
-- On the `Move...` combo-box, change it to `Scale Uniformly...`
-- Set the value to resize the glyphs. 
-  - To increase the glyphs scale by 25%, set it to 125%
-  - To decrease the glyphs scale by 25%, set it to 75%
+
+    - Set `Origin` to `Glyph Origin`
+
+    - On the `Move...` combo-box, change it to `Scale Uniformly...`
+
+    - Set the value to resize the glyphs. 
+
+        - To increase the glyphs scale by 25%, set it to 125%
+
+        - To decrease the glyphs scale by 25%, set it to 75%
 
     <div align="center"><p><img src="/images/3DS/3DS-System-Font-Customization_08.png"/></p></div>
 
 9. Switch back to FontForge window A and merge the font again.
-- Still not right? Revert again, switch to FontForge window B and revert the font file to undo the scale.
-- Keep messing around with the scale value until you get the scale right.
-- The 3DS font's glyphs scale should be about the same as the custom font's glyphs.
+
+    - Still not right? Revert again, switch to FontForge window B and revert the font file to undo the scale.
+
+    - Keep messing around with the scale value until you get it right.
+
+    - The 3DS font's glyphs scale should be about the same as the custom font's glyphs.
 
     ![](/images/3DS/3DS-System-Font-Customization_09.png)
 
 10. If you're happy with it, click `File` → `Generate Fonts...`.
 
 11. Choose TrueType, uncheck "Validate Before Saving", then click Generate.
-- Validating a font would take a while, so it's not needed.
+
+    - Validating a font would take a while, so it's not needed.
 
     <div align="center"><p><img src="/images/3DS/3DS-System-Font-Customization_10.png"/></p></div>
 
@@ -94,18 +112,28 @@ A guide for customizing the system font on the Nintendo 3DS.
     ![](/images/3DS/3DS-System-Font-Customization_11.png)
 
 13. Launch CTR Font Converter.
-- You'll be asked to install .NET Framework 3.5, click "Download and install this feature".
-- This will take a while to download it.
+
+    - You'll be asked to install .NET Framework 3.5, click "Download and install this feature".
+
+    - This will take a while to download it.
 
 14. On the CTR Font Converter window
-- Go to the `Windows Font` tab and select a font that you installed earlier
-- Set the font size value, start with 20px first. If the font size doesn't look right after installing to a 3DS, come back to it and keep messing around with the value until you get it right.
-- Set the bit depth to `16 levels (A4)`
-- Activate the `Use filter` check-box and select `3ds_bitmap_font_std.xllt` (located in the `xllt` folder).
-  - This will filter out all the glyphs not used in the 3DS, and reduces the font file size (max is 1.5 MB for compressed BCFNT after running FontTool).
-- Go to the `bcfnt / bcfna` tab.
-- Save the font file as `SystemFont.bcfnt` to the `FontTool` folder.
-- Click `Convert`.
+
+    - Go to the `Windows Font` tab and select a font that you installed earlier
+
+    - Set the font size value, start with 20px first. If the font size doesn't look right after installing to a 3DS, come back to it and keep messing around with the value until you get it right.
+
+    - Set the bit depth to `16 levels (A4)`
+
+    - Activate the `Use filter` check-box and select `3ds_bitmap_font_std.xllt` (located in the `xllt` folder).
+
+        - This will filter out all the glyphs not used in the 3DS, and reduces the font file size (max is 1.5 MB for compressed BCFNT after running FontTool).
+
+    - Go to the `bcfnt / bcfna` tab.
+
+    - Save the font file as `SystemFont.bcfnt` to the `FontTool` folder.
+
+    - Click `Convert`.
 
     ![](/images/3DS/3DS-System-Font-Customization_12.png)
 
@@ -131,7 +159,9 @@ A guide for customizing the system font on the Nintendo 3DS.
 
 2. Browse and select the CIA file.
 
-3. Select `CIA image options...` → `Install game image`. You don't need to encrypt it as `3dstool` (bundled in `FontTool`) already did that.
+3. Select `CIA image options...` → `Install game image`.
+
+    - You don't need to encrypt it as `3dstool` (bundled in `FontTool`) already did that.
 
 4. Reboot a 3DS.
 
@@ -147,15 +177,15 @@ A guide for customizing the system font on the Nintendo 3DS.
 
 2. Add the `SystemFont.cia` file to the SD Card.
 
-1. Launch GodMode9.
+3. Launch GodMode9.
 
-3. Browse and select the `SystemFont.cia` file.
+4. Browse and select the `SystemFont.cia` file.
 
-4. Select `CIA image options...` → `Install game image`.
+5. Select `CIA image options...` → `Install game image`.
 
-5. Reboot a 3DS.
+6. Reboot a 3DS.
 
-6. The system font has been restored.
+7. The system font has been restored.
 
 ---
 

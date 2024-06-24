@@ -28,9 +28,13 @@ Let's fix the BCLYT file.
 ---
 
 **What you need:**
+
 - [Kuriimu2](https://github.com/FanTranslatorsInternational/Kuriimu2)
+
 - [HxD hex editor](https://mh-nexus.de/en/hxd/)
+
 - [Switch-Toolbox](https://github.com/KillzXGaming/Switch-Toolbox)
+
 - Decompressed DARC files (`*.LZ`, not `*_LZ.bin`)
 
 ---
@@ -38,19 +42,19 @@ Let's fix the BCLYT file.
 **Common layout files**
 
 - `launcher.LZ/blyt/LncBase_U_00.bclyt`
-  - The elements such as "L+R" that are displayed on the top screen of the Home Menu, the rest of them are displayed when the running game is suspended. HUD's don't count, as they're stored in the other layout file in `hud.LZ`.
+    - The elements such as "L+R" that are displayed on the top screen of the Home Menu, the rest of them are displayed when the running game is suspended. HUD's don't count, as they're stored in the other layout file in `hud.LZ`.
 
 - `launcher.LZ/blyt/LncBase_D_01.bclyt`
-  - The elements such as applets that are displayed on the bottom screen.
+    - The elements such as applets that are displayed on the bottom screen.
 
 - `hud.LZ/blyt/HudMenu_00.bclyt`
-  - Top screen's HUD's such as date, time, battery, connection status.
+    - Top screen's HUD's such as date, time, battery, connection status.
 
 - `sleep.LZ/blyt/Slp_U_00.bclyt`
-  - The elements that are displayed on the sleep/shutdown screen (top).
+    - The elements that are displayed on the sleep/shutdown screen (top).
 
 - `sleep.LZ/blyt/Slp_D_00.bclyt`
-  - The elements that are displayed on the sleep/shutdown screen (bottom).
+    - The elements that are displayed on the sleep/shutdown screen (bottom).
 
 ℹ️ If you're looking into editing the colors of known UI elements, I suggest checking out derberg's guide, as hex-editing the `*.LZ` files directly is easier.
 
@@ -83,8 +87,11 @@ Skip this section if you want to edit one of those BCLYT files listed above.
     ![](/images/3DS/3DS-Home-Menu-UI-Layout-Customization_02.png)
 
 5. Make 3 copies of the extracted BCLYT file, add `A-`, `B-` and `C-` to each file name, for example:
+
     - `A-LncBase_D_01.bclyt` or `A.bclyt`
+
     - `B-LncBase_D_01.bclyt` or `B.bclyt`
+
     - `C-LncBase_D_01.bclyt` or `C.bclyt`
 
     - To make the setup easier, create a batch file that automatically does that:
@@ -108,15 +115,24 @@ Skip this section if you want to edit one of those BCLYT files listed above.
 10. Drag & drop the `C.bclyt` file in the Switch-Toolbox window.
 
 11.	Edit any UI elements however you'd like. There are some limits of what you can edit.
-- Refer to the [Assets Documentation](https://docs.google.com/spreadsheets/d/1Q-Im3P5zSqNi6zYqaXtyS138hCdcIJDY7WxRt_FWdrg) for some lists of known panes to edit.
-- Each pane has its properties you can edit: positions (translate), size, colors, rotations, transparency, etc.
-- To hide the UI elements, untick the `Pane visible` checkbox and set the `Alpha` value to `0`.
-- If the UI elements don't actually move to your desired position, then the elements' position values are likely hardcoded in the BCLAN (Layout Animation) files and you have to edit them instead. In this case, the applets' X position values are hardcoded in `launcher.LZ/anim/LncBase_D_01_MvsToggle.bclan` ([used for removing the Miiverse applet from the Korean 3DS systems](https://tcrf.net/Nintendo_3DS#Home_Menu_.2B_Revisions)), in which you can only move them vertically. Switch-Toolbox can edit the BCLAN files without any issues, so hex editing isn't needed.
-- In order to keep the `C.bclyt`'s file size the same as `B.bclyt`'s, you should edit only the values in the Pane and Colors tabs. Adding or removing some items may change the file size which makes it harder to manually fix it with hex editor. Avoid doing the following edits:
-  - Adding new Panes
-  - Deleting the existing Panes (It will crash on a 3DS, so make them invisible instead.)
-  - Adding/removing links to textures in the Texture Maps tab 
-  - Editing the texts in the Text Pane (You should [edit the MSBT files](https://github.com/IcySon55/3DLandMSBTeditor) instead.)
+
+    - Refer to the [Assets Documentation](https://docs.google.com/spreadsheets/d/1Q-Im3P5zSqNi6zYqaXtyS138hCdcIJDY7WxRt_FWdrg) for some lists of known panes to edit.
+
+    - Each pane has its properties you can edit: positions (translate), size, colors, rotations, transparency, etc.
+
+    - To hide the UI elements, untick the `Pane visible` checkbox and set the `Alpha` value to `0`.
+
+    - If the UI elements don't actually move to your desired position, then the elements' position values are likely hardcoded in the BCLAN (Layout Animation) files and you have to edit them instead. In this case, the applets' X position values are hardcoded in `launcher.LZ/anim/LncBase_D_01_MvsToggle.bclan` ([used for removing the Miiverse applet from the Korean 3DS systems](https://tcrf.net/Nintendo_3DS#Home_Menu_.2B_Revisions)), in which you can only move them vertically. Switch-Toolbox can edit the BCLAN files without any issues, so hex editing isn't needed.
+
+    - In order to keep the `C.bclyt`'s file size the same as `B.bclyt`'s, you should edit only the values in the Pane and Colors tabs. Adding or removing some items may change the file size which makes it harder to manually fix it with hex editor. Avoid doing the following edits:
+
+        - Adding new Panes
+
+        - Deleting the existing Panes (It will crash on a 3DS, so make them invisible instead.)
+
+        - Adding/removing links to textures in the Texture Maps tab 
+
+        - Editing the texts in the Text Pane (You should [edit the MSBT files](https://github.com/IcySon55/3DLandMSBTeditor) instead.)
 
     ![](/images/3DS/3DS-Home-Menu-UI-Layout-Customization_03.png)
 
@@ -195,7 +211,9 @@ Skip this section if you want to edit one of those BCLYT files listed above.
 35.	If done correctly, save it and close HxD.
 
     - Now we have fixed the BCLYT file!
+
     - `A.bclyt`, `B.bclyt` and `C.bclyt.bak` can be deleted as they're not needed anymore.
+
     - To make another edit to the fixed BCLYT file, make 3 copies of the `C.bclyt` file and repeat step 5.
 
     ![](/images/3DS/3DS-Home-Menu-UI-Layout-Customization_15.png)

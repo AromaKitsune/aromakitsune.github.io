@@ -67,9 +67,12 @@ Last updated: 2024-05-23
 4. The Home Menu UI has been restored.
 
 5. (Optional) Go to `SDCARD:/luma/titles` and delete the `000400300000??02` folder.
-- EUR: `0004003000009802`
-- JPN: `0004003000008202`
-- USA: `0004003000008F02`
+
+    - EUR: `0004003000009802`
+
+    - JPN: `0004003000008202`
+
+    - USA: `0004003000008F02`
 
 ---
 
@@ -132,8 +135,10 @@ Last updated: 2024-05-23
 ℹ️ The target system firmware version is `11.17.0-50`.
 
 1. Download an original Home Menu title:
-- [EUR](/files/3DS/HomeMenu_EUR.cia) / [USA](/files/3DS/HomeMenu_USA.cia) / [JPN](/files/3DS/HomeMenu_JPN.cia)
-- Obtained from [Darthsternie's Firmware Archive](https://darthsternie.net/3ds-firmwares/)
+
+    - [EUR](/files/3DS/HomeMenu_EUR.cia) \| [USA](/files/3DS/HomeMenu_USA.cia) \| [JPN](/files/3DS/HomeMenu_JPN.cia)
+
+    - Obtained from [Darthsternie's Firmware Archive](https://darthsternie.net/3ds-firmwares/)
 
 2. Add the `HomeMenu_???.cia` file to the SD Card.
 
@@ -154,23 +159,38 @@ Last updated: 2024-05-23
 1. Go to [Darthsternie's Firmware Archive](https://darthsternie.net/3ds-firmwares/).
 
 2. Download a firmware archive matching your console region and current firmware version.
-- If you don't know your system's current firmware version and can't boot to Home Menu:
-- Launch GodMode9
-- Go to `CTRNAND:/title/000400db/00017?02/content`.
-  - EUR: `00017102`
-  - USA: `00017302`
-  - JPN: `00017202`
-- Select the `.app` file.
-- Select `NCCH image options...` → `Mount image to drive`.
-- Answer "Yes" to browse inside the `.app` file.
-- Go to the `romfs` folder.
-- Open the `titleversion.txt` file with hex editor or text viewer.
-- Take a note of the firmware version.
+
+    - If you don't know your system's current firmware version and can't boot to Home Menu:
+
+    - Launch GodMode9
+
+    - Go to `CTRNAND:/title/000400db/00017?02/content`.
+
+        - EUR: `00017102`
+
+        - USA: `00017302`
+
+        - JPN: `00017202`
+
+    - Select the `.app` file.
+
+    - Select `NCCH image options...` → `Mount image to drive`.
+
+    - Answer "Yes" to browse inside the `.app` file.
+
+    - Go to the `romfs` folder.
+
+    - Open the `titleversion.txt` file with hex editor or text viewer.
+
+    - Take a note of the firmware version.
 
 3. Extract a firmware archive and find the `.cia` file for Home Menu inside the `updates` folder.
-- EUR: `0004003000009802.cia`
-- USA: `0004003000008F02.cia`
-- JPN: `0004003000008202.cia`
+
+    - EUR: `0004003000009802.cia`
+
+    - USA: `0004003000008F02.cia`
+
+    - JPN: `0004003000008202.cia`
 
 4. Rename the `000400300000??02.cia` file to `HomeMenu.cia`.
 
@@ -201,9 +221,12 @@ Last updated: 2024-05-23
 5. Click "Begin Download", and wait for the download to complete.
 
 6. Enter the firmware folder and find the `.cia` file for Home Menu inside the `updates` folder.
-- EUR: `0004003000009802.cia`
-- USA: `0004003000008F02.cia`
-- JPN: `0004003000008202.cia`
+
+    - EUR: `0004003000009802.cia`
+
+    - USA: `0004003000008F02.cia`
+
+    - JPN: `0004003000008202.cia`
 
 7. Rename the `000400300000??02.cia` file to `HomeMenu.cia`.
 

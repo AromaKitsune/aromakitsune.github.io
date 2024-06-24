@@ -90,13 +90,6 @@ ul, ol {
   margin-left: $spacing-unit;
 }
 
-li {
-  > ul,
-  > ol {
-    margin-bottom: 0;
-  }
-}
-
 
 
 /**
@@ -252,7 +245,7 @@ pre {
 table {
   margin-bottom: $spacing-unit;
   width: 100%;
-  text-align: $table-text-align;
+  text-align: center;
   color: $table-text-color;
   border-collapse: collapse;
   border: 1px solid $table-border-color;
