@@ -37,7 +37,7 @@ Font designed by Fontworks
 
 [Download font for anything else (OTF)](/files/FOT-PopHappinessStd-EB.otf)
 
-[Download font for anything else (TTF, fixed the glyphs' side-bearings)](/files/PopHappinessStd-EB.ttf)
+[Download font for anything else (TTF, edited to fix the glyphs' side-bearings)](/files/PopHappinessStd-EB.ttf)
 
 ---
 
