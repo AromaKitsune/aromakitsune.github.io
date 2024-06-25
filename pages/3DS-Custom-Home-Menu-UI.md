@@ -132,7 +132,6 @@ Last updated: 2024-05-23
 
 <p class="note">
   If you've lost the <code>homemenu.cia</code> file from your SD Card and computer, follow this section.<br/>
-  <br/>
   The target system firmware version is <code>11.17.0-50</code>.
 </p>
 
