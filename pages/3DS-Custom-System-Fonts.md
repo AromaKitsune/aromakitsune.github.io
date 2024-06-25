@@ -39,7 +39,7 @@ Custom system-wide fonts for the Nintendo 3DS
 
 ## Installing a custom font
 
-<p class="warning">Create a NAND backup before proceeding! If you bricked your OS, see the restore section below.</p>
+<p class="warning">Create a NAND backup before proceeding! If you bricked your console OS, see the restore section below.</p>
 
 <p class="warning">Never uninstall CFW while any modded system titles are installed. It will result in an unbootable state and you'll need the <a href="https://www.flashcarts.net/ds-quick-start-guide">ntrboot</a> DS flashcart to recover it.</p>
 
