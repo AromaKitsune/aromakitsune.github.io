@@ -56,9 +56,9 @@ Let's fix the BCLYT file.
 - `sleep.LZ/blyt/Slp_D_00.bclyt`
     - The elements that are displayed on the sleep/shutdown screen (bottom).
 
-ℹ️ If you're looking into editing the colors of known UI elements, I suggest checking out derberg's guide, as hex-editing the `*.LZ` files directly is easier.
+<p class="note">If you're looking into editing the colors of known UI elements, I suggest checking out derberg's guide, as hex-editing the <code>*.LZ</code> files directly is easier.</p>
 
-⚠️ Editing the colors using this method cannot be done again after following this guide. [See this section here.](#ui-element-colors)
+<p class="warning">Editing the colors using this method cannot be done again after following this guide. <a href="#ui-element-colors">See this section here.</a></p>
 
 ---
 

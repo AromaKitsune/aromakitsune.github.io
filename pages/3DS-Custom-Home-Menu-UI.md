@@ -38,7 +38,7 @@ Last updated: 2024-05-23
 
 ## Installing a custom Home Menu UI
 
-ℹ️ LayeredFS patching is unstable for applets which causes Home Menu to randomly crash if Home Menu is opened several times (by suspending a game or exiting an applet). Consider using the CIA file method for now.
+<p class="note">LayeredFS patching is unstable for applets which causes Home Menu to randomly crash if Home Menu is opened several times (by suspending a game or exiting an applet). Consider using the CIA file method for now.</p>
 
 1. Download a custom Home Menu UI (`.zip`) from above.
 
@@ -80,7 +80,7 @@ Last updated: 2024-05-23
 
 ## Backing up the Home Menu title
 
-ℹ️ It is **recommended** to backup your Home Menu title as you'll be able to restore a Home Menu title if a custom Home Menu title is installed with the CIA file.
+<p class="note">It is <strong>recommended</strong> to backup your Home Menu title as you'll be able to restore a Home Menu title if a custom Home Menu title is installed with the CIA file.</p>
 
 1. Launch GodMode9.
 
@@ -96,9 +96,9 @@ Last updated: 2024-05-23
 
 ## Installing a custom Home Menu title
 
-⚠️ Have a backed up `homemenu.cia` file before proceeding! If you bricked your OS, see the restore section below.
+<p class="warning">Have a backed up <code>homemenu.cia</code> file before proceeding! If you bricked your OS, see the restore section below.</p>
 
-⚠️ Never uninstall CFW while any modded system titles are installed. It will result in an unbootable state and you'll need the [ntrboot](https://www.flashcarts.net/ds-quick-start-guide) DS flashcart to recover.
+<p class="warning">Never uninstall CFW while any modded system titles are installed. It will result in an unbootable state and you'll need the <a href="https://www.flashcarts.net/ds-quick-start-guide">ntrboot</a> DS flashcart to recover it.</p>
 
 1. Download a custom Home Menu title (`.cia`) from above.
 
@@ -116,7 +116,7 @@ Last updated: 2024-05-23
 
 ## Restoring the Home Menu title - Method 1
 
-ℹ️ If you've dumped the `homemenu.cia` file with GodMode9, follow this section.
+<p class="note">If you've dumped the <code>homemenu.cia</code> file with GodMode9, follow this section.</p>
 
 1. Launch GodMode9.
 
@@ -130,9 +130,9 @@ Last updated: 2024-05-23
 
 ## Restoring the Home Menu title - Method 2
 
-ℹ️ If you've lost the `homemenu.cia` file from your SD Card and computer, follow this section.
+<p class="note">If you've lost the <code>homemenu.cia</code> file from your SD Card and computer, follow this section.</p>
 
-ℹ️ The target system firmware version is `11.17.0-50`.
+<p class="note">The target system firmware version is <code>11.17.0-50</code>.</p>
 
 1. Download an original Home Menu title:
 
@@ -154,7 +154,7 @@ Last updated: 2024-05-23
 
 ## Restoring the Home Menu title - Method 3
 
-ℹ️ If you've installed a custom Home Menu title to your system running on older/future firmware version without any backups, follow this section.
+<p class="note">If you've installed a custom Home Menu title to your system running on older/future firmware version without any backups, follow this section.</p>
 
 1. Go to [Darthsternie's Firmware Archive](https://darthsternie.net/3ds-firmwares/).
 
@@ -208,7 +208,7 @@ Last updated: 2024-05-23
 
 ## Restoring the Home Menu title - Method 4
 
-ℹ️ If you have any issues downloading a firmware archive, follow this section.
+<p class="note">If you have any issues downloading a firmware archive, follow this section.</p>
 
 1. Download [3DNUS](https://github.com/wyatt8740/3DNUS).
 

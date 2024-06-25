@@ -272,3 +272,17 @@ table {
             -ms-overflow-style: -ms-autohiding-scrollbar;
   }
 }
+
+.note
+{
+  background-color: #2C3F48;
+  border-radius: 5px;
+  padding: 15px 30px;
+}
+
+.warning
+{
+  background-color: #503335;
+  border-radius: 5px;
+  padding: 15px 30px;
+}

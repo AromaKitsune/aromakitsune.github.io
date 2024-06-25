@@ -39,9 +39,9 @@ Custom system-wide fonts for the Nintendo 3DS
 
 ## Installing a custom font
 
-⚠️ Create a NAND backup before proceeding! If you bricked your OS, see the restore section below.
+<p class="warning">Create a NAND backup before proceeding! If you bricked your OS, see the restore section below.</p>
 
-⚠️ Never uninstall CFW while any modded system titles are installed. It will result in an unbootable state and you'll need the [ntrboot](https://www.flashcarts.net/ds-quick-start-guide) DS flashcart to recover it.
+<p class="warning">Never uninstall CFW while any modded system titles are installed. It will result in an unbootable state and you'll need the <a href="https://www.flashcarts.net/ds-quick-start-guide">ntrboot</a> DS flashcart to recover it.</p>
 
 1. Download a custom system font (`.cia`) from above.
 
