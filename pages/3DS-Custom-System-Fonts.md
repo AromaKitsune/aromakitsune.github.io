@@ -18,9 +18,7 @@ Custom system-wide fonts for the Nintendo 3DS
 
 ![](/images/Pop-Happiness-Font_2.png)
 
-The youthful, dynamic design of this Gothic-style typeface expresses the fundamental human emotion of joy.
-
-The straight lines and rounded corners embody a lively atmosphere.
+The youthful and dynamic design of the Gothic style allows this typeface to express "joy", a fundamental human emotion. The straight lines and rounded corners embody a dynamic atmosphere.
 
 <p><a href="https://fontworks.co.jp/fontsearch/pophappinessstd-eb/">Font designed by Fontworks</a></p>
 
@@ -48,8 +46,6 @@ The straight lines and rounded corners embody a lively atmosphere.
 ## Installing a custom font
 
 <p class="note">Creating a NAND backup is recommended when modifying any system titles. Modifying the system font is safe and can be restored without NAND backups, but you should make one anyways. If you bricked your console OS, see the restore section below.</p>
-
----
 
 <p class="warning">Never uninstall CFW while any modded system titles are installed! It will result in an unbootable state and you'll need the <a href="https://www.flashcarts.net/ds-quick-start-guide">ntrboot</a> DS flashcart to recover it.</p>
 
