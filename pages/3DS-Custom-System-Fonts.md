@@ -18,9 +18,9 @@ Custom system-wide fonts for the Nintendo 3DS
 
 ![](/images/Pop-Happiness-Font_2.png)
 
-The youthful and dynamic design of the Gothic style allows this typeface to express "joy", a fundamental human emotion.
+The youthful, dynamic design of this Gothic-style typeface expresses the fundamental human emotion of joy.
 
-The straight lines and rounded corners embody a dynamic atmosphere.
+The straight lines and rounded corners embody a lively atmosphere.
 
 <p><a href="https://fontworks.co.jp/fontsearch/pophappinessstd-eb/">Font designed by Fontworks</a></p>
 
