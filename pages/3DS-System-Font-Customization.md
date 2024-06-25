@@ -45,6 +45,7 @@ A guide for customizing the system font on the Nintendo 3DS.
     ![](/images/3DS/3DS-System-Font-Customization_02.png)
 
 3. Click `File` → `Open`, select the 3DS font file. Do not launch another FontForge window from Start Menu or Desktop, both fonts need to be opened in the same FontForge instance.
+
     - You should have two FontForge windows:
 
         - Custom font (FontForge window A)
