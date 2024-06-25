@@ -4,7 +4,7 @@ title: 3DS - Custom System Fonts
 permalink: /3DS-Custom-System-Fonts
 ---
 
-Custom system fonts for the Nintendo 3DS
+Custom system-wide fonts for the Nintendo 3DS
 
 [System Font Customization Guide](/3DS-System-Font-Customization)
 
