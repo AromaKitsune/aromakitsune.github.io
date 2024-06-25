@@ -96,9 +96,9 @@ Last updated: 2024-05-23
 
 ## Installing a custom Home Menu title
 
-<p class="warning">Have a backed up <code>homemenu.cia</code> file before proceeding! If you bricked your console OS, see the restore section below.</p>
+<p class="note">Make sure you have a backed up <code>homemenu.cia</code> file before proceeding. Creating a NAND backup is recommended when modifying any system titles. Replacing the Home Menu title is safe and can be restored without a NAND backup, but you should make one anyways. If you bricked your console OS, see the restore section below.</p>
 
-<p class="warning">Never uninstall CFW while any modded system titles are installed. It will result in an unbootable state and you'll need the <a href="https://www.flashcarts.net/ds-quick-start-guide">ntrboot</a> DS flashcart to recover it.</p>
+<p class="warning">Never uninstall CFW while any modded system titles are installed! It will result in an unbootable state and you'll need the <a href="https://www.flashcarts.net/ds-quick-start-guide">ntrboot</a> DS flashcart to recover it.</p>
 
 1. Download a custom Home Menu title (`.cia`) from above.
 
@@ -130,9 +130,11 @@ Last updated: 2024-05-23
 
 ## Restoring the Home Menu title - Method 2
 
-<p class="note">If you've lost the <code>homemenu.cia</code> file from your SD Card and computer, follow this section.</p>
-
-<p class="note">The target system firmware version is <code>11.17.0-50</code>.</p>
+<p class="note">
+  If you've lost the <code>homemenu.cia</code> file from your SD Card and computer, follow this section.<br/>
+  <br/>
+  The target system firmware version is <code>11.17.0-50</code>.
+</p>
 
 1. Download an original Home Menu title:
 
@@ -244,4 +246,4 @@ Last updated: 2024-05-23
 
 ## Restoring the Home Menu title - Last Resort
 
-If none of those restoration methods work for you, [CTRTransfer](https://3ds.hacks.guide/ctrtransfer) is the only option.
+<p class="note">If none of those restoration methods work for you, <a href="https://3ds.hacks.guide/ctrtransfer">CTRTransfer</a> is the only option.</p>
