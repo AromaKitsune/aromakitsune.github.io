@@ -170,7 +170,7 @@ A guide for customizing the system-wide font on the Nintendo 3DS.
 
 <div align="center"><p><img src="/images/3DS/3DS-System-Font-Customization_14.png"/></p></div>
 
-- The button glyphs should be preserved. The ZL/ZR/C-Stick/Start glyphs are part of the game's digital manual, not the font.
+<p class="note">The button glyphs should be preserved. The ZL/ZR/C-Stick/Start glyphs are part of the game's digital manual, not the system font.</p>
 
 ## Restoring the system font
 
