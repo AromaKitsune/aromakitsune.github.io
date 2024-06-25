@@ -49,6 +49,8 @@ The straight lines and rounded corners embody a lively atmosphere.
 
 <p class="note">Creating a NAND backup is recommended when modifying any system titles. Modifying the system font is safe and can be restored without NAND backups, but you should make one anyways. If you bricked your console OS, see the restore section below.</p>
 
+---
+
 <p class="warning">Never uninstall CFW while any modded system titles are installed! It will result in an unbootable state and you'll need the <a href="https://www.flashcarts.net/ds-quick-start-guide">ntrboot</a> DS flashcart to recover it.</p>
 
 1. Download a custom system font (`.cia`) from above.

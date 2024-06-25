@@ -273,15 +273,19 @@ table {
   }
 }
 
-.note
-{
+hr {
+  display: block;
+  border: 0;
+  border-top: 1px solid #404040;
+}
+
+.note {
   background-color: #2C3F48;
   border-radius: 5px;
   padding: 15px 30px;
 }
 
-.warning
-{
+.warning {
   background-color: #503335;
   border-radius: 5px;
   padding: 15px 30px;
