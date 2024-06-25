@@ -33,9 +33,11 @@ Font designed by Fontworks
 - Mario Kart Arcade GP DX
 - Mario Golf: World Tour
 
-[Download font (for 3DS)](/files/3DS/PopHappinessFont.cia)
+[Download font for 3DS](/files/3DS/PopHappinessFont.cia)
 
-[Download font (for anything else)](/files/PopHappinessStd-EB.ttf)
+[Download font for anything else (OTF)](/files/FOT-PopHappinessStd-EB.otf)
+
+[Download font for anything else (TTF, fixed the glyphs' side-bearings)](/files/PopHappinessStd-EB.ttf)
 
 ---
 
