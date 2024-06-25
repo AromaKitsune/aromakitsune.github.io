@@ -96,7 +96,7 @@ Last updated: 2024-05-23
 
 ## Installing a custom Home Menu title
 
-<p class="note">Make sure you have a backed up <code>homemenu.cia</code> file before proceeding. Creating a NAND backup is recommended when modifying any system titles. Replacing the Home Menu title is safe and can be restored without a NAND backup, but you should make one anyways. If you bricked your console OS, see the restore section below.</p>
+<p class="note">Make sure you have a backed up <code>homemenu.cia</code> file before proceeding. Creating a NAND backup is recommended when modifying any system titles. Replacing the Home Menu title is safe and can be restored without NAND backups, but you should make one anyways. If you bricked your console OS, see the restore section below.</p>
 
 <p class="warning">Never uninstall CFW while any modded system titles are installed! It will result in an unbootable state and you'll need the <a href="https://www.flashcarts.net/ds-quick-start-guide">ntrboot</a> DS flashcart to recover it.</p>
 
