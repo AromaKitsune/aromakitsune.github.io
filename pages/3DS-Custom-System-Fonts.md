@@ -18,7 +18,11 @@ Custom system-wide fonts for the Nintendo 3DS
 
 ![](/images/Pop-Happiness-Font_2.png)
 
-Font designed by Fontworks
+The youthful and dynamic design of the Gothic style allows this typeface to express "joy", a fundamental human emotion.
+
+The straight lines and rounded corners embody a dynamic atmosphere.
+
+<p><a href="https://fontworks.co.jp/fontsearch/pophappinessstd-eb/">Font designed by Fontworks</a></p>
 
 **List of games that use this font:**
 - Luigi's Mansion
@@ -37,7 +41,7 @@ Font designed by Fontworks
 
 [Download font for anything else (OTF)](/files/FOT-PopHappinessStd-EB.otf)
 
-[Download font for anything else (TTF, edited to fix the glyphs' side-bearings)](/files/PopHappinessStd-EB.ttf)
+[Download font for anything else (TTF)](/files/PopHappinessStd-EB.ttf) - Edited to fix the glyphs' side-bearings
 
 ---
 
