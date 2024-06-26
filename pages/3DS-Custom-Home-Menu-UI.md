@@ -209,7 +209,7 @@ Last updated: 2024-05-23
 
 10. The Home Menu UI has been restored.
 
-11. (Optional) Update the console firmware to the latest version.
+11. (Optional) Update the CFW and console firmware to the latest version.
 
 ## Restoring the Home Menu title - Method 4
 
