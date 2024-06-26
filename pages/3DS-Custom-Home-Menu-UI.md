@@ -108,7 +108,9 @@ Last updated: 2024-05-23
 
 4. Browse and select the CIA file.
 
-5. Select `CIA image options...` → `Install game image`. CIA files are already encrypted, so there's no need to.
+5. Select `CIA image options...` → `Install game image`.
+
+    - CIA files are already encrypted, so there's no need to.
 
 6. Reboot a 3DS.
 
