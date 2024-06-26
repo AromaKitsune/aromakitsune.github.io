@@ -35,6 +35,7 @@ The straight lines and rounded corners embody a dynamic atmosphere.
 - Mario Tennis Open
 - Mario Kart Arcade GP DX
 - Mario Golf: World Tour
+- Pokémon Super Mystery Dungeon
 
 [Download font for 3DS](/files/3DS/PopHappinessFont.cia)
 
