@@ -19,9 +19,11 @@ If this is your first time modding the 3DS Home Menu, follow [derberg's 3DS Home
 
 If you have any questions, please ask us or me (aromakitsune) on the [Custom 3DS Assets Discord](https://discord.gg/0z7IGZ5Sv3D0mEN0).
 
-The layout file we will be editing is BCLYT. BCLAN (Layout Animation) & BCLIM (Layout Image) editing are not covered in this guide. For BCLAN, check out [lividhen's animations guide](https://menumod.chickenserver.org/animations/).
+The layout file we will be editing is BCLYT. BCLAN (Layout Animation) & BCLIM (Layout Image) editing are not covered in this guide.
+For BCLAN, check out [lividhen's animations guide](https://menumod.chickenserver.org/animations/).
 
-While Switch-Toolbox can edit many game assets for the 3DS/WiiU/Switch, there is an issue that it corrupts the BCLYT files of Home Menu when editing them, causing Home Menu to crash on startup. This is not the case with the other BCLYT files in some games such as Mario Kart 7.
+While Switch-Toolbox can edit many game assets for the 3DS/WiiU/Switch, there is an issue that it corrupts the BCLYT files of Home Menu when editing them,
+causing Home Menu to crash on startup. This is not the case with the other BCLYT files in some games such as Mario Kart 7.
 
 Let's fix the BCLYT file.
 
@@ -42,7 +44,8 @@ Let's fix the BCLYT file.
 **Common layout files**
 
 - `launcher.LZ/blyt/LncBase_U_00.bclyt`
-    - The elements such as "L+R" that are displayed on the top screen of the Home Menu, the rest of them are displayed when the running game is suspended. HUD's don't count, as they're stored in the other layout file in `hud.LZ`.
+    - The elements such as "L+R" that are displayed on the top screen of the Home Menu, the rest of them are displayed when the running game is suspended.
+      HUD's are stored in the `hud.LZ` file.
 
 - `launcher.LZ/blyt/LncBase_D_01.bclyt`
     - The elements such as applets that are displayed on the bottom screen.
@@ -122,9 +125,13 @@ Skip this section if you want to edit one of those BCLYT files listed above.
 
     - To hide the UI elements, untick the `Pane visible` checkbox and set the `Alpha` value to `0`.
 
-    - If the UI elements don't actually move to your desired position, then the elements' position values are likely hardcoded in the BCLAN (Layout Animation) files and you have to edit them instead. In this case, the applets' X position values are hardcoded in `launcher.LZ/anim/LncBase_D_01_MvsToggle.bclan` ([used for removing the Miiverse applet from the Korean 3DS systems](https://tcrf.net/Nintendo_3DS#Home_Menu_.2B_Revisions)), in which you can only move them vertically. Switch-Toolbox can edit the BCLAN files without any issues, so hex editing isn't needed.
+    - If the UI elements don't actually move to your desired position, then the elements' position values are likely hardcoded in the BCLAN (Layout Animation) files
+      and you have to edit them instead. In this case, the applets' X position values are hardcoded in
+      `launcher.LZ/anim/LncBase_D_01_MvsToggle.bclan` ([used for removing the Miiverse applet from the Korean 3DS systems](https://tcrf.net/Nintendo_3DS#Home_Menu_.2B_Revisions)),
+      in which you can only move them vertically. Switch-Toolbox can edit the BCLAN files without any issues, so hex editing isn't needed.
 
-    - In order to keep the `C.bclyt`'s file size the same as `B.bclyt`'s, you should edit only the values in the Pane and Colors tabs. Adding or removing some items may change the file size which makes it harder to manually fix it with hex editor. Avoid doing the following edits:
+    - In order to keep the `C.bclyt`'s file size the same as `B.bclyt`'s, you should edit only the values in the Pane and Colors tabs.
+      Adding or removing some items may change the file size which makes it harder to manually fix it with hex editor. Avoid doing the following edits:
 
         - Adding new Panes
 
@@ -138,7 +145,8 @@ Skip this section if you want to edit one of those BCLYT files listed above.
 
 12.	When done editing, click the `💾` save button and you can close Switch-Toolbox.
 
-    - You should have another corrupted BCLYT file. Again, this is normal. The file size of the edited BCLYT has been decreased by 432 bytes. Make sure both the `B.bclyt`'s and `C.bclyt`'s file sizes are the same. We will be restoring them on the next steps.
+    - You should have another corrupted BCLYT file. Again, this is normal. The file size of the edited BCLYT has been decreased by 432 bytes.
+      Make sure both the `B.bclyt`'s and `C.bclyt`'s file sizes are the same. We will be restoring them on the next steps.
 
     ![](/images/3DS/3DS-Home-Menu-UI-Layout-Customization_04.png)
 
@@ -172,7 +180,8 @@ Skip this section if you want to edit one of those BCLYT files listed above.
 
 24.	Go to the `Hex-values` tab.
 
-25.	Paste into the `Search for` box and click `OK`. Make sure that there is only 1 result by clicking `All` and `Search all`. If it yields multiple results, try selecting more bytes on the `B.bclyt` tab.
+25.	Paste into the `Search for` box and click `OK`. Make sure that there is only 1 result by clicking `All` and `Search all`.
+    If it yields multiple results, try selecting more bytes on the `B.bclyt` tab.
 
     ![](/images/3DS/3DS-Home-Menu-UI-Layout-Customization_08.png)
 
@@ -232,7 +241,8 @@ Skip this section if you want to edit one of those BCLYT files listed above.
 
 ## UI element colors
 
-After importing the BCLYT/BCLAN/BCLIM files into the `*.LZ` files with Kuriimu2, the offsets for the color values are no longer the same, as these values have been moved to different addresses. If you did that already, you have to hex-edit the BCLYT files instead.
+After importing the BCLYT/BCLAN/BCLIM files into the `*.LZ` files with Kuriimu2, the offsets for the color values are no longer the same,
+as these values have been moved to different addresses. If you did that already, you have to hex-edit the BCLYT files instead.
 
 Each value consists of 4 bytes for color & alpha (`RR GG BB AA`). I suggest changing only the RGB values.
 

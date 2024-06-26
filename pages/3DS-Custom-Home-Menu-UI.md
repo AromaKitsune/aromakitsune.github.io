@@ -38,7 +38,10 @@ Last updated: 2024-05-23
 
 ## Installing a custom Home Menu UI
 
-<p class="note">LayeredFS patching is unstable for applets which causes Home Menu to randomly crash if Home Menu is opened several times (by suspending a game or exiting an applet). Consider using the CIA file method for now.</p>
+<p class="note">
+LayeredFS patching is unstable for applets which causes Home Menu to randomly crash if Home Menu is opened several times (by suspending a game or exiting an applet).
+Consider using the CIA file method for now.
+</p>
 
 1. Download a custom Home Menu UI (`.zip`) from above.
 
@@ -80,7 +83,10 @@ Last updated: 2024-05-23
 
 ## Backing up the Home Menu title
 
-<p class="note">It is <strong>recommended</strong> to backup your Home Menu title as you'll be able to restore a Home Menu title if a custom Home Menu title is installed with the CIA file.</p>
+<p class="note">
+It is <strong>recommended</strong> to backup your Home Menu title
+as you'll be able to restore a Home Menu title if a custom Home Menu title is installed with the CIA file.
+</p>
 
 1. Launch GodMode9.
 
@@ -96,9 +102,19 @@ Last updated: 2024-05-23
 
 ## Installing a custom Home Menu title
 
-<p class="note">Make sure you have a backed up <code>homemenu.cia</code> file before proceeding. Creating a NAND backup is recommended when modifying any system titles. Modifying the Home Menu title is safe and can be restored without NAND backups, but you should make one anyways. If you bricked your console OS, see the restore section below.</p>
+<p class="note">
+Make sure you have a backed up <code>homemenu.cia</code> file before proceeding.
+Creating a NAND backup is recommended when modifying any system titles.
+Modifying the Home Menu title is safe and can be restored without NAND backups, but you should make one anyways.
+If you bricked your console OS, see the restore section below.
+</p>
 
-<p class="warning">Never uninstall CFW while any modded system titles are installed! It will result in an unbootable state and you'll need the <a href="https://www.flashcarts.net/ds-quick-start-guide">ntrboot</a> DS flashcart to recover it.</p>
+<p class="warning">
+Never uninstall CFW while any modded system titles are installed!
+It will result in an unbootable state and you'll need the
+<a href="https://www.flashcarts.net/ds-quick-start-guide">ntrboot</a>
+DS flashcart to recover it.
+</p>
 
 1. Download a custom Home Menu title (`.cia`) from above.
 

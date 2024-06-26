@@ -14,9 +14,20 @@ A guide for customizing the system-wide font on the Nintendo 3DS.
 
 ---
 
-<p class="note">Creating a NAND backup is recommended when modifying any system titles. Modifying the system font is safe and can be restored without NAND backups, but you should make one anyways. If you bricked your console OS, see the <a href="#restoring-the-system-font">restore</a> section.</p>
+<p class="note">
+Creating a NAND backup is recommended when modifying any system titles.
+Modifying the system font is safe and can be restored without NAND backups, but you should make one anyways.
+If you bricked your console OS, see the
+<a href="#restoring-the-system-font">restore</a>
+section.
+</p>
 
-<p class="warning">Never uninstall CFW while any modded system titles are installed! It will result in an unbootable state and you'll need the <a href="https://www.flashcarts.net/ds-quick-start-guide">ntrboot</a> DS flashcart to recover it.</p>
+<p class="warning">
+Never uninstall CFW while any modded system titles are installed!
+It will result in an unbootable state and you'll need the
+<a href="https://www.flashcarts.net/ds-quick-start-guide">ntrboot</a>
+DS flashcart to recover it.
+</p>
 
 **What you need:**
 
@@ -44,7 +55,8 @@ A guide for customizing the system-wide font on the Nintendo 3DS.
 
     ![](/images/3DS/3DS-System-Font-Customization_02.png)
 
-3. Click `File` → `Open`, select the 3DS font file. Do not launch another FontForge window from Start Menu or Desktop, both fonts need to be opened in the same FontForge instance.
+3. Click `File` → `Open`, select the 3DS font file. Do not launch another FontForge window from Start Menu or Desktop,
+   both fonts need to be opened in the same FontForge instance.
 
     - You should have two FontForge windows:
 
@@ -122,7 +134,8 @@ A guide for customizing the system-wide font on the Nintendo 3DS.
 
     - Go to the `Windows Font` tab and select a font that you installed earlier
 
-    - Set the font size value, start with 20px first. If the font size doesn't look right after installing to a 3DS, come back to it and keep messing around with the value until you get it right.
+    - Set the font size value, start with 20px first. If the font size doesn't look right after installing to a 3DS,
+      come back to it and keep messing around with the value until you get it right.
 
     - Set the bit depth to `16 levels (A4)`
 
