@@ -21,7 +21,7 @@ Custom system-wide fonts for the Nintendo 3DS
 The youthful and dynamic design of the Gothic style allows this typeface to express "joy", a fundamental human emotion.
 The straight lines and rounded corners embody a dynamic atmosphere.
 
-<p><a href="https://fontworks.co.jp/fontsearch/pophappinessstd-eb/">Font designed by Fontworks</a></p>
+<div align="right"><p><a href="https://fontworks.co.jp/fontsearch/pophappinessstd-eb/">Font designed by Fontworks</a></p></div>
 
 **List of games that use this font:**
 - Luigi's Mansion
