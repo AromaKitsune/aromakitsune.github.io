@@ -22,6 +22,8 @@ Discord: AromaKitsune
 
 <div align="right"><p><a href="https://github.com/LumaTeam/Luma3DS">Luma3DS logo by LumaTeam</a></p></div>
 
+<div align="right"><p>Site theme based on 3DS Hacks Guide</p></div>
+
 ---
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
