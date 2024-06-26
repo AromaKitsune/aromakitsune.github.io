@@ -157,7 +157,7 @@ Last updated: 2024-05-23
 
 ## Restoring the Home Menu title - Method 3
 
-<p class="note">If you've installed a custom Home Menu title to your system running on older/future firmware version without any backups, follow this section.</p>
+<p class="note">If you've installed a custom Home Menu title to your system running on older firmware version without any backups, follow this section.</p>
 
 1. Go to [Darthsternie's Firmware Archive](https://darthsternie.net/3ds-firmwares/).
 
@@ -208,6 +208,8 @@ Last updated: 2024-05-23
 9. Reboot a 3DS.
 
 10. The Home Menu UI has been restored.
+
+11. (Optional) Update the console firmware to the latest version.
 
 ## Restoring the Home Menu title - Method 4
 
