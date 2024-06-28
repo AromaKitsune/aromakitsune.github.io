@@ -27,7 +27,7 @@ Never uninstall CFW while any modded system titles are installed!
 Doing so will brick the console, you'll need the
 <a href="https://www.flashcarts.net/ds-quick-start-guide">ntrboot</a>
 DS flashcart to recover it.<br/>
-Modified or unsigned titles don't work on the original firmware as the signature check fails,
+Modified or unsigned system titles (and digital games) don't work on the original firmware as the signature check fails,
 so you must restore them before uninstalling CFW.
 </p>
 
