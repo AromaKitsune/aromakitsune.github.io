@@ -40,6 +40,7 @@ Last updated: 2024-05-23
 
 <p class="note">
 LayeredFS patching is unstable for applets which causes Home Menu to randomly crash if Home Menu is opened several times (by suspending a game or exiting an applet).
+<br/>
 <a href="#installation-method-2-cia-file">Consider using the CIA file method for now.</a>
 </p>
 
