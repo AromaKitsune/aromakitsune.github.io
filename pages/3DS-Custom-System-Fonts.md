@@ -48,8 +48,8 @@ The straight lines and rounded corners embody a dynamic atmosphere.
 ## Installing a custom font
 
 <p class="note">
-Creating a NAND backup is recommended when modifying any system titles.
-Modifying the system font is safe and can be restored without NAND backups, but you should make one anyways.
+Creating a NAND backup is recommended when modifying any system titles.<br/>
+Modifying the system font is safe and can be restored without NAND backups, but you should make one anyways.<br/>
 If you bricked your console OS, see the restore section below.
 </p>
 
@@ -59,7 +59,7 @@ doing so will brick the console! You'll need the
 <a href="https://www.flashcarts.net/ds-quick-start-guide">ntrboot</a>
 DS flashcart to re-install B9S.<br/>
 Modified system titles are not signed which they don't work on the original firmware, as the signature check fails.<br/>
-If you wanna uninstall CFW before selling your console, you must restore the system titles first then follow the
+If you wanna uninstall CFW before selling your console, you must restore the system titles first, then follow the
 <a href="https://3ds.hacks.guide/uninstall-cfw">CFW uninstallation instructions</a>.
 </p>
 

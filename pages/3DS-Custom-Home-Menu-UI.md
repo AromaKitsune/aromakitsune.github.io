@@ -104,13 +104,13 @@ as you'll be able to restore a Home Menu title if a custom Home Menu title is in
 ## Installing a custom Home Menu title
 
 <p class="note">
-Make sure you have a backed up <code>homemenu.cia</code> file before proceeding.
-Creating a NAND backup is recommended when modifying any system titles.
-Modifying the Home Menu title is safe and can be restored without NAND backups, but you should make one anyways.
+Make sure you have a backed up <code>homemenu.cia</code> file before proceeding.<br/>
+Creating a NAND backup is recommended when modifying any system titles.<br/>
+Modifying the Home Menu title is safe and can be restored without NAND backups, but you should make one anyways.<br/>
 If you bricked your console OS, see the restore section below.
 <br/><br/>
 System Update will fail if a custom Home Menu title is installed.
-To update your system, you must restore the Home Menu title back to its original state.
+To update your system, you must restore the Home Menu title back to its original state.<br/>
 After a system update, backup the <code>homemenu.cia</code> file again in case the Home Menu is also updated.<br/>
 The current Home Menu mod is likely compatible with the future system firmware versions with an updated Home Menu version.
 If this mod stops working, I will update the base Home Menu title for this mod.
@@ -122,7 +122,7 @@ doing so will brick the console! You'll need the
 <a href="https://www.flashcarts.net/ds-quick-start-guide">ntrboot</a>
 DS flashcart to re-install B9S.<br/>
 Modified system titles are not signed which they don't work on the original firmware, as the signature check fails.<br/>
-If you wanna uninstall CFW before selling your console, you must restore the system titles first then follow the
+If you wanna uninstall CFW before selling your console, you must restore the system titles first, then follow the
 <a href="https://3ds.hacks.guide/uninstall-cfw">CFW uninstallation instructions</a>.
 </p>
 
