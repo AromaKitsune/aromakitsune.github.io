@@ -117,12 +117,12 @@ If this mod stops working, I will update the base Home Menu title for this mod.
 </p>
 
 <p class="warning">
-Never uninstall CFW while any modded system titles are installed!
-Doing so will brick the console, you'll need the
+Never uninstall CFW while any modded system titles are installed,
+doing so will brick the console! You'll need the
 <a href="https://www.flashcarts.net/ds-quick-start-guide">ntrboot</a>
-DS flashcart to recover it.<br/>
-Modified or unsigned system titles (and digital games) don't work on the original firmware as the signature check fails,
-so you must restore them before uninstalling CFW.
+DS flashcart to re-install B9S.<br/>
+Modified system titles are not signed which they don't work on the original firmware, as the signature check fails.
+To safely uninstall CFW, you must restore the system titles first.
 </p>
 
 1. Download a custom Home Menu title (`.cia`) from above.
@@ -137,7 +137,7 @@ so you must restore them before uninstalling CFW.
 
     - CIA files are already encrypted, so there's no need to.
 
-6. Reboot a 3DS.
+6. Reboot the console.
 
 7. A custom Home Menu UI has been installed.
 
@@ -151,7 +151,7 @@ so you must restore them before uninstalling CFW.
 
 3. Select `CIA image options...` → `Install game image`.
 
-4. Reboot a 3DS.
+4. Reboot the console.
 
 5. The Home Menu UI has been restored.
 
@@ -176,7 +176,7 @@ so you must restore them before uninstalling CFW.
 
 5. Select `CIA image options...` → `Install game image`.
 
-6. Reboot a 3DS.
+6. Reboot the console.
 
 7. The Home Menu UI has been restored.
 
@@ -230,7 +230,7 @@ so you must restore them before uninstalling CFW.
 
 8. Select `CIA image options...` → `Install game image`.
 
-9. Reboot a 3DS.
+9. Reboot the console.
 
 10. The Home Menu UI has been restored.
 
@@ -268,7 +268,7 @@ so you must restore them before uninstalling CFW.
 
 11. Select `CIA image options...` → `Install game image`.
 
-12. Reboot a 3DS.
+12. Reboot the console.
 
 13. The Home Menu UI has been restored.
 

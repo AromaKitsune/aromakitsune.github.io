@@ -23,12 +23,12 @@ section.
 </p>
 
 <p class="warning">
-Never uninstall CFW while any modded system titles are installed!
-Doing so will brick the console, you'll need the
+Never uninstall CFW while any modded system titles are installed,
+doing so will brick the console! You'll need the
 <a href="https://www.flashcarts.net/ds-quick-start-guide">ntrboot</a>
-DS flashcart to recover it.<br/>
-Modified or unsigned system titles (and digital games) don't work on the original firmware as the signature check fails,
-so you must restore them before uninstalling CFW.
+DS flashcart to re-install B9S.<br/>
+Modified system titles are not signed which they don't work on the original firmware, as the signature check fails.
+To safely uninstall CFW, you must restore the system titles first.
 </p>
 
 **What you need:**
@@ -179,7 +179,7 @@ so you must restore them before uninstalling CFW.
 
     - You don't need to encrypt it as `3dstool` (bundled in `FontTool`) already did that.
 
-4. Reboot a 3DS.
+4. Reboot the console.
 
 5. A custom font has been installed!
 
@@ -199,7 +199,7 @@ so you must restore them before uninstalling CFW.
 
 5. Select `CIA image options...` → `Install game image`.
 
-6. Reboot a 3DS.
+6. Reboot the console.
 
 7. The system font has been restored.
 
