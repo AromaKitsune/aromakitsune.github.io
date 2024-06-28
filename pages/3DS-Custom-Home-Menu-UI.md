@@ -286,4 +286,10 @@ The target system firmware version is <code>11.17.0-50</code>.
 
 ## Restoring the Home Menu title - Last Resort
 
-<p class="note">If none of those restoration methods work for you, <a href="https://3ds.hacks.guide/ctrtransfer">CTRTransfer</a> is the only option.</p>
+<p class="note">If none of those restoration methods work for you, give
+<a href="https://3ds.hacks.guide/ctrtransfer">CTRTransfer</a>
+a try.</p>
+
+This will re-install all the system titles and temporarily downgrade the firmware version to `11.15.0`.
+<br/>
+Your games and their save data will not be lost in the process, so follow the instructions carefully.
