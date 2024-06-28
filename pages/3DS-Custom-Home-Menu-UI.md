@@ -39,7 +39,8 @@ Last updated: 2024-05-23
 ## Installing a custom Home Menu UI
 
 <p class="note">
-LayeredFS patching is unstable for applets which causes Home Menu to randomly crash if Home Menu is opened several times (by suspending a game or exiting an applet).
+LayeredFS patching is unstable for applets which causes Home Menu to randomly crash if Home Menu is opened several times 
+(by suspending a game or exiting an applet).
 <br/>
 <a href="#installation-method-2-cia-file">Consider using the CIA file method for now.</a>
 </p>
@@ -104,14 +105,19 @@ as you'll be able to restore a Home Menu title if a custom Home Menu title is in
 ## Installing a custom Home Menu title
 
 <p class="note">
-Make sure you have a backed up <code>homemenu.cia</code> file before proceeding.<br/>
-Creating a NAND backup is recommended when modifying any system titles.<br/>
-Modifying the Home Menu title is safe and can be restored without NAND backups, but you should make one anyways.<br/>
+Make sure you have a backed up <code>homemenu.cia</code> file before proceeding.
+<br/>
+Creating a NAND backup is recommended when modifying any system titles.
+<br/>
+Modifying the Home Menu title is safe and can be restored without NAND backups, but you should make one anyways.
+<br/>
 If you bricked your console OS, see the restore section below.
 <br/><br/>
 System Update will fail if a custom Home Menu title is installed.
-To update your system, you must restore the Home Menu title back to its original state.<br/>
-After a system update, backup the <code>homemenu.cia</code> file again in case the Home Menu is also updated.<br/>
+To update your system, you must restore the Home Menu title back to its original state.
+<br/>
+After a system update, backup the <code>homemenu.cia</code> file again in case the Home Menu is also updated.
+<br/>
 The current Home Menu mod is likely compatible with the future system firmware versions with an updated Home Menu version.
 If this mod stops working, I will update the base Home Menu title for this mod.
 </p>
@@ -120,8 +126,10 @@ If this mod stops working, I will update the base Home Menu title for this mod.
 Never uninstall CFW while any modded system titles are installed,
 doing so will brick the console! You'll need the
 <a href="https://www.flashcarts.net/ds-quick-start-guide">ntrboot</a>
-DS flashcart to re-install B9S.<br/>
-Modified system titles are not signed which they don't work on the original firmware, as the signature check fails.<br/>
+DS flashcart to re-install B9S.
+<br/>
+Modified system titles are not signed which they don't work on the original firmware, as the signature check fails.
+<br/>
 If you wanna uninstall CFW before selling your console, you must restore the system titles first, then follow the
 <a href="https://3ds.hacks.guide/uninstall-cfw">CFW uninstallation instructions</a>.
 </p>
@@ -159,8 +167,9 @@ If you wanna uninstall CFW before selling your console, you must restore the sys
 ## Restoring the Home Menu title - Method 2
 
 <p class="note">
-  If you've lost the <code>homemenu.cia</code> file from your SD Card and computer, follow this section.<br/>
-  The target system firmware version is <code>11.17.0-50</code>.
+If you've lost the <code>homemenu.cia</code> file from your SD Card and computer, follow this section.
+<br/>
+The target system firmware version is <code>11.17.0-50</code>.
 </p>
 
 1. Download an original Home Menu title:
