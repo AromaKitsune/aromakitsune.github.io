@@ -81,6 +81,7 @@ Consider using the CIA file method for now.
 
 ## Installation method 2: CIA file
 
+
 ## Backing up the Home Menu title
 
 <p class="note">
@@ -107,13 +108,21 @@ Make sure you have a backed up <code>homemenu.cia</code> file before proceeding.
 Creating a NAND backup is recommended when modifying any system titles.
 Modifying the Home Menu title is safe and can be restored without NAND backups, but you should make one anyways.
 If you bricked your console OS, see the restore section below.
+<br/><br/>
+System Update will fail if a custom Home Menu title is installed.
+To update your system, you must restore the Home Menu title back to its original state.
+After a system update, backup the <code>homemenu.cia</code> file again in case the Home Menu is also updated.<br/>
+The current Home Menu mod is likely compatible with the future system firmware versions with an updated Home Menu version.
+If this mod stops working, I will update the base Home Menu title for this mod.
 </p>
 
 <p class="warning">
 Never uninstall CFW while any modded system titles are installed!
-It will result in an unbootable state and you'll need the
+Doing so will brick the console, you'll need the
 <a href="https://www.flashcarts.net/ds-quick-start-guide">ntrboot</a>
-DS flashcart to recover it.
+DS flashcart to recover it.<br/>
+Modified or unsigned titles don't work on the original firmware as the signature check fails,
+so you must restore them before uninstalling CFW.
 </p>
 
 1. Download a custom Home Menu title (`.cia`) from above.

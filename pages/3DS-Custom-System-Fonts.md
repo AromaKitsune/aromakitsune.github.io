@@ -55,9 +55,11 @@ If you bricked your console OS, see the restore section below.
 
 <p class="warning">
 Never uninstall CFW while any modded system titles are installed!
-It will result in an unbootable state and you'll need the
+Doing so will brick the console, you'll need the
 <a href="https://www.flashcarts.net/ds-quick-start-guide">ntrboot</a>
-DS flashcart to recover it.
+DS flashcart to recover it.<br/>
+Modified or unsigned titles don't work on the original firmware as the signature check fails,
+so you must restore them before uninstalling CFW.
 </p>
 
 1. Download a custom system font (`.cia`) from above.
