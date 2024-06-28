@@ -256,7 +256,7 @@ The target system firmware version is <code>11.17.0-50</code>.
 
 2. Launch 3DNUS.
 
-3. Input your system's current firmware version (ex: `11.17.0-50E`).
+3. Input your system's current firmware version and region (ex: `11.17.0-50E`).
 
 4. Click "New 3DS" or "Old 3DS" for your 3DS system model.
 
