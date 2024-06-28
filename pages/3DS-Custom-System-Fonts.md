@@ -33,6 +33,7 @@ The straight lines and rounded corners embody a dynamic atmosphere.
 - Kirby's Return to Dream Land / Adventure Wii
 - Hyperdimension Neptunia Victory / Re;Birth3
 - Mario Tennis Open
+- Pokémon Mystery Dungeon: Gates to Infinity
 - Mario Kart Arcade GP DX
 - Mario Golf: World Tour
 - Pokémon Super Mystery Dungeon
