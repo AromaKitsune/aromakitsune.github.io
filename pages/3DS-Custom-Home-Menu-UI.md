@@ -43,6 +43,8 @@ LayeredFS patching is unstable for applets which causes Home Menu to randomly cr
 (by suspending a game or exiting an applet).
 <br/>
 <a href="#installation-method-2-cia-file">Consider using the CIA file method for now.</a>
+<br/><br/>
+You can add my RomFS assets to your Home Menu mod, be sure to credit me if you're gonna share your combined mod anywhere :)
 </p>
 
 1. Download a custom Home Menu UI (`.zip`) from above.
