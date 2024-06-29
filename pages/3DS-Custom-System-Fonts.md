@@ -46,7 +46,7 @@ The straight lines and rounded corners embody a dynamic atmosphere.
 
 ---
 
-## Installing the custom font
+## Installing the custom system font
 
 <p class="note">
 Creating a NAND backup is recommended when modifying any system titles.

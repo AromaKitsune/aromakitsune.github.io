@@ -174,7 +174,7 @@ If you wanna uninstall CFW before selling your console, you must restore the sys
 
 18. Add the CIA file to the SD Card.
 
-## Installing the custom font
+## Installing the custom system font
 
 1. Launch GodMode9.
 
