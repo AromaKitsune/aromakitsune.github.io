@@ -89,7 +89,7 @@ You can add my RomFS assets to your Home Menu mod, be sure to credit me if you'r
 
 <p class="note">
 It is <strong>recommended</strong> to backup your Home Menu title
-as you'll be able to restore the Home Menu title if a custom Home Menu title is installed with the CIA file.
+as you'll be able to restore the Home Menu title if the custom Home Menu title is installed with the CIA file.
 </p>
 
 1. Launch GodMode9.
