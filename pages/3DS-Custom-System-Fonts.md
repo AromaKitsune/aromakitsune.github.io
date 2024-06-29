@@ -46,7 +46,7 @@ The straight lines and rounded corners embody a dynamic atmosphere.
 
 ---
 
-## Installing a custom font
+## Installing the custom font
 
 <p class="note">
 Creating a NAND backup is recommended when modifying any system titles.
@@ -68,7 +68,7 @@ If you wanna uninstall CFW before selling your console, you must restore the sys
 <a href="https://3ds.hacks.guide/uninstall-cfw">CFW uninstallation instructions</a>.
 </p>
 
-1. Download a custom system font (`.cia`) from above.
+1. Download the custom system font (`.cia`) from above.
 
 2. Add it to the SD Card.
 
@@ -82,11 +82,11 @@ If you wanna uninstall CFW before selling your console, you must restore the sys
 
 6. Reboot the console.
 
-7. A custom font has been installed.
+7. The custom system font has been installed.
 
 ## Restoring the system font
 
-1. Download an [original system font](/files/3DS/SystemFont.cia).
+1. Download the [original system font](/files/3DS/SystemFont.cia).
 
 2. Add the `SystemFont.cia` file to the SD Card.
 

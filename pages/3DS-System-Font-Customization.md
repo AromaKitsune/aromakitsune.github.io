@@ -10,7 +10,7 @@ A guide for customizing the system-wide font on the Nintendo 3DS.
 
 <div align="center"><p><img src="/images/3DS/3DS-System-Font-Customization_01.png"/></p></div>
 
-[Check out my custom system fonts here!](/3DS-Custom-System-Fonts)
+[My custom system fonts](/3DS-Custom-System-Fonts)
 
 ---
 
@@ -54,7 +54,7 @@ If you wanna uninstall CFW before selling your console, you must restore the sys
 
 ---
 
-## Preparing a custom font
+## Generating the custom system font
 
 1. Launch FontForge.
 
@@ -174,7 +174,7 @@ If you wanna uninstall CFW before selling your console, you must restore the sys
 
 18. Add the CIA file to the SD Card.
 
-## Installing a custom font
+## Installing the custom font
 
 1. Launch GodMode9.
 
@@ -186,7 +186,7 @@ If you wanna uninstall CFW before selling your console, you must restore the sys
 
 4. Reboot the console.
 
-5. A custom font has been installed!
+5. The custom system font has been installed!
 
 <div align="center"><p><img src="/images/3DS/3DS-System-Font-Customization_14.png"/></p></div>
 
@@ -194,7 +194,7 @@ If you wanna uninstall CFW before selling your console, you must restore the sys
 
 ## Restoring the system font
 
-1. Download an [original system font](/files/3DS/SystemFont.cia).
+1. Download the [original system font](/files/3DS/SystemFont.cia).
 
 2. Add the `SystemFont.cia` file to the SD Card.
 

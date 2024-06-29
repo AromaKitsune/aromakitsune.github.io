@@ -20,7 +20,7 @@ Custom Home Menu UI for the Nintendo 3DS
 
 Target system firmware version: `11.17.0-50`
 
-The system font is a separate system title. To install a custom font, [go here](/3DS-Custom-System-Fonts).
+The system font is a separate system title. To install the custom system font, [go here](/3DS-Custom-System-Fonts).
 
 Last updated: 2024-05-23
 
@@ -36,7 +36,7 @@ Last updated: 2024-05-23
 
 ## Installation method 1: LayeredFS
 
-## Installing a custom Home Menu UI
+## Installing the custom Home Menu UI
 
 <p class="note">
 LayeredFS patching is unstable for applets which causes Home Menu to randomly crash if Home Menu is opened several times 
@@ -47,7 +47,7 @@ LayeredFS patching is unstable for applets which causes Home Menu to randomly cr
 You can add my RomFS assets to your Home Menu mod, be sure to credit me if you're gonna share your combined mod anywhere :)
 </p>
 
-1. Download a custom Home Menu UI (`.zip`) from above.
+1. Download the custom Home Menu UI (`.zip`) from above.
 
 2. Extract the zip file and enter the `LayeredFS` folder.
 
@@ -61,7 +61,7 @@ You can add my RomFS assets to your Home Menu mod, be sure to credit me if you'r
 
 7. Save and exit.
 
-8. A custom Home Menu UI has been installed.
+8. The custom Home Menu UI has been installed.
 
 ## Restoring the Home Menu UI
 
@@ -89,7 +89,7 @@ You can add my RomFS assets to your Home Menu mod, be sure to credit me if you'r
 
 <p class="note">
 It is <strong>recommended</strong> to backup your Home Menu title
-as you'll be able to restore a Home Menu title if a custom Home Menu title is installed with the CIA file.
+as you'll be able to restore the Home Menu title if a custom Home Menu title is installed with the CIA file.
 </p>
 
 1. Launch GodMode9.
@@ -104,7 +104,7 @@ as you'll be able to restore a Home Menu title if a custom Home Menu title is in
 
 6. The `homemenu.cia` file is saved to `SDCARD:/gm9/out`. Copy that file to a safe place in your computer.
 
-## Installing a custom Home Menu title
+## Installing the custom Home Menu title
 
 <p class="note">
 Make sure you have a backed up <code>homemenu.cia</code> file before proceeding.
@@ -115,7 +115,7 @@ Modifying the Home Menu title is safe and can be restored without NAND backups, 
 <br/>
 If you bricked your console OS, see the restore section below.
 <br/><br/>
-System Update will fail if a custom Home Menu title is installed.
+System Update will fail if the custom Home Menu title is installed.
 To update your system, you must restore the Home Menu title back to its original state.
 <br/>
 After a system update, backup the <code>homemenu.cia</code> file again in case the Home Menu is also updated.
@@ -136,7 +136,7 @@ If you wanna uninstall CFW before selling your console, you must restore the sys
 <a href="https://3ds.hacks.guide/uninstall-cfw">CFW uninstallation instructions</a>.
 </p>
 
-1. Download a custom Home Menu title (`.cia`) from above.
+1. Download the custom Home Menu title (`.cia`) from above.
 
 2. Add it to the SD Card.
 
@@ -150,7 +150,7 @@ If you wanna uninstall CFW before selling your console, you must restore the sys
 
 6. Reboot the console.
 
-7. A custom Home Menu UI has been installed.
+7. The custom Home Menu UI has been installed.
 
 ## Restoring the Home Menu title - Method 1
 
@@ -174,7 +174,7 @@ If you've lost the <code>homemenu.cia</code> file from your SD Card and computer
 The target system firmware version is <code>11.17.0-50</code>.
 </p>
 
-1. Download an original Home Menu title:
+1. Download the original Home Menu title:
 
     - [EUR](/files/3DS/HomeMenu_EUR.cia) \| [USA](/files/3DS/HomeMenu_USA.cia) \| [JPN](/files/3DS/HomeMenu_JPN.cia)
 
@@ -194,11 +194,11 @@ The target system firmware version is <code>11.17.0-50</code>.
 
 ## Restoring the Home Menu title - Method 3
 
-<p class="note">If you've installed a custom Home Menu title to your system running on older firmware version without any backups, follow this section.</p>
+<p class="note">If you've installed the custom Home Menu title to your system running on older firmware version without any backups, follow this section.</p>
 
 1. Go to [Darthsternie's Firmware Archive](https://darthsternie.net/3ds-firmwares/).
 
-2. Download a firmware archive matching your console region and current firmware version.
+2. Download the firmware archive matching your console region and current firmware version.
 
     - If you don't know your system's current firmware version and can't boot to Home Menu:
 
@@ -224,7 +224,7 @@ The target system firmware version is <code>11.17.0-50</code>.
 
     - Take a note of the firmware version.
 
-3. Extract a firmware archive and find the `.cia` file for Home Menu inside the `updates` folder.
+3. Extract the firmware archive and find the `.cia` file for Home Menu inside the `updates` folder.
 
     - EUR: `0004003000009802.cia`
 
@@ -250,7 +250,7 @@ The target system firmware version is <code>11.17.0-50</code>.
 
 ## Restoring the Home Menu title - Method 4
 
-<p class="note">If you have any issues downloading a firmware archive, follow this section.</p>
+<p class="note">If you have any issues downloading the firmware archive, follow this section.</p>
 
 1. Download [3DNUS](https://github.com/wyatt8740/3DNUS).
 

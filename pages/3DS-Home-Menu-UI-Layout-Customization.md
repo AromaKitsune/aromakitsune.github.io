@@ -11,7 +11,7 @@ A guide for customizing the Home Menu UI layout (BCLYT) on the Nintendo 3DS.
 <div align="center"><p><img src="/images/3DS/3DS-Home-Menu-UI-Layout-Customization_01.gif"/></p></div>
 
 
-[Check out my custom Home Menu UI here!](/3DS-Custom-Home-Menu-UI)
+[My custom Home Menu UI](/3DS-Custom-Home-Menu-UI)
 
 ---
 
@@ -135,7 +135,7 @@ Skip this section if you want to edit one of those BCLYT files listed above.
 
         - Adding new Panes
 
-        - Deleting the existing Panes (It will crash on a 3DS, so make them invisible instead.)
+        - Deleting the existing Panes (It will crash Home Menu, so make them invisible instead.)
 
         - Adding/removing links to textures in the Texture Maps tab 
 
@@ -166,7 +166,7 @@ Skip this section if you want to edit one of those BCLYT files listed above.
 
 18.	Go to the `B.bclyt` tab.
 
-19.	Position a cursor before the selected byte (ex: 0x1567).
+19.	Position a cursor before the selected byte (ex: `0x1567`).
 
 20.	Select a few lines of bytes forward (ex: from `80` to `3F`).
 
@@ -185,7 +185,7 @@ Skip this section if you want to edit one of those BCLYT files listed above.
 
     ![](/images/3DS/3DS-Home-Menu-UI-Layout-Customization_08.png)
 
-26.	Position a cursor before the selected bytes (ex: 0x1717).
+26.	Position a cursor before the selected bytes (ex: `0x1717`).
 
     ![](/images/3DS/3DS-Home-Menu-UI-Layout-Customization_09.png)
 
@@ -193,7 +193,7 @@ Skip this section if you want to edit one of those BCLYT files listed above.
 
     ![](/images/3DS/3DS-Home-Menu-UI-Layout-Customization_10.png)
 
-28.	Select the bytes from here, all the way to 0x0 by pressing `Ctrl`+`Shift`+`Home`.
+28.	Select the bytes from here, all the way to `0x0` by pressing `Ctrl`+`Shift`+`Home`.
 
 29.	Copy.
 
@@ -201,13 +201,13 @@ Skip this section if you want to edit one of those BCLYT files listed above.
 
 30.	Go to the `C.bclyt` tab.
 
-31.	Position a cursor before the selected byte (ex: 0x1567).
+31.	Position a cursor before the selected byte (ex: `0x1567`).
 
 32.	Click to deselect.
 
     ![](/images/3DS/3DS-Home-Menu-UI-Layout-Customization_12.png)
 
-33.	Select the bytes from here, all the way to 0x0 by pressing `Ctrl`+`Shift`+`Home`.
+33.	Select the bytes from here, all the way to `0x0` by pressing `Ctrl`+`Shift`+`Home`.
 
     ![](/images/3DS/3DS-Home-Menu-UI-Layout-Customization_13.png)
 
