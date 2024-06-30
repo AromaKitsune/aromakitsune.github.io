@@ -170,7 +170,7 @@ If you wanna uninstall CFW before selling your console, you must restore the sys
 
     ![](/images/3DS/3DS-System-Font-Customization_13.png)
 
-17. You should have the `SystemFont.cia`, rename "SystemFont" to anything you want.
+17. The `SystemFont.cia` file has been generated, rename "SystemFont" to anything you want.
 
 18. Add the CIA file to the SD Card.
 
