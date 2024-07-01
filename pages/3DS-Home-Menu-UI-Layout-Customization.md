@@ -63,7 +63,7 @@ Let's fix the BCLYT file.
 If you're looking into editing the UI colors for <code>sleep.LZ</code> and applet icons (<code>launcher.LZ</code>),
 I suggest checking out derberg's Home Menu customization guide for those, as hex-editing the <code>*.LZ</code> files directly is easier.
 <br/>
-Note: Once you import any files into the <code>*.LZ</code> files, the color values are moved to different addresses.
+Note: Once you import/replace any files into the <code>*.LZ</code> files, the color values are moved to different addresses.
 <a href="#ui-element-colors">See this section here.</a>
 </p>
 
