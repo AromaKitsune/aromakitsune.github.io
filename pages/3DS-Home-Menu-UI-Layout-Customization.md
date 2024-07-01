@@ -60,7 +60,8 @@ Let's fix the BCLYT file.
     - The elements that are displayed on the sleep/shutdown screen (bottom).
 
 <p class="note">
-If you're looking into editing the colors of known UI elements, I suggest checking out derberg's guide, as hex-editing the <code>*.LZ</code> files directly is easier.
+If you're looking into editing the UI colors for <code>sleep.LZ</code> and applet icons (<code>launcher.LZ</code>),
+I suggest checking out derberg's Home menu customization guide for those, as hex-editing the <code>*.LZ</code> files directly is easier.
 <br/>
 Note: Once you import any files into the <code>*.LZ</code> files, the color values are moved to different addresses.
 <a href="#ui-element-colors">See this section here.</a>
