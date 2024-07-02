@@ -69,7 +69,7 @@ Note: Once you import/replace any files into the <code>*.LZ</code> files, the co
 
 ---
 
-## Previewing the layout
+## Previewing the UI Layout
 
 Skip this section if you want to edit one of those BCLYT files listed above.
 
@@ -81,7 +81,7 @@ Skip this section if you want to edit one of those BCLYT files listed above.
 
 4. Once you found what you're looking for, you can close Switch-Toolbox.
 
-## Editing the layout
+## Editing the UI Layout
 
 1. Launch Kuriimu2.
 
@@ -243,7 +243,7 @@ Skip this section if you want to edit one of those BCLYT files listed above.
 
 ---
 
-## UI element colors
+## UI Element Colors
 
 After importing the BCLYT/BCLAN/BCLIM files into the `*.LZ` files with Kuriimu2, the offsets for the color values are no longer the same,
 as these values have been moved to different addresses. If you did that already, you have to hex-edit the BCLYT files instead.

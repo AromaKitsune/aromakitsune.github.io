@@ -54,7 +54,7 @@ If you wanna uninstall CFW before selling your console, you must restore the sys
 
 ---
 
-## Generating the custom system font
+## Generating the Custom System Font
 
 1. Launch FontForge.
 
@@ -174,7 +174,7 @@ If you wanna uninstall CFW before selling your console, you must restore the sys
 
 18. Add the CIA file to the SD Card.
 
-## Installing the custom system font
+## Installing the Custom System Font
 
 1. Launch GodMode9.
 
@@ -192,7 +192,7 @@ If you wanna uninstall CFW before selling your console, you must restore the sys
 
 <p class="note">The button glyphs should be preserved. The ZL/ZR/C-Stick/Start glyphs are part of the game's digital manual, not the system font.</p>
 
-## Restoring the system font
+## Restoring the System Font
 
 1. Download the [original system font](/files/3DS/SystemFont.cia).
 

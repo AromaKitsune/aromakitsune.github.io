@@ -34,9 +34,9 @@ Last updated: 2024-05-23
 
 ---
 
-## Installation method 1: LayeredFS
+## Installation Method 1: LayeredFS
 
-## Installing the custom Home Menu UI
+## Adding the Home Menu Applet Patch
 
 <p class="note">
 LayeredFS patching is unstable for applets which causes Home Menu to randomly crash if Home Menu is opened several times 
@@ -63,7 +63,7 @@ You can add my RomFS assets to your Home Menu mod, be sure to credit me if you'r
 
 8. The custom Home Menu UI has been installed.
 
-## Restoring the Home Menu UI
+## Removing the Home Menu Applet Patch
 
 1. Launch the Luma3DS config by holding the `Select` button while booting.
 
@@ -83,13 +83,13 @@ You can add my RomFS assets to your Home Menu mod, be sure to credit me if you'r
 
 ---
 
-## Installation method 2: CIA file
+## Installation Method 2: CIA File
 
-## Backing up the Home Menu title
+## Backing up the Home Menu Applet
 
 <p class="note">
-It is <strong>recommended</strong> to backup your Home Menu title
-as you'll be able to restore the Home Menu title if the custom Home Menu title is installed with the CIA file.
+It is <strong>recommended</strong> to backup your Home Menu applet
+as you'll be able to restore it later on if the custom Home Menu applet is installed with the CIA file.
 </p>
 
 1. Launch GodMode9.
@@ -104,24 +104,24 @@ as you'll be able to restore the Home Menu title if the custom Home Menu title i
 
 6. The `homemenu.cia` file is saved to `SDCARD:/gm9/out`. Copy that file to a safe place in your computer.
 
-## Installing the custom Home Menu title
+## Installing the Custom Home Menu Applet
 
 <p class="note">
 Make sure you have a backed up <code>homemenu.cia</code> file before proceeding.
 <br/>
 Creating a NAND backup is recommended when modifying any system titles.
 <br/>
-Modifying the Home Menu title is safe and can be restored without NAND backups, but you should make one anyways.
+Modifying the Home Menu applet is safe and can be restored without NAND backups, but you should make one anyways.
 <br/>
 If you bricked your console OS, see the restore section below.
 <br/><br/>
-System Update will fail if the custom Home Menu title is installed.
-To update your system, you must restore the Home Menu title back to its original state.
+System Update will fail if the custom Home Menu applet is installed.
+To update your system, you must restore the Home Menu applet back to its original state.
 <br/>
 After a system update, backup the <code>homemenu.cia</code> file again in case the Home Menu is also updated.
 <br/>
 The current Home Menu mod is likely compatible with the future system firmware versions with an updated Home Menu version.
-If this mod stops working, I will update the base Home Menu title for this mod.
+If this mod stops working, I will update the base Home Menu applet for this mod.
 </p>
 
 <p class="warning">
@@ -136,7 +136,7 @@ If you wanna uninstall CFW before selling your console, you must restore the sys
 <a href="https://3ds.hacks.guide/uninstall-cfw">CFW uninstallation instructions</a>.
 </p>
 
-1. Download the custom Home Menu title (`.cia`) from above.
+1. Download the custom Home Menu applet (`.cia`) from above.
 
 2. Add it to the SD Card.
 
@@ -150,9 +150,9 @@ If you wanna uninstall CFW before selling your console, you must restore the sys
 
 6. Reboot the console.
 
-7. The custom Home Menu UI has been installed.
+7. The custom Home Menu applet has been installed.
 
-## Restoring the Home Menu title - Method 1
+## Restoring the Home Menu Applet - Method 1
 
 <p class="note">If you've dumped the <code>homemenu.cia</code> file with GodMode9, follow this section.</p>
 
@@ -164,9 +164,9 @@ If you wanna uninstall CFW before selling your console, you must restore the sys
 
 4. Reboot the console.
 
-5. The Home Menu UI has been restored.
+5. The Home Menu applet has been restored.
 
-## Restoring the Home Menu title - Method 2
+## Restoring the Home Menu Applet - Method 2
 
 <p class="note">
 If you've lost the <code>homemenu.cia</code> file from your SD Card and computer, follow this section.
@@ -174,7 +174,7 @@ If you've lost the <code>homemenu.cia</code> file from your SD Card and computer
 The target system firmware version is <code>11.17.0-50</code>.
 </p>
 
-1. Download the original Home Menu title:
+1. Download the original Home Menu applet:
 
     - [EUR](/files/3DS/HomeMenu_EUR.cia) \| [USA](/files/3DS/HomeMenu_USA.cia) \| [JPN](/files/3DS/HomeMenu_JPN.cia)
 
@@ -190,11 +190,11 @@ The target system firmware version is <code>11.17.0-50</code>.
 
 6. Reboot the console.
 
-7. The Home Menu UI has been restored.
+7. The Home Menu applet has been restored.
 
-## Restoring the Home Menu title - Method 3
+## Restoring the Home Menu Applet - Method 3
 
-<p class="note">If you've installed the custom Home Menu title to your system running on older firmware version without any backups, follow this section.</p>
+<p class="note">If you've installed the custom Home Menu applet to your system running on older firmware version without any backups, follow this section.</p>
 
 1. Go to [Darthsternie's Firmware Archive](https://darthsternie.net/3ds-firmwares/).
 
@@ -244,11 +244,11 @@ The target system firmware version is <code>11.17.0-50</code>.
 
 9. Reboot the console.
 
-10. The Home Menu UI has been restored.
+10. The Home Menu applet has been restored.
 
 11. (Optional) Update the CFW and system firmware to the latest version.
 
-## Restoring the Home Menu title - Method 4
+## Restoring the Home Menu Applet - Method 4
 
 <p class="note">If you have any issues downloading the firmware archive, follow this section.</p>
 
@@ -282,9 +282,9 @@ The target system firmware version is <code>11.17.0-50</code>.
 
 12. Reboot the console.
 
-13. The Home Menu UI has been restored.
+13. The Home Menu applet has been restored.
 
-## Restoring the Home Menu title - Last Resort
+## Restoring the Home Menu Applet - Last Resort
 
 <p class="note">If none of those restoration methods work for you, give
 <a href="https://3ds.hacks.guide/ctrtransfer">CTRTransfer</a>

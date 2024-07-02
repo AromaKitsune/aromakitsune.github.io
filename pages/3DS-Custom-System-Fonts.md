@@ -46,7 +46,7 @@ The straight lines and rounded corners embody a dynamic atmosphere.
 
 ---
 
-## Installing the custom system font
+## Installing the Custom System Font
 
 <p class="note">
 Creating a NAND backup is recommended when modifying any system titles.
@@ -84,7 +84,7 @@ If you wanna uninstall CFW before selling your console, you must restore the sys
 
 7. The custom system font has been installed.
 
-## Restoring the system font
+## Restoring the System Font
 
 1. Download the [original system font](/files/3DS/SystemFont.cia).
 
