@@ -85,7 +85,7 @@ You can add my RomFS assets to your Home Menu mod, be sure to credit me if you'r
 
 ## Installation Method 2: CIA File
 
-## Backing up the Home Menu Applet
+## Backing Up the Home Menu Applet
 
 <p class="note">
 It is <strong>recommended</strong> to backup your Home Menu applet
