@@ -31,9 +31,9 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .site-title {
-    @include relative-font-size(1.50);
+    font-size: 1.75rem;
   }
 }
 
