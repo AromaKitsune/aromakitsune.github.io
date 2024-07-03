@@ -10,10 +10,14 @@
   position: relative;
 }
 
-.site-title {
-  @font-face {src: url('/assets/PopHappinessStd-EB.woff2') format('woff2');}
+@font-face {
   font-family: 'FOT-PopHappiness Std EB';
+  src: url('/assets/PopHappinessStd-EB.woff2') format('woff2');
+}
+
+.site-title {
   @include relative-font-size(2);
+  font-family: 'FOT-PopHappiness Std EB';
   margin-bottom: 0;
   float: left;
 
