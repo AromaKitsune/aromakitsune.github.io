@@ -33,7 +33,7 @@
 
 @media screen and (max-width: 600px) {
   .site-title {
-    font-size: 1.625rem;
+    font-size: min(7.5vw, 2rem);
   }
 }
 
