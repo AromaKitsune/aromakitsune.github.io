@@ -16,7 +16,7 @@
 }
 
 .site-title {
-  @include relative-font-size(2);
+  font-size: min(8vw, 2rem);
   font-family: 'FOT-PopHappiness Std EB';
   margin-bottom: 0;
   float: left;
