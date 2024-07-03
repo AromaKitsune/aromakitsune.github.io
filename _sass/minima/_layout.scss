@@ -31,6 +31,12 @@
   }
 }
 
+@media screen and (max-width: 600px) {
+  .site-title {
+    @include relative-font-size(1.50);
+  }
+}
+
 .site-nav {
   position: absolute;
   top: 9px;
