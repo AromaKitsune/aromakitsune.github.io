@@ -16,8 +16,8 @@
 }
 
 .site-title {
-  @include relative-font-size(2);
   font-family: 'FOT-PopHappiness Std EB';
+  font-size: clamp(1rem, 1rem + 2.6667vw, 2rem);
   margin-bottom: 0;
   float: left;
 
@@ -30,8 +30,6 @@
     color: $site-title-color;
   }
 }
-
-
 
 .site-nav {
   position: absolute;
