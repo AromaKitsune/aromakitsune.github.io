@@ -31,11 +31,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
-  .site-title {
-    font-size: clamp(1rem, 0rem + 5.3333vw, 2rem);
-  }
-}
+
 
 .site-nav {
   position: absolute;
