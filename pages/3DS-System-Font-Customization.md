@@ -89,7 +89,7 @@ If you wanna uninstall CFW before selling your console, you must restore the sys
 
     ![](/images/3DS/3DS-System-Font-Customization_07.png)
 
-5. Click `File` → `Revert File` to undo the merge.
+5. Click `File` → `Revert File` to undo the merge action.
 
 6. Switch to FontForge window B, select all the glyphs (`Ctrl`+`A`).
 
@@ -99,7 +99,7 @@ If you wanna uninstall CFW before selling your console, you must restore the sys
 
     - Set `Origin` to `Glyph Origin`
 
-    - On the `Move...` combo-box, change it to `Scale Uniformly...`
+    - Click the `Move...` combo-box and change it to `Scale Uniformly...`
 
     - Set the value to resize the glyphs. 
 
@@ -111,7 +111,7 @@ If you wanna uninstall CFW before selling your console, you must restore the sys
 
 9. Switch back to FontForge window A and merge the font again.
 
-    - Still not right? Revert again, switch to FontForge window B and revert the font file to undo the scale.
+    - Still not right? Revert again, switch to FontForge window B and revert the font file to undo the scale action.
 
     - Keep messing around with the scale value until you get it right.
 
