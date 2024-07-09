@@ -38,11 +38,15 @@ The straight lines and rounded corners embody a dynamic atmosphere.
 - Mario Golf: World Tour
 - Pokémon Super Mystery Dungeon
 
-[Download font for 3DS](/files/3DS/PopHappinessFont.cia)
+**Download font:**
 
-[Download font for anything else (OTF)](/files/FOT-PopHappinessStd-EB.otf)
+- [CIA - for 3DS](/files/3DS/PopHappinessFont.cia)
 
-[Download font for anything else (TTF)](/files/PopHappinessStd-EB.ttf) - Edited to fix the glyphs' side-bearings
+- [OTF - for anything else](/files/FOT-PopHappinessStd-EB.otf)
+
+- [TTF - for anything else](/files/PopHappinessStd-EB.ttf)
+
+TTF file note: Edited to fix the glyphs' side-bearings
 
 ---
 

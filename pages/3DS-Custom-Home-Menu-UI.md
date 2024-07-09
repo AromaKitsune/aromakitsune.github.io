@@ -24,13 +24,15 @@ The system font is a separate system title. To install the custom system font, [
 
 Last updated: 2024-05-23
 
-[Download - LayeredFS](/files/3DS/Kitsune-CustomHomeMenuUI.zip)
+**Download mod:**
 
-[Download - CIA (EUR)](/files/3DS/Kitsune-CustomHomeMenuUI_EUR.cia)
+- [LayeredFS](/files/3DS/Kitsune-CustomHomeMenuUI.zip)
 
-[Download - CIA (USA)](/files/3DS/Kitsune-CustomHomeMenuUI_USA.cia)
+- [CIA - for EUR console](/files/3DS/Kitsune-CustomHomeMenuUI_EUR.cia)
 
-[Download - CIA (JPN)](/files/3DS/Kitsune-CustomHomeMenuUI_JPN.cia)
+- [CIA - for USA console](/files/3DS/Kitsune-CustomHomeMenuUI_USA.cia)
+
+- [CIA - for JPN console](/files/3DS/Kitsune-CustomHomeMenuUI_JPN.cia)
 
 ---
 
