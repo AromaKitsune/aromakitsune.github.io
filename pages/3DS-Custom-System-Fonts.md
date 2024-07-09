@@ -44,9 +44,9 @@ The straight lines and rounded corners embody a dynamic atmosphere.
 
 - [OTF - for anything else](/files/FOT-PopHappinessStd-EB.otf)
 
-- [TTF - for anything else](/files/PopHappinessStd-EB.ttf)
+- [TTF - for anything else](/files/PopHappinessStd-EB.ttf) \*
 
-TTF file note: Edited to fix the glyphs' side-bearings
+\* Edited to fix the glyphs' side-bearings
 
 ---
 
