@@ -67,21 +67,21 @@ You can add my RomFS assets to your Home Menu mod, be sure to credit me if you'r
 
 ## Removing the Home Menu Applet Patch
 
-1. Launch the Luma3DS config by holding the `Select` button while booting.
+1. Launch the GodMode9.
 
-2. Deactivate "Enable game patching".
-
-3. Save and exit.
-
-4. The Home Menu UI has been restored.
-
-5. (Optional) Go to `SDCARD:/luma/titles` and delete the `000400300000??02` folder.
+2. Go to `SDCARD:/luma/titles` and delete the `000400300000??02` folder.
 
     - EUR: `0004003000009802`
 
     - JPN: `0004003000008202`
 
     - USA: `0004003000008F02`
+
+3. Reboot the console.
+
+4. The Home Menu UI has been restored.
+
+5. (Optional) Launch the Luma3DS config and deactivate "game patching".
 
 ---
 
