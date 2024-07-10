@@ -67,7 +67,7 @@ You can add my RomFS assets to your Home Menu mod, be sure to credit me if you'r
 
 ## Removing the Home Menu Applet Patch
 
-1. Launch the GodMode9.
+1. Launch GodMode9.
 
 2. Go to `SDCARD:/luma/titles` and delete the `000400300000??02` folder.
 
