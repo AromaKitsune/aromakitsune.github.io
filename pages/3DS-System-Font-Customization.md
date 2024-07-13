@@ -113,7 +113,7 @@ If you wanna uninstall CFW before selling your console, you must restore the sys
 
     - Still not right? Revert again, switch to FontForge window B and revert the font file to undo the scale action.
 
-    - Keep messing around with the scale value until you get it right.
+    - Try a different scale value until you get it right.
 
     - The 3DS font's glyphs scale should be about the same as the custom font's glyphs.
 
@@ -148,7 +148,8 @@ If you wanna uninstall CFW before selling your console, you must restore the sys
 
 17. Activate the `Use filter` check-box, click `Select file`, go to the `xllt` folder and select the `3ds_bitmap_font_std.xllt` file.
 
-    - This will filter out all the glyphs not used in the 3DS, and reduces the font file size (max is 1.5 MB for compressed BCFNT file after running FontTool).
+    - This will filter out all the glyphs not used in the 3DS, and reduces the font file size
+      (max is 1.5 MB for compressed BCFNT file after running FontTool).
 
 18. Go to the `bcfnt / bcfna` tab.
 
