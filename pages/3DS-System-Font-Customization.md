@@ -137,30 +137,30 @@ If you wanna uninstall CFW before selling your console, you must restore the sys
 
     - This will take a while to download it.
 
-14. On the CTR Font Converter window
+14. Go to the `Windows Font` tab and select a font that you installed earlier.
 
-    - Go to the `Windows Font` tab and select a font that you installed earlier
+15. Set the font size value, start with 20px.
 
-    - Set the font size value, start with 20px first. If the font size doesn't look right after installing to a 3DS,
-      come back to it and keep messing around with the value until you get it right.
+    - If the font size is too big/small after installing to a 3DS,
+      come back to it and try a different value until you get it right.
 
-    - Set the bit depth to `16 levels (A4)`
+16. Set the bit depth to `16 levels (A4)`.
 
-    - Activate the `Use filter` check-box and select `3ds_bitmap_font_std.xllt` (located in the `xllt` folder).
+17. Activate the `Use filter` check-box, click `Select file`, go to the `xllt` folder and select the `3ds_bitmap_font_std.xllt` file.
 
-        - This will filter out all the glyphs not used in the 3DS, and reduces the font file size (max is 1.5 MB for compressed BCFNT after running FontTool).
+    - This will filter out all the glyphs not used in the 3DS, and reduces the font file size (max is 1.5 MB for compressed BCFNT file after running FontTool).
 
-    - Go to the `bcfnt / bcfna` tab.
+18. Go to the `bcfnt / bcfna` tab.
 
-    - Save the font file as `SystemFont.bcfnt` to the `FontTool` folder.
+19. Save the font file as `SystemFont.bcfnt` to the `FontTool` folder.
 
-    - Click `Convert`.
+20. Click `Convert`.
 
     ![](/images/3DS/3DS-System-Font-Customization_12.png)
 
-15. Go to the `FontTool` folder.
+21. Go to the `FontTool` folder.
 
-16. Launch the Terminal window and input this command:
+22. Launch the Terminal window and input this command:
 
     ```
     python FontTool.py -font SystemFont.bcfnt
@@ -170,9 +170,9 @@ If you wanna uninstall CFW before selling your console, you must restore the sys
 
     ![](/images/3DS/3DS-System-Font-Customization_13.png)
 
-17. The `SystemFont.cia` file has been generated, rename "SystemFont" to anything you want.
+23. The `SystemFont.cia` file has been generated, rename "SystemFont" to anything you want.
 
-18. Add the CIA file to the SD Card.
+24. Add the CIA file to the SD Card.
 
 ## Installing the Custom System Font
 
