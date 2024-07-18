@@ -53,7 +53,7 @@ The straight lines and rounded corners embody a dynamic atmosphere.
 ## Installing the Custom System Font
 
 <p class="note">
-Creating a NAND backup is recommended when modifying any system titles.
+Create a NAND backup before modifying any system titles!
 <br/>
 Modifying the system font is safe and can be restored without NAND backups, but you should make one anyways.
 <br/>

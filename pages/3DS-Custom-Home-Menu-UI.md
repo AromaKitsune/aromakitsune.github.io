@@ -111,7 +111,7 @@ as you'll be able to restore it later on if the custom Home Menu applet is insta
 <p class="note">
 Make sure you have a backed up <code>homemenu.cia</code> file before proceeding.
 <br/>
-Creating a NAND backup is recommended when modifying any system titles.
+Create a NAND backup before modifying any system titles!
 <br/>
 Modifying the Home Menu applet is safe and can be restored without NAND backups, but you should make one anyways.
 <br/>
