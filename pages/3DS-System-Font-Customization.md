@@ -56,13 +56,13 @@ If you wanna uninstall CFW before selling your console, you must restore the sys
 
 ## Generating the Custom System Font
 
-1. Launch FontForge.
+0. Launch FontForge.
 
-2. Open the custom font file (TTF/OTF).
+0. Open the custom font file (TTF/OTF).
 
     ![](/images/3DS/3DS-System-Font-Customization_02.png)
 
-3. Click `File` → `Open`, select the 3DS font file. Do not launch another FontForge window from Start Menu or Desktop,
+0. Click `File` → `Open`, select the 3DS font file. Do not launch another FontForge window from Start Menu or Desktop,
    both fonts need to be opened in the same FontForge instance.
 
     - You should have two FontForge windows:
@@ -77,7 +77,7 @@ If you wanna uninstall CFW before selling your console, you must restore the sys
 
     ![](/images/3DS/3DS-System-Font-Customization_04.png)
 
-4. Switch to FontForge window A, click `Elements` → `Merge Fonts...` and click `OK`.
+0. Switch to FontForge window A, click `Elements` → `Merge Fonts...` and click `OK`.
 
     <div align="center"><p><img src="/images/3DS/3DS-System-Font-Customization_05.png"/></p></div>
 
@@ -89,27 +89,25 @@ If you wanna uninstall CFW before selling your console, you must restore the sys
 
     ![](/images/3DS/3DS-System-Font-Customization_07.png)
 
-5. Click `File` → `Revert File` to undo the merge action.
+0. Click `File` → `Revert File` to undo the merge action.
 
-6. Switch to FontForge window B, select all the glyphs (`Ctrl`+`A`).
+0. Switch to FontForge window B, select all the glyphs (`Ctrl`+`A`).
 
-7. Click `Elements` → `Transformations` → `Transform...` or just press `Ctrl`+`\`.
+0. Click `Elements` → `Transformations` → `Transform...` or just press `Ctrl`+`\`.
 
-8. On the Transform dialog
+0. On the Transform dialog, set `Origin` to `Glyph Origin`
 
-    - Set `Origin` to `Glyph Origin`
+0. Click the `Move...` combo-box and change it to `Scale Uniformly...`
 
-    - Click the `Move...` combo-box and change it to `Scale Uniformly...`
+0. Set the value to resize the glyphs. 
 
-    - Set the value to resize the glyphs. 
+    - To increase the glyphs scale by 25%, set it to 125%
 
-        - To increase the glyphs scale by 25%, set it to 125%
-
-        - To decrease the glyphs scale by 25%, set it to 75%
+    - To decrease the glyphs scale by 25%, set it to 75%
 
     <div align="center"><p><img src="/images/3DS/3DS-System-Font-Customization_08.png"/></p></div>
 
-9. Switch back to FontForge window A and merge the font again.
+0. Switch back to FontForge window A and merge the font again.
 
     - Still not right? Revert again, switch to FontForge window B and revert the font file to undo the scale action.
 
@@ -119,49 +117,49 @@ If you wanna uninstall CFW before selling your console, you must restore the sys
 
     ![](/images/3DS/3DS-System-Font-Customization_09.png)
 
-10. If you're happy with it, click `File` → `Generate Fonts...`.
+0. If you're happy with it, click `File` → `Generate Fonts...`.
 
-11. Choose TrueType, uncheck "Validate Before Saving", then click Generate.
+0. Choose TrueType, uncheck "Validate Before Saving", then click Generate.
 
     - Validating a font would take a while, so it's not needed.
 
     <div align="center"><p><img src="/images/3DS/3DS-System-Font-Customization_10.png"/></p></div>
 
-12. On the File Explorer window, open the generated font file and install it.
+0. On the File Explorer window, open the generated font file and install it.
 
     ![](/images/3DS/3DS-System-Font-Customization_11.png)
 
-13. Launch CTR Font Converter.
+0. Launch CTR Font Converter.
 
     - You'll be asked to install .NET Framework 3.5, click "Download and install this feature".
 
     - This will take a while to download it.
 
-14. Go to the `Windows Font` tab and select a font that you installed earlier.
+0. Go to the `Windows Font` tab and select a font that you installed earlier.
 
-15. Set the font size value, start with 20px.
+0. Set the font size value, start with 20px.
 
     - If the font size is too big/small after installing to a 3DS,
       come back to it and try a different value until you get it right.
 
-16. Set the bit depth to `16 levels (A4)`.
+0. Set the bit depth to `16 levels (A4)`.
 
-17. Activate the `Use filter` check-box, click `Select file`, go to the `xllt` folder and select the `3ds_bitmap_font_std.xllt` file.
+0. Activate the `Use filter` check-box, click `Select file`, go to the `xllt` folder and select the `3ds_bitmap_font_std.xllt` file.
 
     - This will filter out all the glyphs not used in the 3DS, and reduces the font file size
       (max is 1.5 MB for compressed BCFNT file after running FontTool).
 
-18. Go to the `bcfnt / bcfna` tab.
+0. Go to the `bcfnt / bcfna` tab.
 
-19. Save the font file as `SystemFont.bcfnt` to the `FontTool` folder.
+0. Save the font file as `SystemFont.bcfnt` to the `FontTool` folder.
 
-20. Click `Convert`.
+0. Click `Convert`.
 
     ![](/images/3DS/3DS-System-Font-Customization_12.png)
 
-21. Go to the `FontTool` folder.
+0. Go to the `FontTool` folder.
 
-22. Launch the Terminal window and input this command:
+0. Launch the Terminal window and input this command:
 
     ```
     python FontTool.py -font SystemFont.bcfnt
@@ -171,23 +169,23 @@ If you wanna uninstall CFW before selling your console, you must restore the sys
 
     ![](/images/3DS/3DS-System-Font-Customization_13.png)
 
-23. The `SystemFont.cia` file has been generated, rename "SystemFont" to anything you want.
+0. The `SystemFont.cia` file has been generated, rename "SystemFont" to anything you want.
 
-24. Add the CIA file to the SD Card.
+0. Add the CIA file to the SD Card.
 
 ## Installing the Custom System Font
 
-1. Launch GodMode9.
+0. Launch GodMode9.
 
-2. Browse and select the CIA file.
+0. Browse and select the CIA file.
 
-3. Select `CIA image options...` → `Install game image`.
+0. Select `CIA image options...` → `Install game image`.
 
     - You don't need to encrypt it as `3dstool` (bundled in `FontTool`) already did that.
 
-4. Reboot the console.
+0. Reboot the console.
 
-5. The custom system font has been installed!
+0. The custom system font has been installed!
 
 <div align="center"><p><img src="/images/3DS/3DS-System-Font-Customization_14.png"/></p></div>
 
@@ -195,19 +193,19 @@ If you wanna uninstall CFW before selling your console, you must restore the sys
 
 ## Restoring the System Font
 
-1. Download the [original system font](/files/3DS/SystemFont.cia).
+0. Download the [original system font](/files/3DS/SystemFont.cia).
 
-2. Add the `SystemFont.cia` file to the SD Card.
+0. Add the `SystemFont.cia` file to the SD Card.
 
-3. Launch GodMode9.
+0. Launch GodMode9.
 
-4. Browse and select the `SystemFont.cia` file.
+0. Browse and select the `SystemFont.cia` file.
 
-5. Select `CIA image options...` → `Install game image`.
+0. Select `CIA image options...` → `Install game image`.
 
-6. Reboot the console.
+0. Reboot the console.
 
-7. The system font has been restored.
+0. The system font has been restored.
 
 ---
 
