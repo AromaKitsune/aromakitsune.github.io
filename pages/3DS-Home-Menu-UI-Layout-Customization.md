@@ -121,7 +121,7 @@ Skip this section if you want to edit one of those BCLYT files listed above.
 
 10. Drag & drop the `C.bclyt` file in the Switch-Toolbox window.
 
-11.	Edit any UI elements however you'd like. There are some limits of what you can edit.
+11. Edit any UI elements however you like. There are some limits of what you can edit.
 
     - Refer to the [Assets Documentation](https://docs.google.com/spreadsheets/d/1Q-Im3P5zSqNi6zYqaXtyS138hCdcIJDY7WxRt_FWdrg) for some lists of known panes to edit.
 
@@ -147,81 +147,81 @@ Skip this section if you want to edit one of those BCLYT files listed above.
 
     ![](/images/3DS/3DS-Home-Menu-UI-Layout-Customization_03.png)
 
-12.	When done editing, click the `💾` save button and you can close Switch-Toolbox.
+12. When done editing, click the `💾` save button and you can close Switch-Toolbox.
 
     - You should have another corrupted BCLYT file. Again, this is normal. The file size of the edited BCLYT has been decreased by 432 bytes.
       Make sure both the `B.bclyt`'s and `C.bclyt`'s file sizes are the same. We will be restoring them on the next steps.
 
     ![](/images/3DS/3DS-Home-Menu-UI-Layout-Customization_04.png)
 
-13.	Launch HxD hex editor.
+13. Launch HxD hex editor.
 
-14.	Drag those 3 BCLYT files in the HxD window. Make sure those tabs are in the correct order: `A.bclyt`, `B.bclyt`, `C.bclyt`.
+14. Drag those 3 BCLYT files in the HxD window. Make sure those tabs are in the correct order: `A.bclyt`, `B.bclyt`, `C.bclyt`.
 
-15.	Click the `C.bclyt` tab, then the `B.bclyt` tab.
+15. Click the `C.bclyt` tab, then the `B.bclyt` tab.
 
-16.	Press `Ctrl`+`K` to compare between the `B.bclyt` & `C.bclyt` files, click `OK`.
+16. Press `Ctrl`+`K` to compare between the `B.bclyt` & `C.bclyt` files, click `OK`.
 
     ![](/images/3DS/3DS-Home-Menu-UI-Layout-Customization_05.png)
 
-17.	Click the Maximize button on one of the MDI windows.
+17. Click the Maximize button on one of the MDI windows.
 
     ![](/images/3DS/3DS-Home-Menu-UI-Layout-Customization_06.png)
 
-18.	Go to the `B.bclyt` tab.
+18. Go to the `B.bclyt` tab.
 
-19.	Position a cursor before the selected byte (ex: `0x1567`).
+19. Position a cursor before the selected byte (ex: `0x1567`).
 
-20.	Select a few lines of bytes forward (ex: from `80` to `3F`).
+20. Select a few lines of bytes forward (ex: from `80` to `3F`).
 
-21.	Copy.
+21. Copy.
 
     ![](/images/3DS/3DS-Home-Menu-UI-Layout-Customization_07.png)
 
-22.	Go to the `A.bclyt` tab.
+22. Go to the `A.bclyt` tab.
 
-23.	Press `Ctrl`+`F` to find.
+23. Press `Ctrl`+`F` to find.
 
-24.	Go to the `Hex-values` tab.
+24. Go to the `Hex-values` tab.
 
-25.	Paste into the `Search for` box and click `OK`. Make sure that there is only 1 result by clicking `All` and `Search all`.
+25. Paste into the `Search for` box and click `OK`. Make sure that there is only 1 result by clicking `All` and `Search all`.
     If it yields multiple results, try selecting more bytes on the `B.bclyt` tab.
 
     ![](/images/3DS/3DS-Home-Menu-UI-Layout-Customization_08.png)
 
-26.	Position a cursor before the selected bytes (ex: `0x1717`).
+26. Position a cursor before the selected bytes (ex: `0x1717`).
 
     ![](/images/3DS/3DS-Home-Menu-UI-Layout-Customization_09.png)
 
-27.	Click to deselect.
+27. Click to deselect.
 
     ![](/images/3DS/3DS-Home-Menu-UI-Layout-Customization_10.png)
 
-28.	Select the bytes from here, all the way to `0x0` by pressing `Ctrl`+`Shift`+`Home`.
+28. Select the bytes from here, all the way to `0x0` by pressing `Ctrl`+`Shift`+`Home`.
 
-29.	Copy.
+29. Copy.
 
     ![](/images/3DS/3DS-Home-Menu-UI-Layout-Customization_11.png)
 
-30.	Go to the `C.bclyt` tab.
+30. Go to the `C.bclyt` tab.
 
-31.	Position a cursor before the selected byte (ex: `0x1567`).
+31. Position a cursor before the selected byte (ex: `0x1567`).
 
-32.	Click to deselect.
+32. Click to deselect.
 
     ![](/images/3DS/3DS-Home-Menu-UI-Layout-Customization_12.png)
 
-33.	Select the bytes from here, all the way to `0x0` by pressing `Ctrl`+`Shift`+`Home`.
+33. Select the bytes from here, all the way to `0x0` by pressing `Ctrl`+`Shift`+`Home`.
 
     ![](/images/3DS/3DS-Home-Menu-UI-Layout-Customization_13.png)
 
-34.	Paste with `Ctrl`+`V`. Don't paste-overwrite with `Ctrl`+`B`.
+34. Paste with `Ctrl`+`V`. Don't paste-overwrite with `Ctrl`+`B`.
 
     - The bytes at the beginning of the edited BCLYT are restored.
 
     ![](/images/3DS/3DS-Home-Menu-UI-Layout-Customization_14.png)
 
-35.	If done correctly, save it and close HxD.
+35. If done correctly, save it and close HxD.
 
     - Now we have fixed the BCLYT file!
 
@@ -231,15 +231,15 @@ Skip this section if you want to edit one of those BCLYT files listed above.
 
     ![](/images/3DS/3DS-Home-Menu-UI-Layout-Customization_15.png)
 
-36.	Go back to Kuriimu2.
+36. Go back to Kuriimu2.
 
-37.	Right-click the BCLYT file you extracted earlier.
+37. Right-click the BCLYT file you extracted earlier.
 
-38.	Select Replace and pick the `C.bclyt` file (not `C.bclyt.bak` that HxD created).
+38. Select Replace and pick the `C.bclyt` file (not `C.bclyt.bak` that HxD created).
 
-39.	Save.
+39. Save.
 
-40.	Compress the `*.LZ` file and that's it! You can now apply your edited UI to the Home Menu on your 3DS using LayeredFS or build the CIA file.
+40. Compress the `*.LZ` file and that's it! You can now apply your edited UI to the Home Menu on your 3DS using LayeredFS or build the CIA file.
 
 ---
 
