@@ -40,7 +40,7 @@ If you wanna uninstall CFW before selling your console, you must restore the sys
 
 - [Luma3DS custom firmware](https://3ds.hacks.guide/)
 
-- [Python](https://www.python.org/)
+- [Python](https://www.python.org/) (version 3+)
 
 - [FontForge](https://fontforge.org/)
 
