@@ -61,7 +61,9 @@ Let's fix the BCLYT file.
 
 <p class="note">
 If you're looking into editing the UI colors for <code>sleep.LZ</code> and applet icons (<code>launcher.LZ</code>),
-I suggest checking out derberg's Home Menu customization guide for those, as hex-editing the <code>*.LZ</code> files directly is easier.
+I suggest checking out
+<a href="https://3ds.codeberg.page/homemenu/">derberg's Home Menu customization guide</a>
+for those, as hex-editing the <code>*.LZ</code> files directly is easier.
 <br/>
 Note: Once you import/replace any files into the <code>*.LZ</code> files, the color values are moved to different addresses.
 <a href="#ui-element-colors">See this section here.</a>
