@@ -19,10 +19,11 @@ If this is your first time modding the 3DS Home Menu, follow [derberg's 3DS Home
 
 If you have any questions, please ask us or me (aromakitsune) on the [Custom 3DS Assets Discord](https://discord.gg/0z7IGZ5Sv3D0mEN0).
 
-The layout file we will be editing is BCLYT. BCLAN (Layout Animation) & BCLIM (Layout Image) editing are not covered in this guide.
-For BCLAN, check out [lividhen's animations guide](https://menumod.chickenserver.org/animations/).
+The layout file we will be editing is BCLYT. BCLAN (Layout Animation) and BCLIM (Layout Image) editing are not covered in this guide.
+For BCLAN, check out [lividhen's animations guide](https://menumod.chickenserver.org/animations/), it covers only the spinning animation.
 
-While Switch-Toolbox can edit many game assets for the 3DS/WiiU/Switch, there is an issue that it corrupts the BCLYT files of Home Menu when editing them,
+We will be editing the BCLYT files with Switch-Toolbox, a tool that edits many game assets for the 3DS, Wii U, and Switch.
+Switch-Toolbox's layout editor has a bug that it corrupts the BCLYT files of Home Menu when editing them,
 causing Home Menu to crash on startup. This is not the case with the other BCLYT files in some games such as Mario Kart 7.
 
 Let's fix the BCLYT file.
