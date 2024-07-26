@@ -129,7 +129,7 @@ Skip this section if you want to edit one of those BCLYT files listed above.
     - Refer to the [Assets Documentation](https://docs.google.com/spreadsheets/d/1Q-Im3P5zSqNi6zYqaXtyS138hCdcIJDY7WxRt_FWdrg) for some lists of known panes to edit.
 
     - Each pane has its properties you can edit: positions (translate), size, colors, rotations, transparency, etc.
-      You can even change the Picture Panes' size, allowing you to import the BCLIM files with larger dimensions.
+      You can even change the Picture Panes' size, allowing you to import the BCLIM (Layout Image) files with larger dimensions.
 
     - To hide the UI elements, untick the `Pane visible` checkbox and set the `Alpha` value to `0`.
 
