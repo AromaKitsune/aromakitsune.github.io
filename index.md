@@ -9,7 +9,7 @@ layout: page
 title: Home
 ---
 
-Welcome to the Kitsune Mods Café!
+Welcome to the Kitsune Mods Resource!
 
 Here you can find some system title mods resources for 3DS and Wii U.
 
