@@ -157,6 +157,8 @@ Skip this section if you want to edit one of those BCLYT files listed above.
 
     ![](/images/3DS/3DS-Home-Menu-UI-Layout-Customization_04.png)
 
+## Fixing the UI Layout File
+
 13. Launch HxD hex editor.
 
 14. Drag those 3 BCLYT files in the HxD window. Make sure those tabs are in the correct order: `A.bclyt`, `B.bclyt`, `C.bclyt`.
