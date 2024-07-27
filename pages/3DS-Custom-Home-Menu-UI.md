@@ -45,6 +45,8 @@ LayeredFS patching is unstable for applets which causes Home Menu to randomly cr
 (by suspending a game or exiting an applet).
 <br/>
 <a href="#installation-method-2-cia-file">Consider using the CIA file method for now.</a>
+<br/>
+LayeredFS method can be used on Citra emulator without any crashes.
 <br/><br/>
 You can add my RomFS assets to your Home Menu mod, be sure to credit me if you're gonna share your combined mod anywhere :)
 </p>
@@ -56,6 +58,8 @@ You can add my RomFS assets to your Home Menu mod, be sure to credit me if you'r
 3. Enter a folder matching your console region.
 
 4. Copy the `luma` folder to the root of the SD Card.
+
+    - For Citra: Copy the `romfs` folder to `Citra/load/mods/000400300000??02/`.
 
 5. Launch the Luma3DS config by holding the `Select` button while booting.
 
