@@ -2,7 +2,6 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $border-color-03;
   border-bottom: 1px solid $border-color-01;
   min-height: $spacing-unit * 1.865;
   line-height: $base-line-height * $base-font-size * 2.25;
@@ -11,10 +10,14 @@
   position: relative;
 }
 
+@font-face {
+  font-family: 'FOT-PopHappiness Std EB';
+  src: url('/assets/PopHappinessStd-EB.woff2') format('woff2');
+}
+
 .site-title {
-  @include relative-font-size(1.625);
-  font-weight: 300;
-  letter-spacing: -1px;
+  @include relative-font-size(2);
+  font-family: 'FOT-PopHappiness Std EB';
   margin-bottom: 0;
   float: left;
 
@@ -25,6 +28,12 @@
   &,
   &:visited {
     color: $site-title-color;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .site-title {
+    font-size: clamp(1rem, 6.75vw, 2rem);
   }
 }
 
@@ -243,12 +252,13 @@
 
 .post-title,
 .post-content h1 {
-  @include relative-font-size(2.625);
-  letter-spacing: -1px;
+  @include relative-font-size(2.5);
   line-height: 1.15;
+  border-bottom: 1px solid #535355;
+  padding-bottom: 0.5em;
 
   @media screen and (min-width: $on-large) {
-    @include relative-font-size(2.625);
+    @include relative-font-size(2.5);
   }
 }
 
@@ -259,6 +269,8 @@
 
   h2 {
     @include relative-font-size(1.75);
+    border-bottom: 1px solid #535355;
+    padding-bottom: 0.25em;
 
     @media screen and (min-width: $on-large) {
       @include relative-font-size(2);
