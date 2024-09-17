@@ -327,7 +327,8 @@ Skip this section if you want to edit one of those BCLYT files listed above.
 
     - `A.bclyt`, `B.bclyt` and `C.bclyt.bak` can be deleted as they're not needed anymore.
 
-    - To make another edit to the fixed BCLYT file, make 3 copies of the `C.bclyt` file and repeat step 5.
+    - To make another edit to the fixed BCLYT file, make 3 copies of the `C.bclyt` file and repeat
+      step 5 of the [Editing the UI Layout](#editing-the-ui-layout) section.
 
     <div align="center">
       <p class="image">
