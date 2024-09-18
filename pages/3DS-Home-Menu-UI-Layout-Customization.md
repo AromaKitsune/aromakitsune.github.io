@@ -12,22 +12,26 @@ A guide for customizing the Home Menu UI layout (BCLYT files) on the Nintendo 3D
     <br>
     Custom Home Menu UI mod by me.
     <br>
-    <a href="/3DS-Custom-Home-Menu-UI">Download this mod here</a>
+    <a href="/3DS-Custom-Home-Menu-UI">
+    Download this mod here</a>
     <br>
   </p>
 </div>
 
 If this is your first time modding the 3DS Home Menu, follow
-<a href="https://3ds.codeberg.page/homemenu/" target="_blank">derberg's 3DS Home Menu Customization Guide</a>
+<a href="https://3ds.codeberg.page/homemenu/" target="_blank">
+derberg's 3DS Home Menu Customization Guide</a>
 for setup and extraction before proceeding.
 
 If you need help with UI customizations, ask us or me (AromaKitsune) on the
-<a href="https://discord.gg/0z7IGZ5Sv3D0mEN0" target="_blank">Custom 3DS Assets Discord</a>.
+<a href="https://discord.gg/0z7IGZ5Sv3D0mEN0" target="_blank">
+Custom 3DS Assets Discord</a>.
 Note: I don't run this Discord server.
 
 The layout file we will be editing is BCLYT. BCLAN (Layout Animation) and BCLIM (Layout Image) editing are not covered in this guide.
 For BCLAN, check out
-<a href="https://menumod.chickenserver.org/animations/" target="_blank">lividhen's animations guide</a>,
+<a href="https://menumod.chickenserver.org/animations/" target="_blank">
+lividhen's animations guide</a>,
 it covers only the spinning animation.
 
 We will be editing the BCLYT files with Switch-Toolbox, a tool that edits many game assets for the 3DS, Wii U, and Switch.
@@ -40,39 +44,47 @@ Let's fix the BCLYT file.
 ## Getting Started
 
 Luma3DS custom firmware is required to use the mod.
-<a href="https://3ds.hacks.guide/" target="_blank">Install CFW if you haven't already.</a>
+<a href="https://3ds.hacks.guide/" target="_blank">
+Install CFW if you haven't already.</a>
 
 <p class="note">
   Create a NAND backup before modifying any system files!
   <br>
   Make sure you have a
-  <a href="/3DS-Custom-Home-Menu-UI#backing-up-the-home-menu-applet" target="_blank">backup of the Home Menu applet</a>
+  <a href="/3DS-Custom-Home-Menu-UI#backing-up-the-home-menu-applet" target="_blank">
+  backup of the Home Menu applet</a>
   before proceeding.
   <br>
   Modifying the Home Menu applet is safe and can be restored by re-installing the original Home Menu applet, instead of restoring a NAND backup.
   <br>
   To restore the Home Menu applet, see the
-  <a href="/3DS-Custom-Home-Menu-UI#restoring-the-home-menu-applet---method-1" target="_blank">restore section</a>.
+  <a href="/3DS-Custom-Home-Menu-UI#restoring-the-home-menu-applet---method-1" target="_blank">
+  restore section</a>.
 </p>
 
 <p class="warning">
   Never uninstall CFW while any modded system files are installed, doing so will brick the console! A
-  <a href="https://www.flashcarts.net/ds-quick-start-guide" target="_blank">DS flashcart with ntrboot</a>
+  <a href="https://www.flashcarts.net/ds-quick-start-guide" target="_blank">
+  DS flashcart with ntrboot</a>
   is required to re-install B9S.
   <br>
   Modified system files are not signed which they don't work on the original firmware, as the signature check fails.
   <br>
   If you wanna uninstall CFW before selling your console, you must restore the system files first, then follow the
-  <a href="https://3ds.hacks.guide/uninstall-cfw" target="_blank">CFW uninstallation instructions</a>.
+  <a href="https://3ds.hacks.guide/uninstall-cfw" target="_blank">
+  CFW uninstallation instructions</a>.
 </p>
 
 **What you need:**
 
-- <a href="https://github.com/FanTranslatorsInternational/Kuriimu2" target="_blank">Kuriimu2</a>
+- <a href="https://github.com/FanTranslatorsInternational/Kuriimu2" target="_blank">
+  Kuriimu2</a>
 
-- <a href="https://mh-nexus.de/en/hxd/" target="_blank">HxD hex editor</a>
+- <a href="https://mh-nexus.de/en/hxd/" target="_blank">
+  HxD hex editor</a>
 
-- <a href="https://github.com/KillzXGaming/Switch-Toolbox" target="_blank">Switch-Toolbox</a>
+- <a href="https://github.com/KillzXGaming/Switch-Toolbox" target="_blank">
+  Switch-Toolbox</a>
 
 - Decompressed DARC files (`*.LZ`, not `*_LZ.bin`)
 
@@ -98,11 +110,13 @@ Luma3DS custom firmware is required to use the mod.
 
 <p class="note">
   If you're looking into editing the UI colors for <code>sleep.LZ</code> and applet icons (<code>launcher.LZ</code>),
-  I suggest checking out <a href="https://3ds.codeberg.page/homemenu/">derberg's Home Menu customization guide</a>
+  I suggest checking out <a href="https://3ds.codeberg.page/homemenu/">
+  derberg's Home Menu customization guide</a>
   for those, as hex-editing the <code>*.LZ</code> files directly is easier.
   <br>
   Note: Once you import/replace any files into the <code>*.LZ</code> files, the color values are moved to different addresses.
-  <a href="#ui-element-colors">See this section here.</a>
+  <a href="#ui-element-colors">
+  See this section here.</a>
 </p>
 
 
@@ -174,7 +188,8 @@ Skip this section if you want to edit one of those BCLYT files listed above.
       </p>
     </div>
 
-    - Refer to the <a href="https://docs.google.com/spreadsheets/d/1Q-Im3P5zSqNi6zYqaXtyS138hCdcIJDY7WxRt_FWdrg" target="_blank">Assets Documentation</a>
+    - Refer to the <a href="https://docs.google.com/spreadsheets/d/1Q-Im3P5zSqNi6zYqaXtyS138hCdcIJDY7WxRt_FWdrg" target="_blank">
+      Assets Documentation</a>
       for some lists of known panes to edit.
 
     - Each pane has its properties you can edit: positions (translate), size, colors, rotations, transparency, etc.
@@ -185,7 +200,8 @@ Skip this section if you want to edit one of those BCLYT files listed above.
     - If the UI elements don't actually move to your desired position, then the elements' position values are likely hardcoded in the BCLAN (Layout Animation) files
       and you have to edit them instead. In this case, the applets' X position values are hardcoded in
       `launcher.LZ/anim/LncBase_D_01_MvsToggle.bclan`
-      (<a href="https://tcrf.net/Nintendo_3DS#Home_Menu_.2B_Revisions" target="_blank">used for removing the Miiverse applet from the Korean 3DS systems</a>),
+      (<a href="https://tcrf.net/Nintendo_3DS#Home_Menu_.2B_Revisions" target="_blank">
+      used for removing the Miiverse applet from the Korean 3DS systems</a>),
       in which you can only move them vertically. Switch-Toolbox can edit the BCLAN files without any issues, so hex editing isn't needed.
 
     - In order to keep the `C.bclyt`'s file size the same as `B.bclyt`'s, you should edit only the values in the Pane and Colors tabs.
@@ -198,7 +214,8 @@ Skip this section if you want to edit one of those BCLYT files listed above.
         - Adding/removing links to textures in the Texture Maps tab 
 
         - Editing the texts in the Text Pane (You should
-          <a href="https://github.com/IcySon55/3DLandMSBTeditor" target="_blank">edit the MSBT files</a>
+          <a href="https://github.com/IcySon55/3DLandMSBTeditor" target="_blank">
+          edit the MSBT files</a>
           instead.)
 
 12. When done editing, click the `💾` save button and you can close Switch-Toolbox.

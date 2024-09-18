@@ -12,7 +12,8 @@ A guide for customizing the system-wide font on the Wii U.
     <br>
     Custom system font shown in this screenshot is "Pop Happiness".
     <br>
-    <a href="/Wii-U-Custom-System-Fonts">Download the custom system fonts here</a>
+    <a href="/Wii-U-Custom-System-Fonts">
+    Download the custom system fonts here</a>
     <br>
   </p>
 </div>
@@ -21,19 +22,22 @@ A guide for customizing the system-wide font on the Wii U.
 ## Getting Started
 
 Aroma custom firmware is required to use the mod.
-<a href="https://wiiu.hacks.guide/" target="_blank">Install CFW if you haven't already.</a>
+<a href="https://wiiu.hacks.guide/" target="_blank">
+Install CFW if you haven't already.</a>
 
 No system files are modified in the process. The custom system font is loaded into RAM only.
 
 **What you need:**
 
-- <a href="https://fontforge.org/" target="_blank">FontForge</a>
+- <a href="https://fontforge.org/" target="_blank">
+  FontForge</a>
 
 - [Wii U font](/files/Wii-U/nintendo_NTLG-DB_002.ttf)
 
 - A font you want to install on a Wii U (TTF or OTF)
 
-- <a href="https://github.com/dkosmari/System-Font-Replacer" target="_blank">System Font Replacer plugin</a>
+- <a href="https://github.com/dkosmari/System-Font-Replacer" target="_blank">
+  System Font Replacer plugin</a>
 
 
 ## Merging the Fonts
@@ -138,7 +142,8 @@ A Wii U font will be merged into a custom system font so the icon glyphs are pre
 
 ## Installing the Custom System Font to Cemu
 
-You can also install the custom system font to <a href="https://cemu.info/" target="_blank">Cemu emulator</a>.
+You can also install the custom system font to <a href="https://cemu.info/" target="_blank">
+Cemu emulator</a>.
 
 1.  Rename the merged font file to `CafeStd.ttf`.
 
@@ -153,7 +158,8 @@ You can also install the custom system font to <a href="https://cemu.info/" targ
 6.  Launch any of the system apps (if installed) and see how the custom system font looks.
 
 <p class="note">
-  Do not add the <code>CafeStd.ttf</code> file to <code>/Cemu/resources/sharedFonts</code>, those are replacement system fonts which are used if the real system fonts don't exist.
+  Do not add the <code>CafeStd.ttf</code> file to <code>/Cemu/resources/sharedFonts</code>,
+  those are replacement system fonts which are used if the real system fonts don't exist.
   <br>
   Any custom/real system font files placed in this folder will be overwritten with replacement ones after Cemu updates.
 </p>

@@ -12,7 +12,8 @@ A guide for customizing the system-wide font on the Nintendo 3DS.
     <br>
     Custom system font shown in this screenshot is "Pop Happiness".
     <br>
-    <a href="/3DS-Custom-System-Fonts">Download the custom system fonts here</a>
+    <a href="/3DS-Custom-System-Fonts">
+    Download the custom system fonts here</a>
     <br>
   </p>
 </div>
@@ -21,7 +22,8 @@ A guide for customizing the system-wide font on the Nintendo 3DS.
 ## Getting Started
 
 Luma3DS custom firmware is required to use the mod.
-<a href="https://3ds.hacks.guide/" target="_blank">Install CFW if you haven't already.</a>
+<a href="https://3ds.hacks.guide/" target="_blank">
+Install CFW if you haven't already.</a>
 
 <p class="note">
   Create a NAND backup before modifying any system files!
@@ -29,23 +31,27 @@ Luma3DS custom firmware is required to use the mod.
   Modifying the system font is safe and can be restored by re-installing the original system font, instead of restoring a NAND backup.
   <br>
   To restore the system font, see the
-  <a href="#restoring-the-system-font">restore section</a>.
+  <a href="#restoring-the-system-font">
+  restore section</a>.
 </p>
 
 <p class="warning">
   Never uninstall CFW while any modded system files are installed, doing so will brick the console! A
-  <a href="https://www.flashcarts.net/ds-quick-start-guide" target="_blank">DS flashcart with ntrboot</a>
+  <a href="https://www.flashcarts.net/ds-quick-start-guide" target="_blank">
+  DS flashcart with ntrboot</a>
   is required to re-install B9S.
   <br>
   Modified system files are not signed which they don't work on the original firmware, as the signature check fails.
   <br>
   If you wanna uninstall CFW before selling your console, you must restore the system files first, then follow the
-  <a href="https://3ds.hacks.guide/uninstall-cfw" target="_blank">CFW uninstallation instructions</a>.
+  <a href="https://3ds.hacks.guide/uninstall-cfw" target="_blank">
+  CFW uninstallation instructions</a>.
 </p>
 
 **What you need:**
 
-- <a href="https://fontforge.org/" target="_blank">FontForge</a>
+- <a href="https://fontforge.org/" target="_blank">
+  FontForge</a>
 
 - [3DS font](/files/3DS/nintendo_NTLG-DB_001.ttf)
 
@@ -53,11 +59,15 @@ Luma3DS custom firmware is required to use the mod.
 
 - [CTR Font Converter](/files/3DS/CTR_FontConverter.zip) (Legal Edition)
 
-- <a href="https://www.python.org/" target="_blank">Python</a> (version 3+)
+- <a href="https://www.python.org/" target="_blank">
+  Python</a>
+  (version 3+)
 
 - [FontTool](/files/3DS/FontTool.zip) (tweaked to work with Python 3)
 
-- <a href="https://lime3ds.github.io/" target="_blank">Lime3DS emulator</a> (for previewing the custom system font)
+- <a href="https://lime3ds.github.io/" target="_blank">
+  Lime3DS emulator</a>
+  (for previewing the custom system font)
 
 
 ## Merging the Fonts
@@ -204,7 +214,8 @@ You can preview the custom system font on Lime3DS emulator before installing it 
 
 <p class="note">
   AES Keys are required to install encrypted contents to Lime3DS.
-  <a href="https://github.com/Lime3DS/Lime3DS/tree/master/dist/dumpkeys" target="_blank">Read here for more info.</a>
+  <a href="https://github.com/Lime3DS/Lime3DS/tree/master/dist/dumpkeys" target="_blank">
+  Read here for more info.</a>
   <br>
   If you have Citra emulator, the installation process works the same.
 </p>
@@ -284,11 +295,14 @@ You can preview the custom system font on Lime3DS emulator before installing it 
 
 ## Tools Used
 
-<a href="https://github.com/astronautlevel2/FontTool" target="_blank">FontTool</a>
+<a href="https://github.com/astronautlevel2/FontTool" target="_blank">
+FontTool</a>
 by astronautlevel2 & ihaveamac
 
-<a href="https://github.com/dnasdw/3dstool" target="_blank">3dstool</a>
+<a href="https://github.com/dnasdw/3dstool" target="_blank">
+3dstool</a>
 by dnasdw
 
-<a href="https://github.com/Tiger21820/ctr_toolkit" target="_blank">make_cia</a>
+<a href="https://github.com/Tiger21820/ctr_toolkit" target="_blank">
+make_cia</a>
 by Tiger21820 & 3DSGuy

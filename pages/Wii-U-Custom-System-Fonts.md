@@ -28,7 +28,8 @@ for creating your own custom system font for Wii U!
 ## Pop Happiness
 
 Pop Happiness (Popハッピネス) is a Point of Purchase typeface
-<a href="https://fontworks.co.jp/fontsearch/pophappinessstd-eb/" target="_blank">designed by Fontworks</a>.
+<a href="https://fontworks.co.jp/fontsearch/pophappinessstd-eb/" target="_blank">
+designed by Fontworks</a>.
 
 It is used for the UI in many Nintendo games. It is also used for the tutorial sections in Hyperdimension Neptunia games for the PlayStation 3.
 
@@ -69,22 +70,25 @@ It is used for the UI in many Nintendo games. It is also used for the tutorial s
 
 - [TTF - for anything else](/files/PopHappinessStd-EB.ttf) (Fixed side-bearings) \*
 
-<p class="mini-note">
-  *
-  <small>
+<details>
+  <summary>
+    <b>Side-bearings Notes</b>
+  </summary>
+  <p class="mini-note">
     Fixed the side-bearings (spacing) for Greek glyphs, Cyrillic glyphs,
     <br>
     and the following glyphs: <code>° ´ ‘ ’ “ ” ′ ″</code>
     <br>
     This fix is included in the Wii U system font.
-  </small>
-</p>
+  </p>
+</details>
 
 
 ## Pop Joy
 
 Pop Joy (Popジョイ) is a rounded Point of Purchase typeface
-<a href="https://fontworks.co.jp/fontsearch/popjoystd-b/" target="_blank">designed by Fontworks</a>.
+<a href="https://fontworks.co.jp/fontsearch/popjoystd-b/" target="_blank">
+designed by Fontworks</a>.
 
 It is commonly used for the UI in Paper Mario games.
 
@@ -122,32 +126,33 @@ It is commonly used for the UI in Paper Mario games.
 
 - [TTF - for anything else](/files/PopJoyStd-B_Scaled.ttf) (Fixed side-bearings + Scaled) ²
 
-<p class="mini-note">
-  ¹
-  <small>
+<details>
+  <summary>
+    <b>Side-bearings Notes</b>
+  </summary>
+  <p class="mini-note">
     Fixed the side-bearings (spacing) for Greek glyphs, Cyrillic glyphs,
     <br>
-    and the following glyphs:
-    <code>° ´ ‘ ’ “ ” ′ ″</code>
-  </small>
-  <br>
-  ²
-  <small>
+    and the following glyphs: <code>° ´ ‘ ’ “ ” ′ ″</code>
+    <br>
+    <br>
     The glyphs' horizontal scale has been adjusted to be less wider.
     <br>
     Both tweaks are included in the Wii U system font to avoid text clipping/wrapping.
-  </small>
-</p>
+  </p>
+</details>
 
 
 ## Installing the Custom System Font to Wii U
 
 Aroma custom firmware is required to use the mod.
-<a href="https://wiiu.hacks.guide/" target="_blank">Install CFW if you haven't already.</a>
+<a href="https://wiiu.hacks.guide/" target="_blank">
+Install CFW if you haven't already.</a>
 
 No system files are modified in the process. The custom system font is loaded into RAM only.
 
-1.  Download the <a href="https://github.com/dkosmari/System-Font-Replacer" target="_blank">System Font Replacer plugin</a>.
+1.  Download the <a href="https://github.com/dkosmari/System-Font-Replacer" target="_blank">
+    System Font Replacer plugin</a>.
 
 2.  Add the downloaded font file to `SDCARD:/wiiu/fonts`.
 
@@ -166,7 +171,8 @@ No system files are modified in the process. The custom system font is loaded in
 
 ## Installing the Custom System Font to Cemu
 
-You can also install the custom system font to <a href="https://cemu.info/" target="_blank">Cemu emulator</a>.
+You can also install the custom system font to <a href="https://cemu.info/" target="_blank">
+Cemu emulator</a>.
 
 1.  Rename the downloaded font file to `CafeStd.ttf`.
 
@@ -181,7 +187,8 @@ You can also install the custom system font to <a href="https://cemu.info/" targ
 6.  Launch any of the system apps (if installed) and see how the custom system font looks.
 
 <p class="note">
-  Do not add the <code>CafeStd.ttf</code> file to <code>/Cemu/resources/sharedFonts</code>, those are replacement system fonts which are used if the real system fonts don't exist.
+  Do not add the <code>CafeStd.ttf</code> file to <code>/Cemu/resources/sharedFonts</code>,
+  those are replacement system fonts which are used if the real system fonts don't exist.
   <br>
   Any custom/real system font files placed in this folder will be overwritten with replacement ones after Cemu updates.
 </p>

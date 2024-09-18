@@ -30,7 +30,8 @@ for creating your own custom system font for 3DS!
 ## Pop Happiness
 
 Pop Happiness (Popハッピネス) is a Point of Purchase typeface
-<a href="https://fontworks.co.jp/fontsearch/pophappinessstd-eb/" target="_blank">designed by Fontworks</a>.
+<a href="https://fontworks.co.jp/fontsearch/pophappinessstd-eb/" target="_blank">
+designed by Fontworks</a>.
 
 It is used for the UI in many Nintendo games. It is also used for the tutorial sections in Hyperdimension Neptunia games for the PlayStation 3.
 
@@ -60,8 +61,7 @@ It is used for the UI in many Nintendo games. It is also used for the tutorial s
 - Mario Golf: World Tour
 - Pokémon Super Mystery Dungeon
 - <a href="https://www.mariowiki.com/List_of_fonts#Pop_Happiness" target="_blank">
-    Complete list of Mario related games using this font
-  </a>
+  Complete list of Mario related games using this font</a>
 
 **Download Font:**
 
@@ -69,24 +69,27 @@ It is used for the UI in many Nintendo games. It is also used for the tutorial s
 
 - [OTF - for anything else](/files/FOT-PopHappinessStd-EB.otf)
 
-- [TTF - for anything else](/files/PopHappinessStd-EB.ttf) (Fixed side-bearings) \*
+- [TTF - for anything else](/files/PopHappinessStd-EB.ttf) (Fixed side-bearings)
 
-<p class="mini-note">
-  *
-  <small>
+<details>
+  <summary>
+    <b>Side-bearings Notes</b>
+  </summary>
+  <p class="mini-note">
     Fixed the side-bearings (spacing) for Greek glyphs, Cyrillic glyphs,
     <br>
     and the following glyphs: <code>° ´ ‘ ’ “ ” ′ ″</code>
     <br>
     This fix is included in the 3DS system font.
-  </small>
-</p>
+  </p>
+</details>
 
 
 ## Pop Joy
 
 Pop Joy (Popジョイ) is a rounded Point of Purchase typeface
-<a href="https://fontworks.co.jp/fontsearch/popjoystd-b/" target="_blank">designed by Fontworks</a>.
+<a href="https://fontworks.co.jp/fontsearch/popjoystd-b/" target="_blank">
+designed by Fontworks</a>.
 
 It is commonly used for the UI in Paper Mario games.
 
@@ -111,8 +114,7 @@ It is commonly used for the UI in Paper Mario games.
 - Paper Mario: Color Splash
 - Paper Mario: The Origami King
 - <a href="https://www.mariowiki.com/List_of_fonts#Pop_Joy" target="_blank">
-    Complete list of Mario related games using this font
-  </a>
+  Complete list of Mario related games using this font</a>
 
 **Download Font:**
 
@@ -120,32 +122,32 @@ It is commonly used for the UI in Paper Mario games.
 
 - [OTF - for anything else](/files/FOT-PopJoyStd-B.otf)
 
-- [TTF - for anything else](/files/PopJoyStd-B.ttf) (Fixed side-bearings) ¹
+- [TTF - for anything else](/files/PopJoyStd-B.ttf) (Fixed side-bearings)
 
-- [TTF - for anything else](/files/PopJoyStd-B_Scaled.ttf) (Fixed side-bearings + Scaled) ²
+- [TTF - for anything else](/files/PopJoyStd-B_Scaled.ttf) (Fixed side-bearings + Scaled)
 
-<p class="mini-note">
-  ¹
-  <small>
+<details>
+  <summary>
+    <b>Side-bearings Notes</b>
+  </summary>
+  <p class="mini-note">
     Fixed the side-bearings (spacing) for Greek glyphs, Cyrillic glyphs,
     <br>
-    and the following glyphs:
-    <code>° ´ ‘ ’ “ ” ′ ″</code>
-  </small>
-  <br>
-  ²
-  <small>
+    and the following glyphs: <code>° ´ ‘ ’ “ ” ′ ″</code>
+    <br>
+    <br>
     The glyphs' horizontal scale has been adjusted to be less wider.
     <br>
     Both tweaks are included in the 3DS system font to avoid text clipping/wrapping.
-  </small>
-</p>
+  </p>
+</details>
 
 
 ## Installing the Custom System Font to 3DS
 
 Luma3DS custom firmware is required to use the mod.
-<a href="https://3ds.hacks.guide/" target="_blank">Install CFW if you haven't already.</a>
+<a href="https://3ds.hacks.guide/" target="_blank">
+Install CFW if you haven't already.</a>
 
 <p class="note">
   Create a NAND backup before modifying any system files!
@@ -153,18 +155,21 @@ Luma3DS custom firmware is required to use the mod.
   Modifying the system font is safe and can be restored by re-installing the original system font, instead of restoring a NAND backup.
   <br>
   To restore the system font, see the
-  <a href="#restoring-the-system-font">restore section</a>.
+  <a href="#restoring-the-system-font">
+  restore section</a>.
 </p>
 
 <p class="warning">
   Never uninstall CFW while any modded system files are installed, doing so will brick the console! A
-  <a href="https://www.flashcarts.net/ds-quick-start-guide" target="_blank">DS flashcart with ntrboot</a>
+  <a href="https://www.flashcarts.net/ds-quick-start-guide" target="_blank">
+  DS flashcart with ntrboot</a>
   is required to re-install B9S.
   <br>
   Modified system files are not signed which they don't work on the original firmware, as the signature check fails.
   <br>
   If you wanna uninstall CFW before selling your console, you must restore the system files first, then follow the
-  <a href="https://3ds.hacks.guide/uninstall-cfw" target="_blank">CFW uninstallation instructions</a>.
+  <a href="https://3ds.hacks.guide/uninstall-cfw" target="_blank">
+  CFW uninstallation instructions</a>.
 </p>
 
 1.  Add the downloaded CIA file to the SD Card.
@@ -185,11 +190,13 @@ Luma3DS custom firmware is required to use the mod.
 ## Installing the Custom System Font to Lime3DS
 
 You can also install the custom system font to
-<a href="https://lime3ds.github.io/" target="_blank">Lime3DS emulator</a>.
+<a href="https://lime3ds.github.io/" target="_blank">
+Lime3DS emulator</a>.
 
 <p class="note">
   AES Keys are required to install encrypted contents to Lime3DS.
-  <a href="https://github.com/Lime3DS/Lime3DS/tree/master/dist/dumpkeys" target="_blank">Read here for more info.</a>
+  <a href="https://github.com/Lime3DS/Lime3DS/tree/master/dist/dumpkeys" target="_blank">
+  Read here for more info.</a>
   <br>
   If you have Citra emulator, the installation process works the same.
 </p>

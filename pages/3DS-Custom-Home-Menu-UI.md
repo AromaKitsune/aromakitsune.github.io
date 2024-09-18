@@ -45,13 +45,15 @@ Last updated: 2024-05-23
 ## Adding the Home Menu Applet Patch (3DS)
 
 Luma3DS custom firmware is required to use the mod.
-<a href="https://3ds.hacks.guide/" target="_blank">Install CFW if you haven't already.</a>
+<a href="https://3ds.hacks.guide/" target="_blank">
+Install CFW if you haven't already.</a>
 
 <p class="note">
   LayeredFS patching is unstable for applets which causes Home Menu to randomly crash if Home Menu is opened several times
   (by suspending a game or exiting an applet).
   <br>
-  <a href="#installation-method-2-cia-file">Consider using the CIA file method for now.</a>
+  <a href="#installation-method-2-cia-file">
+  Consider using the CIA file method for now.</a>
   <br>
   LayeredFS method can be used on Lime3DS emulator without any crashes.
   <br><br>
@@ -76,11 +78,13 @@ Luma3DS custom firmware is required to use the mod.
 ## Adding the Home Menu Applet Patch (Lime3DS)
 
 You can also add the Home Menu applet patch to
-<a href="https://lime3ds.github.io/" target="_blank">Lime3DS emulator</a>.
+<a href="https://lime3ds.github.io/" target="_blank">
+Lime3DS emulator</a>.
 
 <p class="note">
   AES Keys are required to install encrypted contents to Lime3DS.
-  <a href="https://github.com/Lime3DS/Lime3DS/tree/master/dist/dumpkeys" target="_blank">Read here for more info.</a>
+  <a href="https://github.com/Lime3DS/Lime3DS/tree/master/dist/dumpkeys" target="_blank">
+  Read here for more info.</a>
   <br>
   If you have Citra emulator, the installation process works the same.
 </p>
@@ -138,7 +142,8 @@ You can also add the Home Menu applet patch to
 ## Backing Up the Home Menu Applet
 
 Luma3DS custom firmware is required to use the mod.
-<a href="https://3ds.hacks.guide/" target="_blank">Install CFW if you haven't already.</a>
+<a href="https://3ds.hacks.guide/" target="_blank">
+Install CFW if you haven't already.</a>
 
 <p class="note">
   It is <strong>recommended</strong> to backup your Home Menu applet
@@ -168,7 +173,8 @@ Luma3DS custom firmware is required to use the mod.
   Modifying the Home Menu applet is safe and can be restored by re-installing the original Home Menu applet, instead of restoring a NAND backup.
   <br>
   To restore the Home Menu applet, see the
-  <a href="#restoring-the-home-menu-applet---method-1">restore section</a>.
+  <a href="#restoring-the-home-menu-applet---method-1">
+  restore section</a>.
   <br><br>
   System Update will fail if the custom Home Menu applet is installed.
   To update your system, you must restore the Home Menu applet back to its original state.
@@ -184,13 +190,15 @@ Luma3DS custom firmware is required to use the mod.
 
 <p class="warning">
   Never uninstall CFW while any modded system files are installed, doing so will brick the console! A
-  <a href="https://www.flashcarts.net/ds-quick-start-guide" target="_blank">DS flashcart with ntrboot</a>
+  <a href="https://www.flashcarts.net/ds-quick-start-guide" target="_blank">
+  DS flashcart with ntrboot</a>
   is required to re-install B9S.
   <br>
   Modified system files are not signed which they don't work on the original firmware, as the signature check fails.
   <br>
   If you wanna uninstall CFW before selling your console, you must restore the system files first, then follow the
-  <a href="https://3ds.hacks.guide/uninstall-cfw" target="_blank">CFW uninstallation instructions</a>.
+  <a href="https://3ds.hacks.guide/uninstall-cfw" target="_blank">
+  CFW uninstallation instructions</a>.
 </p>
 
 1.  Add the downloaded CIA file to the SD Card.
@@ -237,7 +245,8 @@ Luma3DS custom firmware is required to use the mod.
 
     - [EUR](/files/3DS/HomeMenu_EUR.cia) \| [USA](/files/3DS/HomeMenu_USA.cia) \| [JPN](/files/3DS/HomeMenu_JPN.cia)
     
-    - Obtained from <a href="https://darthsternie.net/3ds-firmwares/" target="_blank">Darthsternie's Firmware Archive</a>
+    - Obtained from <a href="https://darthsternie.net/3ds-firmwares/" target="_blank">
+      Darthsternie's Firmware Archive</a>
 
 2.  Add the `HomeMenu_???.cia` file to the SD Card.
 
@@ -258,7 +267,8 @@ Luma3DS custom firmware is required to use the mod.
   If you've installed the custom Home Menu applet to your system running on older firmware version without any backups, follow this section.
 </p>
 
-1.  Go to <a href="https://darthsternie.net/3ds-firmwares/" target="_blank">Darthsternie's Firmware Archive</a>.
+1.  Go to <a href="https://darthsternie.net/3ds-firmwares/" target="_blank">
+    Darthsternie's Firmware Archive</a>.
 
 2.  Download the firmware archive matching your console region and current firmware version.
 
@@ -317,7 +327,8 @@ Luma3DS custom firmware is required to use the mod.
   If you have any issues downloading the firmware archive, follow this section.
 </p>
 
-1.  Download <a href="https://github.com/wyatt8740/3DNUS" target="_blank">3DNUS</a>.
+1.  Download <a href="https://github.com/wyatt8740/3DNUS" target="_blank">
+    3DNUS</a>.
 
 2.  Launch 3DNUS.
 
@@ -354,7 +365,8 @@ Luma3DS custom firmware is required to use the mod.
 
 <p class="note">
   If none of those restoration methods work for you, restore your NAND backup or give
-  <a href="https://3ds.hacks.guide/ctrtransfer" target="_blank">CTRTransfer</a>
+  <a href="https://3ds.hacks.guide/ctrtransfer" target="_blank">
+  CTRTransfer</a>
   a try.
 </p>
 
