@@ -68,7 +68,7 @@ It is used for the UI in many Nintendo games. It is also used for the tutorial s
 
 - [OTF - for anything else](/files/FOT-PopHappinessStd-EB.otf)
 
-- [TTF - for anything else](/files/PopHappinessStd-EB.ttf) (Fixed side-bearings) \*
+- [TTF - for anything else](/files/PopHappinessStd-EB.ttf) (Fixed side-bearings)
 
 <details>
   <summary>
@@ -122,9 +122,9 @@ It is commonly used for the UI in Paper Mario games.
 
 - [OTF - for anything else](/files/FOT-PopJoyStd-B.otf)
 
-- [TTF - for anything else](/files/PopJoyStd-B.ttf) (Fixed side-bearings) ¹
+- [TTF - for anything else](/files/PopJoyStd-B.ttf) (Fixed side-bearings)
 
-- [TTF - for anything else](/files/PopJoyStd-B_Scaled.ttf) (Fixed side-bearings + Scaled) ²
+- [TTF - for anything else](/files/PopJoyStd-B_Scaled.ttf) (Fixed side-bearings + Scaled)
 
 <details>
   <summary>
