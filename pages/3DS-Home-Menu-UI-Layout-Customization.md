@@ -110,24 +110,24 @@ Luma3DS custom firmware is required to use the mod.
 
 Skip this section if you want to edit one of those BCLYT files listed above.
 
-1. Launch Switch-Toolbox.
+1.  Launch Switch-Toolbox.
 
-2. Drag & drop the `*.LZ` file in the Switch-Toolbox window.
+2.  Drag & drop the `*.LZ` file in the Switch-Toolbox window.
 
-3. Search for the `bclyt` files and open any of those to see what it looks like. You might know what those layouts are, based on their file names.
+3.  Search for the `bclyt` files and open any of those to see what it looks like. You might know what those layouts are, based on their file names.
 
-4. Once you found what you're looking for, you can close Switch-Toolbox.
+4.  Once you found what you're looking for, you can close Switch-Toolbox.
 
 
 ## Editing the UI Layout
 
-1. Launch Kuriimu2.
+1.  Launch Kuriimu2.
 
-2. Drag & drop the `*.LZ` file in the Kuriimu2 window.
+2.  Drag & drop the `*.LZ` file in the Kuriimu2 window.
 
-3. On the left pane, click the `blyt` folder and the list of items should appear on the right pane.
+3.  On the left pane, click the `blyt` folder and the list of items should appear on the right pane.
 
-4. Extract the BCLYT file you want to edit.
+4.  Extract the BCLYT file you want to edit.
 
     <div align="center">
       <p class="image">
@@ -135,7 +135,7 @@ Skip this section if you want to edit one of those BCLYT files listed above.
       </p>
     </div>
 
-5. Make 3 copies of the extracted BCLYT file, add `A-`, `B-` and `C-` to each file name, for example:
+5.  Make 3 copies of the extracted BCLYT file, add `A-`, `B-` and `C-` to each file name, for example:
 
     - `A-LncBase_D_01.bclyt` or `A.bclyt`
 
@@ -154,14 +154,15 @@ Skip this section if you want to edit one of those BCLYT files listed above.
 
       Save it as `.bat`, drag & drop the BCLYT file in the batch file, enter the created `bclyt` folder and move on to the next step.
 
-6. Launch Switch-Toolbox.
+6.  Launch Switch-Toolbox.
 
-7. Drag & drop the `B.bclyt` file in the Switch-Toolbox window.
+7.  Drag & drop the `B.bclyt` file in the Switch-Toolbox window.
 
-8. Do not edit anything, just save. `Ctrl`+`S` isn't coded to save in Layout Editor, so click the `💾` save button and the "saved" dialog should appear.
+8.  Do not edit anything, just save. `Ctrl`+`S` isn't coded to save in Layout Editor, so click the `💾` save button and the "saved" dialog should appear.
+
     - You should have the corrupted BCLYT as its file size has been decreased. This is normal.
 
-9. Close the layout editor window.
+9.  Close the layout editor window.
 
 10. Drag & drop the `C.bclyt` file in the Switch-Toolbox window.
 
@@ -214,13 +215,13 @@ Skip this section if you want to edit one of those BCLYT files listed above.
 
 ## Fixing the UI Layout File
 
-13. Launch HxD hex editor.
+1.  Launch HxD hex editor.
 
-14. Drag those 3 BCLYT files in the HxD window. Make sure those tabs are in the correct order: `A.bclyt`, `B.bclyt`, `C.bclyt`.
+2.  Drag those 3 BCLYT files in the HxD window. Make sure those tabs are in the correct order: `A.bclyt`, `B.bclyt`, `C.bclyt`.
 
-15. Click the `C.bclyt` tab, then the `B.bclyt` tab.
+3.  Click the `C.bclyt` tab, then the `B.bclyt` tab.
 
-16. Press `Ctrl`+`K` to compare between the `B.bclyt` & `C.bclyt` files, click `OK`.
+4.  Press `Ctrl`+`K` to compare between the `B.bclyt` & `C.bclyt` files, click `OK`.
 
     <div align="center">
       <p class="image">
@@ -228,7 +229,7 @@ Skip this section if you want to edit one of those BCLYT files listed above.
       </p>
     </div>
 
-17. Click the Maximize button on one of the MDI windows.
+5.  Click the Maximize button on one of the MDI windows.
 
     <div align="center">
       <p class="image">
@@ -236,13 +237,13 @@ Skip this section if you want to edit one of those BCLYT files listed above.
       </p>
     </div>
 
-18. Go to the `B.bclyt` tab.
+6.  Go to the `B.bclyt` tab.
 
-19. Position a cursor before the selected byte (ex: `0x1567`).
+7.  Position a cursor before the selected byte (ex: `0x1567`).
 
-20. Select a few lines of bytes forward (ex: from `80` to `3F`).
+8.  Select a few lines of bytes forward (ex: from `80` to `3F`).
 
-21. Copy.
+9.  Copy.
 
     <div align="center">
       <p class="image">
@@ -250,13 +251,13 @@ Skip this section if you want to edit one of those BCLYT files listed above.
       </p>
     </div>
 
-22. Go to the `A.bclyt` tab.
+10. Go to the `A.bclyt` tab.
 
-23. Press `Ctrl`+`F` to find.
+11. Press `Ctrl`+`F` to find.
 
-24. Go to the `Hex-values` tab.
+12. Go to the `Hex-values` tab.
 
-25. Paste into the `Search for` box and click `OK`. Make sure that there is only 1 result by clicking `All` and `Search all`.
+13. Paste into the `Search for` box and click `OK`. Make sure that there is only 1 result by clicking `All` and `Search all`.
     If it yields multiple results, try selecting more bytes on the `B.bclyt` tab.
 
     <div align="center">
@@ -265,7 +266,7 @@ Skip this section if you want to edit one of those BCLYT files listed above.
       </p>
     </div>
 
-26. Position a cursor before the selected bytes (ex: `0x1717`).
+14. Position a cursor before the selected bytes (ex: `0x1717`).
 
     <div align="center">
       <p class="image">
@@ -273,7 +274,7 @@ Skip this section if you want to edit one of those BCLYT files listed above.
       </p>
     </div>
 
-27. Click to deselect.
+15. Click to deselect.
 
     <div align="center">
       <p class="image">
@@ -281,9 +282,9 @@ Skip this section if you want to edit one of those BCLYT files listed above.
       </p>
     </div>
 
-28. Select the bytes from here, all the way to `0x0` by pressing `Ctrl`+`Shift`+`Home`.
+16. Select the bytes from here, all the way to `0x0` by pressing `Ctrl`+`Shift`+`Home`.
 
-29. Copy.
+17. Copy.
 
     <div align="center">
       <p class="image">
@@ -291,11 +292,11 @@ Skip this section if you want to edit one of those BCLYT files listed above.
       </p>
     </div>
 
-30. Go to the `C.bclyt` tab.
+18. Go to the `C.bclyt` tab.
 
-31. Position a cursor before the selected byte (ex: `0x1567`).
+19. Position a cursor before the selected byte (ex: `0x1567`).
 
-32. Click to deselect.
+20. Click to deselect.
 
     <div align="center">
       <p class="image">
@@ -303,7 +304,7 @@ Skip this section if you want to edit one of those BCLYT files listed above.
       </p>
     </div>
 
-33. Select the bytes from here, all the way to `0x0` by pressing `Ctrl`+`Shift`+`Home`.
+21. Select the bytes from here, all the way to `0x0` by pressing `Ctrl`+`Shift`+`Home`.
 
     <div align="center">
       <p class="image">
@@ -311,7 +312,7 @@ Skip this section if you want to edit one of those BCLYT files listed above.
       </p>
     </div>
 
-34. Paste with `Ctrl`+`V`. Don't paste-overwrite with `Ctrl`+`B`.
+22. Paste with `Ctrl`+`V`. Don't paste-overwrite with `Ctrl`+`B`.
 
     - The bytes at the beginning of the edited BCLYT are restored.
 
@@ -321,7 +322,7 @@ Skip this section if you want to edit one of those BCLYT files listed above.
       </p>
     </div>
 
-35. If done correctly, save it and close HxD.
+23. If done correctly, save it and close HxD.
 
     - Now we have fixed the BCLYT file!
 
@@ -336,15 +337,15 @@ Skip this section if you want to edit one of those BCLYT files listed above.
       </p>
     </div>
 
-36. Go back to Kuriimu2.
+24. Go back to Kuriimu2.
 
-37. Right-click the BCLYT file you extracted earlier.
+25. Right-click the BCLYT file you extracted earlier.
 
-38. Select Replace and pick the `C.bclyt` file (not `C.bclyt.bak` that HxD created).
+26. Select `Replace` and pick the `C.bclyt` file (not `C.bclyt.bak`).
 
-39. Save.
+27. Save.
 
-40. Compress the `*.LZ` file and that's it! You can now apply your edited UI to the Home Menu on your 3DS using LayeredFS or build the CIA file.
+28. Compress the `*.LZ` file and that's it! You can now apply your edited UI to the Home Menu on your 3DS using LayeredFS or build the CIA file.
 
 
 ## UI Element Colors

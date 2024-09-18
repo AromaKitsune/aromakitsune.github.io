@@ -58,19 +58,19 @@ Luma3DS custom firmware is required to use the mod.
   You can add my RomFS assets to your Home Menu mod, be sure to credit me if you're gonna share your combined mod anywhere :)
 </p>
 
-1. Unpack the downloaded archive file and enter the `LayeredFS` folder.
+1.  Unpack the downloaded archive file and enter the `LayeredFS` folder.
 
-2. Enter a folder matching your console region.
+2.  Enter a folder matching your console region.
 
-3. Copy the `luma` folder to the root of the SD Card.
+3.  Copy the `luma` folder to the root of the SD Card.
 
-4. Launch the Luma3DS config by holding the `Select` button while booting.
+4.  Launch the Luma3DS config by holding the `Select` button while booting.
 
-5. Activate "Enable game patching".
+5.  Activate "Enable game patching".
 
-6. Save and exit.
+6.  Save and exit.
 
-7. The custom Home Menu UI has been installed.
+7.  The custom Home Menu UI has been installed.
 
 
 ## Adding the Home Menu Applet Patch (Lime3DS)
@@ -85,23 +85,23 @@ You can also add the Home Menu applet patch to
   If you have Citra emulator, the installation process works the same.
 </p>
 
-1. Launch Lime3DS emulator.
+1.  Launch Lime3DS emulator.
 
-2. Go to `Emulation` → `Configure...` → `System`.
+2.  Go to `Emulation` → `Configure...` → `System`.
 
-3. Under the `3GX Plugins Loader` options, pick the system model and system region, then click `Download`.
+3.  Under the `3GX Plugins Loader` options, pick the system model and system region, then click `Download`.
 
-4. Wait for the system firmware download to complete.
+4.  Wait for the system firmware download to complete.
 
-5. Close the configuration window.
+5.  Close the configuration window.
 
-6. Go to `File` → `Open Lime3DS Folder`.
+6.  Go to `File` → `Open Lime3DS Folder`.
 
-7. Go to `/load/mods`. Create folders if those don't exist.
+7.  Go to `/load/mods`. Create folders if those don't exist.
 
-8. Unpack the downloaded archive file and enter the `LayeredFS` folder.
+8.  Unpack the downloaded archive file and enter the `LayeredFS` folder.
 
-9. Go to `/[region]/luma/titles`.
+9.  Go to `/[region]/luma/titles`.
 
 10. Copy the `000400300000??02` folder to the `mods` folder.
 
@@ -112,9 +112,9 @@ You can also add the Home Menu applet patch to
 
 ## Removing the Home Menu Applet Patch
 
-1. Launch GodMode9.
+1.  Launch GodMode9.
 
-2. Go to `SDCARD:/luma/titles` and delete the `000400300000??02` folder.
+2.  Go to `SDCARD:/luma/titles` and delete the `000400300000??02` folder.
 
     - EUR: `0004003000009802`
 
@@ -122,15 +122,15 @@ You can also add the Home Menu applet patch to
 
     - USA: `0004003000008F02`
 
-3. Reboot the console.
+3.  Reboot the console.
 
-4. The Home Menu UI has been restored.
+4.  The Home Menu UI has been restored.
 
-- If you want to turn off the mod instead, while leaving other patches (such as Pretendo Network) active,
-  rename the `000400300000??02` folder to `000400300000??02_off`.
+-   If you want to turn off the mod instead, while leaving other patches (such as Pretendo Network) active,
+    rename the `000400300000??02` folder to `000400300000??02_off`.
 
-- To restore the Home Menu UI on Lime3DS, go to `/load/mods` and delete the `000400300000??02` folder.
-  If you want to turn off the mod instead, rename the `000400300000??02` folder to `000400300000??02_off`.
+-   To restore the Home Menu UI on Lime3DS, go to `/load/mods` and delete the `000400300000??02` folder.
+    If you want to turn off the mod instead, rename the `000400300000??02` folder to `000400300000??02_off`.
 
 
 ### *Installation Method 2: CIA File*
@@ -145,17 +145,17 @@ Luma3DS custom firmware is required to use the mod.
   as you'll be able to restore it later on if the custom Home Menu applet is installed with the CIA file.
 </p>
 
-1. Launch GodMode9.
+1.  Launch GodMode9.
 
-2. Press the `Home` button.
+2.  Press the `Home` button.
 
-3. Select `Scripts...` → `GM9Megascript` → `Miscellaneous` → `Title Options` → `Dump HomeMenu to .cia`.
+3.  Select `Scripts...` → `GM9Megascript` → `Miscellaneous` → `Title Options` → `Dump HomeMenu to .cia`.
 
-4. Proceed dumping this system applet.
+4.  Proceed dumping this system applet.
 
-5. Answer "No" if asked to decrypt the CIA file.
+5.  Answer "No" if asked to decrypt the CIA file.
 
-6. The `homemenu.cia` file is saved to `SDCARD:/gm9/out`. Copy that file to a safe place in your computer.
+6.  The `homemenu.cia` file is saved to `SDCARD:/gm9/out`. Copy that file to a safe place in your computer.
 
 
 ## Installing the Custom Home Menu Applet
@@ -193,19 +193,19 @@ Luma3DS custom firmware is required to use the mod.
   <a href="https://3ds.hacks.guide/uninstall-cfw" target="_blank">CFW uninstallation instructions</a>.
 </p>
 
-1. Add the downloaded CIA file to the SD Card.
+1.  Add the downloaded CIA file to the SD Card.
 
-2. Launch GodMode9.
+2.  Launch GodMode9.
 
-3. Browse and select the CIA file.
+3.  Browse and select the CIA file.
 
-4. Select `CIA image options...` → `Install game image`.
+4.  Select `CIA image options...` → `Install game image`.
 
-    - CIA files are already encrypted, so there's no need to.
+    - CIA files are encrypted by default, so there's no need to re-encrypt it.
 
-5. Reboot the console.
+5.  Reboot the console.
 
-6. The custom Home Menu applet has been installed.
+6.  The custom Home Menu applet has been installed.
 
 
 ## Restoring the Home Menu Applet - Method 1
@@ -214,15 +214,15 @@ Luma3DS custom firmware is required to use the mod.
   If you've dumped the <code>homemenu.cia</code> file with GodMode9, follow this section.
 </p>
 
-1. Launch GodMode9.
+1.  Launch GodMode9.
 
-2. Go to `SDCARD:/gm9/out` and select the `homemenu.cia` file.
+2.  Go to `SDCARD:/gm9/out` and select the `homemenu.cia` file.
 
-3. Select `CIA image options...` → `Install game image`.
+3.  Select `CIA image options...` → `Install game image`.
 
-4. Reboot the console.
+4.  Reboot the console.
 
-5. The Home Menu applet has been restored.
+5.  The Home Menu applet has been restored.
 
 
 ## Restoring the Home Menu Applet - Method 2
@@ -233,23 +233,23 @@ Luma3DS custom firmware is required to use the mod.
   The target system firmware version is <code>11.17.0-50</code>.
 </p>
 
-1. Download the original Home Menu applet:
+1.  Download the original Home Menu applet:
 
     - [EUR](/files/3DS/HomeMenu_EUR.cia) \| [USA](/files/3DS/HomeMenu_USA.cia) \| [JPN](/files/3DS/HomeMenu_JPN.cia)
     
     - Obtained from <a href="https://darthsternie.net/3ds-firmwares/" target="_blank">Darthsternie's Firmware Archive</a>
 
-2. Add the `HomeMenu_???.cia` file to the SD Card.
+2.  Add the `HomeMenu_???.cia` file to the SD Card.
 
-3. Launch GodMode9.
+3.  Launch GodMode9.
 
-4. Browse and select the `HomeMenu_???.cia` file.
+4.  Browse and select the `HomeMenu_???.cia` file.
 
-5. Select `CIA image options...` → `Install game image`.
+5.  Select `CIA image options...` → `Install game image`.
 
-6. Reboot the console.
+6.  Reboot the console.
 
-7. The Home Menu applet has been restored.
+7.  The Home Menu applet has been restored.
 
 
 ## Restoring the Home Menu Applet - Method 3
@@ -258,9 +258,9 @@ Luma3DS custom firmware is required to use the mod.
   If you've installed the custom Home Menu applet to your system running on older firmware version without any backups, follow this section.
 </p>
 
-1. Go to <a href="https://darthsternie.net/3ds-firmwares/" target="_blank">Darthsternie's Firmware Archive</a>.
+1.  Go to <a href="https://darthsternie.net/3ds-firmwares/" target="_blank">Darthsternie's Firmware Archive</a>.
 
-2. Download the firmware archive matching your console region and current firmware version.
+2.  Download the firmware archive matching your console region and current firmware version.
 
     - If you don't know your system's current firmware version and can't boot to Home Menu:
 
@@ -286,7 +286,7 @@ Luma3DS custom firmware is required to use the mod.
 
     - Take a note of the firmware version.
 
-3. Unpack the firmware archive and find the `.cia` file for Home Menu inside the `updates` folder.
+3.  Unpack the firmware archive and find the `.cia` file for Home Menu inside the `updates` folder.
 
     - EUR: `0004003000009802.cia`
 
@@ -294,17 +294,17 @@ Luma3DS custom firmware is required to use the mod.
 
     - JPN: `0004003000008202.cia`
 
-4. Rename the `000400300000??02.cia` file to `HomeMenu.cia`.
+4.  Rename the `000400300000??02.cia` file to `HomeMenu.cia`.
 
-5. Place it in the SD Card.
+5.  Place it in the SD Card.
 
-6. Launch GodMode9.
+6.  Launch GodMode9.
 
-7. Browse and select the `HomeMenu.cia` file.
+7.  Browse and select the `HomeMenu.cia` file.
 
-8. Select `CIA image options...` → `Install game image`.
+8.  Select `CIA image options...` → `Install game image`.
 
-9. Reboot the console.
+9.  Reboot the console.
 
 10. The Home Menu applet has been restored.
 
@@ -317,17 +317,17 @@ Luma3DS custom firmware is required to use the mod.
   If you have any issues downloading the firmware archive, follow this section.
 </p>
 
-1. Download <a href="https://github.com/wyatt8740/3DNUS" target="_blank">3DNUS</a>.
+1.  Download <a href="https://github.com/wyatt8740/3DNUS" target="_blank">3DNUS</a>.
 
-2. Launch 3DNUS.
+2.  Launch 3DNUS.
 
-3. Input your system's current firmware version and region (ex: `11.17.0-50E`).
+3.  Input your system's current firmware version and region (ex: `11.17.0-50E`).
 
-4. Click "New 3DS" or "Old 3DS" for your 3DS system model.
+4.  Click "New 3DS" or "Old 3DS" for your 3DS system model.
 
-5. Click "Begin Download", and wait for the download to complete.
+5.  Click "Begin Download", and wait for the download to complete.
 
-6. Enter the firmware folder and find the `.cia` file for Home Menu inside the `updates` folder.
+6.  Enter the firmware folder and find the `.cia` file for Home Menu inside the `updates` folder.
 
     - EUR: `0004003000009802.cia`
 
@@ -335,11 +335,11 @@ Luma3DS custom firmware is required to use the mod.
 
     - JPN: `0004003000008202.cia`
 
-7. Rename the `000400300000??02.cia` file to `HomeMenu.cia`.
+7.  Rename the `000400300000??02.cia` file to `HomeMenu.cia`.
 
-8. Place it in the SD Card.
+8.  Place it in the SD Card.
 
-9. Launch GodMode9.
+9.  Launch GodMode9.
 
 10. Browse and select the `HomeMenu.cia` file.
 

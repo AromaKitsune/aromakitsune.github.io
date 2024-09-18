@@ -46,9 +46,9 @@ A Wii U font will be merged into a custom system font so the icon glyphs are pre
   </p>
 </div>
 
-1. Launch FontForge.
+1.  Launch FontForge.
 
-2. Open the custom font file (TTF/OTF).
+2.  Open the custom font file (TTF/OTF).
 
     <div align="center">
       <p class="image">
@@ -56,11 +56,11 @@ A Wii U font will be merged into a custom system font so the icon glyphs are pre
       </p>
     </div>
 
-3. Go to `Element` → `Font Info...` → `General`.
+3.  Go to `Element` → `Font Info...` → `General`.
 
-4. Set the `Em Size` value to `1000` and click `OK`.
-   The custom font size will be adjusted so it matches the Wii U font size.
-   Skip if em size is already 1,000.
+4.  Set the `Em Size` value to `1000` and click `OK`.
+    The custom font size will be adjusted so it matches the Wii U font size.
+    Skip if em size is already 1,000.
 
     <div align="center">
       <p class="image">
@@ -68,14 +68,14 @@ A Wii U font will be merged into a custom system font so the icon glyphs are pre
       </p>
     </div>
 
-5. Go to `View` → `Goto`, input `U+E000` into the text box to jump to the Private Use Area block.
+5.  Go to `View` → `Goto`, input `U+E000` into the text box to jump to the Private Use Area block.
 
-6. If the custom font contains any non-Wii U glyphs in the PUA block, go to `File` → `Execute Script`, input this code into the text box:
+6.  If the custom font contains any non-Wii U glyphs in the PUA block, go to `File` → `Execute Script`, input this code into the text box:
 
-   ```
-   fontforge.activeFont().selection.select(("ranges", None), 0xE000, 0xE099)
-   fontforge.activeFont().clear()
-   ```
+    ```
+    fontforge.activeFont().selection.select(("ranges", None), 0xE000, 0xE099)
+    fontforge.activeFont().clear()
+    ```
 
     and click `OK`. This will clear out all the non-Wii U glyphs in this block.
 
@@ -85,9 +85,9 @@ A Wii U font will be merged into a custom system font so the icon glyphs are pre
       </p>
     </div>
 
-7. Go to `Element` → `Merge Fonts...` and select the Wii U font file.
+7.  Go to `Element` → `Merge Fonts...` and select the Wii U font file.
 
-8. Click `Yes` when prompted to retain kerning info.
+8.  Click `Yes` when prompted to retain kerning info.
 
     <div align="center">
       <p class="image">
@@ -95,7 +95,7 @@ A Wii U font will be merged into a custom system font so the icon glyphs are pre
       </p>
     </div>
 
-9. Go to `File` → `Generate Fonts...`.
+9.  Go to `File` → `Generate Fonts...`.
 
 10. Pick `TrueType` in the combo-box, uncheck `Validate Before Saving`, then click `Generate`.
 
@@ -121,36 +121,36 @@ A Wii U font will be merged into a custom system font so the icon glyphs are pre
 
 ## Installing the Custom System Font to Wii U
 
-1. Add the merged font file to `SDCARD:/wiiu/fonts`.
+1.  Add the merged font file to `SDCARD:/wiiu/fonts`.
 
-2. Open the Plugin menu (`L + D-Pad ↓ + Select`).
+2.  Open the Plugin menu (`L + D-Pad ↓ + Select`).
 
-3. Go to System Font Replacer.
+3.  Go to System Font Replacer.
 
-4. Select the merged font file for Standard font.
+4.  Select the merged font file for Standard font.
 
-5. Disable `Use custom fonts only for Wii U Menu` to apply the font system-wide.
+5.  Disable `Use custom fonts only for Wii U Menu` to apply the font system-wide.
 
-6. Reboot the console.
+6.  Reboot the console.
 
-7. The custom system font has been installed!
+7.  The custom system font has been installed!
 
 
 ## Installing the Custom System Font to Cemu
 
 You can also install the custom system font to <a href="https://cemu.info/" target="_blank">Cemu emulator</a>.
 
-1. Rename the merged font file to `CafeStd.ttf`.
+1.  Rename the merged font file to `CafeStd.ttf`.
 
-2. Launch Cemu.
+2.  Launch Cemu.
 
-3. Go to `File` → `Open MLC folder`.
+3.  Go to `File` → `Open MLC folder`.
 
-4. Navigate to `/sys/title/0005001b/10042400/content`. Create folders if those don't exist.
+4.  Navigate to `/sys/title/0005001b/10042400/content`. Create folders if those don't exist.
 
-5. Add the `CafeStd.ttf` file here.
+5.  Add the `CafeStd.ttf` file here.
 
-6. Launch any of the system apps (if installed) and see how the custom system font looks.
+6.  Launch any of the system apps (if installed) and see how the custom system font looks.
 
 <p class="note">
   Do not add the <code>CafeStd.ttf</code> file to <code>/Cemu/resources/sharedFonts</code>, those are replacement system fonts which are used if the real system fonts don't exist.

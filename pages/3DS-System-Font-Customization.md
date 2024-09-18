@@ -70,9 +70,9 @@ A 3DS font will be merged into a custom system font so the icon glyphs are prese
   </p>
 </div>
 
-1. Launch FontForge.
+1.  Launch FontForge.
 
-2. Open the custom font file (TTF/OTF).
+2.  Open the custom font file (TTF/OTF).
 
     <div align="center">
       <p class="image">
@@ -80,11 +80,11 @@ A 3DS font will be merged into a custom system font so the icon glyphs are prese
       </p>
     </div>
 
-3. Go to `Element` → `Font Info...` → `General`.
+3.  Go to `Element` → `Font Info...` → `General`.
 
-4. Set the `Em Size` value to `1000` and click `OK`.
-   The custom font size will be adjusted so it matches the 3DS font size.
-   Skip if em size is already 1,000.
+4.  Set the `Em Size` value to `1000` and click `OK`.
+    The custom font size will be adjusted so it matches the 3DS font size.
+    Skip if em size is already 1,000.
 
     <div align="center">
       <p class="image">
@@ -92,14 +92,14 @@ A 3DS font will be merged into a custom system font so the icon glyphs are prese
       </p>
     </div>
 
-5. Go to `View` → `Goto`, input `U+E000` into the text box to jump to the Private Use Area block.
+5.  Go to `View` → `Goto`, input `U+E000` into the text box to jump to the Private Use Area block.
 
-6. If the custom font contains any non-3DS glyphs in the PUA block, go to `File` → `Execute Script`, input this code into the text box:
+6.  If the custom font contains any non-3DS glyphs in the PUA block, go to `File` → `Execute Script`, input this code into the text box:
 
-   ```
-   fontforge.activeFont().selection.select(("ranges", None), 0xE000, 0xE07E)
-   fontforge.activeFont().clear()
-   ```
+    ```
+    fontforge.activeFont().selection.select(("ranges", None), 0xE000, 0xE07E)
+    fontforge.activeFont().clear()
+    ```
 
     and click `OK`. This will clear out all the non-3DS glyphs in this block.
 
@@ -109,9 +109,9 @@ A 3DS font will be merged into a custom system font so the icon glyphs are prese
       </p>
     </div>
 
-7. Go to `Element` → `Merge Fonts...` and select the 3DS font file.
+7.  Go to `Element` → `Merge Fonts...` and select the 3DS font file.
 
-8. Click `Yes` when prompted to retain kerning info.
+8.  Click `Yes` when prompted to retain kerning info.
 
     <div align="center">
       <p class="image">
@@ -119,7 +119,7 @@ A 3DS font will be merged into a custom system font so the icon glyphs are prese
       </p>
     </div>
 
-9. Go to `File` → `Generate Fonts...`.
+9.  Go to `File` → `Generate Fonts...`.
 
 10. Pick `TrueType` in the combo-box, uncheck `Validate Before Saving`, then click `Generate`.
 
@@ -140,31 +140,31 @@ A 3DS font will be merged into a custom system font so the icon glyphs are prese
 
 ## Generating the Custom System Font
 
-1. Launch CTR Font Converter.
+1.  Launch CTR Font Converter.
 
-    - You'll be asked to install .NET Framework 3.5, click "Download and install this feature".
+    - A dialog will say that .NET Framework 3.5 isn't installed, click "Download and install this feature".
 
     - Wait for the download to complete, then relaunch that app.
 
-2. Go to the `Windows Font` tab and select a recently installed font.
+2.  Go to the `Windows Font` tab and select a recently installed font.
 
-3. Set the font size - start with 20px.
+3.  Set the font size - start with 20px.
 
     - If the font size is too big/small after installing to a 3DS,
       come back to it and try a different font size until you get it right.
 
-4. Set the bit depth to `16 levels (A4)`.
+4.  Set the bit depth to `16 levels (A4)`.
 
-5. Activate the `Use filter` check-box, click `Select file`, go to the `xllt` folder and select the `3ds_bitmap_font_std.xllt` file.
+5.  Activate the `Use filter` check-box, click `Select file`, go to the `xllt` folder and select the `3ds_bitmap_font_std.xllt` file.
 
     - This will clear out all the glyphs not used in 3DS games/apps, reducing the font file size.
       Max file size for compressed BCFNT file (after running FontTool) is 1.5 MiB.
 
-6. Go to the `bcfnt / bcfna` tab.
+6.  Go to the `bcfnt / bcfna` tab.
 
-7. Save the font file as `SystemFont.bcfnt` to the `FontTool` folder.
+7.  Save the font file as `SystemFont.bcfnt` to the `FontTool` folder.
 
-8. Click `Convert`.
+8.  Click `Convert`.
 
     <div align="center">
       <p class="image">
@@ -178,7 +178,7 @@ A 3DS font will be merged into a custom system font so the icon glyphs are prese
       </p>
     </div>
 
-9. Go to the `FontTool` folder.
+9.  Go to the `FontTool` folder.
 
 10. Launch the Terminal window and input this command:
 
@@ -209,13 +209,13 @@ You can preview the custom system font on Lime3DS emulator before installing it 
   If you have Citra emulator, the installation process works the same.
 </p>
 
-1. Launch Lime3DS emulator.
+1.  Launch Lime3DS emulator.
 
-2. Go to `Emulation` → `Configure...` → `System`.
+2.  Go to `Emulation` → `Configure...` → `System`.
 
-3. Under the `3GX Plugins Loader` options, pick the system model and system region, then click `Download`.
+3.  Under the `3GX Plugins Loader` options, pick the system model and system region, then click `Download`.
 
-4. Wait for the system firmware download to complete.
+4.  Wait for the system firmware download to complete.
 
     <div align="center">
       <p class="image">
@@ -223,32 +223,32 @@ You can preview the custom system font on Lime3DS emulator before installing it 
       </p>
     </div>
 
-5. Close the configuration window.
+5.  Close the configuration window.
 
-6. Go to `File` → `Install CIA...`.
+6.  Go to `File` → `Install CIA...`.
 
-7. Select the generated CIA file.
+7.  Select the generated CIA file.
 
-8. Launch any of the system apps and see how the custom system font looks.
+8.  Launch any of the system apps and see how the custom system font looks.
 
     - If the font size is too big/small, repeat step 17 of the "Generating the Custom System Font" section and try a different font size until you get it right.
 
 
 ## Installing the Custom System Font to 3DS
 
-1. Add the generated CIA file to the SD Card.
+1.  Add the generated CIA file to the SD Card.
 
-2. Launch GodMode9.
+2.  Launch GodMode9.
 
-3. Browse and select the CIA file.
+3.  Browse and select the CIA file.
 
-4. Select `CIA image options...` → `Install game image`.
+4.  Select `CIA image options...` → `Install game image`.
 
-    - You don't need to encrypt it as `3dstool` (bundled in `FontTool`) already did that.
+    - CIA files are encrypted by default, so there's no need to re-encrypt it.
 
-5. Reboot the console.
+5.  Reboot the console.
 
-6. The custom system font has been installed!
+6.  The custom system font has been installed!
 
 <div align="center">
   <p class="image">
@@ -265,21 +265,21 @@ You can preview the custom system font on Lime3DS emulator before installing it 
 
 ## Restoring the System Font
 
-1. Download the [original system font](/files/3DS/SystemFont.cia).
+1.  Download the [original system font](/files/3DS/SystemFont.cia).
 
-2. Add the `SystemFont.cia` file to the SD Card.
+2.  Add the `SystemFont.cia` file to the SD Card.
 
-3. Launch GodMode9.
+3.  Launch GodMode9.
 
-4. Browse and select the `SystemFont.cia` file.
+4.  Browse and select the `SystemFont.cia` file.
 
-5. Select `CIA image options...` → `Install game image`.
+5.  Select `CIA image options...` → `Install game image`.
 
-6. Reboot the console.
+6.  Reboot the console.
 
-7. The system font has been restored.
+7.  The system font has been restored.
 
-- To restore the system font on Lime3DS, go to `File` → `Install CIA...` and select the `SystemFont.cia` file.
+-   To restore the system font on Lime3DS, go to `File` → `Install CIA...` and select the `SystemFont.cia` file.
 
 
 ## Tools Used
