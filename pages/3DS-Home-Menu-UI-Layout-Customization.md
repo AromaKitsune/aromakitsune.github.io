@@ -387,9 +387,9 @@ Miiverse         | 0x508   | 0x50C
   <script type="application/ld+json">
   {
     "@context" : "https://schema.org",
-    "@type" : "WebSite",
+    "@type" : "WebPage",
     "name" : "Kitsune Mods Resource",
-    "url" : "https://aromakitsune.github.io/"
+    "url" : "https://aromakitsune.github.io/3DS-Home-Menu-UI-Layout-Customization"
   }
 </script>
 </head>
