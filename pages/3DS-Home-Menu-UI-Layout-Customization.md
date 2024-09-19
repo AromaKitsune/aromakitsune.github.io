@@ -382,14 +382,3 @@ Notifications    | 0x6C0   | 0x6C4
 Internet Browser | 0x5E4   | 0x5E8
 Miiverse         | 0x508   | 0x50C
 
-<head>
-  <title>Kitsune Mods Resource</title>
-  <script type="application/ld+json">
-  {
-    "@context" : "https://schema.org",
-    "@type" : "WebPage",
-    "name" : "Kitsune Mods Resource",
-    "url" : "https://aromakitsune.github.io/3DS-Home-Menu-UI-Layout-Customization"
-  }
-</script>
-</head>
