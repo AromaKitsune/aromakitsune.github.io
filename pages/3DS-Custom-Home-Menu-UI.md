@@ -267,34 +267,34 @@ Install CFW if you haven't already.</a>
   If you've installed the custom Home Menu applet to your system running on older firmware version without any backups, follow this section.
 </p>
 
+<details>
+  <summary>
+    <b>Don't know your system's current firmware version and can't boot to Home Menu? 
+    <br>Click here</b>
+  </summary>
+<br>
+  <ol>
+    <li><p>Launch GodMode9</p></li>
+    <li><p>Go to <code>CTRNAND:/title/000400db/00017?02/content</code>.</p></li>
+      <ul>
+        <li><p>EUR: <code>00017102</code></p></li>
+        <li><p>USA: <code>00017302</code></p></li>
+        <li><p>JPN: <code>00017202</code></p></li>
+      </ul>
+    <li><p>Select the <code>.app</code> file.</p></li>
+    <li><p>Select <code>NCCH image options...</code> → <code>Mount image to drive</code>.</p></li>
+    <li><p>Answer "Yes" to browse inside the <code>.app</code> file.</p></li>
+    <li><p>Go to the <code>romfs</code> folder.</p></li>
+    <li><p>Open the <code>titleversion.txt</code> file with hex editor or text viewer.</p></li>
+    <li><p>Take a note of the firmware version and continue to the next steps.</p></li>
+  </ol>
+</details>
+<br>
+
 1.  Go to <a href="https://darthsternie.net/3ds-firmwares/" target="_blank">
     Darthsternie's Firmware Archive</a>.
 
 2.  Download the firmware archive matching your console region and current firmware version.
-
-    - If you don't know your system's current firmware version and can't boot to Home Menu:
-
-    - Launch GodMode9
-
-    - Go to `CTRNAND:/title/000400db/00017?02/content`.
-
-        - EUR: `00017102`
-
-        - USA: `00017302`
-
-        - JPN: `00017202`
-
-    - Select the `.app` file.
-
-    - Select `NCCH image options...` → `Mount image to drive`.
-
-    - Answer "Yes" to browse inside the `.app` file.
-
-    - Go to the `romfs` folder.
-
-    - Open the `titleversion.txt` file with hex editor or text viewer.
-
-    - Take a note of the firmware version.
 
 3.  Unpack the firmware archive and find the `.cia` file for Home Menu inside the `updates` folder.
 
@@ -326,6 +326,30 @@ Install CFW if you haven't already.</a>
 <p class="note">
   If you have any issues downloading the firmware archive, follow this section.
 </p>
+
+<details>
+  <summary>
+    <b>Don't know your system's current firmware version and can't boot to Home Menu? 
+    <br>Click here</b>
+  </summary>
+<br>
+  <ol>
+    <li><p>Launch GodMode9</p></li>
+    <li><p>Go to <code>CTRNAND:/title/000400db/00017?02/content</code>.</p></li>
+      <ul>
+        <li><p>EUR: <code>00017102</code></p></li>
+        <li><p>USA: <code>00017302</code></p></li>
+        <li><p>JPN: <code>00017202</code></p></li>
+      </ul>
+    <li><p>Select the <code>.app</code> file.</p></li>
+    <li><p>Select <code>NCCH image options...</code> → <code>Mount image to drive</code>.</p></li>
+    <li><p>Answer "Yes" to browse inside the <code>.app</code> file.</p></li>
+    <li><p>Go to the <code>romfs</code> folder.</p></li>
+    <li><p>Open the <code>titleversion.txt</code> file with hex editor or text viewer.</p></li>
+    <li><p>Take a note of the firmware version and continue to the next steps.</p></li>
+  </ol>
+</details>
+<br>
 
 1.  Download <a href="https://github.com/wyatt8740/3DNUS" target="_blank">
     3DNUS</a>.
