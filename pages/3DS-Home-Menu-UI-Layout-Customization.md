@@ -383,7 +383,7 @@ Internet Browser | 0x5E4   | 0x5E8
 Miiverse         | 0x508   | 0x50C
 
 <head>
-  <title>site_title1</title>
+  <title>Kitsune Mods Resource</title>
   <script type="application/ld+json">
   {
     "@context" : "https://schema.org",
