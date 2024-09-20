@@ -272,7 +272,7 @@ Install CFW if you haven't already.</a>
     <b>Don't know your system's current firmware version and can't boot to Home Menu? 
     <br>Click here</b>
   </summary>
-<br>
+  <br>
   <ol>
     <li><p>Launch GodMode9</p></li>
     <li><p>Go to <code>CTRNAND:/title/000400db/00017?02/content</code>.</p></li>
@@ -332,7 +332,7 @@ Install CFW if you haven't already.</a>
     <b>Don't know your system's current firmware version and can't boot to Home Menu? 
     <br>Click here</b>
   </summary>
-<br>
+  <br>
   <ol>
     <li><p>Launch GodMode9</p></li>
     <li><p>Go to <code>CTRNAND:/title/000400db/00017?02/content</code>.</p></li>

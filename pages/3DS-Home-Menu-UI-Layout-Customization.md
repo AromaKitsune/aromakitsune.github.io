@@ -381,3 +381,14 @@ Friend List      | 0x79C   | 0x7A0
 Notifications    | 0x6C0   | 0x6C4
 Internet Browser | 0x5E4   | 0x5E8
 Miiverse         | 0x508   | 0x50C
+
+Applets - `hud.LZ/blyt/HudMenu_00.bclyt`
+
+HUD element             | Color
+----------------------- | -----
+Battery - Normal        | 0x0724
+Battery - Low           | 0x0738
+Battery - Charging      | 0x07F4
+Battery - Charger icon  | 0x0888
+Battery - Fully Charged | 0x08E4
+Battery - Charger BG    | 0x08F8
