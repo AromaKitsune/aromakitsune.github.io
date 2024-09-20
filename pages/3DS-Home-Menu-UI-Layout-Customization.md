@@ -398,6 +398,7 @@ HUD - `hud.LZ/blyt/HudMenu_00.bclyt`
 
 HUD element             | Color
 ----------------------- | -----
+Battery - Normal?       | 0x248
 Battery - Normal        | 0x724
 Battery - Low           | 0x738
 Battery - Charging      | 0x7F4
