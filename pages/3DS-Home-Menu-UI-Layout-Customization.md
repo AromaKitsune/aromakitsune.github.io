@@ -386,9 +386,9 @@ Applets - `hud.LZ/blyt/HudMenu_00.bclyt`
 
 HUD element             | Color
 ----------------------- | -----
-Battery - Normal        | 0x0724
-Battery - Low           | 0x0738
-Battery - Charging      | 0x07F4
-Battery - Charger icon  | 0x0888
-Battery - Charger BG    | 0x08F8
-Battery - Fully charged | 0x08E4
+Battery - Normal        | 0x724
+Battery - Low           | 0x738
+Battery - Charging      | 0x7F4
+Battery - Charger icon  | 0x888
+Battery - Charger BG    | 0x8F8
+Battery - Fully charged | 0x8E4
