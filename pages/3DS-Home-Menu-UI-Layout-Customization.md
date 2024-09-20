@@ -390,5 +390,5 @@ Battery - Normal        | 0x0724
 Battery - Low           | 0x0738
 Battery - Charging      | 0x07F4
 Battery - Charger icon  | 0x0888
-Battery - Fully Charged | 0x08E4
+Battery - Fully charged | 0x08E4
 Battery - Charger BG    | 0x08F8
