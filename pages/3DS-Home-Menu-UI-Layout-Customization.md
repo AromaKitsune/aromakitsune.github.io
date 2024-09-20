@@ -225,7 +225,13 @@ Skip this section if you want to edit one of those BCLYT files listed above.
 
     <div align="center">
       <p class="image">
-        <img src="/images/3DS/3DS-Home-Menu-UI-Layout-Customization_03.png">
+        <a href="/images/3DS/3DS-Home-Menu-UI-Layout-Customization_03.png">
+          <img src="/images/3DS/3DS-Home-Menu-UI-Layout-Customization_03.png">
+        </a>
+        <br>
+        <small>
+          Click the screenshot for full view.
+        </small>
       </p>
     </div>
 
@@ -350,7 +356,13 @@ Skip this section if you want to edit one of those BCLYT files listed above.
 
     <div align="center">
       <p class="image">
-        <img src="/images/3DS/3DS-Home-Menu-UI-Layout-Customization_14.png">
+        <a href="/images/3DS/3DS-Home-Menu-UI-Layout-Customization_14.png">
+          <img src="/images/3DS/3DS-Home-Menu-UI-Layout-Customization_14.png">
+        </a>
+        <br>
+        <small>
+          Click the screenshot for full view.
+        </small>
       </p>
     </div>
 
