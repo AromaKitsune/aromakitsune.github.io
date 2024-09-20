@@ -374,7 +374,7 @@ Each value consists of 4 bytes for color & alpha (`RR GG BB AA`). I suggest chan
 
 Applets - `launcher.LZ/blyt/LncBase_D_01.bclyt`
 
-Icon             | Color 1 | Color 2
+Applet icon      | Color 1 | Color 2
 ---------------- | ------- | -------
 Game Notes       | 0x878   | 0x87C
 Friend List      | 0x79C   | 0x7A0
@@ -382,7 +382,7 @@ Notifications    | 0x6C0   | 0x6C4
 Internet Browser | 0x5E4   | 0x5E8
 Miiverse         | 0x508   | 0x50C
 
-Applets - `hud.LZ/blyt/HudMenu_00.bclyt`
+HUD - `hud.LZ/blyt/HudMenu_00.bclyt`
 
 HUD element             | Color
 ----------------------- | -----
