@@ -28,15 +28,21 @@ If you need help with UI customizations, ask us or me (AromaKitsune) on the
 Custom 3DS Assets Discord</a>.
 Note: I don't run this Discord server.
 
-The layout file we will be editing is BCLYT. BCLAN (Layout Animation) and BCLIM (Layout Image) editing are not covered in this guide.
+This guide covers BCLYT file editing.
+
+BCLYT files are the layout files used on the 3DS, they control how UI elements and HUD's are shown in games. It is similar to BRLYT files used on the Wii.
+
+
+BCLAN (Layout Animation) and BCLIM (Layout Image) editing are not covered in this guide.
 For BCLAN, check out
 <a href="https://menumod.chickenserver.org/animations/" target="_blank">
 lividhen's animations guide</a>,
 it covers only the spinning animation.
 
 We will be editing the BCLYT files with Switch-Toolbox, a tool that edits many game assets for the 3DS, Wii U, and Switch.
-Switch-Toolbox's layout editor has a bug that it corrupts the BCLYT files of Home Menu when editing them,
-causing Home Menu to crash on startup. This is not the case with the other BCLYT files in some games such as Mario Kart 7.
+
+This is not simple, Switch-Toolbox's layout editor has a bug that it corrupts the BCLYT files of Home Menu when editing them,
+resulting in broken UI elements or Home Menu crash. This is not the case with the other BCLYT files in some games such as Mario Kart 7.
 
 Let's fix the BCLYT file.
 
@@ -174,7 +180,7 @@ Skip this section if you want to edit one of those BCLYT files listed above.
 
 8.  Do not edit anything, just save. `Ctrl`+`S` isn't coded to save in Layout Editor, so click the `💾` save button and the "saved" dialog should appear.
 
-    - You should have the corrupted BCLYT as its file size has been decreased. This is normal.
+    - You should have the corrupted BCLYT file as its file size has been decreased. This is normal.
 
 9.  Close the layout editor window.
 
@@ -204,23 +210,23 @@ Skip this section if you want to edit one of those BCLYT files listed above.
       used for removing the Miiverse applet from the Korean 3DS systems</a>),
       in which you can only move them vertically. Switch-Toolbox can edit the BCLAN files without any issues, so hex editing isn't needed.
 
-    - In order to keep the `C.bclyt`'s file size the same as `B.bclyt`'s, you should edit only the values in the Pane and Colors tabs.
+    - In order to keep the `C.bclyt`'s file size the same as `B.bclyt` file's, you should edit only the values in the Pane and Colors tabs.
       Adding or removing some items may change the file size which makes it more difficult to manually fix it with hex editor. Avoid doing the following edits:
 
         - Adding new Panes
 
-        - Deleting the existing Panes (It will crash Home Menu, so make them invisible instead.)
+        - Deleting the existing Panes - It will crash Home Menu, so make them invisible instead.
 
         - Adding/removing links to textures in the Texture Maps tab 
 
-        - Editing the texts in the Text Pane (You should
+        - Editing the texts in the Text Pane - You should
           <a href="https://github.com/IcySon55/3DLandMSBTeditor" target="_blank">
           edit the MSBT files</a>
-          instead.)
+          instead.
 
 12. When done editing, click the `💾` save button and you can close Switch-Toolbox.
 
-    - You should have another corrupted BCLYT file. Again, this is normal. The file size of the edited BCLYT has been decreased by 432 bytes.
+    - You should have another corrupted BCLYT file. Again, this is normal. The file size of the edited BCLYT file has been decreased by 432 bytes.
       Make sure both the `B.bclyt`'s and `C.bclyt`'s file sizes are the same. We will be restoring them on the next steps.
 
     <div align="center">
@@ -337,7 +343,7 @@ Skip this section if you want to edit one of those BCLYT files listed above.
 
 22. Paste with `Ctrl`+`V`. Don't paste-overwrite with `Ctrl`+`B`.
 
-    - The bytes at the beginning of the edited BCLYT are restored.
+    - The bytes at the beginning of the edited BCLYT file are restored.
 
     <div align="center">
       <p class="image">
@@ -349,7 +355,7 @@ Skip this section if you want to edit one of those BCLYT files listed above.
 
     - Now we have fixed the BCLYT file!
 
-    - `A.bclyt`, `B.bclyt` and `C.bclyt.bak` can be deleted as they're not needed anymore.
+    - The `A.bclyt`, `B.bclyt` and `C.bclyt.bak` files can be deleted as they're not needed anymore.
 
     - To make another edit to the fixed BCLYT file, make 3 copies of the `C.bclyt` file and repeat
       step 5 of the [Editing the UI Layout](#editing-the-ui-layout) section.
@@ -386,22 +392,80 @@ Each value consists of 4 bytes for color & alpha (`RR GG BB AA`). I suggest chan
 
 Applets - `launcher.LZ/blyt/LncBase_D_01.bclyt`
 
-Applet icon      | Color 1 | Color 2
----------------- | ------- | -------
-Game Notes       | 0x878   | 0x87C
-Friend List      | 0x79C   | 0x7A0
-Notifications    | 0x6C0   | 0x6C4
-Internet Browser | 0x5E4   | 0x5E8
-Miiverse         | 0x508   | 0x50C
+<table>
+  <thead>
+    <tr>
+      <th>Applet icon</th>
+      <th>Color 1</th>
+      <th>Color 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Game Notes</td>
+      <td style="background-color:#DBBD00; color:#000000">0x878<br>#DBBD00</td>
+      <td style="background-color:#FFC600; color:#000000">0x87C<br>#FFC600</td>
+    </tr>
+    <tr>
+      <td>Friend List</td>
+      <td style="background-color:#FB7A18; color:#000000">0x79C<br>#FB7A18</td>
+      <td style="background-color:#F39900; color:#000000">0x7A0<br>#F39900</td>
+    </tr>
+    <tr>
+      <td>Notifications</td>
+      <td style="background-color:#00B294; color:#000000">0x6C0<br>#00B294</td>
+      <td style="background-color:#00DA9C; color:#000000">0x6C4<br>#00DA9C</td>
+    </tr>
+    <tr>
+      <td>Internet Browser</td>
+      <td style="background-color:#4575FA; color:#000000">0x5E4<br>#4575FA</td>
+      <td style="background-color:#1290FF; color:#000000">0x5E8<br>#1290FF</td>
+    </tr>
+    <tr>
+      <td>Miiverse</td>
+      <td style="background-color:#30B70E; color:#000000">0x508<br>#30B70E</td>
+      <td style="background-color:#49E415; color:#000000">0x50C<br>#49E415</td>
+    </tr>
+  </tbody>
+</table>
 
 HUD - `hud.LZ/blyt/HudMenu_00.bclyt`
 
-HUD element             | Color
------------------------ | -----
-Battery - Normal?       | 0x248
-Battery - Normal        | 0x724
-Battery - Low           | 0x738
-Battery - Charging      | 0x7F4
-Battery - Charger icon  | 0x888
-Battery - Charger BG    | 0x8F8
-Battery - Fully charged | 0x8E4
+<table>
+  <thead>
+    <tr>
+      <th>HUD element</th>
+      <th>Color</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Battery - Normal?</td>
+      <td style="background-color:#32FFFF; color:#000000">0x248<br>#32FFFF</td>
+    </tr>
+    <tr>
+      <td>Battery - Normal</td>
+      <td style="background-color:#23AAE6; color:#000000">0x724<br>#23AAE6</td>
+    </tr>
+    <tr>
+      <td>Battery - Low</td>
+      <td style="background-color:#F57D41; color:#000000">0x738<br>#F57D41</td>
+    </tr>
+    <tr>
+      <td>Battery - Charging</td>
+      <td style="background-color:#F57D41; color:#000000">0x7F4<br>#F57D41</td>
+    </tr>
+    <tr>
+      <td>Battery - Charger icon</td>
+      <td style="background-color:#323232; color:#FFFFFF">0x888<br>#323232</td>
+    </tr>
+    <tr>
+      <td>Battery - Charger BG</td>
+      <td style="background-color:#FF732E; color:#000000">0x8F8<br>#FF732E</td>
+    </tr>
+    <tr>
+      <td>Battery - Fully charged</td>
+      <td style="background-color:#23AFE6; color:#000000">0x8E4<br>#23AFE6</td>
+    </tr>
+  </tbody>
+</table>
