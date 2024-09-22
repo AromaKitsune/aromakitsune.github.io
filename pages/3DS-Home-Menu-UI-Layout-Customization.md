@@ -190,7 +190,13 @@ Skip this section if you want to edit one of those BCLYT files listed above.
 
     <div align="center">
       <p class="image">
-        <img src="/images/3DS/3DS-Home-Menu-UI-Layout-Customization_02.png">
+        <a href="/images/3DS/3DS-Home-Menu-UI-Layout-Customization_02.png">
+          <img src="/images/3DS/3DS-Home-Menu-UI-Layout-Customization_02.png">
+        </a>
+        <br>
+        <small>
+          Click the screenshot for full view.
+        </small>
       </p>
     </div>
 
