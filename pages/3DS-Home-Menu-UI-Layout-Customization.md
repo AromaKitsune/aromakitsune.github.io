@@ -87,7 +87,7 @@ Install CFW if you haven't already.</a>
   Kuriimu2</a>
 
 - <a href="https://mh-nexus.de/en/hxd/" target="_blank">
-  HxD hex editor</a>
+  HxD - Hex Editor</a>
 
 - <a href="https://github.com/KillzXGaming/Switch-Toolbox" target="_blank">
   Switch-Toolbox</a>
@@ -204,11 +204,14 @@ Skip this section if you want to edit one of those BCLYT files listed above.
     - To hide the UI elements, untick the `Pane visible` checkbox and set the `Alpha` value to `0`.
 
     - If the UI elements don't actually move to your desired position, then the elements' position values are likely hardcoded in the BCLAN (Layout Animation) files
-      and you have to edit them instead. In this case, the applets' X position values are hardcoded in
-      `launcher.LZ/anim/LncBase_D_01_MvsToggle.bclan`
-      (<a href="https://tcrf.net/Nintendo_3DS#Home_Menu_.2B_Revisions" target="_blank">
-      used for removing the Miiverse applet from the Korean 3DS systems</a>),
-      in which you can only move them vertically. Switch-Toolbox can edit the BCLAN files without any issues, so hex editing isn't needed.
+      and you have to edit them instead.
+
+        - One example of this case is the applets on the bottom screen - the applets' horizontal position values are hardcoded in
+      `launcher.LZ/anim/LncBase_D_01_MvsToggle.bclan`, this file is used for
+      <a href="https://tcrf.net/Nintendo_3DS#Home_Menu_.2B_Revisions" target="_blank">
+      removing the Miiverse applet from the Korean 3DS systems</a>.
+      As a result, you can only move them vertically. To move them freely, edit the BCLAN file with Switch-Toolbox.
+      Note: Hex editing isn't needed as Switch-Toolbox doesn't corrupt BCLAN files.
 
     - In order to keep the `C.bclyt`'s file size the same as `B.bclyt` file's, you should edit only the values in the Pane and Colors tabs.
       Adding or removing some items may change the file size which makes it more difficult to manually fix it with hex editor. Avoid doing the following edits:
