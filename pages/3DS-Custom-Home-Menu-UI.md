@@ -15,34 +15,54 @@ for creating your own customized Home Menu UI for 3DS!
 
 A customized Home Menu UI made by me.
 
-<div align="center">
-  <p class="image">
-    <img src="/images/3DS/3DS-Custom-Home-Menu-UI_1.gif">
-  </p>
-</div>
+ <!-- Container for the image gallery -->
+<div class="container">
 
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="/images/3DS/3DS-Custom-Home-Menu-UI_2.png">
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div align="center">
+      <img src="/images/3DS/3DS-Custom-Home-Menu-UI_1.gif" >
+    </div>
+  </div>
+
+  <div class="mySlides">
+    <div align="center">
       <img src="/images/3DS/3DS-Custom-Home-Menu-UI_2.png">
-    </a>
-    <div class="desc">Purple Applets</div>
+    </div>
   </div>
-</div>
 
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="/images/3DS/3DS-Custom-Home-Menu-UI_3.png">
+  <div class="mySlides">
+    <div align="center">
       <img src="/images/3DS/3DS-Custom-Home-Menu-UI_3.png">
-    </a>
-    <div class="desc">Blue Shutdown Screen</div>
+    </div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="/images/3DS/3DS-Custom-Home-Menu-UI_1.gif" style="width:100%" onclick="currentSlide(1)" alt="Spinny Cursor">
+    </div>
+
+    <div class="column">
+      <img class="demo cursor" src="/images/3DS/3DS-Custom-Home-Menu-UI_2.png" style="width:100%" onclick="currentSlide(2)" alt="Purple Applets">
+    </div>
+
+    <div class="column">
+      <img class="demo cursor" src="/images/3DS/3DS-Custom-Home-Menu-UI_3.png" style="width:100%" onclick="currentSlide(3)" alt="Blue Shutdown Screen">
+    </div>
   </div>
 </div>
 
-<div class="clearfix"></div>
-<div align="center">
-<small>Click the screenshots for full view.</small>
-</div>
+<script src="/assets/slideshow-gallery.js"></script>
 <br>
 
 Target system firmware version: `11.17.0-50`
