@@ -416,10 +416,10 @@ hr {
 
 /* Add a transparency effect for thumnbail images */
 .demo {
-  opacity: 0.6;
+  opacity: 1;
 }
 
 .active,
 .demo:hover {
-  opacity: 1;
+  border: solid 5px #0078d7;
 }
