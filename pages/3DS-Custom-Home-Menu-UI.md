@@ -26,16 +26,23 @@ A customized Home Menu UI made by me.
     <a target="_blank" href="/images/3DS/3DS-Custom-Home-Menu-UI_2.png">
       <img src="/images/3DS/3DS-Custom-Home-Menu-UI_2.png">
     </a>
+    <div class="desc">Purple Applets</div>
   </div>
 </div>
+
 <div class="responsive">
   <div class="gallery">
     <a target="_blank" href="/images/3DS/3DS-Custom-Home-Menu-UI_3.png">
       <img src="/images/3DS/3DS-Custom-Home-Menu-UI_3.png">
     </a>
+    <div class="desc">Blue Shutdown Screen</div>
   </div>
 </div>
+
 <div class="clearfix"></div>
+<div align="center">
+<small>Click the screenshots for full view.</small>
+</div>
 <br>
 
 Target system firmware version: `11.17.0-50`
