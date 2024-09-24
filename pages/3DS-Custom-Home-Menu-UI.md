@@ -15,13 +15,13 @@ for creating your own customized Home Menu UI for 3DS!
 
 A customized Home Menu UI made by me.
 
- <!-- Container for the image gallery -->
+<!-- Container for the image gallery -->
 <div class="container">
 
   <!-- Full-width images with number text -->
   <div class="mySlides">
     <div align="center">
-      <img src="/images/3DS/3DS-Custom-Home-Menu-UI_1.gif" >
+      <img src="/images/3DS/3DS-Custom-Home-Menu-UI_1.gif">
     </div>
   </div>
 
