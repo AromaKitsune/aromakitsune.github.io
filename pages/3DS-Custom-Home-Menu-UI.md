@@ -18,10 +18,25 @@ A customized Home Menu UI made by me.
 <div align="center">
   <p class="image">
     <img src="/images/3DS/3DS-Custom-Home-Menu-UI_1.gif">
-    <br><br>
-    <img src="/images/3DS/3DS-Custom-Home-Menu-UI_2.png">
   </p>
 </div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="/images/3DS/3DS-Custom-Home-Menu-UI_2.png">
+      <img src="/images/3DS/3DS-Custom-Home-Menu-UI_2.png">
+    </a>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="/images/3DS/3DS-Custom-Home-Menu-UI_3.png">
+      <img src="/images/3DS/3DS-Custom-Home-Menu-UI_3.png">
+    </a>
+  </div>
+</div>
+<div class="clearfix"></div>
+<br>
 
 Target system firmware version: `11.17.0-50`
 
