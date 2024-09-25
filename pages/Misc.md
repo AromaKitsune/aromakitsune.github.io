@@ -2,7 +2,6 @@
 layout: page
 title: Misc
 permalink: /Misc
-name: site1
 ---
 
 This page is for testing some HTML stuff
