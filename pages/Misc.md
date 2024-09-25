@@ -2,6 +2,7 @@
 layout: page
 title: Misc
 permalink: /Misc
+name: site1
 ---
 
 This page is for testing some HTML stuff
@@ -50,7 +51,10 @@ This page is for testing some HTML stuff
 <script src="/assets/slideshow-gallery.js"></script>
 <br>
 
+---
+
 <style>
+/* Image Modal */
 body {font-family: Arial, Helvetica, sans-serif;}
 
 #myImg {
@@ -139,9 +143,109 @@ body {font-family: Arial, Helvetica, sans-serif;}
     width: 100%;
   }
 }
+
+/* Gallery Slideshow */
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+  background-color: #2c3f48;
+  border: solid 1px #535355;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 20px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 20px;
+  border-radius: 5px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: #648fa3;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #2c3f48;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+.column-2 {
+  float: left;
+  width: 33%;
+  padding: 5px;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 1;
+}
+
+.active,
+.demo:hover {
+  border: solid 5px #0078d7;
+}
 </style>
 
-[https://www.w3schools.com/howto/howto_css_modal_images.asp](https://www.w3schools.com/howto/howto_css_modal_images.asp)
+[Image Modal](https://www.w3schools.com/howto/howto_css_modal_images.asp)
 
 <h2>Image Modal</h2>
 <p>In this example, we use CSS to create a modal (dialog box) that is hidden by default.</p>
@@ -180,3 +284,40 @@ span.onclick = function() {
   modal.style.display = "none";
 }
 </script>
+
+---
+
+Screenshots
+
+<div align="center">
+  <p class="image">
+    <a href="/images/Super-Mario-Galaxy_Dialogue.png">
+      <img src="/images/Super-Mario-Galaxy_Dialogue.png">
+    </a>
+    <br>
+    Super Mario Galaxy
+    <br>
+    Pop Happiness font used for the UI.
+    <br>
+    <small>
+      Screenshot taken with Dolphin Emulator
+    </small>
+  </p>
+</div>
+
+<div align="center">
+  <p class="image">
+    <a href="/images/Hyperdimension-Neptunia-mk2_Tutorial.png">
+      <img src="/images/Hyperdimension-Neptunia-mk2_Tutorial.png">
+    </a>
+    <br>
+    Hyperdimension Neptunia mk2
+    <br>
+    Pop Happiness font used for the tutorial sections.
+    <br>
+    <small>
+      Screenshot taken with RPCS3 emulator
+    </small>
+  </p>
+</div>
+
