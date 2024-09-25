@@ -19,22 +19,16 @@ A customized Home Menu UI made by me.
 <div class="container">
 
   <!-- Full-width images with number text -->
-  <div class="mySlides">
-    <div align="center">
+  <div class="mySlides" align="center">
       <img src="/images/3DS/3DS-Custom-Home-Menu-UI_1.gif">
-    </div>
   </div>
 
-  <div class="mySlides">
-    <div align="center">
+  <div class="mySlides" align="center">
       <img src="/images/3DS/3DS-Custom-Home-Menu-UI_2.png">
-    </div>
   </div>
 
-  <div class="mySlides">
-    <div align="center">
+  <div class="mySlides" align="center">
       <img src="/images/3DS/3DS-Custom-Home-Menu-UI_3.png">
-    </div>
   </div>
 
   <!-- Next and previous buttons -->
