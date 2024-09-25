@@ -188,6 +188,16 @@ A 3DS font will be merged into a custom system font so the icon glyphs are prese
       </p>
     </div>
 
+    Note: The preview section has a different result depending on where the font is installed:
+
+    - The corresponding font is displayed if that font is installed to
+    `C:\Windows\Fonts` (right-click on a TTF file → `Install for all users`)
+
+    - Otherwise a Windows system font is displayed if that font is installed to
+    `%LocalAppData%\Microsoft\Windows\Fonts` (click the `Install` button on Windows Font Viewer)
+
+    This does not affect the custom font file generation, you can install a font to whichever Fonts folder you want.
+
 9.  Go to the `FontTool` folder.
 
 10. Launch the Terminal window and input this command:
