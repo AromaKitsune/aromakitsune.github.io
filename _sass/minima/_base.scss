@@ -328,6 +328,15 @@ hr {
   padding-bottom: 10px;
 }
 
+.code-block-wrap {
+  font-family: $code-font-family;
+  font-size: 0.9375em;
+  border: 1px solid $border-color-01;
+  border-radius: 3px;
+  background-color: $code-background-color;
+  padding: 8px 12px;
+}
+
 /* Slideshow Gallery */
 /* https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp */
 

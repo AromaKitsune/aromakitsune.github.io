@@ -80,6 +80,59 @@ A 3DS font will be merged into a custom system font so the icon glyphs are prese
   </p>
 </div>
 
+There are 2 ways to merge the fonts:
+
+- FontForge + Python script (CLI)
+
+- FontForge only (GUI)
+
+The CLI method involves in using a Python script that calls the FontForge program to merge the fonts automatically.
+[More info](https://github.com/dkosmari/System-Font-Replacer#missing-symbols)
+
+The CLI method is faster than the GUI method.
+Pick the GUI method if the CLI method does not work for you.
+
+### *Method 1: FontForge + Python script*
+
+The example custom system font used in this section is `PopHappiness.ttf`.
+
+1.  Go to the
+    <a href="https://github.com/dkosmari/System-Font-Replacer" target="_blank">
+    Wii U System Font Replacer plugin repository</a>.
+
+2.  Download a Python script: `merge-fonts.py`
+
+3.  Place those 3 files in a folder:
+
+    - `merge-fonts.py`
+
+    - 3DS font - `nintendo_NTLG-DB_001.ttf`
+
+    - A custom font - `PopHappiness.ttf`
+
+4.  Launch the Terminal app and input this command:
+
+    Windows:
+
+    <p class="code-block-wrap">
+      "C:\Program Files (x86)\FontForgeBuilds\bin\fontforge.exe"
+      merge-fonts.py PopHappiness.ttf nintendo_NTLG-DB_001.ttf PopHappiness_Merged.ttf
+    </p>
+
+    Linux:
+
+    <p class="code-block-wrap">
+      fontforge merge-fonts.py PopHappiness.ttf nintendo_NTLG-DB_001.ttf PopHappiness_Merged.ttf
+    </p>
+
+The fonts have been merged as `PopHappiness_Merged.ttf`.
+
+Continue to the [Generating the Custom System Font](#generating-the-custom-system-font)
+section.
+
+
+### *Method 2: FontForge only*
+
 1.  Launch FontForge.
 
 2.  Open the custom font file (TTF/OTF).
@@ -200,7 +253,7 @@ A 3DS font will be merged into a custom system font so the icon glyphs are prese
 
 9.  Go to the `FontTool` folder.
 
-10. Launch the Terminal window and input this command:
+10. Launch the Terminal app and input this command:
 
     ```
     python FontTool.py -font SystemFont.bcfnt

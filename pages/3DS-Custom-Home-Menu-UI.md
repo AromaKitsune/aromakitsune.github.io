@@ -65,7 +65,7 @@ The system font is a separate system file. To install the custom system font, [g
 
 Last updated: 2024-05-23
 
-**Download mod:**
+**Download Mod:**
 
 - [LayeredFS](/files/3DS/Kitsune-CustomHomeMenuUI.zip)
 
