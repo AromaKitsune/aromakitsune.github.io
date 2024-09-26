@@ -108,7 +108,7 @@ The example custom system font used in this section is `PopHappiness.ttf`.
 
     - 3DS font - `nintendo_NTLG-DB_001.ttf`
 
-    - A custom font - `PopHappiness.ttf`
+    - A custom font - `PopHappiness.ttf` (OTF also works)
 
 4.  Launch the Terminal app and input this command:
 
