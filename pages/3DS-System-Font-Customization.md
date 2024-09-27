@@ -87,7 +87,8 @@ There are 2 ways to merge the fonts:
 - FontForge only (GUI)
 
 The CLI method involves in using a Python script that calls the FontForge program to merge the fonts automatically.
-[More info](https://github.com/dkosmari/System-Font-Replacer#missing-symbols)
+<a href="https://github.com/dkosmari/System-Font-Replacer#missing-symbols" target="_blank">
+More info</a>
 
 The CLI method is faster than the GUI method.
 Pick the GUI method if the CLI method does not work for you.
