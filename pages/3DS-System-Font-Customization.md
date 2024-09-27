@@ -186,7 +186,7 @@ The example custom system font used in this section is `PopHappiness.ttf`.
       </p>
     </div>
 
-11. On a File Explorer window, open the generated font file and install it.
+11. On a File Explorer window, open the merged font file and install it.
 
     <div align="center">
       <p class="image">

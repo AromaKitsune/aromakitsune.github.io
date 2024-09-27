@@ -162,7 +162,7 @@ The example custom system font used in this section is `PopHappiness.ttf`.
       </p>
     </div>
 
-11. On a File Explorer window, open the generated font file.
+11. On a File Explorer window, open the merged font file.
 
     - Make sure the outlines format is `TrueType Outlines`.
       If it's `PostScript Outlines`, you must generate a font as TTF.
