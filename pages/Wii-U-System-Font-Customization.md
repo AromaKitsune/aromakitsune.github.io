@@ -95,10 +95,10 @@ The example custom system font used in this section is `PopHappiness.ttf`.
       fontforge merge-fonts.py PopHappiness.ttf nintendo_NTLG-DB_002.ttf PopHappiness_Merged.ttf
     </p>
 
-The fonts have been merged as `PopHappiness_Merged.ttf`.
+    The fonts have been merged as `PopHappiness_Merged.ttf`.
 
-Continue to the [Installing the Custom System Font to Wii U](#installing-the-custom-system-font-to-wii-u)
-section.
+    Continue to the [Installing the Custom System Font to Wii U](#installing-the-custom-system-font-to-wii-u)
+    section.
 
 
 ### *Method 2: FontForge only*
@@ -190,7 +190,7 @@ section.
 
 6.  Reboot the console.
 
-7.  The custom system font has been installed!
+    The custom system font has been installed!
 
 
 ## Installing the Custom System Font to Cemu

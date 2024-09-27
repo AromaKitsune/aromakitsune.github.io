@@ -184,7 +184,7 @@ Install CFW if you haven't already.</a>
 
 5.  Reboot the console.
 
-6.  The custom system font has been installed.
+    The custom system font has been installed.
 
 
 ## Installing the Custom System Font to Lime3DS
@@ -238,9 +238,9 @@ Lime3DS emulator</a>.
 
 6.  Reboot the console.
 
-7.  The system font has been restored.
+    The system font has been restored.
 
--   To restore the system font on Lime3DS, go to `File` → `Install CIA...` and select the `SystemFont.cia` file.
+    To restore the system font on Lime3DS, go to `File` → `Install CIA...` and select the `SystemFont.cia` file.
 
 
 ## Screenshots

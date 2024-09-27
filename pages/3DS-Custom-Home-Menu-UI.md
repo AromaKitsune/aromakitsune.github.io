@@ -108,7 +108,7 @@ Install CFW if you haven't already.</a>
 
 6.  Save and exit.
 
-7.  The custom Home Menu UI has been installed.
+    The custom Home Menu UI has been installed.
 
 
 ## Adding the Home Menu Applet Patch (Lime3DS)
@@ -147,7 +147,7 @@ Lime3DS emulator</a>.
 
 11. Launch the Home Menu by going to `File` → `Boot Home Menu` → `EUR`/`USA`/`JPN`.
 
-12. The custom Home Menu UI has been installed.
+    The custom Home Menu UI has been installed.
 
 
 ## Removing the Home Menu Applet Patch
@@ -164,7 +164,7 @@ Lime3DS emulator</a>.
 
 3.  Reboot the console.
 
-4.  The Home Menu UI has been restored.
+    The Home Menu UI has been restored.
 
 -   If you want to turn off the mod instead, while leaving other patches (such as Pretendo Network) active,
     rename the `000400300000??02` folder to `000400300000??02_off`.
@@ -249,7 +249,7 @@ Install CFW if you haven't already.</a>
 
 5.  Reboot the console.
 
-6.  The custom Home Menu applet has been installed.
+    The custom Home Menu applet has been installed.
 
 
 ## Restoring the Home Menu Applet - Method 1
@@ -266,7 +266,7 @@ Install CFW if you haven't already.</a>
 
 4.  Reboot the console.
 
-5.  The Home Menu applet has been restored.
+    The Home Menu applet has been restored.
 
 
 ## Restoring the Home Menu Applet - Method 2
@@ -294,7 +294,7 @@ Install CFW if you haven't already.</a>
 
 6.  Reboot the console.
 
-7.  The Home Menu applet has been restored.
+    The Home Menu applet has been restored.
 
 
 ## Restoring the Home Menu Applet - Method 3
@@ -352,9 +352,9 @@ Install CFW if you haven't already.</a>
 
 9.  Reboot the console.
 
-10. The Home Menu applet has been restored.
+    The Home Menu applet has been restored.
 
-11. (Optional) Update the CFW and system firmware to the latest version.
+    (Optional) Update the CFW and system firmware to the latest version.
 
 
 ## Restoring the Home Menu Applet - Method 4
@@ -418,7 +418,7 @@ Install CFW if you haven't already.</a>
 
 12. Reboot the console.
 
-13. The Home Menu applet has been restored.
+    The Home Menu applet has been restored.
 
 
 ## Restoring the Home Menu Applet - Last Resort

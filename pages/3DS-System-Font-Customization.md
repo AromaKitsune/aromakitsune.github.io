@@ -112,23 +112,17 @@ The example custom system font used in this section is `PopHappiness.ttf`.
 
 4.  Launch the Terminal app and input this command:
 
-    Windows:
-
     <p class="code-block-wrap">
       "C:\Program Files (x86)\FontForgeBuilds\bin\fontforge.exe"
       merge-fonts.py PopHappiness.ttf nintendo_NTLG-DB_001.ttf PopHappiness_Merged.ttf
     </p>
 
-    Linux:
+    The fonts have been merged as `PopHappiness_Merged.ttf`.
 
-    <p class="code-block-wrap">
-      fontforge merge-fonts.py PopHappiness.ttf nintendo_NTLG-DB_001.ttf PopHappiness_Merged.ttf
-    </p>
+5.  On a File Explorer window, open the merged font file and install it.
 
-The fonts have been merged as `PopHappiness_Merged.ttf`.
-
-Continue to the [Generating the Custom System Font](#generating-the-custom-system-font)
-section.
+    Continue to the [Generating the Custom System Font](#generating-the-custom-system-font)
+    section.
 
 
 ### *Method 2: FontForge only*
@@ -267,7 +261,8 @@ section.
       </p>
     </div>
 
-11. The `SystemFont.cia` file has been generated.
+    The `SystemFont.cia` file has been generated.
+
     Rename `SystemFont` to match the actual font name, in this case: `PopHappinessFont.cia`.
 
 
@@ -322,7 +317,7 @@ You can preview the custom system font on Lime3DS emulator before installing it 
 
 5.  Reboot the console.
 
-6.  The custom system font has been installed!
+    The custom system font has been installed!
 
 <div align="center">
   <p class="image">
@@ -351,9 +346,9 @@ You can preview the custom system font on Lime3DS emulator before installing it 
 
 6.  Reboot the console.
 
-7.  The system font has been restored.
+    The system font has been restored.
 
--   To restore the system font on Lime3DS, go to `File` → `Install CIA...` and select the `SystemFont.cia` file.
+    To restore the system font on Lime3DS, go to `File` → `Install CIA...` and select the `SystemFont.cia` file.
 
 
 ## Tools Used

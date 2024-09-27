@@ -166,7 +166,7 @@ No system files are modified in the process. The custom system font is loaded in
 
 7.  Reboot the console.
 
-8.  The custom system font has been installed.
+    The custom system font has been installed.
 
 
 ## Installing the Custom System Font to Cemu
