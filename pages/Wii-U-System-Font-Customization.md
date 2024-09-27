@@ -39,6 +39,8 @@ No system files are modified in the process. The custom system font is loaded in
 - <a href="https://github.com/dkosmari/System-Font-Replacer" target="_blank">
   System Font Replacer plugin</a>
 
+Recommended OS: Windows 10 or 11, Linux
+
 
 ## Merging the Fonts
 

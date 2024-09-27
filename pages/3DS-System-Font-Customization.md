@@ -69,6 +69,8 @@ Install CFW if you haven't already.</a>
   Lime3DS emulator</a>
   (for previewing the custom system font)
 
+Recommended OS: Windows 10 or 11 - FontTool is not compatible with Linux
+
 
 ## Merging the Fonts
 
