@@ -432,3 +432,10 @@ hr {
 .demo:hover {
   border: solid 5px #0078d7;
 }
+
+@media screen and (max-width: 600px) {
+  .prev,
+  .next {
+    display: none;
+  }
+}
