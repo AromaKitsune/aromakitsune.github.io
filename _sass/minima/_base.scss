@@ -157,6 +157,7 @@ code {
   font-size: 0.9375em;
   border: 1px solid $border-color-01;
   border-radius: 3px;
+  color: #7ee787;
   background-color: $code-background-color;
 }
 
@@ -329,6 +330,7 @@ hr {
 }
 
 .code-block-wrap {
+  color: #7ee787;
   font-family: $code-font-family;
   font-size: 0.9375em;
   border: 1px solid $border-color-01;
@@ -430,7 +432,7 @@ hr {
 
 .active,
 .demo:hover {
-  border: solid 5px #0078d7;
+  border: solid 5px #648fa3;
 }
 
 @media screen and (max-width: 600px) {
