@@ -4,7 +4,7 @@ title: Misc
 permalink: /Misc
 ---
 
-This page is for testing some HTML stuff
+This page is for testing some HTML stuff :P
 
 <style>
 /*************** Image Modal ***************/
@@ -234,6 +234,81 @@ body {font-family: Arial, Helvetica, sans-serif;}
 } 
 </style>
 
+### Code Blocks
+
+Normal:
+
+The quick `brown fox` jumps over the `lazy dog`.
+
+Scroll bar:
+
+```
+The quick brown fox jumps over the lazy dog.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+```
+
+Wrapped:
+
+<p class="code-block-wrap">
+  The quick brown fox jumps over the lazy dog.
+  <br>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</p>
+
+<details>
+  <summary>
+    <b>Details</b>
+  </summary>
+  <p class="mini-note">
+    The quick <code>brown fox</code> jumps over the <code>lazy dog</code>.
+    <br>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </p>
+</details>
+
+---
+
+### Notes
+
+<p class="note">
+  The quick <code>brown fox</code> jumps over the <code>lazy dog</code>.
+  <br>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</p>
+
+<p class="warning">
+  The quick <code>brown fox</code> jumps over the <code>lazy dog</code>.
+  <br>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</p>
+
+---
+
+### Tables
+
+Header 1         | Header 2 | Header 3
+---------------- | -------- | --------
+Row 1 - Column 1 | Column 2 | Column 3
+Row 2 - Column 1 | Column 2 | Column 3
+Row 3 - Column 1 | Column 2 | Column 3
+Row 4 - Column 1 | Column 2 | Column 3
+Row 5 - Column 1 | Column 2 | Column 3
+
+---
+
+### Screenshots
+
+<div align="center">
+  <p class="image">
+    <img src="/images/3DS/3DS-System-Font-Customization_07.png">
+  </p>
+</div>
+
 <!-- Container for the image gallery -->
 <div class="container">
 
@@ -373,18 +448,7 @@ document.getElementById("defaultOpen").click();
 </script>
 
 
-## Tables
-
-Header 1         | Header 2 | Header 3
----------------- | -------- | --------
-Row 1 - Column 1 | Column 2 | Column 3
-Row 2 - Column 1 | Column 2 | Column 3
-Row 3 - Column 1 | Column 2 | Column 3
-Row 4 - Column 1 | Column 2 | Column 3
-Row 5 - Column 1 | Column 2 | Column 3
-
-
-## Screenshots
+### Screenshots
 
 <div align="center">
   <p class="image">
