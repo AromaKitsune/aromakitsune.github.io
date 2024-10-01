@@ -98,6 +98,8 @@ The example custom system font used in this section is `PopHappiness.ttf`.
       fontforge merge-fonts.py PopHappiness.ttf nintendo_NTLG-DB_002.ttf PopHappiness_Merged.ttf
     </p>
 
+    Note: Those are single line commands - they are wrapped so the whole commands can be seen for easy copy without horizontally scrolling.
+
     The fonts have been merged as `PopHappiness_Merged.ttf`.
 
     Continue to the [Installing the Custom System Font to Wii U](#installing-the-custom-system-font-to-wii-u)
