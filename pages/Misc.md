@@ -372,6 +372,18 @@ function openCity(evt, cityName) {
 document.getElementById("defaultOpen").click();
 </script>
 
+
+## Tables
+
+Header 1         | Header 2 | Header 3
+---------------- | -------- | --------
+Row 1 - Column 1 | Column 2 | Column 3
+Row 2 - Column 1 | Column 2 | Column 3
+Row 3 - Column 1 | Column 2 | Column 3
+Row 4 - Column 1 | Column 2 | Column 3
+Row 5 - Column 1 | Column 2 | Column 3
+
+
 ## Screenshots
 
 <div align="center">
