@@ -75,7 +75,7 @@ It is used for the UI in many Nintendo games. It is also used for the tutorial s
   <summary>
     <b>Side-bearings Notes</b>
   </summary>
-  <p class="mini-note">
+  <p class="note-other">
     Fixed the side-bearings (spacing) for Greek glyphs, Cyrillic glyphs,
     <br>
     and the following glyphs: <code>° ´ ‘ ’ “ ” ′ ″</code>
@@ -130,7 +130,7 @@ It is commonly used for the UI in Paper Mario games.
   <summary>
     <b>Side-bearings Notes</b>
   </summary>
-  <p class="mini-note">
+  <p class="note-other">
     Fixed the side-bearings (spacing) for Greek glyphs, Cyrillic glyphs,
     <br>
     and the following glyphs: <code>° ´ ‘ ’ “ ” ′ ″</code>
@@ -149,7 +149,7 @@ Luma3DS custom firmware is required to use the mod.
 <a href="https://3ds.hacks.guide/" target="_blank">
 Install CFW if you haven't already.</a>
 
-<p class="note">
+<p class="note-info">
   Create a NAND backup before modifying any system files!
   <br>
   Modifying the system font is safe and can be restored by re-installing the original system font, instead of restoring a NAND backup.
@@ -159,7 +159,7 @@ Install CFW if you haven't already.</a>
   restore section</a>.
 </p>
 
-<p class="warning">
+<p class="note-warning">
   Never uninstall CFW while any modded system files are installed, doing so will brick the console! A
   <a href="https://www.flashcarts.net/ds-quick-start-guide" target="_blank">
   DS flashcart with ntrboot</a>
@@ -184,7 +184,7 @@ Install CFW if you haven't already.</a>
 
 5.  Reboot the console.
 
-<p class="success-note">
+<p class="note-green">
   The custom system font has been installed.
 </p>
 
@@ -195,7 +195,7 @@ You can also install the custom system font to
 <a href="https://lime3ds.github.io/" target="_blank">
 Lime3DS emulator</a>.
 
-<p class="note">
+<p class="note-info">
   AES Keys are required to install encrypted contents to Lime3DS.
   <a href="https://github.com/Lime3DS/Lime3DS/tree/master/dist/dumpkeys" target="_blank">
   Read here for more info.</a>
@@ -240,7 +240,7 @@ Lime3DS emulator</a>.
 
 6.  Reboot the console.
 
-<p class="success-note">
+<p class="note-green">
   The system font has been restored.
 </p>
 

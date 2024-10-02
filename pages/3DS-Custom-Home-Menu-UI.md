@@ -84,7 +84,7 @@ Luma3DS custom firmware is required to use the mod.
 <a href="https://3ds.hacks.guide/" target="_blank">
 Install CFW if you haven't already.</a>
 
-<p class="note">
+<p class="note-info">
   LayeredFS patching is unstable for applets which causes Home Menu to randomly crash if Home Menu is opened several times
   (by suspending a game or exiting an applet).
   <br>
@@ -108,7 +108,7 @@ Install CFW if you haven't already.</a>
 
 6.  Save and exit.
 
-<p class="success-note">
+<p class="note-green">
   The custom Home Menu UI has been installed.
 </p>
 
@@ -119,7 +119,7 @@ You can also add the Home Menu applet patch to
 <a href="https://lime3ds.github.io/" target="_blank">
 Lime3DS emulator</a>.
 
-<p class="note">
+<p class="note-info">
   AES Keys are required to install encrypted contents to Lime3DS.
   <a href="https://github.com/Lime3DS/Lime3DS/tree/master/dist/dumpkeys" target="_blank">
   Read here for more info.</a>
@@ -149,7 +149,7 @@ Lime3DS emulator</a>.
 
 11. Launch the Home Menu by going to `File` → `Boot Home Menu` → `EUR`/`USA`/`JPN`.
 
-<p class="success-note">
+<p class="note-green">
   The custom Home Menu UI has been installed.
 </p>
 
@@ -168,7 +168,7 @@ Lime3DS emulator</a>.
 
 3.  Reboot the console.
 
-<p class="success-note">
+<p class="note-green">
   The Home Menu UI has been restored.
 </p>
 
@@ -187,7 +187,7 @@ Luma3DS custom firmware is required to use the mod.
 <a href="https://3ds.hacks.guide/" target="_blank">
 Install CFW if you haven't already.</a>
 
-<p class="blue-note">
+<p class="note-blue">
   It is <strong>recommended</strong> to backup your Home Menu applet
   as you'll be able to restore it later on if the custom Home Menu applet is installed with the CIA file.
 </p>
@@ -207,7 +207,7 @@ Install CFW if you haven't already.</a>
 
 ## Installing the Custom Home Menu Applet
 
-<p class="note">
+<p class="note-info">
   Create a NAND backup before modifying any system files!
   <br>
   Make sure you have a backup of the Home Menu applet before proceeding.
@@ -230,7 +230,7 @@ Install CFW if you haven't already.</a>
   the installation will fail as the Home Menu applet is being used by other processes.
 </p>
 
-<p class="warning">
+<p class="note-warning">
   Never uninstall CFW while any modded system files are installed, doing so will brick the console! A
   <a href="https://www.flashcarts.net/ds-quick-start-guide" target="_blank">
   DS flashcart with ntrboot</a>
@@ -255,14 +255,14 @@ Install CFW if you haven't already.</a>
 
 5.  Reboot the console.
 
-<p class="success-note">
+<p class="note-green">
   The custom Home Menu applet has been installed.
 </p>
 
 
 ## Restoring the Home Menu Applet - Method 1
 
-<p class="blue-note">
+<p class="note-blue">
   If you've dumped the <code>homemenu.cia</code> file with GodMode9, follow this section.
 </p>
 
@@ -274,14 +274,14 @@ Install CFW if you haven't already.</a>
 
 4.  Reboot the console.
 
-<p class="success-note">
+<p class="note-green">
   The Home Menu applet has been restored.
 </p>
 
 
 ## Restoring the Home Menu Applet - Method 2
 
-<p class="blue-note">
+<p class="note-blue">
   If you've lost the <code>homemenu.cia</code> file from your SD Card and computer, follow this section.
   <br>
   The target system firmware version is <code>11.17.0-50</code>.
@@ -304,14 +304,14 @@ Install CFW if you haven't already.</a>
 
 6.  Reboot the console.
 
-<p class="success-note">
+<p class="note-green">
   The Home Menu applet has been restored.
 </p>
 
 
 ## Restoring the Home Menu Applet - Method 3
 
-<p class="blue-note">
+<p class="note-blue">
   If you've installed the custom Home Menu applet to your system running on older firmware version without any backups, follow this section.
 </p>
 
@@ -364,7 +364,7 @@ Install CFW if you haven't already.</a>
 
 9.  Reboot the console.
 
-<p class="success-note">
+<p class="note-green">
   The Home Menu applet has been restored.
 </p>
 
@@ -373,7 +373,7 @@ Install CFW if you haven't already.</a>
 
 ## Restoring the Home Menu Applet - Method 4
 
-<p class="blue-note">
+<p class="note-blue">
   If you have any issues downloading the firmware archive, follow this section.
 </p>
 
@@ -432,14 +432,14 @@ Install CFW if you haven't already.</a>
 
 12. Reboot the console.
 
-<p class="success-note">
+<p class="note-green">
   The Home Menu applet has been restored.
 </p>
 
 
 ## Restoring the Home Menu Applet - Last Resort
 
-<p class="blue-note">
+<p class="note-blue">
   If none of those restoration methods work for you, restore your NAND backup or give
   <a href="https://3ds.hacks.guide/ctrtransfer" target="_blank">
   CTRTransfer</a>

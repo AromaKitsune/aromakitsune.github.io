@@ -74,7 +74,7 @@ It is used for the UI in many Nintendo games. It is also used for the tutorial s
   <summary>
     <b>Side-bearings Notes</b>
   </summary>
-  <p class="mini-note">
+  <p class="note-other">
     Fixed the side-bearings (spacing) for Greek glyphs, Cyrillic glyphs,
     <br>
     and the following glyphs: <code>° ´ ‘ ’ “ ” ′ ″</code>
@@ -130,7 +130,7 @@ It is commonly used for the UI in Paper Mario games.
   <summary>
     <b>Side-bearings Notes</b>
   </summary>
-  <p class="mini-note">
+  <p class="note-other">
     Fixed the side-bearings (spacing) for Greek glyphs, Cyrillic glyphs,
     <br>
     and the following glyphs: <code>° ´ ‘ ’ “ ” ′ ″</code>
@@ -149,7 +149,7 @@ Aroma custom firmware is required to use the mod.
 <a href="https://wiiu.hacks.guide/" target="_blank">
 Install CFW if you haven't already.</a>
 
-<p class="blue-note">
+<p class="note-blue">
   No system files are modified in the process. The custom system font is loaded into RAM only.
 </p>
 
@@ -168,7 +168,7 @@ Install CFW if you haven't already.</a>
 
 7.  Reboot the console.
 
-<p class="success-note">
+<p class="note-green">
   The custom system font has been installed.
 </p>
 
@@ -178,7 +178,7 @@ Install CFW if you haven't already.</a>
 You can also install the custom system font to <a href="https://cemu.info/" target="_blank">
 Cemu emulator</a>.
 
-<p class="note">
+<p class="note-info">
   Do not add the <code>CafeStd.ttf</code> file to <code>/Cemu/resources/sharedFonts</code>,
   those are replacement system fonts which are used if the real system fonts don't exist.
   <br>
@@ -197,7 +197,7 @@ Cemu emulator</a>.
 
 6.  Launch any of the system apps (if installed) and see how the custom system font looks.
 
-<p class="success-note">
+<p class="note-green">
   The custom system font has been installed.
 </p>
 

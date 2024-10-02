@@ -25,7 +25,7 @@ Luma3DS custom firmware is required to use the mod.
 <a href="https://3ds.hacks.guide/" target="_blank">
 Install CFW if you haven't already.</a>
 
-<p class="note">
+<p class="note-info">
   Create a NAND backup before modifying any system files!
   <br>
   Modifying the system font is safe and can be restored by re-installing the original system font, instead of restoring a NAND backup.
@@ -35,7 +35,7 @@ Install CFW if you haven't already.</a>
   restore section</a>.
 </p>
 
-<p class="warning">
+<p class="note-warning">
   Never uninstall CFW while any modded system files are installed, doing so will brick the console! A
   <a href="https://www.flashcarts.net/ds-quick-start-guide" target="_blank">
   DS flashcart with ntrboot</a>
@@ -275,7 +275,7 @@ The example custom system font used in this section is `PopHappiness.ttf`.
 
 You can preview the custom system font on Lime3DS emulator before installing it to a 3DS.
 
-<p class="note">
+<p class="note-info">
   AES Keys are required to install encrypted contents to Lime3DS.
   <a href="https://github.com/Lime3DS/Lime3DS/tree/master/dist/dumpkeys" target="_blank">
   Read here for more info.</a>
@@ -322,7 +322,7 @@ You can preview the custom system font on Lime3DS emulator before installing it 
 
 5.  Reboot the console.
 
-<p class="success-note">
+<p class="note-green">
   The custom system font has been installed!
 </p>
 
@@ -353,7 +353,7 @@ You can preview the custom system font on Lime3DS emulator before installing it 
 
 6.  Reboot the console.
 
-<p class="success-note">
+<p class="note-green">
   The system font has been restored.
 </p>
 

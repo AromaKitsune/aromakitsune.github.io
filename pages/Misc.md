@@ -261,7 +261,7 @@ Wrapped:
   <summary>
     <b>Details</b>
   </summary>
-  <p class="mini-note">
+  <p class="note-other">
     The quick <code>brown fox</code> jumps over the <code>lazy dog</code>.
     <br>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -273,32 +273,32 @@ Wrapped:
 
 ### Notes
 
-<p class="note">
+<p class="note-info">
   The quick <code>brown fox</code> jumps over the <code>lazy dog</code>.
   <br>
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 </p>
 
-<p class="warning">
+<p class="note-warning">
   The quick <code>brown fox</code> jumps over the <code>lazy dog</code>.
   <br>
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 </p>
 
-<p class="mini-note">
+<p class="note-other">
   The quick <code>brown fox</code> jumps over the <code>lazy dog</code>.
   <br>
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 </p>
 
-<p class="blue-note">
+<p class="note-blue">
   The quick brown fox jumps over the lazy dog.
 </p>
 
-<p class="success-note">
+<p class="note-green">
   The quick brown fox jumps over the lazy dog.
 </p>
 

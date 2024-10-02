@@ -53,7 +53,7 @@ Luma3DS custom firmware is required to use the mod.
 <a href="https://3ds.hacks.guide/" target="_blank">
 Install CFW if you haven't already.</a>
 
-<p class="note">
+<p class="note-info">
   Create a NAND backup before modifying any system files!
   <br>
   Make sure you have a
@@ -68,7 +68,7 @@ Install CFW if you haven't already.</a>
   restore section</a>.
 </p>
 
-<p class="warning">
+<p class="note-warning">
   Never uninstall CFW while any modded system files are installed, doing so will brick the console! A
   <a href="https://www.flashcarts.net/ds-quick-start-guide" target="_blank">
   DS flashcart with ntrboot</a>
@@ -114,7 +114,7 @@ Install CFW if you haven't already.</a>
 - `sleep.LZ/blyt/Slp_D_00.bclyt`
     - The elements that are displayed on the sleep/shutdown screen (bottom).
 
-<p class="note">
+<p class="note-info">
   If you're looking into editing the UI colors for <code>sleep.LZ</code> and applet icons (<code>launcher.LZ</code>),
   I suggest checking out <a href="https://3ds.codeberg.page/homemenu/">
   derberg's Home Menu customization guide</a>
