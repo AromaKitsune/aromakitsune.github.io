@@ -191,7 +191,7 @@ Row 5 - Column 1 | Column 2 | Column 3
     </div>
 
     <div class="column">
-      <img class="demo cursor" src="/images/Sample/CapturedMotion.jpg" style="width:100%" onclick="currentSlide(3)" alt="Captured Motion">
+      <img class="demo cursor" src="/images/Sample/CapturedMotion.jpg" style="width:100%" onclick="currentSlide(4)" alt="Captured Motion">
     </div>
   </div>
 </div>
