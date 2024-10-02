@@ -274,13 +274,13 @@ table {
   }
 }
 
+/* Additional CSS stuff */
+
 hr {
   display: block;
   border: 0;
-  border-top: 1px solid #535355;
+  border-top: 1px solid $dm-brand-color-dark;
 }
-
-/* Additional CSS stuff */
 
 .note-info {
   background-color: $code-background-color;
@@ -315,14 +315,6 @@ hr {
   border-radius: 10px;
   overflow: hidden;
   padding: 20px;
-}
-
-.note-other {
-  background-color: $code-background-color;
-  border: 1px solid $border-color-01;
-  border-radius: 5px;
-  overflow: hidden;
-  padding: 15px;
 }
 
 .note-green {

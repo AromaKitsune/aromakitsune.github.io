@@ -254,7 +254,7 @@
 .post-content h1 {
   @include relative-font-size(2.5);
   line-height: 1.15;
-  border-bottom: 1px solid #535355;
+  border-bottom: 1px solid $dm-brand-color-dark;
   padding-bottom: 0.5em;
 
   @media screen and (min-width: $on-large) {
@@ -269,7 +269,7 @@
 
   h2 {
     @include relative-font-size(1.75);
-    border-bottom: 1px solid #535355;
+    border-bottom: 1px solid $dm-brand-color-dark;
     padding-bottom: 0.25em;
 
     @media screen and (min-width: $on-large) {

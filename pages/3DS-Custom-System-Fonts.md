@@ -75,7 +75,7 @@ It is used for the UI in many Nintendo games. It is also used for the tutorial s
   <summary>
     <b>Side-bearings Notes</b>
   </summary>
-  <p class="note-other">
+  <p class="note-blue">
     Fixed the side-bearings (spacing) for Greek glyphs, Cyrillic glyphs,
     <br>
     and the following glyphs: <code>° ´ ‘ ’ “ ” ′ ″</code>
@@ -130,7 +130,7 @@ It is commonly used for the UI in Paper Mario games.
   <summary>
     <b>Side-bearings Notes</b>
   </summary>
-  <p class="note-other">
+  <p class="note-blue">
     Fixed the side-bearings (spacing) for Greek glyphs, Cyrillic glyphs,
     <br>
     and the following glyphs: <code>° ´ ‘ ’ “ ” ′ ″</code>
