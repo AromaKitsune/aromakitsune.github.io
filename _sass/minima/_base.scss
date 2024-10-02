@@ -322,20 +322,21 @@ hr {
   border: 1px solid $border-color-01;
   border-radius: 5px;
   overflow: hidden;
-  padding-top: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 10px;
+  padding: 15px;
 }
 
 .success-note {
   background-color: #2d412f;
   border-radius: 5px;
   overflow: hidden;
-  padding-top: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 10px;
+  padding: 15px;
+}
+
+.blue-note {
+  background-color: #2c3f48;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 15px;
 }
 
 .code-block-wrap {

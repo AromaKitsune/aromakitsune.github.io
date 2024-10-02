@@ -149,7 +149,9 @@ Aroma custom firmware is required to use the mod.
 <a href="https://wiiu.hacks.guide/" target="_blank">
 Install CFW if you haven't already.</a>
 
-No system files are modified in the process. The custom system font is loaded into RAM only.
+<p class="blue-note">
+  No system files are modified in the process. The custom system font is loaded into RAM only.
+</p>
 
 1.  Download the <a href="https://github.com/dkosmari/System-Font-Replacer" target="_blank">
     System Font Replacer plugin</a>.
@@ -166,7 +168,9 @@ No system files are modified in the process. The custom system font is loaded in
 
 7.  Reboot the console.
 
-    The custom system font has been installed.
+<p class="success-note">
+  The custom system font has been installed.
+</p>
 
 
 ## Installing the Custom System Font to Cemu

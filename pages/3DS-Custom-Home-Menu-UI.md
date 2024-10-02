@@ -108,7 +108,9 @@ Install CFW if you haven't already.</a>
 
 6.  Save and exit.
 
-    The custom Home Menu UI has been installed.
+<p class="success-note">
+  The custom Home Menu UI has been installed.
+</p>
 
 
 ## Adding the Home Menu Applet Patch (Lime3DS)
@@ -147,7 +149,9 @@ Lime3DS emulator</a>.
 
 11. Launch the Home Menu by going to `File` → `Boot Home Menu` → `EUR`/`USA`/`JPN`.
 
-    The custom Home Menu UI has been installed.
+<p class="success-note">
+  The custom Home Menu UI has been installed.
+</p>
 
 
 ## Removing the Home Menu Applet Patch
@@ -164,7 +168,9 @@ Lime3DS emulator</a>.
 
 3.  Reboot the console.
 
-    The Home Menu UI has been restored.
+<p class="success-note">
+  The Home Menu UI has been restored.
+</p>
 
 -   If you want to turn off the mod instead, while leaving other patches (such as Pretendo Network) active,
     rename the `000400300000??02` folder to `000400300000??02_off`.
@@ -181,7 +187,7 @@ Luma3DS custom firmware is required to use the mod.
 <a href="https://3ds.hacks.guide/" target="_blank">
 Install CFW if you haven't already.</a>
 
-<p class="note">
+<p class="blue-note">
   It is <strong>recommended</strong> to backup your Home Menu applet
   as you'll be able to restore it later on if the custom Home Menu applet is installed with the CIA file.
 </p>
@@ -249,12 +255,14 @@ Install CFW if you haven't already.</a>
 
 5.  Reboot the console.
 
-    The custom Home Menu applet has been installed.
+<p class="success-note">
+  The custom Home Menu applet has been installed.
+</p>
 
 
 ## Restoring the Home Menu Applet - Method 1
 
-<p class="note">
+<p class="blue-note">
   If you've dumped the <code>homemenu.cia</code> file with GodMode9, follow this section.
 </p>
 
@@ -266,12 +274,14 @@ Install CFW if you haven't already.</a>
 
 4.  Reboot the console.
 
-    The Home Menu applet has been restored.
+<p class="success-note">
+  The Home Menu applet has been restored.
+</p>
 
 
 ## Restoring the Home Menu Applet - Method 2
 
-<p class="note">
+<p class="blue-note">
   If you've lost the <code>homemenu.cia</code> file from your SD Card and computer, follow this section.
   <br>
   The target system firmware version is <code>11.17.0-50</code>.
@@ -294,12 +304,14 @@ Install CFW if you haven't already.</a>
 
 6.  Reboot the console.
 
-    The Home Menu applet has been restored.
+<p class="success-note">
+  The Home Menu applet has been restored.
+</p>
 
 
 ## Restoring the Home Menu Applet - Method 3
 
-<p class="note">
+<p class="blue-note">
   If you've installed the custom Home Menu applet to your system running on older firmware version without any backups, follow this section.
 </p>
 
@@ -352,14 +364,16 @@ Install CFW if you haven't already.</a>
 
 9.  Reboot the console.
 
-    The Home Menu applet has been restored.
+<p class="success-note">
+  The Home Menu applet has been restored.
+</p>
 
-    (Optional) Update the CFW and system firmware to the latest version.
+(Optional) Update the CFW and system firmware to the latest version.
 
 
 ## Restoring the Home Menu Applet - Method 4
 
-<p class="note">
+<p class="blue-note">
   If you have any issues downloading the firmware archive, follow this section.
 </p>
 
@@ -418,12 +432,14 @@ Install CFW if you haven't already.</a>
 
 12. Reboot the console.
 
-    The Home Menu applet has been restored.
+<p class="success-note">
+  The Home Menu applet has been restored.
+</p>
 
 
 ## Restoring the Home Menu Applet - Last Resort
 
-<p class="note">
+<p class="blue-note">
   If none of those restoration methods work for you, restore your NAND backup or give
   <a href="https://3ds.hacks.guide/ctrtransfer" target="_blank">
   CTRTransfer</a>

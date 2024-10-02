@@ -25,7 +25,9 @@ Aroma custom firmware is required to use the mod.
 <a href="https://wiiu.hacks.guide/" target="_blank">
 Install CFW if you haven't already.</a>
 
-No system files are modified in the process. The custom system font is loaded into RAM only.
+<p class="blue-note">
+  No system files are modified in the process. The custom system font is loaded into RAM only.
+</p>
 
 **What you need:**
 
