@@ -18,20 +18,28 @@ A guide for customizing the Home Menu UI layout (BCLYT files) on the Nintendo 3D
   </p>
 </div>
 
-If this is your first time modding the 3DS Home Menu, follow
-<a href="https://3ds.codeberg.page/homemenu/" target="_blank">
-derberg's 3DS Home Menu Customization Guide</a>
-for setup and extraction before proceeding.
+<p class="note-blue">
+  If this is your first time modding the 3DS Home Menu, follow
+  <a href="https://3ds.codeberg.page/homemenu/" target="_blank">
+  derberg's 3DS Home Menu Customization Guide</a>
+  for setup and extraction before proceeding.
+</p>
 
-If you need help with UI customizations, ask us or me (AromaKitsune) on the
-<a href="https://discord.gg/0z7IGZ5Sv3D0mEN0" target="_blank">
-Custom 3DS Assets Discord</a>.
-Note: I don't run this Discord server.
+<p class="note-blue">
+  We have a Discord server dedicated to 3DS system UI customizations:
+  <a href="https://discord.gg/0z7IGZ5Sv3D0mEN0" target="_blank">
+  Custom 3DS Assets</a>
+  <br>
+  Ask us or me (AromaKitsune) for help with UI customizations.
+  <br>
+  <small>
+    Note: I don't run this Discord server.
+  </small>
+</p>
 
 This guide covers BCLYT file editing.
 
 BCLYT files are the layout files used on the 3DS, they control how UI elements and HUD's are shown in games. It is similar to BRLYT files used on the Wii.
-
 
 BCLAN (Layout Animation) and BCLIM (Layout Image) editing are not covered in this guide.
 For BCLAN, check out
@@ -114,7 +122,7 @@ Install CFW if you haven't already.</a>
 - `sleep.LZ/blyt/Slp_D_00.bclyt`
     - The elements that are displayed on the sleep/shutdown screen (bottom).
 
-<p class="note-info">
+<p class="note-blue">
   If you're looking into editing the UI colors for <code>sleep.LZ</code> and applet icons (<code>launcher.LZ</code>),
   I suggest checking out <a href="https://3ds.codeberg.page/homemenu/">
   derberg's Home Menu customization guide</a>
@@ -128,7 +136,9 @@ Install CFW if you haven't already.</a>
 
 ## Previewing the UI Layout
 
-Skip this section if you want to edit one of those BCLYT files listed above.
+<p class="note-blue">
+  Skip this section if you want to edit one of those BCLYT files listed above.
+</p>
 
 1.  Launch Switch-Toolbox.
 
