@@ -322,7 +322,9 @@ You can preview the custom system font on Lime3DS emulator before installing it 
 
 5.  Reboot the console.
 
-    The custom system font has been installed!
+<p class="success-note">
+  The custom system font has been installed!
+</p>
 
 <div align="center">
   <p class="image">
@@ -351,9 +353,11 @@ You can preview the custom system font on Lime3DS emulator before installing it 
 
 6.  Reboot the console.
 
-    The system font has been restored.
+<p class="success-note">
+  The system font has been restored.
+</p>
 
-    To restore the system font on Lime3DS, go to `File` → `Install CIA...` and select the `SystemFont.cia` file.
+To restore the system font on Lime3DS, go to `File` → `Install CIA...` and select the `SystemFont.cia` file.
 
 
 ## Tools Used

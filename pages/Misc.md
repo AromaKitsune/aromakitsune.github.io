@@ -287,6 +287,17 @@ Wrapped:
   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 </p>
 
+<p class="mini-note">
+  The quick <code>brown fox</code> jumps over the <code>lazy dog</code>.
+  <br>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</p>
+
+<p class="success-note">
+  The quick brown fox jumps over the lazy dog.
+</p>
+
 ---
 
 ### Tables

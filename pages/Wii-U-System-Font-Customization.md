@@ -195,7 +195,9 @@ The example custom system font used in this section is `PopHappiness.ttf`.
 
 6.  Reboot the console.
 
-    The custom system font has been installed!
+<p class="success-note">
+  The custom system font has been installed!
+</p>
 
 
 ## Installing the Custom System Font to Cemu
