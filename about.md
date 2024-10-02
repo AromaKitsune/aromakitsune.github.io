@@ -31,10 +31,12 @@ Twitter</a>
 <a href="https://www.youtube.com/@AromaKitsune" target="_blank">
 YouTube</a>
 
-<div align="right"><p><a href="https://github.com/LumaTeam/Luma3DS" target="_blank">
-Luma3DS logo by LumaTeam</a></p></div>
+---
 
-<div align="right"><p>Site theme based on 3DS Hacks Guide</p></div>
+<a href="https://github.com/LumaTeam/Luma3DS" target="_blank">
+Luma3DS logo by LumaTeam</a>
+
+Color scheme by 3DS Hacks Guide
 
 ---
 
