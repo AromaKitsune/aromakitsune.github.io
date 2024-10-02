@@ -124,7 +124,7 @@ Install CFW if you haven't already.</a>
 
 <p class="note-blue">
   If you're looking into editing the UI colors for <code>sleep.LZ</code> and applet icons (<code>launcher.LZ</code>),
-  I suggest checking out <a href="https://3ds.codeberg.page/homemenu/">
+  I suggest checking out <a href="https://3ds.codeberg.page/homemenu/" target="_blank">
   derberg's Home Menu customization guide</a>
   for those, as hex-editing the <code>*.LZ</code> files directly is easier.
   <br>
