@@ -207,6 +207,13 @@ The example custom system font used in this section is `PopHappiness.ttf`.
 You can also install the custom system font to <a href="https://cemu.info/" target="_blank">
 Cemu emulator</a>.
 
+<p class="note">
+  Do not add the <code>CafeStd.ttf</code> file to <code>/Cemu/resources/sharedFonts</code>,
+  those are replacement system fonts which are used if the real system fonts don't exist.
+  <br>
+  Any custom/real system font files placed in this folder will be overwritten with replacement ones after Cemu updates.
+</p>
+
 1.  Rename the merged font file to `CafeStd.ttf`.
 
 2.  Launch Cemu.
@@ -219,9 +226,6 @@ Cemu emulator</a>.
 
 6.  Launch any of the system apps (if installed) and see how the custom system font looks.
 
-<p class="note">
-  Do not add the <code>CafeStd.ttf</code> file to <code>/Cemu/resources/sharedFonts</code>,
-  those are replacement system fonts which are used if the real system fonts don't exist.
-  <br>
-  Any custom/real system font files placed in this folder will be overwritten with replacement ones after Cemu updates.
+<p class="success-note">
+  The custom system font has been installed.
 </p>
