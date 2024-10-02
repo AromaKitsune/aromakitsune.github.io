@@ -67,6 +67,7 @@ More info</a>
 The CLI method is faster than the GUI method.
 Pick the GUI method if the CLI method does not work for you.
 
+
 ### *Method 1: FontForge + Python script*
 
 The example custom system font used in this section is `PopHappiness.ttf`.
