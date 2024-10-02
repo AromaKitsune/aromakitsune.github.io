@@ -254,6 +254,7 @@
 .post-content h1 {
   @include relative-font-size(2.5);
   line-height: 1.15;
+  font-weight: bold;
   border-bottom: 1px solid $dm-brand-color-dark;
   padding-bottom: 0.5em;
 
@@ -271,6 +272,7 @@
     @include relative-font-size(1.75);
     border-bottom: 1px solid $dm-brand-color-dark;
     padding-bottom: 0.25em;
+    font-weight: bold;
 
     @media screen and (min-width: $on-large) {
       @include relative-font-size(2);
@@ -279,6 +281,7 @@
 
   h3 {
     @include relative-font-size(1.375);
+    font-weight: bold;
 
     @media screen and (min-width: $on-large) {
       @include relative-font-size(1.625);
