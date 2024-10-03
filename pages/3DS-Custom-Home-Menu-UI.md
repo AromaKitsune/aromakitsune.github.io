@@ -172,11 +172,15 @@ Lime3DS emulator</a>.
   The Home Menu UI has been restored.
 </p>
 
--   If you want to turn off the mod instead, while leaving other patches (such as Pretendo Network) active,
-    rename the `000400300000??02` folder to `000400300000??02_off`.
+<p class="note-blue">
+  If you want to turn off the mod instead, while leaving other patches (such as Pretendo Network) active,
+  rename the <code>000400300000??02</code> folder to <code>000400300000??02_off</code>.
+</p>
 
--   To restore the Home Menu UI on Lime3DS, go to `/load/mods` and delete the `000400300000??02` folder.
-    If you want to turn off the mod instead, rename the `000400300000??02` folder to `000400300000??02_off`.
+<p class="note-blue">
+  To restore the Home Menu UI on Lime3DS, go to <code>/load/mods</code> and delete the <code>000400300000??02</code> folder.
+  If you want to turn off the mod instead, rename the <code>000400300000??02</code> folder to <code>000400300000??02_off</code>.
+</p>
 
 
 ### *Installation Method 2: CIA File*
@@ -200,9 +204,12 @@ Install CFW if you haven't already.</a>
 
 4.  Proceed dumping this system applet.
 
-5.  Answer "No" if asked to decrypt the CIA file.
+5.  When asked to decrypt the CIA file, pick "No".
 
-6.  The `homemenu.cia` file is saved to `SDCARD:/gm9/out`. Copy that file to a safe place in your computer.
+<p class="note-blue">
+  The <code>homemenu.cia</code> file is saved to <code>SDCARD:/gm9/out</code>.
+  Copy that file to a safe place in your computer.
+</p>
 
 
 ## Installing the Custom Home Menu Applet
@@ -368,7 +375,9 @@ Install CFW if you haven't already.</a>
   The Home Menu applet has been restored.
 </p>
 
-(Optional) Update the CFW and system firmware to the latest version.
+<p class="note-blue">
+  (Optional) Update the CFW and system firmware to the latest version.
+</p>
 
 
 ## Restoring the Home Menu Applet - Method 4

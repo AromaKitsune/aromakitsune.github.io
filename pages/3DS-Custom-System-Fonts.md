@@ -225,6 +225,10 @@ Lime3DS emulator</a>.
 
 8.  Launch any of the system apps and see how the custom system font looks.
 
+<p class="note-green">
+  The custom system font has been installed.
+</p>
+
 
 ## Restoring the System Font
 
