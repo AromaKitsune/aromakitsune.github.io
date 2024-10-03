@@ -44,9 +44,11 @@ This page is for testing some HTML stuff :P
 } 
 </style>
 
-## Header
+### Header (3)
 
-### Code Blocks
+---
+
+## Code Blocks
 
 In-line:
 
@@ -69,9 +71,8 @@ Wrapped:
   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 </p>
 
----
 
-### Notes
+## Notes
 
 <p class="note-info">
   The quick <code>brown fox</code> jumps over the <code>lazy dog</code>.
@@ -107,9 +108,8 @@ Wrapped:
   </p>
 </details>
 
----
 
-### Tables
+## Tables
 
 Header 1         | Header 2 | Header 3
 ---------------- | -------- | --------
@@ -119,9 +119,8 @@ Row 3 - Column 1 | Column 2 | Column 3
 Row 4 - Column 1 | Column 2 | Column 3
 Row 5 - Column 1 | Column 2 | Column 3
 
----
 
-### Images
+## Images
 
 <div align="center">
   <p class="image">
@@ -199,9 +198,8 @@ Row 5 - Column 1 | Column 2 | Column 3
 <script src="/assets/slideshow-gallery.js"></script>
 <br>
 
----
 
-### Tabs
+## Tabs
 
 [Source](https://www.w3schools.com/howto/howto_js_tabs.asp)
 

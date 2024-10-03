@@ -253,7 +253,7 @@ The example custom system font used in this section is `PopHappiness.ttf`.
     - Otherwise a Windows system font is displayed if that font is installed to
     `%LocalAppData%\Microsoft\Windows\Fonts` (click the `Install` button on Windows Font Viewer)
 
-    This does not affect the custom font file generation, you can install a font to whichever Fonts folder you want.
+    This does not affect the custom font file generation, you can install a TTF font to whichever Fonts folder you want.
 
 9.  Go to the `FontTool` folder.
 
