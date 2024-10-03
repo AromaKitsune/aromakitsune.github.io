@@ -103,7 +103,7 @@ Install CFW if you haven't already.</a>
 - Decompressed DARC files (`*.LZ`, not `*_LZ.bin`)
 
 
-## Preparing for Layout Customization
+## Preparing for UI Layout Customization
 
 Here's a list of known layout files for customization.
 
