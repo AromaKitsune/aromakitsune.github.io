@@ -105,17 +105,7 @@ Install CFW if you haven't already.</a>
 
 ## Previewing the UI Layout
 
-1.  Launch Switch-Toolbox.
-
-2.  Drag & drop the `*.LZ` file in the Switch-Toolbox window.
-
-3.  Search for the `bclyt` files and open any of those to see what it looks like. You might know what those layouts are, based on their file names.
-
-<p class="note-blue">
-  Once you found what you're looking for, you can close Switch-Toolbox.
-</p>
-
-### Known Layout Files
+Here's a list of known layout files for editing.
 
 <table>
   <thead>
@@ -158,6 +148,18 @@ Install CFW if you haven't already.</a>
     </tr>
   </tbody>
 </table>
+
+To edit the layout files other than ones listed above, follow the steps:
+
+1.  Launch Switch-Toolbox.
+
+2.  Drag & drop the `*.LZ` file in the Switch-Toolbox window.
+
+3.  Search for the `bclyt` files and open any of those to see what it looks like. You might know what those layouts are, based on their file names.
+
+<p class="note-blue">
+  Once you found what you're looking for, you can close Switch-Toolbox.
+</p>
 
 <p class="note-blue">
   If you're looking into editing the UI colors for <code>sleep.LZ</code> and applet icons (<code>launcher.LZ</code>),
