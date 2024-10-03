@@ -103,9 +103,9 @@ Install CFW if you haven't already.</a>
 - Decompressed DARC files (`*.LZ`, not `*_LZ.bin`)
 
 
-## Previewing the UI Layout
+## Preparing for Layout Customization
 
-Here's a list of known layout files for editing.
+Here's a list of known layout files for customization.
 
 <table>
   <thead>
@@ -149,7 +149,7 @@ Here's a list of known layout files for editing.
   </tbody>
 </table>
 
-To edit the layout files other than ones listed above, follow the steps:
+To find other layouts:
 
 1.  Launch Switch-Toolbox.
 
