@@ -89,7 +89,7 @@ Install CFW if you haven't already.</a>
   CFW uninstallation instructions</a>.
 </p>
 
-**What you need:**
+### What You Need:
 
 - <a href="https://github.com/FanTranslatorsInternational/Kuriimu2" target="_blank">
   Kuriimu2</a>
@@ -102,25 +102,62 @@ Install CFW if you haven't already.</a>
 
 - Decompressed DARC files (`*.LZ`, not `*_LZ.bin`)
 
----
 
-**Common layout files**
+## Previewing the UI Layout
 
-- `launcher.LZ/blyt/LncBase_U_00.bclyt`
-    - The elements such as "L+R" that are displayed on the top screen of the Home Menu, the rest of them are displayed when the running game is suspended.
-      HUD's are stored in the `hud.LZ` file.
+1.  Launch Switch-Toolbox.
 
-- `launcher.LZ/blyt/LncBase_D_01.bclyt`
-    - The elements such as applets that are displayed on the bottom screen.
+2.  Drag & drop the `*.LZ` file in the Switch-Toolbox window.
 
-- `hud.LZ/blyt/HudMenu_00.bclyt`
-    - Top screen's HUD's such as date, time, battery, connection status.
+3.  Search for the `bclyt` files and open any of those to see what it looks like. You might know what those layouts are, based on their file names.
 
-- `sleep.LZ/blyt/Slp_U_00.bclyt`
-    - The elements that are displayed on the sleep/shutdown screen (top).
+<p class="note-blue">
+  Once you found what you're looking for, you can close Switch-Toolbox.
+</p>
 
-- `sleep.LZ/blyt/Slp_D_00.bclyt`
-    - The elements that are displayed on the sleep/shutdown screen (bottom).
+### Known Layout Files
+
+<table>
+  <thead>
+    <tr>
+      <th>File</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p class="code-block-wrap">launcher.LZ/blyt/LncBase_U_00.bclyt</p></td>
+      <td>
+        Top screen layout - "L+R" ribbon, notification ribbon, suspended game info.
+        For HUD's, those are stored in the <code>hud.LZ</code> file.
+      </td>
+    </tr>
+    <tr>
+      <td><p class="code-block-wrap">launcher.LZ/blyt/LncBase_D_01.bclyt</p></td>
+      <td>
+        Bottom screen layout - The UI elements whose colors are not customizable by Themes are the applets
+      </td>
+    </tr>
+    <tr>
+      <td><p class="code-block-wrap">hud.LZ/blyt/HudMenu_00.bclyt</p></td>
+      <td>
+        Top screen HUD's - date, time, battery, connection status, Play Coins & steps counter
+      </td>
+    </tr>
+    <tr>
+      <td><p class="code-block-wrap">sleep.LZ/blyt/Slp_U_00.bclyt</p></td>
+      <td>
+        Sleep/Shutdown screen (top)
+      </td>
+    </tr>
+    <tr>
+      <td><p class="code-block-wrap">sleep.LZ/blyt/Slp_D_00.bclyt</p></td>
+      <td>
+        Sleep/Shutdown screen (bottom)
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 <p class="note-blue">
   If you're looking into editing the UI colors for <code>sleep.LZ</code> and applet icons (<code>launcher.LZ</code>),
@@ -132,21 +169,6 @@ Install CFW if you haven't already.</a>
   <a href="#ui-element-colors">
   See this section here.</a>
 </p>
-
-
-## Previewing the UI Layout
-
-<p class="note-blue">
-  Skip this section if you want to edit one of those BCLYT files listed above.
-</p>
-
-1.  Launch Switch-Toolbox.
-
-2.  Drag & drop the `*.LZ` file in the Switch-Toolbox window.
-
-3.  Search for the `bclyt` files and open any of those to see what it looks like. You might know what those layouts are, based on their file names.
-
-4.  Once you found what you're looking for, you can close Switch-Toolbox.
 
 
 ## Editing the UI Layout

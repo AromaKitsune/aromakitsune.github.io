@@ -48,7 +48,7 @@ Install CFW if you haven't already.</a>
   CFW uninstallation instructions</a>.
 </p>
 
-**What you need:**
+### What You Need:
 
 - <a href="https://fontforge.org/" target="_blank">
   FontForge</a>

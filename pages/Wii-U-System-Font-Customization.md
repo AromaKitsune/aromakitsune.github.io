@@ -29,7 +29,7 @@ Install CFW if you haven't already.</a>
   No system files are modified in the process. The custom system font is loaded into RAM only.
 </p>
 
-**What you need:**
+### What You Need:
 
 - <a href="https://fontforge.org/" target="_blank">
   FontForge</a>

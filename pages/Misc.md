@@ -44,6 +44,10 @@ This page is for testing some HTML stuff :P
 } 
 </style>
 
+# Header (1) / Title
+
+## Header (2)
+
 ### Header (3)
 
 ---

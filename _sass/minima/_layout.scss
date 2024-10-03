@@ -252,51 +252,28 @@
 
 .post-title,
 .post-content h1 {
-  @include relative-font-size(2.5);
+  @include relative-font-size(2.25);
   line-height: 1.15;
   border-bottom: 1px solid $dm-brand-color-dark;
   padding-bottom: 0.5em;
-  font-weight: bold;
-
-  @media screen and (min-width: $on-large) {
-    @include relative-font-size(2.5);
-  }
+  font-weight: 600;
 }
 
 .post-content {
   margin-bottom: $spacing-unit;
 
-  h1, h2, h3, h4, h5, h6 { margin-top: $spacing-unit }
+  h1, h2, h3 { margin-top: $spacing-unit }
 
   h2 {
     @include relative-font-size(1.75);
     border-bottom: 1px solid $dm-brand-color-dark;
     padding-bottom: 0.25em;
-    font-weight: bold;
-
-    @media screen and (min-width: $on-large) {
-      @include relative-font-size(2);
-    }
+    font-weight: 600;
   }
 
   h3 {
-    @include relative-font-size(1.375);
-    font-weight: bold;
-
-    @media screen and (min-width: $on-large) {
-      @include relative-font-size(1.625);
-    }
-  }
-
-  h4 {
     @include relative-font-size(1.25);
-  }
-
-  h5 {
-    @include relative-font-size(1.125);
-  }
-  h6 {
-    @include relative-font-size(1.0625);
+    font-weight: 600;
   }
 }
 

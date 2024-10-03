@@ -12,7 +12,7 @@ for creating your own custom system font for 3DS!
 
 ---
 
-**Table of Contents:**
+### Table of Contents:
 
 - [Pop Happiness Font](#pop-happiness)
 
@@ -45,7 +45,7 @@ It is used for the UI in many Nintendo games. It is also used for the tutorial s
   </p>
 </div>
 
-**List of Games Using this Font for the UI:**
+### List of Games Using this Font for the UI:
 - Luigi's Mansion
 - Super Mario Sunshine
 - Mario Golf: Toadstool Tour
@@ -63,7 +63,7 @@ It is used for the UI in many Nintendo games. It is also used for the tutorial s
 - <a href="https://www.mariowiki.com/List_of_fonts#Pop_Happiness" target="_blank">
   Complete list of Mario related games using this font</a>
 
-**Download Font:**
+### Download Font:
 
 - [CIA - for 3DS](/files/3DS/PopHappinessFont.cia)
 
@@ -103,7 +103,7 @@ It is commonly used for the UI in Paper Mario games.
   </p>
 </div>
 
-**List of Games Using this Font for the UI:**
+### List of Games Using this Font for the UI:
 - Dr. Mario 64
 - Mario Golf: Toadstool Tour
 - Paper Mario: The Thousand-Year Door
@@ -116,7 +116,7 @@ It is commonly used for the UI in Paper Mario games.
 - <a href="https://www.mariowiki.com/List_of_fonts#Pop_Joy" target="_blank">
   Complete list of Mario related games using this font</a>
 
-**Download Font:**
+### Download Font:
 
 - [CIA - for 3DS](/files/3DS/PopJoyFont.cia)
 

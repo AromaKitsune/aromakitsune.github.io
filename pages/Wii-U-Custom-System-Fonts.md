@@ -12,7 +12,7 @@ for creating your own custom system font for Wii U!
 
 ---
 
-**Table of Contents:**
+### Table of Contents:
 
 - [Pop Happiness Font](#pop-happiness)
 
@@ -43,7 +43,7 @@ It is used for the UI in many Nintendo games. It is also used for the tutorial s
   </p>
 </div>
 
-**List of Games Using this Font for the UI:**
+### List of Games Using this Font for the UI:
 - Luigi's Mansion
 - Super Mario Sunshine
 - Mario Golf: Toadstool Tour
@@ -62,7 +62,7 @@ It is used for the UI in many Nintendo games. It is also used for the tutorial s
     Complete list of Mario related games using this font
   </a>
 
-**Download Font:**
+### Download Font:
 
 - [TTF - for Wii U](/files/Wii-U/PopHappiness.ttf)
 
@@ -102,7 +102,7 @@ It is commonly used for the UI in Paper Mario games.
   </p>
 </div>
 
-**List of Games Using this Font for the UI:**
+### List of Games Using this Font for the UI:
 - Dr. Mario 64
 - Mario Golf: Toadstool Tour
 - Paper Mario: The Thousand-Year Door
@@ -116,7 +116,7 @@ It is commonly used for the UI in Paper Mario games.
     Complete list of Mario related games using this font
   </a>
 
-**Download Font:**
+### Download Font:
 
 - [TTF - for Wii U](/files/Wii-U/PopJoy.ttf)
 
