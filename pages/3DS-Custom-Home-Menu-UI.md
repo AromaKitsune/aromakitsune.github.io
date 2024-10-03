@@ -93,7 +93,7 @@ Last updated: 2024-10-03
 
 - [CIA - for JPN console](/files/3DS/Kitsune-CustomHomeMenuUI_JPN_NoMvs.cia)
 
-For those who don't use a Miiverse replacement service such as Juxtaposition
+For those who don't use a Miiverse replacement service such as Pretendo Network's Juxtaposition
 
 
 ### *Installation Method 1: LayeredFS*
