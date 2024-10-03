@@ -31,6 +31,10 @@ A customized Home Menu UI made by me.
       <img src="/images/3DS/3DS-Custom-Home-Menu-UI_3.png">
   </div>
 
+  <div class="mySlides" align="center">
+      <img src="/images/3DS/3DS-Custom-Home-Menu-UI_4.png">
+  </div>
+
   <!-- Next and previous buttons -->
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -43,15 +47,19 @@ A customized Home Menu UI made by me.
   <!-- Thumbnail images -->
   <div class="row">
     <div class="column">
-      <img class="demo cursor" src="/images/3DS/3DS-Custom-Home-Menu-UI_1.gif" style="width:100%" onclick="currentSlide(1)" alt="Spinny Cursor">
+      <img class="demo cursor" src="/images/3DS/3DS-Custom-Home-Menu-UI_1.gif" style="width:100%" onclick="currentSlide(1)" alt="Spinning Cursor">
     </div>
 
     <div class="column">
-      <img class="demo cursor" src="/images/3DS/3DS-Custom-Home-Menu-UI_2.png" style="width:100%" onclick="currentSlide(2)" alt="Purple Applets">
+      <img class="demo cursor" src="/images/3DS/3DS-Custom-Home-Menu-UI_2.png" style="width:100%" onclick="currentSlide(2)" alt="Blue Applets">
     </div>
 
     <div class="column">
-      <img class="demo cursor" src="/images/3DS/3DS-Custom-Home-Menu-UI_3.png" style="width:100%" onclick="currentSlide(3)" alt="Blue Shutdown Screen">
+      <img class="demo cursor" src="/images/3DS/3DS-Custom-Home-Menu-UI_3.png" style="width:100%" onclick="currentSlide(3)" alt="No Miiverse Applet">
+    </div>
+
+    <div class="column">
+      <img class="demo cursor" src="/images/3DS/3DS-Custom-Home-Menu-UI_4.png" style="width:100%" onclick="currentSlide(4)" alt="Blue Shutdown Screen">
     </div>
   </div>
 </div>
@@ -63,7 +71,7 @@ Target system firmware version: `11.17.0-50`
 
 The system font is a separate system file. To install the custom system font, [go here](/3DS-Custom-System-Fonts).
 
-Last updated: 2024-05-23
+Last updated: 2024-10-03
 
 **Download Mod:**
 
@@ -74,6 +82,18 @@ Last updated: 2024-05-23
 - [CIA - for USA console](/files/3DS/Kitsune-CustomHomeMenuUI_USA.cia)
 
 - [CIA - for JPN console](/files/3DS/Kitsune-CustomHomeMenuUI_JPN.cia)
+
+**Download Mod (without the Miiverse applet):**
+
+- [LayeredFS](/files/3DS/Kitsune-CustomHomeMenuUI_NoMvs.zip)
+
+- [CIA - for EUR console](/files/3DS/Kitsune-CustomHomeMenuUI_EUR_NoMvs.cia)
+
+- [CIA - for USA console](/files/3DS/Kitsune-CustomHomeMenuUI_USA_NoMvs.cia)
+
+- [CIA - for JPN console](/files/3DS/Kitsune-CustomHomeMenuUI_JPN_NoMvs.cia)
+
+For those who don't use a Miiverse replacement service such as Juxtaposition
 
 
 ### *Installation Method 1: LayeredFS*

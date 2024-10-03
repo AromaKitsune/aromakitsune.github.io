@@ -54,18 +54,15 @@ A Wii U font will be merged into a custom system font so the icon glyphs are pre
   </p>
 </div>
 
-There are 2 ways to merge the fonts:
+There are 2 ways to merge the fonts: CLI & GUI
 
-- FontForge + Python script (CLI)
+The CLI method involves in using a Python script that calls the FontForge program to merge the fonts automatically,
+while the GUI method involves in using FontForge itself to merge the fonts manually.
 
-- FontForge only (GUI)
-
-The CLI method involves in using a Python script that calls the FontForge program to merge the fonts automatically.
-<a href="https://github.com/dkosmari/System-Font-Replacer#missing-symbols" target="_blank">
-More info</a>
-
-The CLI method is faster than the GUI method.
-Pick the GUI method if the CLI method does not work for you.
+<p class="note-blue">
+  The CLI method is faster than the GUI method.
+  Pick the GUI method if the CLI method does not work for you.
+</p>
 
 
 ### *Method 1: FontForge + Python script*
@@ -77,6 +74,9 @@ The example custom system font used in this section is `PopHappiness.ttf`.
     Wii U System Font Replacer plugin repository</a>.
 
 2.  Download a Python script: `merge-fonts.py`
+
+    - <a href="https://github.com/dkosmari/System-Font-Replacer#missing-symbols" target="_blank">
+      More info about how it works</a>
 
 3.  Place those 3 files in a folder:
 
@@ -105,8 +105,12 @@ The example custom system font used in this section is `PopHappiness.ttf`.
 
     The fonts have been merged as `PopHappiness_Merged.ttf`.
 
-    Continue to the [Installing the Custom System Font to Wii U](#installing-the-custom-system-font-to-wii-u)
-    section.
+<p class="note-blue">
+  Continue to the
+  <a href="#installing-the-custom-system-font-to-wii-u">
+  Installing the Custom System Font to Wii U</a>
+  section.
+</p>
 
 
 ### *Method 2: FontForge only*
