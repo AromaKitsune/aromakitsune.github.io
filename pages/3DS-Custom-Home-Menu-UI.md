@@ -155,6 +155,12 @@ Lime3DS emulator</a>.
 
 4.  Wait for the system firmware download to complete.
 
+    <div align="center">
+      <p class="image">
+        <img src="/images/3DS/3DS-System-Font-Customization_10.png">
+      </p>
+    </div>
+
 5.  Close the configuration window.
 
 6.  Go to `File` → `Open Lime3DS Folder`.
