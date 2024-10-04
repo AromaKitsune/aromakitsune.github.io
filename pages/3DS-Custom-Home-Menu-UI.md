@@ -256,11 +256,8 @@ Install CFW if you haven't already.</a>
   <br>
   After a system update, backup the <code>homemenu.cia</code> file again in case the Home Menu is also updated.
   <br>
-  The current Home Menu mod is likely compatible with the future system firmware versions with a newer Home Menu version.
+  The current Home Menu mod is likely compatible with future system firmware versions.
   If this mod stops working, I will update the base Home Menu applet for this mod.
-  <br><br>
-  Note: The CIA file must be installed with GodMode9. Do not install it with FBI,
-  the installation will fail as the Home Menu applet is being used by other processes.
 </p>
 
 <p class="note-warning">
@@ -274,6 +271,11 @@ Install CFW if you haven't already.</a>
   If you wanna uninstall CFW before selling your console, you must restore the system files first, then follow the
   <a href="https://3ds.hacks.guide/uninstall-cfw" target="_blank">
   CFW uninstallation instructions</a>.
+</p>
+
+<p class="note-blue">
+  The CIA file must be installed with GodMode9. Do not install it with FBI,
+  the installation will fail as the Home Menu applet is being used by other processes.
 </p>
 
 1.  Add the downloaded CIA file to the SD Card.
