@@ -276,6 +276,10 @@ table {
 
 /* Additional CSS stuff */
 
+html{
+  scroll-behavior: smooth;
+}
+
 hr {
   display: block;
   border: 0;
