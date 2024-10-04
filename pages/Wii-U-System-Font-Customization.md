@@ -65,7 +65,7 @@ while the GUI method involves in using FontForge itself to merge the fonts manua
 </p>
 
 
-### *Method 1: FontForge + Python script*
+#### *Method 1: FontForge + Python script*
 
 The example custom system font used in this section is `PopHappiness.ttf`.
 
@@ -113,7 +113,7 @@ The example custom system font used in this section is `PopHappiness.ttf`.
 </p>
 
 
-### *Method 2: FontForge only*
+#### *Method 2: FontForge only*
 
 1.  Launch FontForge.
 

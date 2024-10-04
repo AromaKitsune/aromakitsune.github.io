@@ -262,7 +262,7 @@
 .post-content {
   margin-bottom: $spacing-unit;
 
-  h1, h2, h3 { margin-top: $spacing-unit }
+  h1, h2, h3, h4 { margin-top: $spacing-unit }
 
   h2 {
     @include relative-font-size(1.75);
@@ -274,6 +274,15 @@
   h3 {
     @include relative-font-size(1.25);
     font-weight: 600;
+  }
+
+  h4 {
+    @include relative-font-size(1.5);
+    font-weight: 600;
+    text-align: center;
+    border: 2px solid $border-color-01;
+    border-bottom: 2px dashed $border-color-01;
+    padding-bottom: 0.25em;
   }
 }
 

@@ -96,7 +96,7 @@ Last updated: 2024-10-03
 For those who don't use a Miiverse replacement service such as Pretendo Network's Juxtaposition
 
 
-### *Installation Method 1: LayeredFS*
+#### *Installation Method 1: LayeredFS*
 
 ## Adding the Home Menu Applet Patch (3DS)
 
@@ -209,7 +209,7 @@ Lime3DS emulator</a>.
 </p>
 
 
-### *Installation Method 2: CIA File*
+#### *Installation Method 2: CIA File*
 
 ## Backing Up the Home Menu Applet
 
