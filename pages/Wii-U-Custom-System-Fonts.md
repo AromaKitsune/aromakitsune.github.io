@@ -153,7 +153,8 @@ Install CFW if you haven't already.</a>
   No system files are modified in the process. The custom system font is loaded into RAM only.
 </p>
 
-1.  Download the <a href="https://github.com/dkosmari/System-Font-Replacer" target="_blank">
+1.  Download the
+    <a href="https://github.com/dkosmari/System-Font-Replacer" target="_blank">
     System Font Replacer plugin</a>.
 
 2.  Add the downloaded font file to `SDCARD:/wiiu/fonts`.
@@ -175,7 +176,8 @@ Install CFW if you haven't already.</a>
 
 ## Installing the Custom System Font to Cemu
 
-You can also install the custom system font to <a href="https://cemu.info/" target="_blank">
+You can also install the custom system font to
+<a href="https://cemu.info/" target="_blank">
 Cemu emulator</a>.
 
 <p class="note-info">

@@ -324,7 +324,8 @@ Install CFW if you haven't already.</a>
 
     - [EUR](/files/3DS/HomeMenu_EUR.cia) \| [USA](/files/3DS/HomeMenu_USA.cia) \| [JPN](/files/3DS/HomeMenu_JPN.cia)
     
-    - Obtained from <a href="https://darthsternie.net/3ds-firmwares/" target="_blank">
+    - Obtained from
+      <a href="https://darthsternie.net/3ds-firmwares/" target="_blank">
       Darthsternie's Firmware Archive</a>
 
 2.  Add the `HomeMenu_???.cia` file to the SD Card.
@@ -372,7 +373,8 @@ Install CFW if you haven't already.</a>
 </details>
 <br>
 
-1.  Go to <a href="https://darthsternie.net/3ds-firmwares/" target="_blank">
+1.  Go to
+    <a href="https://darthsternie.net/3ds-firmwares/" target="_blank">
     Darthsternie's Firmware Archive</a>.
 
 2.  Download the firmware archive matching your console region and current firmware version.
@@ -436,7 +438,8 @@ Install CFW if you haven't already.</a>
 </details>
 <br>
 
-1.  Download <a href="https://github.com/wyatt8740/3DNUS" target="_blank">
+1.  Download
+    <a href="https://github.com/wyatt8740/3DNUS" target="_blank">
     3DNUS</a>.
 
 2.  Launch 3DNUS.

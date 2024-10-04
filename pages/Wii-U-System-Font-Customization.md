@@ -209,7 +209,8 @@ The example custom system font used in this section is `PopHappiness.ttf`.
 
 ## Installing the Custom System Font to Cemu
 
-You can also install the custom system font to <a href="https://cemu.info/" target="_blank">
+You can also install the custom system font to
+<a href="https://cemu.info/" target="_blank">
 Cemu emulator</a>.
 
 <p class="note-info">

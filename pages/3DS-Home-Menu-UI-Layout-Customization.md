@@ -163,7 +163,8 @@ To find other layouts:
 
 <p class="note-blue">
   If you're looking into editing the UI colors for <code>sleep.LZ</code> and applet icons (<code>launcher.LZ</code>),
-  I suggest checking out <a href="https://3ds.codeberg.page/homemenu/" target="_blank">
+  I suggest checking out
+  <a href="https://3ds.codeberg.page/homemenu/" target="_blank">
   derberg's Home Menu customization guide</a>
   for those, as hex-editing the <code>*.LZ</code> files directly is easier.
   <br>
@@ -234,7 +235,8 @@ To find other layouts:
       </p>
     </div>
 
-    - Refer to the <a href="https://docs.google.com/spreadsheets/d/1Q-Im3P5zSqNi6zYqaXtyS138hCdcIJDY7WxRt_FWdrg" target="_blank">
+    - Refer to the
+      <a href="https://docs.google.com/spreadsheets/d/1Q-Im3P5zSqNi6zYqaXtyS138hCdcIJDY7WxRt_FWdrg" target="_blank">
       Assets Documentation</a>
       for some lists of known panes to edit.
 
