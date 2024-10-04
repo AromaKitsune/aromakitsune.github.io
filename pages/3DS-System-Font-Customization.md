@@ -311,7 +311,9 @@ You can preview the custom system font on Lime3DS emulator before installing it 
 8.  Launch any of the system apps and see how the custom system font looks.
 
 <p class="note-blue">
-  If the font size is too big/small, repeat step 17 of the "Generating the Custom System Font"
+  If the font size is too big/small, repeat the
+  <a href="#generating-the-custom-system-font">
+  Generating the Custom System Font</a>
   section and try a different font size until you get it right.
 </p>
 
