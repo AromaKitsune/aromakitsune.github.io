@@ -114,7 +114,8 @@ The example custom system font used in this section is `PopHappiness.ttf`.
 
     - A custom font - `PopHappiness.ttf` (OTF also works)
 
-4.  Launch the Terminal app and input this command:
+4.  Launch the Terminal app by right-clicking on File Explorer's empty space and clicking `Open in Terminal`.
+    Input this command:
 
     <p class="code-block-wrap">
       "C:\Program Files (x86)\FontForgeBuilds\bin\fontforge.exe"
@@ -257,7 +258,8 @@ The example custom system font used in this section is `PopHappiness.ttf`.
 
 9.  Go to the `FontTool` folder.
 
-10. Launch the Terminal app and input this command:
+10. Launch the Terminal app by right-clicking on File Explorer's empty space and clicking `Open in Terminal`.
+    Input this command:
 
     ```
     python FontTool.py -font SystemFont.bcfnt

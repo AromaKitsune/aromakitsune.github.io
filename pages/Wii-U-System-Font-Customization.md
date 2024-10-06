@@ -86,7 +86,8 @@ The example custom system font used in this section is `PopHappiness.ttf`.
 
     - A custom font - `PopHappiness.ttf` (OTF also works)
 
-4.  Launch the Terminal app and input this command:
+4.  Launch the Terminal app by right-clicking on File Explorer's empty space and clicking `Open in Terminal`.
+    Input this command:
 
     Windows:
 
