@@ -115,7 +115,23 @@ The example custom system font used in this section is `PopHappiness.ttf`.
     - A custom font - `PopHappiness.ttf` (OTF also works)
 
 4.  Launch the Terminal app by right-clicking on File Explorer's empty space and clicking `Open in Terminal`.
-    Input this command:
+
+    <div align="center">
+      <p class="image">
+        <img src="/images/3DS/3DS-System-Font-Customization-Python_1.png">
+      </p>
+    </div>
+
+5.  Input this command:
+
+    PowerShell:
+
+    <p class="code-block-wrap">
+      & 'C:\Program Files (x86)\FontForgeBuilds\bin\fontforge.exe'
+      merge-fonts.py PopHappiness.ttf nintendo_NTLG-DB_001.ttf PopHappiness_Merged.ttf
+    </p>
+
+    Command Prompt (CMD):
 
     <p class="code-block-wrap">
       "C:\Program Files (x86)\FontForgeBuilds\bin\fontforge.exe"
@@ -124,9 +140,15 @@ The example custom system font used in this section is `PopHappiness.ttf`.
 
     Note: This is a single line command - it is wrapped so the whole command is displayed for easy copy without horizontally scrolling.
 
+    <div align="center">
+      <p class="image">
+        <img src="/images/3DS/3DS-System-Font-Customization-Python_2.png">
+      </p>
+    </div>
+
     The fonts have been merged as `PopHappiness_Merged.ttf`.
 
-5.  On a File Explorer window, open the merged font file and install it.
+6.  On a File Explorer window, open the merged font file and install it.
 
 <p class="note-blue">
   Continue to the
