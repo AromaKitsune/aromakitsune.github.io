@@ -122,7 +122,7 @@ The example custom system font used in this section is `PopHappiness.ttf`.
       </p>
     </div>
 
-5.  Input this command:
+5.  Input this command (pick one):
 
     PowerShell:
 
