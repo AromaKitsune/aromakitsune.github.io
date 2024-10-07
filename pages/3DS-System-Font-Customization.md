@@ -138,7 +138,7 @@ The example custom system font used in this section is `PopHappiness.ttf`.
       merge-fonts.py PopHappiness.ttf nintendo_NTLG-DB_001.ttf PopHappiness_Merged.ttf
     </p>
 
-    Note: This is a single line command - it is wrapped so the whole command is displayed for easy copy without horizontally scrolling.
+    Those are single line commands - they are wrapped so the whole commands are displayed for easy copy without horizontally scrolling.
 
     <div align="center">
       <p class="image">
