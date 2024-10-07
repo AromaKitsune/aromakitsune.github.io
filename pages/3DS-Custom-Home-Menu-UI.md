@@ -71,7 +71,7 @@ Target system firmware version: `11.17.0-50`
 
 The system font is a separate system file. To install the custom system font, [go here](/3DS-Custom-System-Fonts).
 
-Last updated: 2024-10-03
+Last updated: 2024-10-07
 
 ### Download Mod:
 
