@@ -325,10 +325,6 @@ Install CFW if you haven't already.</a>
 1.  Download the original Home Menu applet:
 
     - [EUR](/files/3DS/HomeMenu_EUR.cia) \| [USA](/files/3DS/HomeMenu_USA.cia) \| [JPN](/files/3DS/HomeMenu_JPN.cia)
-    
-    - Obtained from
-      <a href="https://darthsternie.net/3ds-firmwares/" target="_blank">
-      Darthsternie's Firmware Archive</a>
 
 2.  Add the `HomeMenu_???.cia` file to the SD Card.
 
@@ -348,97 +344,8 @@ Install CFW if you haven't already.</a>
 ## Restoring the Home Menu Applet - Method 3
 
 <p class="note-blue">
-  If you've installed the custom Home Menu applet to your system running on older firmware version without any backups, follow this section.
+  Alternatively, download the system file for your system firmware version other than <code>11.17.0-50</code>.
 </p>
-
-<details>
-  <summary>
-    <b>Don't know your system's current firmware version and can't boot to Home Menu? 
-    <br>Click here</b>
-  </summary>
-  <br>
-  <ol>
-    <li><p>Launch GodMode9</p></li>
-    <li><p>Go to <code>CTRNAND:/title/000400db/00017?02/content</code>.</p></li>
-      <ul>
-        <li><p>EUR: <code>00017102</code></p></li>
-        <li><p>USA: <code>00017302</code></p></li>
-        <li><p>JPN: <code>00017202</code></p></li>
-      </ul>
-    <li><p>Select the <code>.app</code> file.</p></li>
-    <li><p>Select <code>NCCH image options...</code> → <code>Mount image to drive</code>.</p></li>
-    <li><p>Answer "Yes" to browse inside the <code>.app</code> file.</p></li>
-    <li><p>Go to the <code>romfs</code> folder.</p></li>
-    <li><p>Open the <code>titleversion.txt</code> file with hex editor or text viewer.</p></li>
-    <li><p>Take a note of the firmware version and continue to the next steps.</p></li>
-  </ol>
-</details>
-<br>
-
-1.  Go to
-    <a href="https://darthsternie.net/3ds-firmwares/" target="_blank">
-    Darthsternie's Firmware Archive</a>.
-
-2.  Download the firmware archive matching your console region and current firmware version.
-
-3.  Unpack the firmware archive and find the `.cia` file for Home Menu inside the `updates` folder.
-
-    - EUR: `0004003000009802.cia`
-
-    - USA: `0004003000008F02.cia`
-
-    - JPN: `0004003000008202.cia`
-
-4.  Rename the `000400300000??02.cia` file to `HomeMenu.cia`.
-
-5.  Place it in the SD Card.
-
-6.  Launch GodMode9.
-
-7.  Browse and select the `HomeMenu.cia` file.
-
-8.  Select `CIA image options...` → `Install game image`.
-
-9.  Reboot the console.
-
-<p class="note-green">
-  The Home Menu applet has been restored.
-</p>
-
-<p class="note-blue">
-  (Optional) Update the CFW and system firmware to the latest version.
-</p>
-
-
-## Restoring the Home Menu Applet - Method 4
-
-<p class="note-blue">
-  If you have any issues downloading the firmware archive, follow this section.
-</p>
-
-<details>
-  <summary>
-    <b>Don't know your system's current firmware version and can't boot to Home Menu? 
-    <br>Click here</b>
-  </summary>
-  <br>
-  <ol>
-    <li><p>Launch GodMode9</p></li>
-    <li><p>Go to <code>CTRNAND:/title/000400db/00017?02/content</code>.</p></li>
-      <ul>
-        <li><p>EUR: <code>00017102</code></p></li>
-        <li><p>USA: <code>00017302</code></p></li>
-        <li><p>JPN: <code>00017202</code></p></li>
-      </ul>
-    <li><p>Select the <code>.app</code> file.</p></li>
-    <li><p>Select <code>NCCH image options...</code> → <code>Mount image to drive</code>.</p></li>
-    <li><p>Answer "Yes" to browse inside the <code>.app</code> file.</p></li>
-    <li><p>Go to the <code>romfs</code> folder.</p></li>
-    <li><p>Open the <code>titleversion.txt</code> file with hex editor or text viewer.</p></li>
-    <li><p>Take a note of the firmware version and continue to the next steps.</p></li>
-  </ol>
-</details>
-<br>
 
 1.  Download
     <a href="https://github.com/wyatt8740/3DNUS" target="_blank">
@@ -446,7 +353,7 @@ Install CFW if you haven't already.</a>
 
 2.  Launch 3DNUS.
 
-3.  Input your system's current firmware version and region (ex: `11.17.0-50E`).
+3.  Input your system's current firmware version and region (ex: `11.15.0-47E`).
 
 4.  Click "New 3DS" or "Old 3DS" for your 3DS system model.
 
@@ -475,17 +382,3 @@ Install CFW if you haven't already.</a>
 <p class="note-green">
   The Home Menu applet has been restored.
 </p>
-
-
-## Restoring the Home Menu Applet - Last Resort
-
-<p class="note-blue">
-  If none of those restoration methods work for you, restore your NAND backup or give
-  <a href="https://3ds.hacks.guide/ctrtransfer" target="_blank">
-  CTRTransfer</a>
-  a try.
-</p>
-
-The CTRTransfer method will re-install all the system files and temporarily downgrade the firmware version to `11.15.0`.
-<br>
-Your games and their save data will not be lost in the process, so follow the instructions carefully.
