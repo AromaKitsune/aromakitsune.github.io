@@ -112,8 +112,6 @@ Install CFW if you haven't already.</a>
   Consider using the CIA file method for now.</a>
   <br>
   LayeredFS method can be used on Lime3DS emulator without any crashes.
-  <br><br>
-  You can add my RomFS assets to your Home Menu mod, be sure to credit me if you're gonna share your combined mod anywhere :)
 </p>
 
 1.  Unpack the downloaded archive file and enter the `LayeredFS` folder.
@@ -180,11 +178,13 @@ Lime3DS emulator</a>.
 </p>
 
 
-## Removing the Home Menu Applet Patch
+## Removing the Home Menu Applet Patch (3DS)
 
 1.  Launch GodMode9.
 
-2.  Go to `SDCARD:/luma/titles` and delete the `000400300000??02` folder.
+2.  Go to `SDCARD:/luma/titles`. 
+
+3.  Delete or rename the `000400300000??02` folder.
 
     - EUR: `0004003000009802`
 
@@ -192,20 +192,33 @@ Lime3DS emulator</a>.
 
     - USA: `0004003000008F02`
 
-3.  Reboot the console.
+4.  Reboot the console.
 
 <p class="note-green">
   The Home Menu UI has been restored.
 </p>
 
-<p class="note-blue">
-  If you want to turn off the mod instead, while leaving other patches (such as Pretendo Network) active,
-  rename the <code>000400300000??02</code> folder to <code>000400300000??02_off</code>.
-</p>
 
-<p class="note-blue">
-  To restore the Home Menu UI on Lime3DS, go to <code>/load/mods</code> and delete the <code>000400300000??02</code> folder.
-  If you want to turn off the mod instead, rename the <code>000400300000??02</code> folder to <code>000400300000??02_off</code>.
+## Removing the Home Menu Applet Patch (Lime3DS)
+
+1.  Launch Lime3DS emulator.
+
+2.  Go to `File` → `Open Lime3DS Folder`.
+
+3.  Go to `/load/mods`.
+
+4.  Delete or rename the `000400300000??02` folder.
+
+    - EUR: `0004003000009802`
+
+    - JPN: `0004003000008202`
+
+    - USA: `0004003000008F02`
+
+5.  Launch the Home Menu by going to `File` → `Boot Home Menu` → `EUR`/`USA`/`JPN`.
+
+<p class="note-green">
+  The Home Menu UI has been restored.
 </p>
 
 
@@ -250,14 +263,6 @@ Install CFW if you haven't already.</a>
   To restore the Home Menu applet, see the
   <a href="#restoring-the-home-menu-applet---method-1">
   restore section</a>.
-  <br><br>
-  System Update will fail if the custom Home Menu applet is installed.
-  To update your system, you must restore the Home Menu applet back to its original state.
-  <br>
-  After a system update, backup the <code>homemenu.cia</code> file again in case the Home Menu is also updated.
-  <br>
-  The current Home Menu mod is likely compatible with future system firmware versions.
-  If this mod stops working, I will update the base Home Menu applet for this mod.
 </p>
 
 <p class="note-warning">
@@ -274,8 +279,18 @@ Install CFW if you haven't already.</a>
 </p>
 
 <p class="note-blue">
+  System Update will fail while the custom Home Menu applet is installed.
+  To update your system, you must restore the Home Menu applet back to its original state.
+  <br>
+  After a system update, backup the <code>homemenu.cia</code> file again in case the Home Menu is also updated.
+  <br><br>
+  The current Home Menu mod is likely compatible with future system firmware versions.
+  If this mod stops working, I will update the base Home Menu applet for this mod.
+</p>
+
+<p class="note-blue">
   The CIA file must be installed with GodMode9. Do not install it with FBI,
-  the installation will fail as the Home Menu applet is being used by other processes.
+  the installation will fail as the Home Menu applet is being used by another process.
 </p>
 
 1.  Add the downloaded CIA file to the SD Card.
