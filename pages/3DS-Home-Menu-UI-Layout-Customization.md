@@ -118,7 +118,7 @@ Here's a list of known layout files for customization.
     <tr>
       <td><p class="code-block-wrap">launcher.LZ/blyt/LncBase_U_00.bclyt</p></td>
       <td>
-        Top screen layout - "L+R" ribbon, notification ribbon, suspended game info.
+        Top screen layout - "L+R" caption, notification caption, suspended game info.
         For HUD's, those are stored in the <code>hud.LZ</code> file.
       </td>
     </tr>
