@@ -6,6 +6,9 @@ permalink: /Misc
 
 This page is for testing some HTML stuff :P
 
+<a href="#bottom" id="top">
+Jump to bottom page</a>
+
 <style>
 /*************** Style the tab ***************/
 .tab {
@@ -222,7 +225,6 @@ Row 5 - Column 1 | Column 2 | Column 3
   <p>This is Tab1</p>
 </div>
 
-
 <!-- Tab content -->
 <div id="Tab2" class="tabcontent">
   <h3>Tab2</h3>
@@ -260,3 +262,6 @@ function openCity(evt, cityName) {
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
 </script>
+
+<a href="#top" id="bottom">
+Jump to top page</a>

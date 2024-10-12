@@ -1,2 +1,166 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+@import "gallery.scss";
+
+/* Base ***********************/
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/**
+ * Code formatting
+ */
+pre,
+code {
+  border-radius: 5px;
+  color: #7ee787;
+}
+
+.highlight {
+  border-radius: 5px;
+}
+
+
+/**
+ * Tables
+ */
+table {
+  text-align: center;
+}
+
+
+/* Additional CSS stuff */
+
+hr {
+  display: block;
+  border: 0;
+  border-top: 1px solid $dm-brand-color-dark;
+}
+
+.note-info {
+  background-color: $code-background-color;
+  background-image: url(/assets/Qogir-Icons/dialog-information.svg);
+  background-position: 12px 16px;
+  background-repeat: no-repeat;
+  border-left: solid 4px #0b87da;
+  line-height: 24px;
+  overflow: hidden;
+  padding-top: 20px;
+  padding-left: 56px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+}
+
+.note-warning {
+  background-color: $code-background-color;
+  background-image: url(/assets/Qogir-Icons/dialog-error.svg);
+  background-position: 12px 16px;
+  background-repeat: no-repeat;
+  border-left: solid 4px #da0b50;
+  line-height: 24px;
+  overflow: hidden;
+  padding-top: 20px;
+  padding-left: 56px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+}
+
+.image {
+  background-color: #2c3f48;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.note-green {
+  background-color: #2d412f;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 15px;
+}
+
+.note-blue {
+  background-color: #2c3f48;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 15px;
+}
+
+.code-block-wrap {
+  color: #7ee787;
+  font-family: $code-font-family;
+  font-size: 0.9375em;
+  border: 1px solid $border-color-01;
+  border-radius: 5px;
+  background-color: $code-background-color;
+  padding: 8px 12px;
+}
+
+
+/* Layout *****************************************************/
+
+/**
+ * Site header
+ */
+@font-face {
+  font-family: 'FOT-PopHappiness Std EB';
+  src: url('/assets/PopHappinessStd-EB.woff2') format('woff2');
+}
+
+.site-title {
+  @include relative-font-size(2);
+  font-family: 'FOT-PopHappiness Std EB';
+}
+
+@media screen and (max-width: 600px) {
+  .site-title {
+    font-size: clamp(1rem, 6.75vw, 2rem);
+  }
+}
+
+
+/**
+ * Posts
+ */
+.post-header {
+  margin-bottom: $spacing-unit;
+}
+
+.post-title,
+.post-content h1 {
+  @include relative-font-size(2.25);
+  line-height: 1.15;
+  border-bottom: 1px solid $dm-brand-color-dark;
+  padding-bottom: 0.5em;
+  font-weight: 600;
+}
+
+.post-content {
+  margin-bottom: $spacing-unit;
+
+  h1, h2, h3, h4 { margin-top: $spacing-unit }
+
+  h2 {
+    @include relative-font-size(1.75);
+    border-bottom: 1px solid $dm-brand-color-dark;
+    padding-bottom: 0.25em;
+    font-weight: 600;
+  }
+
+  h3 {
+    @include relative-font-size(1.25);
+    font-weight: 600;
+  }
+
+  h4 {
+    @include relative-font-size(1.5);
+    font-weight: 600;
+    text-align: center;
+    background-color: #2c3f48;
+    border-radius: 10px 10px 0px 0px;
+    padding-bottom: 0.25em;
+  }
+}

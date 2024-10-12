@@ -1,6 +1,5 @@
 html {
   font-size: $base-font-size;
-  scroll-behavior: smooth;
 }
 
 /**
@@ -91,6 +90,13 @@ ul, ol {
   margin-left: $spacing-unit;
 }
 
+/* li {
+  > ul,
+  > ol {
+    margin-bottom: 0;
+  }
+} */
+
 
 
 /**
@@ -157,8 +163,7 @@ code {
   font-family: $code-font-family;
   font-size: 0.9375em;
   border: 1px solid $border-color-01;
-  border-radius: 5px;
-  color: #7ee787;
+  border-radius: 3px;
   background-color: $code-background-color;
 }
 
@@ -178,7 +183,7 @@ pre {
 }
 
 .highlight {
-  border-radius: 5px;
+  border-radius: 3px;
   background: $code-background-color;
   @extend %vertical-rhythm;
 
@@ -248,7 +253,7 @@ pre {
 table {
   margin-bottom: $spacing-unit;
   width: 100%;
-  text-align: center;
+  text-align: $table-text-align;
   color: $table-text-color;
   border-collapse: collapse;
   border: 1px solid $table-border-color;
@@ -273,182 +278,5 @@ table {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
             -ms-overflow-style: -ms-autohiding-scrollbar;
-  }
-}
-
-/* Additional CSS stuff */
-
-hr {
-  display: block;
-  border: 0;
-  border-top: 1px solid $dm-brand-color-dark;
-}
-
-.note-info {
-  background-color: $code-background-color;
-  background-image: url(/assets/Qogir-Icons/dialog-information.svg);
-  background-position: 12px 16px;
-  background-repeat: no-repeat;
-  border-left: solid 4px #0b87da;
-  line-height: 24px;
-  overflow: hidden;
-  padding-top: 20px;
-  padding-left: 56px;
-  padding-right: 24px;
-  padding-bottom: 20px;
-}
-
-.note-warning {
-  background-color: $code-background-color;
-  background-image: url(/assets/Qogir-Icons/dialog-error.svg);
-  background-position: 12px 16px;
-  background-repeat: no-repeat;
-  border-left: solid 4px #da0b50;
-  line-height: 24px;
-  overflow: hidden;
-  padding-top: 20px;
-  padding-left: 56px;
-  padding-right: 24px;
-  padding-bottom: 20px;
-}
-
-.image {
-  background-color: #2c3f48;
-  border-radius: 10px;
-  overflow: hidden;
-  padding: 20px;
-}
-
-.note-green {
-  background-color: #2d412f;
-  border-radius: 5px;
-  overflow: hidden;
-  padding: 15px;
-}
-
-.note-blue {
-  background-color: #2c3f48;
-  border-radius: 5px;
-  overflow: hidden;
-  padding: 15px;
-}
-
-.code-block-wrap {
-  color: #7ee787;
-  font-family: $code-font-family;
-  font-size: 0.9375em;
-  border: 1px solid $border-color-01;
-  border-radius: 5px;
-  background-color: $code-background-color;
-  padding: 8px 12px;
-}
-
-/* Slideshow Gallery */
-/* https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp */
-
-/* Position the image container (needed to position the left and right arrows) */
-.container {
-  box-sizing: border-box;
-  position: relative;
-  background-color: #2c3f48;
-  border-radius: 10px;
-  overflow: hidden;
-  padding: 20px;
-}
-
-/* Hide the images by default */
-.mySlides {
-  box-sizing: border-box;
-  display: none;
-}
-
-/* Add a pointer when hovering over the thumbnail images */
-.cursor {
-  box-sizing: border-box;
-  cursor: pointer;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-  box-sizing: border-box;
-  cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 5px;
-  user-select: none;
-  -webkit-user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  box-sizing: border-box;
-  right: 20px;
-  border-radius: 5px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  box-sizing: border-box;
-  background-color: #648fa3;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  box-sizing: border-box;
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* Container for image text */
-.caption-container {
-  box-sizing: border-box;
-  text-align: center;
-  background-color: #2c3f48;
-  padding: 2px 16px;
-}
-
-.row:after {
-  box-sizing: border-box;
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Six columns side by side */
-.column {
-  box-sizing: border-box;
-  float: left;
-  width: 25%;
-  padding: 5px;
-}
-
-/* Add a transparency effect for thumnbail images */
-.demo {
-  box-sizing: border-box;
-  opacity: 1;
-}
-
-.active,
-.demo:hover {
-  box-sizing: border-box;
-  border: solid 5px #648fa3;
-}
-
-@media screen and (max-width: 600px) {
-  .prev,
-  .next {
-    box-sizing: border-box;
-    display: none;
   }
 }
