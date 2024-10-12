@@ -3,16 +3,23 @@
 
 @import "gallery.scss";
 
-/* Base ***********************/
+
+/* Base *******************************************************/
 
 html {
   scroll-behavior: smooth;
 }
 
 
-/**
- * Code formatting
- */
+/* Set `margin-bottom` to maintain vertical rhythm */
+hr {
+  display: block;
+  border: 0;
+  border-top: 1px solid $dm-brand-color-dark;
+}
+
+
+/* Code formatting */
 pre,
 code {
   border-radius: 5px;
@@ -24,22 +31,13 @@ code {
 }
 
 
-/**
- * Tables
- */
+/* Tables */
 table {
   text-align: center;
 }
 
 
 /* Additional CSS stuff */
-
-hr {
-  display: block;
-  border: 0;
-  border-top: 1px solid $dm-brand-color-dark;
-}
-
 .note-info {
   background-color: $code-background-color;
   background-image: url(/assets/Qogir-Icons/dialog-information.svg);
@@ -102,9 +100,7 @@ hr {
 
 /* Layout *****************************************************/
 
-/**
- * Site header
- */
+/* Site header */
 @font-face {
   font-family: 'FOT-PopHappiness Std EB';
   src: url('/assets/PopHappinessStd-EB.woff2') format('woff2');
@@ -122,9 +118,7 @@ hr {
 }
 
 
-/**
- * Posts
- */
+/* Posts */
 .post-header {
   margin-bottom: $spacing-unit;
 }
