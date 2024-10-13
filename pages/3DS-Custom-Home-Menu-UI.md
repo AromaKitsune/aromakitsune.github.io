@@ -340,7 +340,7 @@ Install CFW if you haven't already.</a>
 
 5.  When asked to decrypt the CIA file, pick "No".
 
-<p class="note-blue">
+<p class="note-green">
   The <code>homemenu.cia</code> file is saved to <code>SDCARD:/gm9/out</code>.
   Copy that file to a safe place in your computer.
 </p>
