@@ -162,7 +162,7 @@ Last updated: 2024-10-07
       <p>Launch the Luma3DS config by holding the <code>Select</code> button while booting.</p>
     </li>
     <li>
-      <p>Activate "Enable game patching".</p>
+      <p>Activate “Enable game patching”.</p>
     </li>
     <li>
       <p>Save and exit.</p>
@@ -502,7 +502,7 @@ Install CFW if you haven't already.</a>
       <p>Launch 3DNUS.</p>
     </li>
     <li>
-      <p>Input your system’s current firmware version and region (ex: <code class="language-plaintext highlighter-rouge">11.15.0-47E</code>).</p>
+      <p>Input your system’s current firmware version and region (ex: <code>11.15.0-47E</code>).</p>
     </li>
     <li>
       <p>Click “New 3DS” or “Old 3DS” for your 3DS system model.</p>
@@ -511,22 +511,22 @@ Install CFW if you haven't already.</a>
       <p>Click “Begin Download”, and wait for the download to complete.</p>
     </li>
     <li>
-      <p>Enter the firmware folder and find the <code class="language-plaintext highlighter-rouge">.cia</code> file for Home Menu inside the <code class="language-plaintext highlighter-rouge">updates</code> folder.</p>
+      <p>Enter the firmware folder and find the <code>.cia</code> file for Home Menu inside the <code>updates</code> folder.</p>
   
       <ul>
         <li>
-          <p>EUR: <code class="language-plaintext highlighter-rouge">0004003000009802.cia</code></p>
+          <p>EUR: <code>0004003000009802.cia</code></p>
         </li>
         <li>
-          <p>USA: <code class="language-plaintext highlighter-rouge">0004003000008F02.cia</code></p>
+          <p>USA: <code>0004003000008F02.cia</code></p>
         </li>
         <li>
-          <p>JPN: <code class="language-plaintext highlighter-rouge">0004003000008202.cia</code></p>
+          <p>JPN: <code>0004003000008202.cia</code></p>
         </li>
       </ul>
     </li>
     <li>
-      <p>Rename the <code class="language-plaintext highlighter-rouge">000400300000??02.cia</code> file to <code class="language-plaintext highlighter-rouge">HomeMenu.cia</code>.</p>
+      <p>Rename the <code>000400300000??02.cia</code> file to <code>HomeMenu.cia</code>.</p>
     </li>
     <li>
       <p>Place it in the SD Card.</p>
@@ -535,10 +535,10 @@ Install CFW if you haven't already.</a>
       <p>Launch GodMode9.</p>
     </li>
     <li>
-      <p>Browse and select the <code class="language-plaintext highlighter-rouge">HomeMenu.cia</code> file.</p>
+      <p>Browse and select the <code>HomeMenu.cia</code> file.</p>
     </li>
     <li>
-      <p>Select <code class="language-plaintext highlighter-rouge">CIA image options...</code> → <code class="language-plaintext highlighter-rouge">Install game image</code>.</p>
+      <p>Select <code>CIA image options...</code> → <code>Install game image</code>.</p>
     </li>
     <li>
       <p>Reboot the console.</p>
