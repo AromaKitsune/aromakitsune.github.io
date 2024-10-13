@@ -63,8 +63,6 @@ A customized Home Menu UI made by me.
     </div>
   </div>
 </div>
-
-<script src="/assets/slideshow-gallery.js"></script>
 <br>
 
 Target system firmware version: `11.17.0-50`
@@ -98,128 +96,201 @@ For those who don't use a Miiverse replacement service such as Pretendo Network'
 
 #### Installation Method 1: LayeredFS
 
-## Adding the Home Menu Applet Patch (3DS)
+## Adding the Home Menu Applet Patch
 
-Luma3DS custom firmware is required to use the mod.
-<a href="https://3ds.hacks.guide/" target="_blank">
-Install CFW if you haven't already.</a>
+<!-- Tab links -->
+<div class="tab">
+  <button class="tablinks" onclick="openTab(event, '3DS')" id="defaultOpen">3DS</button>
+  <button class="tablinks" onclick="openTab(event, 'Lime3DS')">Lime3DS</button>
+</div>
 
-<p class="note-info">
-  LayeredFS patching is unstable for applets which causes Home Menu to randomly crash if Home Menu is opened several times
-  (by suspending a game or exiting an applet).
-  <br>
-  <a href="#installation-method-2-cia-file">
-  Consider using the CIA file method for now.</a>
-  <br>
-  LayeredFS method can be used on Lime3DS emulator without any crashes.
-</p>
+<!-- Tab content -->
+<div id="3DS" class="tabcontent">
+  <p>
+    Luma3DS custom firmware is required to use the mod.
+    <a href="https://3ds.hacks.guide/" target="_blank">
+    Install CFW if you haven't already.</a>
+  </p>
+  
+  <p class="note-info">
+    LayeredFS patching is unstable for applets which causes Home Menu to randomly crash if Home Menu is opened several times
+    (by suspending a game or exiting an applet).
+    <br>
+    <a href="#installation-method-2-cia-file">
+    Consider using the CIA file method for now.</a>
+    <br>
+    LayeredFS method can be used on Lime3DS emulator without any crashes.
+  </p>
 
-1.  Unpack the downloaded archive file and enter the `LayeredFS` folder.
+  <ol>
+    <li>
+      <p>Unpack the downloaded archive file and enter the <code>LayeredFS</code> folder.</p>
+    </li>
+    <li>
+      <p>Enter a folder matching your console region.</p>
+    </li>
+    <li>
+      <p>Copy the <code>luma</code> folder to the root of the SD Card.</p>
+    </li>
+    <li>
+      <p>Launch the Luma3DS config by holding the <code>Select</code> button while booting.</p>
+    </li>
+    <li>
+      <p>Activate "Enable game patching".</p>
+    </li>
+    <li>
+      <p>Save and exit.</p>
+    </li>
+  </ol>
 
-2.  Enter a folder matching your console region.
+  <p class="note-green">
+    The custom Home Menu UI has been installed.
+  </p>
+</div>
 
-3.  Copy the `luma` folder to the root of the SD Card.
+<!-- Tab content -->
+<div id="Lime3DS" class="tabcontent">
+  <p>
+    You can also add the Home Menu applet patch to
+    <a href="https://lime3ds.github.io/" target="_blank">
+    Lime3DS emulator</a>.
+  </p>
 
-4.  Launch the Luma3DS config by holding the `Select` button while booting.
+  <p class="note-info">
+    AES Keys are required to install encrypted contents to Lime3DS.
+    <a href="https://github.com/Lime3DS/Lime3DS/tree/master/dist/dumpkeys" target="_blank">
+    Read here for more info.</a>
+    <br>
+    If you have Citra emulator, the installation process works the same.
+  </p>
 
-5.  Activate "Enable game patching".
-
-6.  Save and exit.
-
-<p class="note-green">
-  The custom Home Menu UI has been installed.
-</p>
-
-
-## Adding the Home Menu Applet Patch (Lime3DS)
-
-You can also add the Home Menu applet patch to
-<a href="https://lime3ds.github.io/" target="_blank">
-Lime3DS emulator</a>.
-
-<p class="note-info">
-  AES Keys are required to install encrypted contents to Lime3DS.
-  <a href="https://github.com/Lime3DS/Lime3DS/tree/master/dist/dumpkeys" target="_blank">
-  Read here for more info.</a>
-  <br>
-  If you have Citra emulator, the installation process works the same.
-</p>
-
-1.  Launch Lime3DS emulator.
-
-2.  Go to `Emulation` → `Configure...` → `System`.
-
-3.  Under the `3GX Plugins Loader` options, pick the system model and system region, then click `Download`.
-
-4.  Wait for the system firmware download to complete.
-
+  <ol>
+    <li>
+      <p>Launch Lime3DS emulator.</p>
+    </li>
+    <li>
+      <p>Go to <code>Emulation</code> → <code>Configure...</code> → <code>System</code>.</p>
+    </li>
+    <li>
+      <p>Under the <code>3GX Plugins Loader</code> options, pick the system model and system region, then click <code>Download</code>.</p>
+    </li>
+    <li>
+      <p>Wait for the system firmware download to complete.</p>
+  
     <div align="center">
       <p class="image">
         <img src="/images/3DS/3DS-System-Font-Customization_10.png">
       </p>
     </div>
 
-5.  Close the configuration window.
+    </li>
+    <li>
+      <p>Close the configuration window.</p>
+    </li>
+    <li>
+      <p>Go to <code>File</code> → <code>Open Lime3DS Folder</code>.</p>
+    </li>
+    <li>
+      <p>Go to <code>/load/mods</code>. Create folders if those don’t exist.</p>
+    </li>
+    <li>
+      <p>Unpack the downloaded archive file and enter the <code>LayeredFS</code> folder.</p>
+    </li>
+    <li>
+      <p>Go to <code>/[region]/luma/titles</code>.</p>
+    </li>
+    <li>
+      <p>Copy the <code>000400300000??02</code> folder to the <code>mods</code> folder.</p>
+    </li>
+    <li>
+      <p>Launch the Home Menu by going to <code>File</code> → <code>Boot Home Menu</code> → <code>EUR</code>/<code>USA</code>/<code>JPN</code>.</p>
+    </li>
+  </ol>
 
-6.  Go to `File` → `Open Lime3DS Folder`.
-
-7.  Go to `/load/mods`. Create folders if those don't exist.
-
-8.  Unpack the downloaded archive file and enter the `LayeredFS` folder.
-
-9.  Go to `/[region]/luma/titles`.
-
-10. Copy the `000400300000??02` folder to the `mods` folder.
-
-11. Launch the Home Menu by going to `File` → `Boot Home Menu` → `EUR`/`USA`/`JPN`.
-
-<p class="note-green">
-  The custom Home Menu UI has been installed.
-</p>
+  <p class="note-green">
+    The custom Home Menu UI has been installed.
+  </p>
+</div>
 
 
 ## Removing the Home Menu Applet Patch (3DS)
 
-1.  Launch GodMode9.
+<!-- Tab links -->
+<div class="tab2">
+  <button class="tablinks2" onclick="openTab2(event, '3DS-uninst')" id="defaultOpen2">3DS</button>
+  <button class="tablinks2" onclick="openTab2(event, 'Lime3DS-uninst')">Lime3DS</button>
+</div>
 
-2.  Go to `SDCARD:/luma/titles`. 
+<!-- Tab content -->
+<div id="3DS-uninst" class="tabcontent2">
+  <ol>
+    <li>
+      <p>Launch GodMode9.</p>
+    </li>
+    <li>
+      <p>Go to <code>SDCARD:/luma/titles</code>.</p>
+    </li>
+    <li>
+      <p>Delete or rename the <code>000400300000??02</code> folder.</p>
+  
+      <ul>
+        <li>
+          <p>EUR: <code>0004003000009802</code></p>
+        </li>
+        <li>
+          <p>JPN: <code>0004003000008202</code></p>
+        </li>
+        <li>
+          <p>USA: <code>0004003000008F02</code></p>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <p>Reboot the console.</p>
+    </li>
+  </ol>
 
-3.  Delete or rename the `000400300000??02` folder.
+  <p class="note-green">
+    The Home Menu UI has been restored.
+  </p>
+</div>
 
-    - EUR: `0004003000009802`
+<!-- Tab content -->
+<div id="Lime3DS-uninst" class="tabcontent2">
+  <ol>
+    <li>
+      <p>Launch Lime3DS emulator.</p>
+    </li>
+    <li>
+      <p>Go to <code>File</code> → <code>Open Lime3DS Folder</code>.</p>
+    </li>
+    <li>
+      <p>Go to <code>/load/mods</code>.</p>
+    </li>
+    <li>
+      <p>Delete or rename the <code>000400300000??02</code> folder.</p>
+  
+      <ul>
+        <li>
+          <p>EUR: <code>0004003000009802</code></p>
+        </li>
+        <li>
+          <p>JPN: <code>0004003000008202</code></p>
+        </li>
+        <li>
+          <p>USA: <code>0004003000008F02</code></p>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <p>Launch the Home Menu by going to <code>File</code> → <code>Boot Home Menu</code> → <code>EUR</code>/<code>USA</code>/<code>JPN</code>.</p>
+    </li>
+  </ol>
 
-    - JPN: `0004003000008202`
-
-    - USA: `0004003000008F02`
-
-4.  Reboot the console.
-
-<p class="note-green">
-  The Home Menu UI has been restored.
-</p>
-
-
-## Removing the Home Menu Applet Patch (Lime3DS)
-
-1.  Launch Lime3DS emulator.
-
-2.  Go to `File` → `Open Lime3DS Folder`.
-
-3.  Go to `/load/mods`.
-
-4.  Delete or rename the `000400300000??02` folder.
-
-    - EUR: `0004003000009802`
-
-    - JPN: `0004003000008202`
-
-    - USA: `0004003000008F02`
-
-5.  Launch the Home Menu by going to `File` → `Boot Home Menu` → `EUR`/`USA`/`JPN`.
-
-<p class="note-green">
-  The Home Menu UI has been restored.
-</p>
+  <p class="note-green">
+    The Home Menu UI has been restored.
+  </p>
+</div>
 
 
 #### Installation Method 2: CIA File
@@ -397,3 +468,7 @@ Install CFW if you haven't already.</a>
 <p class="note-green">
   The Home Menu applet has been restored.
 </p>
+
+<script src="/assets/slideshow-gallery.js"></script>
+<script src="/assets/tabs.js"></script>
+<script src="/assets/tabs2.js"></script>

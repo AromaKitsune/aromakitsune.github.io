@@ -8,44 +8,9 @@ This page is for testing some HTML stuff :P
 
 <a href="#bottom" id="top">
 Jump to bottom page</a>
-
-<style>
-/*************** Style the tab ***************/
-.tab {
-  overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
-}
-
-/* Style the buttons that are used to open the tab content */
-.tab button {
-  background-color: inherit;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
-}
-
-/* Change background color of buttons on hover */
-.tab button:hover {
-  background-color: #ddd;
-}
-
-/* Create an active/current tablink class */
-.tab button.active {
-  background-color: #ccc;
-}
-
-/* Style the tab content */
-.tabcontent {
-  display: none;
-  padding: 6px 12px;
-  border: 1px solid #ccc;
-  border-top: none;
-} 
-</style>
+/
+<a href="/Misc">
+Back to this page</a>
 
 # Header (1) / Title
 
@@ -203,8 +168,6 @@ Row 5 - Column 1 | Column 2 | Column 3
     </div>
   </div>
 </div>
-
-<script src="/assets/slideshow-gallery.js"></script>
 <br>
 
 
@@ -212,11 +175,11 @@ Row 5 - Column 1 | Column 2 | Column 3
 
 [Source](https://www.w3schools.com/howto/howto_js_tabs.asp)
 
- <!-- Tab links -->
+<!-- Tab links -->
 <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'Tab1')" id="defaultOpen">Tab1</button>
-  <button class="tablinks" onclick="openCity(event, 'Tab2')">Tab2</button>
-  <button class="tablinks" onclick="openCity(event, 'Tab3')">Tab3</button>
+  <button class="tablinks" onclick="openTab(event, 'Tab1')" id="defaultOpen">Tab1</button>
+  <button class="tablinks" onclick="openTab(event, 'Tab2')">Tab2</button>
+  <button class="tablinks" onclick="openTab(event, 'Tab3')">Tab3</button>
 </div>
 
 <!-- Tab content -->
@@ -237,31 +200,34 @@ Row 5 - Column 1 | Column 2 | Column 3
   <p>This is Tab3</p>
 </div>
 
-<script>
-function openCity(evt, cityName) {
-  // Declare all variables
-  var i, tabcontent, tablinks;
+<!-- Tab links -->
+<div class="tab2">
+  <button class="tablinks2" onclick="openTab2(event, 'Tab4')" id="defaultOpen2">Tab4</button>
+  <button class="tablinks2" onclick="openTab2(event, 'Tab5')">Tab5</button>
+  <button class="tablinks2" onclick="openTab2(event, 'Tab6')">Tab6</button>
+</div>
 
-  // Get all elements with class="tabcontent" and hide them
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
+<!-- Tab content -->
+<div id="Tab4" class="tabcontent2">
+  <h3>Tab4</h3>
+  <p>This is Tab4</p>
+</div>
 
-  // Get all elements with class="tablinks" and remove the class "active"
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
+<!-- Tab content -->
+<div id="Tab5" class="tabcontent2">
+  <h3>Tab5</h3>
+  <p>This is Tab5</p>
+</div>
 
-  // Show the current tab, and add an "active" class to the button that opened the tab
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-</script>
+<!-- Tab content -->
+<div id="Tab6" class="tabcontent2">
+  <h3>Tab6</h3>
+  <p>This is Tab6</p>
+</div>
 
 <a href="#top" id="bottom">
 Jump to top page</a>
+
+<script src="/assets/slideshow-gallery.js"></script>
+<script src="/assets/tabs.js"></script>
+<script src="/assets/tabs2.js"></script>
