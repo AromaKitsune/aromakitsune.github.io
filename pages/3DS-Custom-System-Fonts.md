@@ -18,9 +18,7 @@ for creating your own custom system font for 3DS!
 
 - [Pop Joy Font](#pop-joy)
 
-- [Installing the Custom System Font to 3DS](#installing-the-custom-system-font-to-3ds)
-
-- [Installing the Custom System Font to Lime3DS](#installing-the-custom-system-font-to-lime3ds)
+- [Installing the Custom System Font to 3DS / Lime3DS](#installing-the-custom-system-font)
 
 - [Restoring the System Font](#restoring-the-system-font)
 
@@ -143,57 +141,79 @@ It is commonly used for the UI in Paper Mario games.
 </details>
 
 
-## Installing the Custom System Font to 3DS
+## Installing the Custom System Font
 
-Luma3DS custom firmware is required to use the mod.
-<a href="https://3ds.hacks.guide/" target="_blank">
-Install CFW if you haven't already.</a>
+<!-- Tab links -->
+<div class="tab">
+  <button class="tablinks" onclick="openTab(event, '3DS-inst')" id="defaultOpen">3DS</button>
+  <button class="tablinks" onclick="openTab(event, 'Lime3DS-inst')">Lime3DS</button>
+</div>
 
-<p class="note-info">
-  Create a NAND backup before modifying any system files!
-  <br>
-  Modifying the system font is safe and can be restored by re-installing the original system font, instead of restoring a NAND backup.
-  <br>
-  To restore the system font, see the
-  <a href="#restoring-the-system-font">
-  restore section</a>.
-</p>
+<!-- Tab content -->
+<div id="3DS-inst" class="tabcontent">
+  <p>
+    Luma3DS custom firmware is required to use the mod.
+    <a href="https://3ds.hacks.guide/" target="_blank">
+    Install CFW if you haven't already.</a>
+  </p>
 
-<p class="note-warning">
-  Never uninstall CFW while any modded system files are installed, doing so will brick the console! A
-  <a href="https://www.flashcarts.net/ds-quick-start-guide" target="_blank">
-  DS flashcart with ntrboot</a>
-  is required to re-install B9S.
-  <br>
-  Modified system files are not signed which they don't work on the original firmware, as the signature check fails.
-  <br>
-  If you wanna uninstall CFW before selling your console, you must restore the system files first, then follow the
-  <a href="https://3ds.hacks.guide/uninstall-cfw" target="_blank">
-  CFW uninstallation instructions</a>.
-</p>
+  <p class="note-info">
+    Create a NAND backup before modifying any system files!
+    <br>
+    Modifying the system font is safe and can be restored by re-installing the original system font, instead of restoring a NAND backup.
+    <br>
+    To restore the system font, see the
+    <a href="#restoring-the-system-font">
+    restore section</a>.
+  </p>
+  
+  <p class="note-warning">
+    Never uninstall CFW while any modded system files are installed, doing so will brick the console! A
+    <a href="https://www.flashcarts.net/ds-quick-start-guide" target="_blank">
+    DS flashcart with ntrboot</a>
+    is required to re-install B9S.
+    <br>
+    Modified system files are not signed which they don't work on the original firmware, as the signature check fails.
+    <br>
+    If you wanna uninstall CFW before selling your console, you must restore the system files first, then follow the
+    <a href="https://3ds.hacks.guide/uninstall-cfw" target="_blank">
+    CFW uninstallation instructions</a>.
+  </p>
 
-1.  Add the downloaded CIA file to the SD Card.
+  <ol>
+    <li>
+      <p>Add the downloaded CIA file to the SD Card.</p>
+    </li>
+    <li>
+      <p>Launch GodMode9.</p>
+    </li>
+    <li>
+      <p>Browse and select the CIA file.</p>
+    </li>
+    <li>
+      <p>Select <code>CIA image options...</code> → <code>Install game image</code>.</p>
+  
+      <ul>
+        <li>CIA files are encrypted by default, so there’s no need to re-encrypt it.</li>
+      </ul>
+    </li>
+    <li>
+      <p>Reboot the console.</p>
+    </li>
+  </ol>
 
-2.  Launch GodMode9.
+  <p class="note-green">
+    The custom system font has been installed.
+  </p>
+</div>
 
-3.  Browse and select the CIA file.
-
-4.  Select `CIA image options...` → `Install game image`.
-
-    - CIA files are encrypted by default, so there's no need to re-encrypt it.
-
-5.  Reboot the console.
-
-<p class="note-green">
-  The custom system font has been installed.
-</p>
-
-
-## Installing the Custom System Font to Lime3DS
-
-You can also install the custom system font to
-<a href="https://lime3ds.github.io/" target="_blank">
-Lime3DS emulator</a>.
+<!-- Tab content -->
+<div id="Lime3DS-inst" class="tabcontent">
+  <p>
+    You can also install the custom system font to
+    <a href="https://lime3ds.github.io/" target="_blank">
+    Lime3DS emulator</a>.
+  </p>
 
 <p class="note-info">
   AES Keys are required to install encrypted contents to Lime3DS.
@@ -203,52 +223,103 @@ Lime3DS emulator</a>.
   If you have Citra emulator, the installation process works the same.
 </p>
 
-1.  Launch Lime3DS emulator.
+  <ol>
+    <li>
+      <p>Launch Lime3DS emulator.</p>
+    </li>
+    <li>
+      <p>Go to <code>Emulation</code> → <code>Configure...</code> → <code>System</code>.</p>
+    </li>
+    <li>
+      <p>Under the <code>3GX Plugins Loader</code> options, pick the system model and system region, then click <code>Download</code>.</p>
+    </li>
+    <li>
+      <p>Wait for the system firmware download to complete.</p>
+      <div align="center">
+        <p class="image">
+          <img src="/images/3DS/3DS-System-Font-Customization_10.png">
+        </p>
+      </div>
+    </li>
+    <li>
+      <p>Close the configuration window.</p>
+    </li>
+    <li>
+      <p>Go to <code>File</code> → <code>Install CIA...</code>.</p>
+    </li>
+    <li>
+      <p>Select the downloaded CIA file.</p>
+    </li>
+    <li>
+      <p>Launch the Home Menu by going to <code>File</code> → <code>Boot Home Menu</code> → <code>EUR</code>/<code>USA</code>/<code>JPN</code>.</p>
+    </li>
+  </ol>
 
-2.  Go to `Emulation` → `Configure...` → `System`.
-
-3.  Under the `3GX Plugins Loader` options, pick the system model and system region, then click `Download`.
-
-4.  Wait for the system firmware download to complete.
-
-    <div align="center">
-      <p class="image">
-        <img src="/images/3DS/3DS-System-Font-Customization_10.png">
-      </p>
-    </div>
-
-5.  Close the configuration window.
-
-6.  Go to `File` → `Install CIA...`.
-
-7.  Select the downloaded CIA file.
-
-8.  Launch any of the system apps and see how the custom system font looks.
-
-<p class="note-green">
-  The custom system font has been installed.
-</p>
-
+  <p class="note-green">
+    The custom system font has been installed.
+  </p>
+</div>
 
 ## Restoring the System Font
 
-1.  Download the [original system font](/files/3DS/SystemFont.cia).
+<!-- Tab links -->
+<div class="tab2">
+  <button class="tablinks2" onclick="openTab2(event, '3DS-uninst')" id="defaultOpen2">3DS</button>
+  <button class="tablinks2" onclick="openTab2(event, 'Lime3DS-uninst')">Lime3DS</button>
+</div>
 
-2.  Add the `SystemFont.cia` file to the SD Card.
+<!-- Tab content -->
+<div id="3DS-uninst" class="tabcontent2">
+  <ol>
+    <li>
+      <p>Download the <a href="/files/3DS/SystemFont.cia">original system font</a>.</p>
+    </li>
+    <li>
+      <p>Add the <code>SystemFont.cia</code> file to the SD Card.</p>
+    </li>
+    <li>
+      <p>Launch GodMode9.</p>
+    </li>
+    <li>
+      <p>Browse and select the <code>SystemFont.cia</code> file.</p>
+    </li>
+    <li>
+      <p>Select <code>CIA image options...</code> → <code>Install game image</code>.</p>
+    </li>
+    <li>
+      <p>Reboot the console.</p>
+    </li>
+  </ol>
 
-3.  Launch GodMode9.
+  <p class="note-green">
+    The system font has been restored.
+  </p>
+</div>
 
-4.  Browse and select the `SystemFont.cia` file.
+<!-- Tab content -->
+<div id="Lime3DS-uninst" class="tabcontent2">
+  <ol>
+    <li>
+      <p>Download the <a href="/files/3DS/SystemFont.cia">original system font</a>.</p>
+    </li>
+    <li>
+      <p>Launch Lime3DS.</p>
+    </li>
+    <li>
+      <p>Go to <code>File</code> → <code>Install CIA...</code>.</p>
+    </li>
+    <li>
+      <p>Select the <code>SystemFont.cia</code> file.</p>
+    </li>
+    <li>
+      <p>Launch the Home Menu by going to <code>File</code> → <code>Boot Home Menu</code> → <code>EUR</code>/<code>USA</code>/<code>JPN</code>.</p>
+    </li>
+  </ol>
 
-5.  Select `CIA image options...` → `Install game image`.
-
-6.  Reboot the console.
-
-<p class="note-green">
-  The system font has been restored.
-</p>
-
-To restore the system font on Lime3DS, go to `File` → `Install CIA...` and select the `SystemFont.cia` file.
+  <p class="note-green">
+    The system font has been restored.
+  </p>
+</div>
 
 
 ## Screenshots
@@ -372,3 +443,6 @@ Some screenshots of games officially using those fonts.
     </small>
   </p>
 </div>
+
+<script src="/assets/tabs.js"></script>
+<script src="/assets/tabs2.js"></script>

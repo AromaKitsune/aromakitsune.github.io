@@ -202,13 +202,11 @@ Last updated: 2024-10-07
     </li>
     <li>
       <p>Wait for the system firmware download to complete.</p>
-  
-    <div align="center">
-      <p class="image">
-        <img src="/images/3DS/3DS-System-Font-Customization_10.png">
-      </p>
-    </div>
-
+      <div align="center">
+        <p class="image">
+          <img src="/images/3DS/3DS-System-Font-Customization_10.png">
+        </p>
+      </div>
     </li>
     <li>
       <p>Close the configuration window.</p>
