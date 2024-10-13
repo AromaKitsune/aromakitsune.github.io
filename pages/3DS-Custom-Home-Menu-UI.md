@@ -73,25 +73,51 @@ Last updated: 2024-10-07
 
 ### Download Mod:
 
-- [LayeredFS](/files/3DS/Kitsune-CustomHomeMenuUI.zip)
+<!-- Tab links -->
+<div class="tab">
+  <button class="tablinks" onclick="openTab(event, 'Normal')" id="defaultOpen">Normal</button>
+  <button class="tablinks" onclick="openTab(event, 'NoMvs')">No Miiverse Applet</button>
+</div>
 
-- [CIA - for EUR console](/files/3DS/Kitsune-CustomHomeMenuUI_EUR.cia)
+<!-- Tab content -->
+<div id="Normal" class="tabcontent">
+  <ul>
+    <li>
+      <p><a href="/files/3DS/Kitsune-CustomHomeMenuUI.zip">LayeredFS</a></p>
+    </li>
+    <li>
+      <p><a href="/files/3DS/Kitsune-CustomHomeMenuUI_EUR.cia">CIA - for EUR console</a></p>
+    </li>
+    <li>
+      <p><a href="/files/3DS/Kitsune-CustomHomeMenuUI_USA.cia">CIA - for USA console</a></p>
+    </li>
+    <li>
+      <p><a href="/files/3DS/Kitsune-CustomHomeMenuUI_JPN.cia">CIA - for JPN console</a></p>
+    </li>
+  </ul>
+</div>
 
-- [CIA - for USA console](/files/3DS/Kitsune-CustomHomeMenuUI_USA.cia)
+<!-- Tab content -->
+<div id="NoMvs" class="tabcontent">
+  <ul>
+    <li>
+      <p><a href="/files/3DS/Kitsune-CustomHomeMenuUI_NoMvs.zip">LayeredFS</a></p>
+    </li>
+    <li>
+      <p><a href="/files/3DS/Kitsune-CustomHomeMenuUI_EUR_NoMvs.cia">CIA - for EUR console</a></p>
+    </li>
+    <li>
+      <p><a href="/files/3DS/Kitsune-CustomHomeMenuUI_USA_NoMvs.cia">CIA - for USA console</a></p>
+    </li>
+    <li>
+      <p><a href="/files/3DS/Kitsune-CustomHomeMenuUI_JPN_NoMvs.cia">CIA - for JPN console</a></p>
+    </li>
+  </ul>
 
-- [CIA - for JPN console](/files/3DS/Kitsune-CustomHomeMenuUI_JPN.cia)
-
-### Download Mod (without the Miiverse applet):
-
-- [LayeredFS](/files/3DS/Kitsune-CustomHomeMenuUI_NoMvs.zip)
-
-- [CIA - for EUR console](/files/3DS/Kitsune-CustomHomeMenuUI_EUR_NoMvs.cia)
-
-- [CIA - for USA console](/files/3DS/Kitsune-CustomHomeMenuUI_USA_NoMvs.cia)
-
-- [CIA - for JPN console](/files/3DS/Kitsune-CustomHomeMenuUI_JPN_NoMvs.cia)
-
-For those who don't use a Miiverse replacement service such as Pretendo Network's Juxtaposition
+  <p>
+    For those who don’t use a Miiverse replacement service such as Pretendo Network’s Juxtaposition
+  </p>
+</div>
 
 
 #### Installation Method 1: LayeredFS
@@ -472,3 +498,4 @@ Install CFW if you haven't already.</a>
 <script src="/assets/slideshow-gallery.js"></script>
 <script src="/assets/tabs.js"></script>
 <script src="/assets/tabs2.js"></script>
+<script src="/assets/tabs3.js"></script>
