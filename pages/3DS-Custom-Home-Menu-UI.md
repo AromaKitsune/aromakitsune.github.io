@@ -125,13 +125,13 @@ Last updated: 2024-10-07
 ## Adding the Home Menu Applet Patch
 
 <!-- Tab links -->
-<div class="tab">
-  <button class="tablinks" onclick="openTab(event, '3DS')" id="defaultOpen">3DS</button>
-  <button class="tablinks" onclick="openTab(event, 'Lime3DS')">Lime3DS</button>
+<div class="tab2">
+  <button class="tablinks2" onclick="openTab2(event, '3DS-inst')" id="defaultOpen2">3DS</button>
+  <button class="tablinks2" onclick="openTab2(event, 'Lime3DS-inst')">Lime3DS</button>
 </div>
 
 <!-- Tab content -->
-<div id="3DS" class="tabcontent">
+<div id="3DS-inst" class="tabcontent2">
   <p>
     Luma3DS custom firmware is required to use the mod.
     <a href="https://3ds.hacks.guide/" target="_blank">
@@ -175,7 +175,7 @@ Last updated: 2024-10-07
 </div>
 
 <!-- Tab content -->
-<div id="Lime3DS" class="tabcontent">
+<div id="Lime3DS-inst" class="tabcontent2">
   <p>
     You can also add the Home Menu applet patch to
     <a href="https://lime3ds.github.io/" target="_blank">
@@ -242,13 +242,13 @@ Last updated: 2024-10-07
 ## Removing the Home Menu Applet Patch (3DS)
 
 <!-- Tab links -->
-<div class="tab2">
-  <button class="tablinks2" onclick="openTab2(event, '3DS-uninst')" id="defaultOpen2">3DS</button>
-  <button class="tablinks2" onclick="openTab2(event, 'Lime3DS-uninst')">Lime3DS</button>
+<div class="tab3">
+  <button class="tablinks3" onclick="openTab3(event, '3DS-uninst')" id="defaultOpen3">3DS</button>
+  <button class="tablinks3" onclick="openTab3(event, 'Lime3DS-uninst')">Lime3DS</button>
 </div>
 
 <!-- Tab content -->
-<div id="3DS-uninst" class="tabcontent2">
+<div id="3DS-uninst" class="tabcontent3">
   <ol>
     <li>
       <p>Launch GodMode9.</p>
@@ -282,7 +282,7 @@ Last updated: 2024-10-07
 </div>
 
 <!-- Tab content -->
-<div id="Lime3DS-uninst" class="tabcontent2">
+<div id="Lime3DS-uninst" class="tabcontent3">
   <ol>
     <li>
       <p>Launch Lime3DS emulator.</p>

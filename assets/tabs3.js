@@ -1,17 +1,17 @@
-function openTab2(evt, tabName) {
+function openTab3(evt, tabName) {
   // Declare all variables
-  var i, tabcontent2, tablinks2;
+  var i, tabcontent3, tablinks3;
 
   // Get all elements with class="tabcontent" and hide them
-  tabcontent2 = document.getElementsByClassName("tabcontent2");
-  for (i = 0; i < tabcontent2.length; i++) {
-    tabcontent2[i].style.display = "none";
+  tabcontent3 = document.getElementsByClassName("tabcontent3");
+  for (i = 0; i < tabcontent3.length; i++) {
+    tabcontent3[i].style.display = "none";
   }
 
   // Get all elements with class="tablinks" and remove the class "active"
-  tablinks2 = document.getElementsByClassName("tablinks2");
-  for (i = 0; i < tablinks2.length; i++) {
-    tablinks2[i].className = tablinks2[i].className.replace(" active", "");
+  tablinks3 = document.getElementsByClassName("tablinks3");
+  for (i = 0; i < tablinks3.length; i++) {
+    tablinks3[i].className = tablinks3[i].className.replace(" active", "");
   }
 
   // Show the current tab, and add an "active" class to the button that opened the tab
@@ -20,4 +20,4 @@ function openTab2(evt, tabName) {
 }
 
 // Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen2").click();
+document.getElementById("defaultOpen3").click();
