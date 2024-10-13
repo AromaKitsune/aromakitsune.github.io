@@ -239,7 +239,7 @@ Last updated: 2024-10-07
 </div>
 
 
-## Removing the Home Menu Applet Patch (3DS)
+## Removing the Home Menu Applet Patch
 
 <!-- Tab links -->
 <div class="tab3">
@@ -407,95 +407,151 @@ Install CFW if you haven't already.</a>
 </p>
 
 
-## Restoring the Home Menu Applet - Method 1
+## Restoring the Home Menu Applet
 
-<p class="note-blue">
-  If you've dumped the <code>homemenu.cia</code> file with GodMode9, follow this section.
-</p>
+<!-- Tab links -->
+<div class="tab4">
+  <button class="tablinks4" onclick="openTab4(event, 'Restore1')" id="defaultOpen4">Method 1</button>
+  <button class="tablinks4" onclick="openTab4(event, 'Restore2')">Method 2</button>
+  <button class="tablinks4" onclick="openTab4(event, 'Restore3')">Method 3</button>
+</div>
 
-1.  Launch GodMode9.
+<!-- Tab content -->
+<div id="Restore1" class="tabcontent4">
+  <p class="note-blue">
+    If you've dumped the <code>homemenu.cia</code> file with GodMode9, follow this section.
+  </p>
 
-2.  Go to `SDCARD:/gm9/out` and select the `homemenu.cia` file.
+  <ol>
+    <li>
+      <p>Launch GodMode9.</p>
+    </li>
+    <li>
+      <p>Go to <code>SDCARD:/gm9/out</code> and select the <code>homemenu.cia</code> file.</p>
+    </li>
+    <li>
+      <p>Select <code>CIA image options...</code> → <code>Install game image</code>.</p>
+    </li>
+    <li>
+      <p>Reboot the console.</p>
+    </li>
+  </ol>
 
-3.  Select `CIA image options...` → `Install game image`.
+  <p class="note-green">
+    The Home Menu applet has been restored.
+  </p>
+</div>
 
-4.  Reboot the console.
+<!-- Tab content -->
+<div id="Restore2" class="tabcontent4">
+  <p class="note-blue">
+    If you've lost the <code>homemenu.cia</code> file from your SD Card and computer, follow this section.
+    <br>
+    The target system firmware version is <code>11.17.0-50</code>.
+  </p>
 
-<p class="note-green">
-  The Home Menu applet has been restored.
-</p>
+  <ol>
+    <li>
+      <p>Download the original Home Menu applet:</p>
+  
+      <ul>
+        <li>
+          <a href="/files/3DS/HomeMenu_EUR.cia">EUR</a> |
+          <a href="/files/3DS/HomeMenu_USA.cia">USA</a> |
+          <a href="/files/3DS/HomeMenu_JPN.cia">JPN</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <p>Add the <code>HomeMenu_???.cia</code> file to the SD Card.</p>
+    </li>
+    <li>
+      <p>Launch GodMode9.</p>
+    </li>
+    <li>
+      <p>Browse and select the <code>HomeMenu_???.cia</code> file.</p>
+    </li>
+    <li>
+      <p>Select <code>CIA image options...</code> → <code>Install game image</code>.</p>
+    </li>
+    <li>
+      <p>Reboot the console.</p>
+    </li>
+  </ol>
 
+  <p class="note-green">
+    The Home Menu applet has been restored.
+  </p>
+</div>
 
-## Restoring the Home Menu Applet - Method 2
+<!-- Tab content -->
+<div id="Restore3" class="tabcontent4">
+  <p class="note-blue">
+    Alternatively, download the system file for your system firmware version other than <code>11.17.0-50</code>.
+  </p>
 
-<p class="note-blue">
-  If you've lost the <code>homemenu.cia</code> file from your SD Card and computer, follow this section.
-  <br>
-  The target system firmware version is <code>11.17.0-50</code>.
-</p>
+  <ol>
+    <li>
+      <p>
+        Download
+        <a href="https://github.com/wyatt8740/3DNUS" target="_blank">
+        3DNUS</a>.
+      </p>
+    </li>
+    <li>
+      <p>Launch 3DNUS.</p>
+    </li>
+    <li>
+      <p>Input your system’s current firmware version and region (ex: <code class="language-plaintext highlighter-rouge">11.15.0-47E</code>).</p>
+    </li>
+    <li>
+      <p>Click “New 3DS” or “Old 3DS” for your 3DS system model.</p>
+    </li>
+    <li>
+      <p>Click “Begin Download”, and wait for the download to complete.</p>
+    </li>
+    <li>
+      <p>Enter the firmware folder and find the <code class="language-plaintext highlighter-rouge">.cia</code> file for Home Menu inside the <code class="language-plaintext highlighter-rouge">updates</code> folder.</p>
+  
+      <ul>
+        <li>
+          <p>EUR: <code class="language-plaintext highlighter-rouge">0004003000009802.cia</code></p>
+        </li>
+        <li>
+          <p>USA: <code class="language-plaintext highlighter-rouge">0004003000008F02.cia</code></p>
+        </li>
+        <li>
+          <p>JPN: <code class="language-plaintext highlighter-rouge">0004003000008202.cia</code></p>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <p>Rename the <code class="language-plaintext highlighter-rouge">000400300000??02.cia</code> file to <code class="language-plaintext highlighter-rouge">HomeMenu.cia</code>.</p>
+    </li>
+    <li>
+      <p>Place it in the SD Card.</p>
+    </li>
+    <li>
+      <p>Launch GodMode9.</p>
+    </li>
+    <li>
+      <p>Browse and select the <code class="language-plaintext highlighter-rouge">HomeMenu.cia</code> file.</p>
+    </li>
+    <li>
+      <p>Select <code class="language-plaintext highlighter-rouge">CIA image options...</code> → <code class="language-plaintext highlighter-rouge">Install game image</code>.</p>
+    </li>
+    <li>
+      <p>Reboot the console.</p>
+    </li>
+  </ol>
 
-1.  Download the original Home Menu applet:
-
-    - [EUR](/files/3DS/HomeMenu_EUR.cia) \| [USA](/files/3DS/HomeMenu_USA.cia) \| [JPN](/files/3DS/HomeMenu_JPN.cia)
-
-2.  Add the `HomeMenu_???.cia` file to the SD Card.
-
-3.  Launch GodMode9.
-
-4.  Browse and select the `HomeMenu_???.cia` file.
-
-5.  Select `CIA image options...` → `Install game image`.
-
-6.  Reboot the console.
-
-<p class="note-green">
-  The Home Menu applet has been restored.
-</p>
-
-
-## Restoring the Home Menu Applet - Method 3
-
-<p class="note-blue">
-  Alternatively, download the system file for your system firmware version other than <code>11.17.0-50</code>.
-</p>
-
-1.  Download
-    <a href="https://github.com/wyatt8740/3DNUS" target="_blank">
-    3DNUS</a>.
-
-2.  Launch 3DNUS.
-
-3.  Input your system's current firmware version and region (ex: `11.15.0-47E`).
-
-4.  Click "New 3DS" or "Old 3DS" for your 3DS system model.
-
-5.  Click "Begin Download", and wait for the download to complete.
-
-6.  Enter the firmware folder and find the `.cia` file for Home Menu inside the `updates` folder.
-
-    - EUR: `0004003000009802.cia`
-
-    - USA: `0004003000008F02.cia`
-
-    - JPN: `0004003000008202.cia`
-
-7.  Rename the `000400300000??02.cia` file to `HomeMenu.cia`.
-
-8.  Place it in the SD Card.
-
-9.  Launch GodMode9.
-
-10. Browse and select the `HomeMenu.cia` file.
-
-11. Select `CIA image options...` → `Install game image`.
-
-12. Reboot the console.
-
-<p class="note-green">
-  The Home Menu applet has been restored.
-</p>
+  <p class="note-green">
+    The Home Menu applet has been restored.
+  </p>
+</div>
 
 <script src="/assets/slideshow-gallery.js"></script>
 <script src="/assets/tabs.js"></script>
 <script src="/assets/tabs2.js"></script>
 <script src="/assets/tabs3.js"></script>
+<script src="/assets/tabs4.js"></script>

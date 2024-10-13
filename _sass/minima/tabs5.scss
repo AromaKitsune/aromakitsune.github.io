@@ -3,14 +3,14 @@
 
 
 /* Style the tab */
-.tab2 {
+.tab5 {
   overflow: hidden;
   border-bottom: 1px solid #535355;
   background-color: #28282B;
 }
 
 /* Style the buttons that are used to open the tab content */
-.tab2 button {
+.tab5 button {
   font-family: 'Segoe UI';
   font-size: 16px;
   background-color: #28282B;
@@ -25,19 +25,19 @@
 }
 
 /* Change background color of buttons on hover */
-.tab2 button:hover {
+.tab5 button:hover {
   background-color: #414145;
   border-bottom: 5px solid #414145;
 }
 
 /* Create an active/current tablink class */
-.tab2 button.active {
+.tab5 button.active {
   background-color: #28282B;
   border-bottom: 5px solid #65C5FF;
 }
 
 /* Style the tab content */
-.tabcontent2 {
+.tabcontent5 {
   display: none;
   padding: 16px 12px;
   border: 1px solid #535355;
