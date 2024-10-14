@@ -206,11 +206,14 @@ It is commonly used for the UI in Paper Mario games.
     Cemu emulator</a>.
   </p>
 
-  <p class="note-info">
-    Do not add the <code>CafeStd.ttf</code> file to <code>/Cemu/resources/sharedFonts</code>,
-    those are replacement system fonts which are used if the real system fonts don't exist.
+  <p class="note-blue">
+    The font files in <code>/Cemu/resources/sharedFonts</code> are replacement system fonts
+    which are used if the real system fonts don't exist in a virtual MLC NAND.
     <br>
-    Any custom/real system font files placed in this folder will be overwritten with replacement ones after Cemu updates.
+    Do not add the custom/real system fonts to this folder,
+    as those added fonts will be overwritten with replacement ones after Cemu updates.
+    <br>
+    Instead, the custom/real system fonts should be added to a virtual MLC NAND.
   </p>
 
   <ol>
