@@ -235,13 +235,6 @@ You can also install the custom system font to
 Cemu emulator</a>.
 
 <p class="note-blue">
-  Do not add the <code>CafeStd.ttf</code> file to <code>/Cemu/resources/sharedFonts</code>,
-  those are replacement system fonts which are used if the real system fonts don't exist.
-  <br>
-  Any custom/real system font files placed in this folder will be overwritten with replacement ones after Cemu updates.
-</p>
-
-<p class="note-blue">
   The font files in <code>/Cemu/resources/sharedFonts</code> are replacement system fonts
   which are used if the real system fonts don't exist in a virtual MLC NAND.
   <br>
