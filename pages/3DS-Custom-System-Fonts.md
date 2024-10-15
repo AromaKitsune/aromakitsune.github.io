@@ -144,13 +144,13 @@ It is commonly used for the UI in Paper Mario games.
 ## Installing the Custom System Font
 
 <!-- Tab links -->
-<div class="tab">
-  <button class="tablinks" onclick="openTab(event, '3DS-inst')" id="defaultOpen">3DS</button>
-  <button class="tablinks" onclick="openTab(event, 'Lime3DS-inst')">Lime3DS</button>
+<div class="tab_0">
+  <button class="tablinks_0" onclick="openTab_0(event, '3DS-inst')" id="defaultOpen_0">3DS</button>
+  <button class="tablinks_0" onclick="openTab_0(event, 'Lime3DS-inst')">Lime3DS</button>
 </div>
 
 <!-- Tab content -->
-<div id="3DS-inst" class="tabcontent">
+<div id="3DS-inst" class="tabcontent_0">
   <p>
     Luma3DS custom firmware is required to use the mod.
     <a href="https://3ds.hacks.guide/" target="_blank">
@@ -208,7 +208,7 @@ It is commonly used for the UI in Paper Mario games.
 </div>
 
 <!-- Tab content -->
-<div id="Lime3DS-inst" class="tabcontent">
+<div id="Lime3DS-inst" class="tabcontent_0">
   <p>
     You can also install the custom system font to
     <a href="https://lime3ds.github.io/" target="_blank">
@@ -263,13 +263,13 @@ It is commonly used for the UI in Paper Mario games.
 ## Restoring the System Font
 
 <!-- Tab links -->
-<div class="tab2">
-  <button class="tablinks2" onclick="openTab2(event, '3DS-uninst')" id="defaultOpen2">3DS</button>
-  <button class="tablinks2" onclick="openTab2(event, 'Lime3DS-uninst')">Lime3DS</button>
+<div class="tab_1">
+  <button class="tablinks_1" onclick="openTab_1(event, '3DS-uninst')" id="defaultOpen_1">3DS</button>
+  <button class="tablinks_1" onclick="openTab_1(event, 'Lime3DS-uninst')">Lime3DS</button>
 </div>
 
 <!-- Tab content -->
-<div id="3DS-uninst" class="tabcontent2">
+<div id="3DS-uninst" class="tabcontent_1">
   <ol>
     <li>
       <p>Download the <a href="/files/3DS/SystemFont.cia">original system font</a>.</p>
@@ -297,7 +297,7 @@ It is commonly used for the UI in Paper Mario games.
 </div>
 
 <!-- Tab content -->
-<div id="Lime3DS-uninst" class="tabcontent2">
+<div id="Lime3DS-uninst" class="tabcontent_1">
   <ol>
     <li>
       <p>Download the <a href="/files/3DS/SystemFont.cia">original system font</a>.</p>
@@ -444,5 +444,5 @@ Some screenshots of games officially using those fonts.
   </p>
 </div>
 
-<script src="/assets/tabs.js"></script>
-<script src="/assets/tabs2.js"></script>
+<script src="/assets/js/tabs_0.js"></script>
+<script src="/assets/js/tabs_1.js"></script>

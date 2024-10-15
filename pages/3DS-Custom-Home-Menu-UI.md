@@ -74,13 +74,13 @@ Last updated: 2024-10-07
 ### Download Mod:
 
 <!-- Tab links -->
-<div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'Normal')" id="defaultOpen">Normal</button>
-  <button class="tablinks" onclick="openTab(event, 'NoMvs')">No Miiverse Applet</button>
+<div class="tab_0">
+  <button class="tablinks_0" onclick="openTab_0(event, 'Normal')" id="defaultOpen_0">Normal</button>
+  <button class="tablinks_0" onclick="openTab_0(event, 'NoMvs')">No Miiverse Applet</button>
 </div>
 
 <!-- Tab content -->
-<div id="Normal" class="tabcontent">
+<div id="Normal" class="tabcontent_0">
   <ul>
     <li>
       <p><a href="/files/3DS/Kitsune-CustomHomeMenuUI.zip">LayeredFS</a></p>
@@ -98,7 +98,7 @@ Last updated: 2024-10-07
 </div>
 
 <!-- Tab content -->
-<div id="NoMvs" class="tabcontent">
+<div id="NoMvs" class="tabcontent_0">
   <ul>
     <li>
       <p><a href="/files/3DS/Kitsune-CustomHomeMenuUI_NoMvs.zip">LayeredFS</a></p>
@@ -125,13 +125,13 @@ Last updated: 2024-10-07
 ## Adding the Home Menu Applet Patch
 
 <!-- Tab links -->
-<div class="tab2">
-  <button class="tablinks2" onclick="openTab2(event, '3DS-inst')" id="defaultOpen2">3DS</button>
-  <button class="tablinks2" onclick="openTab2(event, 'Lime3DS-inst')">Lime3DS</button>
+<div class="tab_1">
+  <button class="tablinks_1" onclick="openTab_1(event, '3DS-inst')" id="defaultOpen_1">3DS</button>
+  <button class="tablinks_1" onclick="openTab_1(event, 'Lime3DS-inst')">Lime3DS</button>
 </div>
 
 <!-- Tab content -->
-<div id="3DS-inst" class="tabcontent2">
+<div id="3DS-inst" class="tabcontent_1">
   <p>
     Luma3DS custom firmware is required to use the mod.
     <a href="https://3ds.hacks.guide/" target="_blank">
@@ -175,7 +175,7 @@ Last updated: 2024-10-07
 </div>
 
 <!-- Tab content -->
-<div id="Lime3DS-inst" class="tabcontent2">
+<div id="Lime3DS-inst" class="tabcontent_1">
   <p>
     You can also add the Home Menu applet patch to
     <a href="https://lime3ds.github.io/" target="_blank">
@@ -240,13 +240,13 @@ Last updated: 2024-10-07
 ## Removing the Home Menu Applet Patch
 
 <!-- Tab links -->
-<div class="tab3">
-  <button class="tablinks3" onclick="openTab3(event, '3DS-uninst')" id="defaultOpen3">3DS</button>
-  <button class="tablinks3" onclick="openTab3(event, 'Lime3DS-uninst')">Lime3DS</button>
+<div class="tab_2">
+  <button class="tablinks_2" onclick="openTab_2(event, '3DS-uninst')" id="defaultOpen_2">3DS</button>
+  <button class="tablinks_2" onclick="openTab_2(event, 'Lime3DS-uninst')">Lime3DS</button>
 </div>
 
 <!-- Tab content -->
-<div id="3DS-uninst" class="tabcontent3">
+<div id="3DS-uninst" class="tabcontent_2">
   <ol>
     <li>
       <p>Launch GodMode9.</p>
@@ -280,7 +280,7 @@ Last updated: 2024-10-07
 </div>
 
 <!-- Tab content -->
-<div id="Lime3DS-uninst" class="tabcontent3">
+<div id="Lime3DS-uninst" class="tabcontent_2">
   <ol>
     <li>
       <p>Launch Lime3DS emulator.</p>
@@ -408,14 +408,14 @@ Install CFW if you haven't already.</a>
 ## Restoring the Home Menu Applet
 
 <!-- Tab links -->
-<div class="tab4">
-  <button class="tablinks4" onclick="openTab4(event, 'Restore1')" id="defaultOpen4">Method 1</button>
-  <button class="tablinks4" onclick="openTab4(event, 'Restore2')">Method 2</button>
-  <button class="tablinks4" onclick="openTab4(event, 'Restore3')">Method 3</button>
+<div class="tab_3">
+  <button class="tablinks_3" onclick="openTab_3(event, 'Restore1')" id="defaultOpen_3">Method 1</button>
+  <button class="tablinks_3" onclick="openTab_3(event, 'Restore2')">Method 2</button>
+  <button class="tablinks_3" onclick="openTab_3(event, 'Restore3')">Method 3</button>
 </div>
 
 <!-- Tab content -->
-<div id="Restore1" class="tabcontent4">
+<div id="Restore1" class="tabcontent_3">
   <p class="note-blue">
     If you've dumped the <code>homemenu.cia</code> file with GodMode9, follow this section.
   </p>
@@ -441,7 +441,7 @@ Install CFW if you haven't already.</a>
 </div>
 
 <!-- Tab content -->
-<div id="Restore2" class="tabcontent4">
+<div id="Restore2" class="tabcontent_3">
   <p class="note-blue">
     If you've lost the <code>homemenu.cia</code> file from your SD Card and computer, follow this section.
     <br>
@@ -483,7 +483,7 @@ Install CFW if you haven't already.</a>
 </div>
 
 <!-- Tab content -->
-<div id="Restore3" class="tabcontent4">
+<div id="Restore3" class="tabcontent_3">
   <p class="note-blue">
     Alternatively, download the system file for your system firmware version other than <code>11.17.0-50</code>.
   </p>
@@ -548,8 +548,8 @@ Install CFW if you haven't already.</a>
   </p>
 </div>
 
-<script src="/assets/slideshow-gallery.js"></script>
-<script src="/assets/tabs.js"></script>
-<script src="/assets/tabs2.js"></script>
-<script src="/assets/tabs3.js"></script>
-<script src="/assets/tabs4.js"></script>
+<script src="/assets/js/slideshow-gallery.js"></script>
+<script src="/assets/js/tabs_0.js"></script>
+<script src="/assets/js/tabs_1.js"></script>
+<script src="/assets/js/tabs_2.js"></script>
+<script src="/assets/js/tabs_3.js"></script>

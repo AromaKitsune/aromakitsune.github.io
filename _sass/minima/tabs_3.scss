@@ -3,44 +3,44 @@
 
 
 /* Style the tab */
-.tab3 {
+.tab_3 {
   overflow: hidden;
-  border-bottom: 1px solid #535355;
-  background-color: #28282B;
+  border-bottom: 1px solid $dm-brand-color-dark;
+  background-color: $dm-background-color;
 }
 
 /* Style the buttons that are used to open the tab content */
-.tab3 button {
+.tab_3 button {
   font-family: 'Segoe UI';
   font-size: 16px;
-  background-color: #28282B;
-  color: #E6E6E6;
+  background-color: $dm-background-color;
+  color: $dm-text-color;
   float: left;
   border: none;
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
-  border-bottom: 5px solid #28282B;
+  border-bottom: 5px solid $dm-background-color;
 }
 
 /* Change background color of buttons on hover */
-.tab3 button:hover {
+.tab_3 button:hover {
   background-color: #414145;
   border-bottom: 5px solid #414145;
 }
 
 /* Create an active/current tablink class */
-.tab3 button.active {
-  background-color: #28282B;
+.tab_3 button.active {
+  background-color: $dm-background-color;
   border-bottom: 5px solid #65C5FF;
 }
 
 /* Style the tab content */
-.tabcontent3 {
+.tabcontent_3 {
   display: none;
   padding: 16px 12px;
-  border: 1px solid #535355;
+  border: 1px solid $dm-brand-color-dark;
   border-top: none;
   animation: fadeEffect 1s; /* Fading effect takes 1 second */
 }

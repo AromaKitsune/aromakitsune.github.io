@@ -146,13 +146,13 @@ It is commonly used for the UI in Paper Mario games.
 ## Installing the Custom System Font
 
 <!-- Tab links -->
-<div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'Wii-U-inst')" id="defaultOpen">Wii U</button>
-  <button class="tablinks" onclick="openTab(event, 'Cemu-inst')">Cemu</button>
+<div class="tab_0">
+  <button class="tablinks_0" onclick="openTab_0(event, 'Wii-U-inst')" id="defaultOpen_0">Wii U</button>
+  <button class="tablinks_0" onclick="openTab_0(event, 'Cemu-inst')">Cemu</button>
 </div>
 
 <!-- Tab content -->
-<div id="Wii-U-inst" class="tabcontent">
+<div id="Wii-U-inst" class="tabcontent_0">
   <p>
     Aroma custom firmware is required to use the mod.
     <a href="https://wiiu.hacks.guide/" target="_blank">
@@ -199,7 +199,7 @@ It is commonly used for the UI in Paper Mario games.
 </div>
 
 <!-- Tab content -->
-<div id="Cemu-inst" class="tabcontent">
+<div id="Cemu-inst" class="tabcontent_0">
   <p>
     You can also install the custom system font to
     <a href="https://cemu.info/" target="_blank">
@@ -246,13 +246,13 @@ It is commonly used for the UI in Paper Mario games.
 ## Restoring the System Font
 
 <!-- Tab links -->
-<div class="tab2">
-  <button class="tablinks2" onclick="openTab2(event, 'Wii-U-uninst')" id="defaultOpen2">Wii U</button>
-  <button class="tablinks2" onclick="openTab2(event, 'Cemu-uninst')">Cemu</button>
+<div class="tab_1">
+  <button class="tablinks_1" onclick="openTab_1(event, 'Wii-U-uninst')" id="defaultOpen_1">Wii U</button>
+  <button class="tablinks_1" onclick="openTab_1(event, 'Cemu-uninst')">Cemu</button>
 </div>
 
 <!-- Tab content -->
-<div id="Wii-U-uninst" class="tabcontent2">
+<div id="Wii-U-uninst" class="tabcontent_1">
   <ol>
     <li>
       <p>Open the Plugin menu (<code class="language-plaintext highlighter-rouge">L + D-Pad ↓ + Select</code>).</p>
@@ -271,7 +271,7 @@ It is commonly used for the UI in Paper Mario games.
 </div>
 
 <!-- Tab content -->
-<div id="Cemu-uninst" class="tabcontent2">
+<div id="Cemu-uninst" class="tabcontent_1">
   <ol>
     <li>
       <p>Launch Cemu.</p>
@@ -418,5 +418,5 @@ Some screenshots of games officially using those fonts.
   </p>
 </div>
 
-<script src="/assets/tabs.js"></script>
-<script src="/assets/tabs2.js"></script>
+<script src="/assets/js/tabs_0.js"></script>
+<script src="/assets/js/tabs_1.js"></script>

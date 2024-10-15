@@ -176,58 +176,68 @@ Row 5 - Column 1 | Column 2 | Column 3
 [Source](https://www.w3schools.com/howto/howto_js_tabs.asp)
 
 <!-- Tab links -->
-<div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'Tab1')" id="defaultOpen">Tab1</button>
-  <button class="tablinks" onclick="openTab(event, 'Tab2')">Tab2</button>
-  <button class="tablinks" onclick="openTab(event, 'Tab3')">Tab3</button>
+<div class="tab_0">
+  <button class="tablinks_0" onclick="openTab_0(event, 'Tab1')" id="defaultOpen_0">Tab1</button>
+  <button class="tablinks_0" onclick="openTab_0(event, 'Tab2')">Tab2</button>
+  <button class="tablinks_0" onclick="openTab_0(event, 'Tab3')">Tab3</button>
 </div>
 
 <!-- Tab content -->
-<div id="Tab1" class="tabcontent">
-  <h3>Tab1</h3>
+<div id="Tab1" class="tabcontent_0">
   <p>This is Tab1</p>
 </div>
 
 <!-- Tab content -->
-<div id="Tab2" class="tabcontent">
-  <h3>Tab2</h3>
+<div id="Tab2" class="tabcontent_0">
   <p>This is Tab2</p>
 </div>
 
 <!-- Tab content -->
-<div id="Tab3" class="tabcontent">
-  <h3>Tab3</h3>
+<div id="Tab3" class="tabcontent_0">
   <p>This is Tab3</p>
 </div>
 
 <!-- Tab links -->
-<div class="tab2">
-  <button class="tablinks2" onclick="openTab2(event, 'Tab4')" id="defaultOpen2">Tab4</button>
-  <button class="tablinks2" onclick="openTab2(event, 'Tab5')">Tab5</button>
-  <button class="tablinks2" onclick="openTab2(event, 'Tab6')">Tab6</button>
+<div class="tab_1">
+  <button class="tablinks_1" onclick="openTab_1(event, 'Tab4')" id="defaultOpen_1">Tab4</button>
+  <button class="tablinks_1" onclick="openTab_1(event, 'Tab5')">Tab5</button>
+  <button class="tablinks_1" onclick="openTab_1(event, 'Tab6')">Tab6</button>
 </div>
 
 <!-- Tab content -->
-<div id="Tab4" class="tabcontent2">
-  <h3>Tab4</h3>
+<div id="Tab4" class="tabcontent_1">
   <p>This is Tab4</p>
 </div>
 
 <!-- Tab content -->
-<div id="Tab5" class="tabcontent2">
-  <h3>Tab5</h3>
+<div id="Tab5" class="tabcontent_1">
   <p>This is Tab5</p>
 </div>
 
 <!-- Tab content -->
-<div id="Tab6" class="tabcontent2">
-  <h3>Tab6</h3>
+<div id="Tab6" class="tabcontent_1">
   <p>This is Tab6</p>
 </div>
+
+
+## Buttons
+
+<a href="/files/3DS/Kitsune-CustomHomeMenuUI_EUR.cia">
+<button class="btn">Button1</button>
+</a>
+
+<a href="/files/3DS/Kitsune-CustomHomeMenuUI_USA.cia">
+<button class="btn">Button2</button>
+</a>
+
+<a href="/files/3DS/Kitsune-CustomHomeMenuUI_JPN.cia">
+<button class="btn">Button3</button>
+</a>
+
 
 <a href="#top" id="bottom">
 Jump to top page</a>
 
-<script src="/assets/slideshow-gallery.js"></script>
-<script src="/assets/tabs.js"></script>
-<script src="/assets/tabs2.js"></script>
+<script src="/assets/js/slideshow-gallery.js"></script>
+<script src="/assets/js/tabs_0.js"></script>
+<script src="/assets/js/tabs_1.js"></script>
