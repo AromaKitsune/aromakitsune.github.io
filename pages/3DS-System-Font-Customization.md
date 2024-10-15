@@ -89,7 +89,9 @@ while the GUI method involves in using FontForge itself to merge the fonts manua
 
 <p class="note-blue">
   The CLI method is faster than the GUI method.
-  Pick the GUI method if the CLI method does not work for you.
+  If the CLI method does not work for you, go to the
+  <a href="#method-2-fontforge-only">
+  GUI method</a> section.
 </p>
 
 

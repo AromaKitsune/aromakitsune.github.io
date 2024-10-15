@@ -109,12 +109,12 @@ Row 5 - Column 1 | Column 2 | Column 3
       <img src="/images/Sample/Windows11_Light.jpg">
     </a>
     <br>
-    Windows 11
+    Description1
     <br>
-    Light
+    Description2
     <br>
     <small>
-      or Dark
+      Description3
     </small>
   </p>
 </div>
