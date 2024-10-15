@@ -26,7 +26,8 @@ Aroma custom firmware is required to use the mod.
 Install CFW if you haven't already.</a>
 
 <p class="note-blue">
-  No system files are modified in the process. The custom system font is loaded into RAM only.
+  No system files in the MLC NAND are modified in the process. The custom system font is loaded into RAM only,
+  so it's safe to install a custom system font without worrying about bricking the console.
 </p>
 
 ### What You Need:

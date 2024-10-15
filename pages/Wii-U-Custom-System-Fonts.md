@@ -160,7 +160,8 @@ It is commonly used for the UI in Paper Mario games.
   </p>
 
   <p class="note-blue">
-    No system files are modified in the process. The custom system font is loaded into RAM only.
+    No system files in the MLC NAND are modified in the process. The custom system font is loaded into RAM only,
+    so it's safe to install a custom system font without worrying about bricking the console.
   </p>
 
   <ol>
