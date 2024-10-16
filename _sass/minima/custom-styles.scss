@@ -9,14 +9,14 @@
 @import "tabs_4.scss";
 
 
-/* Base *******************************************************/
+// Base --------------------------------------------------------
 
 html {
   scroll-behavior: smooth;
 }
 
 
-/* Set `margin-bottom` to maintain vertical rhythm */
+// Set `margin-bottom` to maintain vertical rhythm
 hr {
   display: block;
   border: 0;
@@ -24,7 +24,7 @@ hr {
 }
 
 
-/* Code formatting */
+// Code formatting
 pre,
 code {
   border-radius: 5px;
@@ -36,7 +36,7 @@ code {
 }
 
 
-/* Additional CSS stuff */
+// Boxes
 .note-info {
   background-color: $code-background-color;
   background-image: url(/assets/Qogir-Icons/dialog-information.svg);
@@ -97,9 +97,9 @@ code {
 }
 
 
-/* Layout *****************************************************/
+// Layout ------------------------------------------------------
 
-/* Site header */
+// Site header
 @font-face {
   font-family: 'FOT-PopHappiness Std EB';
   src: url('/assets/PopHappinessStd-EB.woff2') format('woff2');
@@ -117,7 +117,7 @@ code {
 }
 
 
-/* Posts */
+// Posts
 .post-header {
   margin-bottom: $spacing-unit;
 }
