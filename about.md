@@ -36,7 +36,7 @@ YouTube</a>
 <a href="https://github.com/LumaTeam/Luma3DS" target="_blank">
 Luma3DS logo by LumaTeam</a>
 
-Color scheme by 3DS Hacks Guide
+Theme color scheme based on 3DS Hacks Guide (before the redesign on 2024-09-27)
 
 ---
 

@@ -24,6 +24,12 @@ hr {
 }
 
 
+// Headings
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
+
 // Code formatting
 pre,
 code {
@@ -35,6 +41,66 @@ code {
   border-radius: 5px;
 }
 
+
+// Layout ------------------------------------------------------
+
+// Site header
+@font-face {
+  font-family: 'FOT-PopHappiness Std EB';
+  src: url('/assets/PopHappinessStd-EB.woff2') format('woff2');
+}
+
+.site-title {
+  @include relative-font-size(2);
+  font-family: 'FOT-PopHappiness Std EB';
+}
+
+@media screen and (max-width: 600px) {
+  .site-title {
+    font-size: clamp(1rem, 6.75vw, 2rem);
+  }
+}
+
+
+// Posts
+.post-header {
+  margin-bottom: $spacing-unit;
+}
+
+.post-title,
+.post-content h1 {
+  @include relative-font-size(2.25);
+  line-height: 1.15;
+  border-bottom: 1px solid $dm-brand-color-dark;
+  padding-bottom: 0.5em;
+}
+
+.post-content {
+  margin-bottom: $spacing-unit;
+
+  h1, h2, h3, h4 { margin-top: $spacing-unit }
+
+  h2 {
+    @include relative-font-size(1.75);
+    border-bottom: 1px solid $dm-brand-color-dark;
+    padding-bottom: 0.25em;
+  }
+
+  h3 {
+    @include relative-font-size(1.25);
+  }
+
+  h4 {
+    @include relative-font-size(1.5);
+    text-align: center;
+    background-color: #2c3f48;
+    border-radius: 10px 10px 0px 0px;
+    padding-bottom: 0.25em;
+  }
+}
+
+
+// Custom ------------------------------------------------------
 
 // Boxes
 .note-info {
@@ -94,66 +160,4 @@ code {
   border-radius: 5px;
   background-color: $code-background-color;
   padding: 8px 12px;
-}
-
-
-// Layout ------------------------------------------------------
-
-// Site header
-@font-face {
-  font-family: 'FOT-PopHappiness Std EB';
-  src: url('/assets/PopHappinessStd-EB.woff2') format('woff2');
-}
-
-.site-title {
-  @include relative-font-size(2);
-  font-family: 'FOT-PopHappiness Std EB';
-}
-
-@media screen and (max-width: 600px) {
-  .site-title {
-    font-size: clamp(1rem, 6.75vw, 2rem);
-  }
-}
-
-
-// Posts
-.post-header {
-  margin-bottom: $spacing-unit;
-}
-
-.post-title,
-.post-content h1 {
-  @include relative-font-size(2.25);
-  line-height: 1.15;
-  border-bottom: 1px solid $dm-brand-color-dark;
-  padding-bottom: 0.5em;
-  font-weight: 600;
-}
-
-.post-content {
-  margin-bottom: $spacing-unit;
-
-  h1, h2, h3, h4 { margin-top: $spacing-unit }
-
-  h2 {
-    @include relative-font-size(1.75);
-    border-bottom: 1px solid $dm-brand-color-dark;
-    padding-bottom: 0.25em;
-    font-weight: 600;
-  }
-
-  h3 {
-    @include relative-font-size(1.25);
-    font-weight: 600;
-  }
-
-  h4 {
-    @include relative-font-size(1.5);
-    font-weight: 600;
-    text-align: center;
-    background-color: #2c3f48;
-    border-radius: 10px 10px 0px 0px;
-    padding-bottom: 0.25em;
-  }
 }

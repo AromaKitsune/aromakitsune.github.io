@@ -20,7 +20,6 @@ Back to this page</a>
 
 #### Header (4)
 
----
 
 ## Basic
 
@@ -30,7 +29,6 @@ Back to this page</a>
 
 ***Sample***
 
----
 
 ## Code Blocks
 

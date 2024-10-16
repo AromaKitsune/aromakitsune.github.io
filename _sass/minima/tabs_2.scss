@@ -11,8 +11,8 @@
 
 /* Style the buttons that are used to open the tab content */
 .tab_2 button {
-  font-family: 'Segoe UI';
-  font-size: 16px;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
   background-color: $dm-background-color;
   color: $dm-text-color;
   float: left;
