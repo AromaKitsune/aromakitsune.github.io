@@ -22,6 +22,16 @@ Back to this page</a>
 
 ---
 
+## Basic
+
+*Sample*
+
+**Sample**
+
+***Sample***
+
+---
+
 ## Code Blocks
 
 In-line:
