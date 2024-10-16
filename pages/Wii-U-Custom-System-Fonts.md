@@ -345,7 +345,7 @@ Some screenshots of games officially using those fonts.
       <img src="/images/Hyperdimension-Neptunia-Victory_Teach-Me-Histy.png">
     </a>
     <br>
-    Hyperdimension Neptunia Victory Re;Birth3: V Generation
+    Hyperdimension Neptunia Victory / Re;Birth3: V Generation
     <br>
     Pop Happiness font used for the "Teach Me, Histy!" display text, it is shown each time a tutorial is unlocked.
     <br>
