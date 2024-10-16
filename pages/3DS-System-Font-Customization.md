@@ -307,11 +307,12 @@ The example custom system font used in this section is `PopHappiness.ttf`.
 You can preview the custom system font on Lime3DS emulator before installing it to a 3DS.
 
 <p class="note-info">
-  AES Keys are required to install encrypted contents to Lime3DS.
+  AES Keys are required to load encrypted contents on Lime3DS.
+  Follow the instructions for 
   <a href="https://github.com/Lime3DS/Lime3DS/tree/master/dist/dumpkeys" target="_blank">
-  Read here for more info.</a>
+  dumping keys from a real 3DS</a>.
   <br>
-  If you have Citra emulator, the installation process works the same.
+  The installation process also works with Citra emulator.
 </p>
 
 1.  Launch Lime3DS emulator.

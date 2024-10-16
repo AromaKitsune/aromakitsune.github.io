@@ -215,13 +215,14 @@ It is commonly used for the UI in Paper Mario games.
     Lime3DS emulator</a>.
   </p>
 
-<p class="note-info">
-  AES Keys are required to install encrypted contents to Lime3DS.
-  <a href="https://github.com/Lime3DS/Lime3DS/tree/master/dist/dumpkeys" target="_blank">
-  Read here for more info.</a>
-  <br>
-  If you have Citra emulator, the installation process works the same.
-</p>
+  <p class="note-info">
+    AES Keys are required to load encrypted contents on Lime3DS.
+    Follow the instructions for 
+    <a href="https://github.com/Lime3DS/Lime3DS/tree/master/dist/dumpkeys" target="_blank">
+    dumping keys from a real 3DS</a>.
+    <br>
+    The installation process also works with Citra emulator.
+  </p>
 
   <ol>
     <li>

@@ -183,11 +183,12 @@ Last updated: 2024-10-07
   </p>
 
   <p class="note-info">
-    AES Keys are required to install encrypted contents to Lime3DS.
+    AES Keys are required to load encrypted contents on Lime3DS.
+    Follow the instructions for 
     <a href="https://github.com/Lime3DS/Lime3DS/tree/master/dist/dumpkeys" target="_blank">
-    Read here for more info.</a>
+    dumping keys from a real 3DS</a>.
     <br>
-    If you have Citra emulator, the installation process works the same.
+    The installation process also works with Citra emulator.
   </p>
 
   <ol>
