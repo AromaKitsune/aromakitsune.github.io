@@ -16,50 +16,50 @@ for creating your own customized Home Menu UI for 3DS!
 A customized Home Menu UI made by me.
 
 <!-- Container for the image gallery -->
-<div class="container">
+<div class="container_gallery">
 
   <!-- Full-width images with number text -->
-  <div class="mySlides" align="center">
+  <div class="mySlides_gallery" align="center">
       <img src="/images/3DS/3DS-Custom-Home-Menu-UI_1.gif">
   </div>
 
-  <div class="mySlides" align="center">
+  <div class="mySlides_gallery" align="center">
       <img src="/images/3DS/3DS-Custom-Home-Menu-UI_2.png">
   </div>
 
-  <div class="mySlides" align="center">
+  <div class="mySlides_gallery" align="center">
       <img src="/images/3DS/3DS-Custom-Home-Menu-UI_3.png">
   </div>
 
-  <div class="mySlides" align="center">
+  <div class="mySlides_gallery" align="center">
       <img src="/images/3DS/3DS-Custom-Home-Menu-UI_4.png">
   </div>
 
   <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  <a class="prev_gallery" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next_gallery" onclick="plusSlides(1)">&#10095;</a>
 
   <!-- Image text -->
-  <div class="caption-container">
-    <p id="caption"></p>
+  <div class="caption-container_gallery">
+    <p id="caption_gallery"></p>
   </div>
 
   <!-- Thumbnail images -->
-  <div class="row">
-    <div class="column">
-      <img class="demo cursor" src="/images/3DS/3DS-Custom-Home-Menu-UI_1.gif" style="width:100%" onclick="currentSlide(1)" alt="Spinning Cursor">
+  <div class="row_gallery">
+    <div class="column_gallery">
+      <img class="demo_gallery cursor_gallery" src="/images/3DS/3DS-Custom-Home-Menu-UI_1.gif" style="width:100%" onclick="currentSlide(1)" alt="Spinning cursor">
     </div>
 
-    <div class="column">
-      <img class="demo cursor" src="/images/3DS/3DS-Custom-Home-Menu-UI_2.png" style="width:100%" onclick="currentSlide(2)" alt="Blue Applets">
+    <div class="column_gallery">
+      <img class="demo_gallery cursor_gallery" src="/images/3DS/3DS-Custom-Home-Menu-UI_2.png" style="width:100%" onclick="currentSlide(2)" alt="Blue Applets">
     </div>
 
-    <div class="column">
-      <img class="demo cursor" src="/images/3DS/3DS-Custom-Home-Menu-UI_3.png" style="width:100%" onclick="currentSlide(3)" alt="No Miiverse Applet">
+    <div class="column_gallery">
+      <img class="demo_gallery cursor_gallery" src="/images/3DS/3DS-Custom-Home-Menu-UI_3.png" style="width:100%" onclick="currentSlide(3)" alt="No Miiverse Applet">
     </div>
 
-    <div class="column">
-      <img class="demo cursor" src="/images/3DS/3DS-Custom-Home-Menu-UI_4.png" style="width:100%" onclick="currentSlide(4)" alt="Blue Shutdown Screen">
+    <div class="column_gallery">
+      <img class="demo_gallery cursor_gallery" src="/images/3DS/3DS-Custom-Home-Menu-UI_4.png" style="width:100%" onclick="currentSlide(4)" alt="Blue Shutdown Screen">
     </div>
   </div>
 </div>
@@ -549,7 +549,7 @@ Install CFW if you haven't already.</a>
   </p>
 </div>
 
-<script src="/assets/js/slideshow-gallery.js"></script>
+<script src="/assets/js/gallery.js"></script>
 <script src="/assets/js/tabs_0.js"></script>
 <script src="/assets/js/tabs_1.js"></script>
 <script src="/assets/js/tabs_2.js"></script>

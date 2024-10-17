@@ -129,50 +129,50 @@ Row 5 - Column 1 | Column 2 | Column 3
 
 
 <!-- Container for the image gallery -->
-<div class="container">
+<div class="container_gallery">
 
   <!-- Full-width images with number text -->
-  <div class="mySlides" align="center">
+  <div class="mySlides_gallery" align="center">
       <img src="/images/Sample/Windows11_Light.jpg">
   </div>
 
-  <div class="mySlides" align="center">
+  <div class="mySlides_gallery" align="center">
       <img src="/images/Sample/Windows11_Dark.jpg">
   </div>
 
-  <div class="mySlides" align="center">
+  <div class="mySlides_gallery" align="center">
       <img src="/images/Sample/Glow.jpg">
   </div>
 
-  <div class="mySlides" align="center">
+  <div class="mySlides_gallery" align="center">
       <img src="/images/Sample/CapturedMotion.jpg">
   </div>
 
   <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  <a class="prev_gallery" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next_gallery" onclick="plusSlides(1)">&#10095;</a>
 
   <!-- Image text -->
-  <div class="caption-container">
-    <p id="caption"></p>
+  <div class="caption-container_gallery">
+    <p id="caption_gallery"></p>
   </div>
 
   <!-- Thumbnail images -->
-  <div class="row">
-    <div class="column">
-      <img class="demo cursor" src="/images/Sample/Windows11_Light.jpg" style="width:100%" onclick="currentSlide(1)" alt="Windows 11 - Light">
+  <div class="row_gallery">
+    <div class="column_gallery">
+      <img class="demo_gallery cursor_gallery" src="/images/Sample/Windows11_Light.jpg" style="width:100%" onclick="currentSlide(1)" alt="Windows 11 - Light">
     </div>
 
-    <div class="column">
-      <img class="demo cursor" src="/images/Sample/Windows11_Dark.jpg" style="width:100%" onclick="currentSlide(2)" alt="Windows 11 - Dark">
+    <div class="column_gallery">
+      <img class="demo_gallery cursor_gallery" src="/images/Sample/Windows11_Dark.jpg" style="width:100%" onclick="currentSlide(2)" alt="Windows 11 - Dark">
     </div>
 
-    <div class="column">
-      <img class="demo cursor" src="/images/Sample/Glow.jpg" style="width:100%" onclick="currentSlide(3)" alt="Glow">
+    <div class="column_gallery">
+      <img class="demo_gallery cursor_gallery" src="/images/Sample/Glow.jpg" style="width:100%" onclick="currentSlide(3)" alt="Glow">
     </div>
 
-    <div class="column">
-      <img class="demo cursor" src="/images/Sample/CapturedMotion.jpg" style="width:100%" onclick="currentSlide(4)" alt="Captured Motion">
+    <div class="column_gallery">
+      <img class="demo_gallery cursor_gallery" src="/images/Sample/CapturedMotion.jpg" style="width:100%" onclick="currentSlide(4)" alt="Captured Motion">
     </div>
   </div>
 </div>
@@ -246,6 +246,6 @@ Row 5 - Column 1 | Column 2 | Column 3
 <a href="#top" id="bottom">
 Jump to top page</a>
 
-<script src="/assets/js/slideshow-gallery.js"></script>
+<script src="/assets/js/gallery.js"></script>
 <script src="/assets/js/tabs_0.js"></script>
 <script src="/assets/js/tabs_1.js"></script>
