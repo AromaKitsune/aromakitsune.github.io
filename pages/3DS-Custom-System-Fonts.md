@@ -145,12 +145,12 @@ It is commonly used for the UI in Paper Mario games.
 
 <!-- Tab links -->
 <div class="tab_0">
-  <button class="tablinks_0" onclick="openTab_0(event, '3DS-inst')" id="defaultOpen_0">3DS</button>
-  <button class="tablinks_0" onclick="openTab_0(event, 'Lime3DS-inst')">Lime3DS</button>
+  <button class="tablinks_0" onclick="openTab_0(event, '3DS_Install')" id="defaultOpen_0">3DS</button>
+  <button class="tablinks_0" onclick="openTab_0(event, 'Lime3DS_Install')">Lime3DS</button>
 </div>
 
 <!-- Tab content -->
-<div id="3DS-inst" class="tabcontent_0">
+<div id="3DS_Install" class="tabcontent_0">
   <p>
     Luma3DS custom firmware is required to use the mod.
     <a href="https://3ds.hacks.guide/" target="_blank">
@@ -208,7 +208,7 @@ It is commonly used for the UI in Paper Mario games.
 </div>
 
 <!-- Tab content -->
-<div id="Lime3DS-inst" class="tabcontent_0">
+<div id="Lime3DS_Install" class="tabcontent_0">
   <p>
     You can also install the custom system font to
     <a href="https://lime3ds.github.io/" target="_blank">
@@ -261,16 +261,17 @@ It is commonly used for the UI in Paper Mario games.
   </p>
 </div>
 
+
 ## Restoring the System Font
 
 <!-- Tab links -->
 <div class="tab_1">
-  <button class="tablinks_1" onclick="openTab_1(event, '3DS-uninst')" id="defaultOpen_1">3DS</button>
-  <button class="tablinks_1" onclick="openTab_1(event, 'Lime3DS-uninst')">Lime3DS</button>
+  <button class="tablinks_1" onclick="openTab_1(event, '3DS_Uninstall')" id="defaultOpen_1">3DS</button>
+  <button class="tablinks_1" onclick="openTab_1(event, 'Lime3DS_Uninstall')">Lime3DS</button>
 </div>
 
 <!-- Tab content -->
-<div id="3DS-uninst" class="tabcontent_1">
+<div id="3DS_Uninstall" class="tabcontent_1">
   <ol>
     <li>
       <p>Download the <a href="/files/3DS/SystemFont.cia">original system font</a>.</p>
@@ -298,7 +299,7 @@ It is commonly used for the UI in Paper Mario games.
 </div>
 
 <!-- Tab content -->
-<div id="Lime3DS-uninst" class="tabcontent_1">
+<div id="Lime3DS_Uninstall" class="tabcontent_1">
   <ol>
     <li>
       <p>Download the <a href="/files/3DS/SystemFont.cia">original system font</a>.</p>

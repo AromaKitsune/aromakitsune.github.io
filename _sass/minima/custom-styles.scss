@@ -8,6 +8,11 @@
 @import "tabs_3.scss";
 @import "tabs_4.scss";
 
+@font-face {
+  font-family: PopHappiness;
+  src: url(/assets/PopHappiness.woff2);
+}
+
 
 // Base --------------------------------------------------------
 
@@ -45,14 +50,9 @@ code {
 // Layout ------------------------------------------------------
 
 // Site header
-@font-face {
-  font-family: 'FOT-PopHappiness Std EB';
-  src: url('/assets/PopHappinessStd-EB.woff2') format('woff2');
-}
-
 .site-title {
   @include relative-font-size(2);
-  font-family: 'FOT-PopHappiness Std EB';
+  font-family: PopHappiness;
 }
 
 .site-title:hover {

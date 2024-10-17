@@ -147,12 +147,12 @@ It is commonly used for the UI in Paper Mario games.
 
 <!-- Tab links -->
 <div class="tab_0">
-  <button class="tablinks_0" onclick="openTab_0(event, 'Wii-U-inst')" id="defaultOpen_0">Wii U</button>
-  <button class="tablinks_0" onclick="openTab_0(event, 'Cemu-inst')">Cemu</button>
+  <button class="tablinks_0" onclick="openTab_0(event, 'Wii-U_Install')" id="defaultOpen_0">Wii U</button>
+  <button class="tablinks_0" onclick="openTab_0(event, 'Cemu_Install')">Cemu</button>
 </div>
 
 <!-- Tab content -->
-<div id="Wii-U-inst" class="tabcontent_0">
+<div id="Wii-U_Install" class="tabcontent_0">
   <p>
     Aroma custom firmware is required to use the mod.
     <a href="https://wiiu.hacks.guide/" target="_blank">
@@ -200,7 +200,7 @@ It is commonly used for the UI in Paper Mario games.
 </div>
 
 <!-- Tab content -->
-<div id="Cemu-inst" class="tabcontent_0">
+<div id="Cemu_Install" class="tabcontent_0">
   <p>
     You can also install the custom system font to
     <a href="https://cemu.info/" target="_blank">
@@ -248,12 +248,12 @@ It is commonly used for the UI in Paper Mario games.
 
 <!-- Tab links -->
 <div class="tab_1">
-  <button class="tablinks_1" onclick="openTab_1(event, 'Wii-U-uninst')" id="defaultOpen_1">Wii U</button>
-  <button class="tablinks_1" onclick="openTab_1(event, 'Cemu-uninst')">Cemu</button>
+  <button class="tablinks_1" onclick="openTab_1(event, 'Wii-U_Uninstall')" id="defaultOpen_1">Wii U</button>
+  <button class="tablinks_1" onclick="openTab_1(event, 'Cemu_Uninstall')">Cemu</button>
 </div>
 
 <!-- Tab content -->
-<div id="Wii-U-uninst" class="tabcontent_1">
+<div id="Wii-U_Uninstall" class="tabcontent_1">
   <ol>
     <li>
       <p>Open the Plugin menu (<code class="language-plaintext highlighter-rouge">L + D-Pad ↓ + Select</code>).</p>
@@ -272,7 +272,7 @@ It is commonly used for the UI in Paper Mario games.
 </div>
 
 <!-- Tab content -->
-<div id="Cemu-uninst" class="tabcontent_1">
+<div id="Cemu_Uninstall" class="tabcontent_1">
   <ol>
     <li>
       <p>Launch Cemu.</p>
