@@ -13,15 +13,15 @@
 .tab_2 button {
   font-family: $base-font-family;
   font-size: $base-font-size;
-  background-color: $dm-background-color;
   color: $dm-text-color;
+  background-color: $dm-background-color;
   float: left;
   border: none;
+  border-bottom: 5px solid $dm-background-color;
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
-  border-bottom: 5px solid $dm-background-color;
 }
 
 /* Change background color of buttons on hover */
@@ -31,7 +31,7 @@
 }
 
 /* Create an active/current tablink class */
-.tab_2 button.active {
+.tab_2 button.active_tab {
   background-color: $dm-background-color;
   border-bottom: 5px solid #65C5FF;
 }
