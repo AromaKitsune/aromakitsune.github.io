@@ -18,6 +18,7 @@
   float: left;
   border: none;
   border-bottom: 5px solid $dm-background-color;
+  border-radius: 5px 5px 0px 0px;
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
@@ -26,16 +27,21 @@
 
 /* Change background color of buttons on hover */
 .tab_3 button:hover {
-  color: #65c5ff;
-  background-color: $dm-background-color;
-  border-bottom: 5px solid $dm-background-color;
+  background-color: #414145;
+  border-bottom: 5px solid #414145;
+  border-radius: 5px 5px 0px 0px;
 }
 
 /* Create an active/current tablink class */
 .tab_3 button.active_tab {
   color: #65c5ff;
   background-color: $dm-background-color;
-  border-bottom: 5px solid #65C5FF;
+  border-bottom: 5px solid #65c5ff;
+}
+
+/* Change BG color of an active/current tablink class on hover */
+.tab_3 button.active_tab:hover {
+  background-color: #414145;
 }
 
 /* Style the tab content */
