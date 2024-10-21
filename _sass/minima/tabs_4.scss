@@ -26,12 +26,13 @@
 
 /* Change background color of buttons on hover */
 .tab_4 button:hover {
-  background-color: #414145;
-  border-bottom: 5px solid #414145;
+  background-color: $dm-background-color;
+  border-bottom: 5px solid $dm-background-color;
 }
 
 /* Create an active/current tablink class */
 .tab_4 button.active_tab {
+  color: #65c5ff;
   background-color: $dm-background-color;
   border-bottom: 5px solid #65C5FF;
 }
