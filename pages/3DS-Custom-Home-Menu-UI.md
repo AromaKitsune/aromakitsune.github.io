@@ -357,7 +357,7 @@ Install CFW if you haven't already.</a>
   Modifying the Home Menu applet is safe and can be restored by re-installing the original Home Menu applet, instead of restoring a NAND backup.
   <br>
   To restore the Home Menu applet, see the
-  <a href="#restoring-the-home-menu-applet---method-1">
+  <a href="#restoring-the-home-menu-applet">
   restore section</a>.
 </p>
 
