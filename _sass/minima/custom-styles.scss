@@ -136,6 +136,20 @@ code {
   padding-bottom: 20px;
 }
 
+.note-warning-yellow {
+  background-color: $code-background-color;
+  background-image: url(/assets/Qogir-Icons/dialog-warning.svg);
+  background-position: 12px 16px;
+  background-repeat: no-repeat;
+  border-left: solid 4px #fffd55;
+  line-height: 24px;
+  overflow: hidden;
+  padding-top: 20px;
+  padding-left: 56px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+}
+
 .image {
   background-color: #2c3f48;
   border-radius: 10px;
