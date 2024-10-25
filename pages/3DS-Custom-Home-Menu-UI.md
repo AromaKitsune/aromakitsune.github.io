@@ -47,7 +47,7 @@ A customized Home Menu UI made by me.
   <!-- Thumbnail images -->
   <div class="row_gallery">
     <div class="column_gallery">
-      <img class="demo_gallery cursor_gallery" src="/images/3DS/3DS-Custom-Home-Menu-UI_1.gif" style="width:100%" onclick="currentSlide(1)" alt="Spinning cursor">
+      <img class="demo_gallery cursor_gallery" src="/images/3DS/3DS-Custom-Home-Menu-UI_1.gif" style="width:100%" onclick="currentSlide(1)" alt="Spinning Cursor">
     </div>
 
     <div class="column_gallery">
