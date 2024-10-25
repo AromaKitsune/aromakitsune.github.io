@@ -315,7 +315,7 @@ You can preview the custom system font on Lime3DS emulator before installing it 
   The installation process also works with Citra emulator.
 </p>
 
-1.  Launch Lime3DS emulator.
+1.  Launch Lime3DS emulator. If the system firmware is already installed, skip to step 6.
 
 2.  Go to `Emulation` → `Configure...` → `System`.
 

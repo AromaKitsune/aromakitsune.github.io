@@ -226,7 +226,7 @@ It is commonly used for the UI in Paper Mario games.
 
   <ol>
     <li>
-      <p>Launch Lime3DS emulator.</p>
+      <p>Launch Lime3DS emulator. If the system firmware is already installed, skip to step 6.</p>
     </li>
     <li>
       <p>Go to <code>Emulation</code> → <code>Configure...</code> → <code>System</code>.</p>
