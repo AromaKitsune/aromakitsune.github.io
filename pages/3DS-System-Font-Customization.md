@@ -289,7 +289,7 @@ The example custom system font used in this section is `PopHappiness.ttf`.
     python FontTool.py -font SystemFont.bcfnt
     ```
 
-    or launch `convert-system-font.bat`.
+    or launch `convert-system-font.cmd`.
 
     <div align="center">
       <p class="image">
