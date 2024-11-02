@@ -250,12 +250,12 @@ The example custom system font used in this section is `PopHappiness.ttf`.
 4.  Set the bit depth to `16 levels (A4)`.
 
     - <p style="color:orange;">
-        This option is not accessible if your screen resolution lower than 1080p
+        This option is not accessible if your screen resolution is lower than 1080p
         as the Input and Output sections do not have scroll bars.
       </p>
 
-    - If you're on a laptop and the screen resolution is 1080p with upscaled UI, launch Settings,
-      go to `System` → `Display` → `Scale & layout`, and temporarily set the DPI scaling to 100%.
+    - If you're on a laptop and the screen resolution is 1080p with high DPI scaling, launch Settings,
+      go to `System` → `Display` → `Scale & layout`, and temporarily set the `Scaling` value to `100%`.
 
 5.  Activate the `Use filter` check-box, click `Select file`, go to the `xllt` folder and select the `3ds_bitmap_font_std.xllt` file.
 
