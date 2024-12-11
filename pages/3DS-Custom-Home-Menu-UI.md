@@ -141,7 +141,8 @@ Last updated: 2024-10-07
   <p class="note-warning-yellow">
     LayeredFS patching is unstable for system applets which causes Home Menu to crash.
     This happens when Home Menu is opened 11 times total
-    (by suspending a game or exiting an applet), after booting the system.
+    (by suspending a game or exiting an applet)
+    during the whole session (after booting the system).
     <br>
     <b>This method should be used for testing purposes.</b>
     To avoid crashes,
