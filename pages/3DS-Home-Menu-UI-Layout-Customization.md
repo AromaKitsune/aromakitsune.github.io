@@ -368,7 +368,7 @@ To find other layouts:
 
 18. Go to the `C.bclyt` tab.
 
-19. Position a cursor before the selected byte (ex: `0x1567`).
+19. Same as before: position a cursor before the selected byte (ex: `0x1567`).
 
 20. Click to deselect.
 
