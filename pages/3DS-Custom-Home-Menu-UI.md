@@ -66,8 +66,9 @@ A customized Home Menu UI made by me.
 <br>
 
 Target system firmware version: `11.17.0-50`
+<br>and future FW versions, unless major changes were made to Home Menu <small>(unlikely)</small>
 
-The system font is a separate system file. To install the custom system font, [go here](/3DS-Custom-System-Fonts).
+The system font is a separate system file. To install a custom system font, [go here](/3DS-Custom-System-Fonts).
 
 Last updated: 2024-10-07
 
