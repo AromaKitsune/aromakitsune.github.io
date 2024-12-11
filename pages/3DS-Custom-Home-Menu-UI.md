@@ -139,13 +139,14 @@ Last updated: 2024-10-07
   </p>
   
   <p class="note-warning-yellow">
-    LayeredFS patching is unstable for system applets which causes Home Menu to crash if Home Menu is opened 11 times
-    (by suspending a game or exiting an applet).
+    LayeredFS patching is unstable for system applets which causes Home Menu to crash.
+    This happens when Home Menu is opened 11 times total
+    (by suspending a game or exiting an applet), after booting the system.
     <br>
+    <b>This method should be used for testing purposes.</b>
+    To avoid crashes,
     <a href="#installation-method-2-cia-file">
-    Install this mod with the CIA file instead.</a>
-    <br>
-    LayeredFS method can be used on Lime3DS emulator without any crashes.
+    install this mod with the CIA file instead</a>.
   </p>
 
   <ol>
