@@ -190,7 +190,7 @@ To find other layouts:
       </p>
     </div>
 
-5.  Make 3 copies of the extracted BCLYT file, add `A-`, `B-` and `C-` to each file name, for example:
+5.  Make 3 copies of the extracted BCLYT file, prepend `A-`, `B-` and `C-` to each file name, for example:
 
     - `A-LncBase_D_01.bclyt` or `A.bclyt`
 
@@ -207,7 +207,7 @@ To find other layouts:
       copy %1 bclyt\C.bclyt
       ```
 
-      Save it as `.bat`, drag & drop the BCLYT file in the batch file, enter the created `bclyt` folder and move on to the next step.
+      Save it as `.bat`/`.cmd`, drag & drop the BCLYT file in the batch file, enter the created `bclyt` folder and move on to the next step.
 
 6.  Launch Switch-Toolbox.
 
