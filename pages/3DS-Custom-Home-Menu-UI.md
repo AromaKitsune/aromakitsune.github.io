@@ -569,7 +569,7 @@ Install CFW if you haven't already.</a>
 
 <p class="note-blue">
   These releases contain only the RomFS folder. Again, LayeredFS patching for applets is unstable, so crash may happen.
-  It is recommended to compile a CIA file so custom Home Menu doesn't crash.
+  It is recommended to compile a CIA file and install it so Home Menu doesn't crash.
   <br>
   <br>
   To build it as a CIA file, follow
