@@ -565,7 +565,7 @@ Install CFW if you haven't already.</a>
 
 - <a href="https://github.com/AromaKitsune/aromakitsune.github.io/issues/1#issuecomment-2540272922" target="_blank">
   Kitsune + Cooolgamer's Custom Home Menu</a> - 
-  My Home Menu UI with Coool's custom assets such as animations and dialogs
+  My Custom Home Menu UI with Coool's custom assets such as animations and dialogs
 
 <p class="note-blue">
   These releases contain only the RomFS folder. Again, LayeredFS patching for applets is unstable, so crash may happen.
