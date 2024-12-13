@@ -555,33 +555,21 @@ Install CFW if you haven't already.</a>
 
 ## Extra Stuff
 
-<details>
-  <summary>
-    <b>Mods Made by Other People</b>
-  </summary>
-  <ul>
-    <li>
-      <p><a href="https://github.com/cooolgamer/Custom-Homemenu-3DS" target="_blank">
-      Custom Homemenu 3DS by Cooolgamer</a></p>
-    </li>
-    <li>
-      <p><a href="https://github.com/lividhen/HomeMenu_Custom" target="_blank">
-      HomeMenu_Custom by lividhen</a></p>
-    </li>
-    <li>
-      <p><a href="https://github.com/AromaKitsune/aromakitsune.github.io/issues/1#issuecomment-2540272922" target="_blank">
-      Kitsune + Cooolgamer's Custom Home Menu</a>
-      - My Home Menu UI with Coool's custom assets such as animations and dialogs</p>
-    </li>
-  </ul>
+### Mods Made by Other People
+
+- <a href="https://github.com/cooolgamer/Custom-Homemenu-3DS" target="_blank">
+  Custom Homemenu 3DS by Cooolgamer</a>
+
+- <a href="https://github.com/lividhen/HomeMenu_Custom" target="_blank">
+  Fairly Simple Custom Home Menu by lividhen</a>
+
+- <a href="https://github.com/AromaKitsune/aromakitsune.github.io/issues/1#issuecomment-2540272922" target="_blank">
+  Kitsune + Cooolgamer's Custom Home Menu</a> - 
+  My Home Menu UI with Coool's custom assets such as animations and dialogs
 
 These releases contain only the RomFS folder. Again, LayeredFS patching for applets is unstable.
 To build it as a CIA file, copy the RomFS contents to <code>/HMRT/ExtractedRomFS</code>, launch HMRT and build a CIA file.
 Launch GodMode9, encrypt the compiled CIA file and install it.
-
-</details>
-
-
 
 <script src="/assets/js/gallery.js"></script>
 <script src="/assets/js/tabs_0.js"></script>
