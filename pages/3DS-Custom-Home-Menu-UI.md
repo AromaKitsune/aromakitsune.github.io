@@ -567,9 +567,11 @@ Install CFW if you haven't already.</a>
   Kitsune + Cooolgamer's Custom Home Menu</a> - 
   My Home Menu UI with Coool's custom assets such as animations and dialogs
 
-These releases contain only the RomFS folder. Again, LayeredFS patching for applets is unstable, so crash may happen.
-To build it as a CIA file, copy the RomFS contents to <code>/HMRT/ExtractedRomFS</code>, launch HMRT and build a CIA file.
-Launch GodMode9, encrypt the compiled CIA file and install it.
+<p class="note-blue">
+  These releases contain only the RomFS folder. Again, LayeredFS patching for applets is unstable, so crash may happen.
+  To build it as a CIA file, copy the RomFS contents to <code>/HMRT/ExtractedRomFS</code>, launch HMRT and build a CIA file.
+  Launch GodMode9, encrypt the compiled CIA file and install it.
+</p>
 
 <script src="/assets/js/gallery.js"></script>
 <script src="/assets/js/tabs_0.js"></script>
