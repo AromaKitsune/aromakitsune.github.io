@@ -561,7 +561,7 @@ Install CFW if you haven't already.</a>
   Custom Homemenu 3DS by Cooolgamer</a>
 
 - <a href="https://github.com/lividhen/HomeMenu_Custom" target="_blank">
-  Fairly Simple Custom Home Menu by lividhen</a>
+  Fairly Simple Custom Home Menu by Lividhen</a>
 
 - <a href="https://github.com/AromaKitsune/aromakitsune.github.io/issues/1#issuecomment-2540272922" target="_blank">
   Kitsune + Cooolgamer's Custom Home Menu</a> - 
