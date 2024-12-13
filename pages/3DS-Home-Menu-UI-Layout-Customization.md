@@ -94,6 +94,10 @@ Install CFW if you haven't already.</a>
 - <a href="https://github.com/FanTranslatorsInternational/Kuriimu2" target="_blank">
   Kuriimu2</a>
 
+- <a href="https://dotnet.microsoft.com/en-us/download/dotnet/3.1" target="_blank">
+  .NET Desktop Runtime 3.1</a>
+  (for Kuriimu2)
+
 - <a href="https://mh-nexus.de/en/hxd/" target="_blank">
   HxD - Hex Editor</a>
 
