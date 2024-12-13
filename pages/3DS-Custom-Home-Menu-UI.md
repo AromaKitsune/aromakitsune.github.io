@@ -569,7 +569,11 @@ Install CFW if you haven't already.</a>
 
 <p class="note-blue">
   These releases contain only the RomFS folder. Again, LayeredFS patching for applets is unstable, so crash may happen.
-  To build it as a CIA file, copy the RomFS contents to <code>/HMRT/ExtractedRomFS</code>, launch HMRT and build a CIA file.
+  To build it as a CIA file, follow
+  <a href="https://3ds.codeberg.page/homemenu/" target="_blank">
+  derberg's 3DS Home Menu Customization Guide</a>
+  for RomFS extraction.
+  After extracting, copy the mod's RomFS contents to <code>/HMRT/ExtractedRomFS</code>, launch HMRT and build a CIA file.
   Launch GodMode9, encrypt the compiled CIA file and install it.
 </p>
 
