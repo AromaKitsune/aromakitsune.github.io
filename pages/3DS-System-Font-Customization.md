@@ -43,9 +43,11 @@ Install CFW if you haven't already.</a>
   <br>
   Modified system files are not signed which they don't work on the original firmware, as the signature check fails.
   <br>
-  If you wanna uninstall CFW before selling your console, you must restore the system files first, then follow the
+  To safely uninstall CFW, you must restore the system files first, then follow the
   <a href="https://3ds.hacks.guide/uninstall-cfw" target="_blank">
   CFW uninstallation instructions</a>.
+  <br>
+  Only uninstall CFW if you don't need it anymore and you wanna give/sell away your console.
 </p>
 
 ### What You Need:
