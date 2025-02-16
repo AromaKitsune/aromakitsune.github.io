@@ -18,6 +18,8 @@ for creating your own custom system font for 3DS!
 
 - [Pop Joy Font](#pop-joy)
 
+- [Yuruka Font (incomplete)](#yuruka)
+
 - [Installing the Custom System Font to 3DS / Lime3DS](#installing-the-custom-system-font)
 
 - [Restoring the System Font](#restoring-the-system-font)
