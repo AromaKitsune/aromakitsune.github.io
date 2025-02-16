@@ -141,6 +141,65 @@ It is commonly used for the UI in Paper Mario games.
 </details>
 
 
+## Yuruka
+
+<p class="note-blue">
+  Placeholder section. This font will be added soon!
+</p>
+
+Yuruka (ユールカ) is a Point of Purchase typeface
+<a href="https://fontworks.co.jp/fontsearch/yurukastd-ub/" target="_blank">
+designed by Fontworks</a>.
+
+It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Miku: Colorful Stage!.
+
+<div align="center">
+  <p class="image">
+    <img src="/images/placeholder_0.png">
+    <br><br>
+    <img src="/images/3DS/placeholder-Font.png">
+    <br><br>
+    <img src="/images/placeholder-Font_1.png">
+    <br><br>
+    <img src="/images/placeholder-Font_2.png">
+  </p>
+</div>
+
+### List of Games Using this Font for the UI:
+- Kirby and the Rainbow Curse
+- Dr. Mario: Miracle Cure
+- WarioWare Gold
+- Yoshi's Crafted World
+- Hatsune Miku: Colorful Stage! (reaction text)
+- WarioWare: Get It Together!
+- WarioWare: Move It!
+- Super Mario Party Jamboree (reaction text)
+- Mario & Luigi: Brothership
+- <a href="https://www.mariowiki.com/List_of_fonts#Yuruka" target="_blank">
+  Complete list of Mario related games using this font</a>
+
+### Download Font:
+
+- [CIA - for 3DS](/files/3DS/placeholderFont.cia)
+
+- [OTF - for anything else](/files/placeholder.otf)
+
+- [TTF - for anything else](/files/placeholder.ttf) (Fixed side-bearings)
+
+<details>
+  <summary>
+    <b>Side-bearings Notes</b>
+  </summary>
+  <p class="note-blue">
+    Fixed the side-bearings (spacing) for Greek glyphs, Cyrillic glyphs,
+    <br>
+    and the following glyphs: <code>° ´ ‘ ’ “ ” ′ ″</code>
+    <br>
+    This fix is included in the 3DS system font.
+  </p>
+</details>
+
+
 ## Installing the Custom System Font
 
 <!-- Tab links -->

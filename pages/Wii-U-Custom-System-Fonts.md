@@ -59,8 +59,7 @@ It is used for the UI in many Nintendo games. It is also used for the tutorial s
 - Mario Golf: World Tour
 - Pokémon Super Mystery Dungeon
 - <a href="https://www.mariowiki.com/List_of_fonts#Pop_Happiness" target="_blank">
-    Complete list of Mario related games using this font
-  </a>
+  Complete list of Mario related games using this font</a>
 
 ### Download Font:
 
@@ -113,8 +112,7 @@ It is commonly used for the UI in Paper Mario games.
 - Paper Mario: Color Splash
 - Paper Mario: The Origami King
 - <a href="https://www.mariowiki.com/List_of_fonts#Pop_Joy" target="_blank">
-    Complete list of Mario related games using this font
-  </a>
+  Complete list of Mario related games using this font</a>
 
 ### Download Font:
 
@@ -139,6 +137,65 @@ It is commonly used for the UI in Paper Mario games.
     The glyphs' horizontal scale has been adjusted to be less wider.
     <br>
     Both tweaks are included in the Wii U system font to avoid text clipping/wrapping.
+  </p>
+</details>
+
+
+## Yuruka
+
+<p class="note-blue">
+  Placeholder section. This font will be added soon!
+</p>
+
+Yuruka (ユールカ) is a Point of Purchase typeface
+<a href="https://fontworks.co.jp/fontsearch/pophappinessstd-eb/" target="_blank">
+designed by Fontworks</a>.
+
+It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Miku: Colorful Stage!.
+
+<div align="center">
+  <p class="image">
+    <img src="/images/placeholder_0.png">
+    <br><br>
+    <img src="/images/Wii-U/placeholder-Font.png">
+    <br><br>
+    <img src="/images/placeholder-Font_1.png">
+    <br><br>
+    <img src="/images/placeholder-Font_2.png">
+  </p>
+</div>
+
+### List of Games Using this Font for the UI:
+- Kirby and the Rainbow Curse
+- Dr. Mario: Miracle Cure
+- WarioWare Gold
+- Yoshi's Crafted World
+- Hatsune Miku: Colorful Stage! (reaction text)
+- WarioWare: Get It Together!
+- WarioWare: Move It!
+- Super Mario Party Jamboree (reaction text)
+- Mario & Luigi: Brothership
+- <a href="https://www.mariowiki.com/List_of_fonts#Yuruka" target="_blank">
+  Complete list of Mario related games using this font</a>
+
+### Download Font:
+
+- [TTF - for Wii U](/files/Wii-U/placeholder.ttf)
+
+- [OTF - for anything else](/files/placeholder.otf)
+
+- [TTF - for anything else](/files/placeholder.ttf) (Fixed side-bearings)
+
+<details>
+  <summary>
+    <b>Side-bearings Notes</b>
+  </summary>
+  <p class="note-blue">
+    Fixed the side-bearings (spacing) for Greek glyphs, Cyrillic glyphs,
+    <br>
+    and the following glyphs: <code>° ´ ‘ ’ “ ” ′ ″</code>
+    <br>
+    This fix is included in the Wii U system font.
   </p>
 </details>
 
