@@ -18,7 +18,7 @@ for creating your own custom system font for Wii U!
 
 - [Pop Joy Font](#pop-joy)
 
-- [Yuruka Font (incomplete)](#yuruka)
+- [Yuruka Font](#yuruka) (incomplete)
 
 - [Installing the Custom System Font to Wii U / Cemu](#installing-the-custom-system-font)
 
