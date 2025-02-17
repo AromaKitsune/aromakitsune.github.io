@@ -157,7 +157,7 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
 
 <div align="center">
   <p class="image">
-    <img src="/images/placeholder_0.png">
+    <img src="/images/Placeholder-Screenshot_Yuruka-Font.png">
     <br><br>
     <img src="/images/3DS/placeholder-Font.png">
     <br><br>
