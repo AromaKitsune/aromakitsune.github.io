@@ -146,7 +146,7 @@ It is commonly used for the UI in Paper Mario games.
 ## Yuruka
 
 <p class="note-blue">
-  Placeholder section. These font files will be added soon!
+  Incomplete section. These font files will be added soon!
 </p>
 
 Yuruka (ユールカ) is a Point of Purchase typeface
