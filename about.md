@@ -4,7 +4,7 @@ title: About
 permalink: /About
 ---
 
-This site hosts various system file mods resources for 3DS and Wii U.
+This site hosts various system UI customizations for Nintendo 3DS and Wii U.
 
 You need custom firmware installed on your console to use those mods.
 

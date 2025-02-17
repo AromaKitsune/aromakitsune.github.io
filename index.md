@@ -11,7 +11,7 @@ title: Home
 
 Welcome to the Kitsune Mods Resource!
 
-Here you can find some system file mods resources for 3DS and Wii U.
+Here you can find various system UI customizations for Nintendo 3DS and Wii U.
 
 ## 3DS
 
