@@ -138,7 +138,11 @@ Last updated: 2024-10-07
     <a href="https://3ds.hacks.guide/" target="_blank">
     Install CFW if you haven't already.</a>
   </p>
-  
+
+  <p class="note-info">
+    LayeredFS is a Luma3DS feature that redirects games/apps assets to modded assets files in the SD Card without patching the ROMs or system files directly.
+  </p>
+
   <p class="note-warning-yellow">
     LayeredFS patching is unstable for system applets which causes Home Menu to crash.
     This happens when Home Menu is opened 11 times total

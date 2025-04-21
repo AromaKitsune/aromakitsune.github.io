@@ -50,6 +50,12 @@ Install CFW if you haven't already.</a>
   Only uninstall CFW if you don't need it anymore and you wanna give/sell away your console.
 </p>
 
+<p class="note-blue">
+  The method to install a custom system font is installing a <code>.cia</code> file which replaces a system file.
+  I tried a safer method; LayeredFS, a Luma3DS feature that redirects games assets to modded assets files in the SD Card without patching the ROMs directly,
+  but it currently doesn't work with a system font, so we have to modify a system file instead.
+</p>
+
 ### What You Need:
 
 - <a href="https://fontforge.org/" target="_blank">
