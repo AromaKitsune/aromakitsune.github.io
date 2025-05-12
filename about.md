@@ -20,6 +20,8 @@ Aroma custom firmware</a>
 
 ---
 
+**My social media accounts:**
+
 Discord: AromaKitsune
 
 <a href="https://github.com/AromaKitsune" target="_blank">
@@ -30,6 +32,12 @@ Twitter</a>
 \|
 <a href="https://www.youtube.com/@AromaKitsune" target="_blank">
 YouTube</a>
+
+For general questions about my mods, you can contact me on Discord.
+
+If you find any errors on this site, post a report on
+<a href="https://github.com/AromaKitsune/aromakitsune.github.io/issues" target="_blank">
+my GitHub repo</a>.
 
 ---
 
