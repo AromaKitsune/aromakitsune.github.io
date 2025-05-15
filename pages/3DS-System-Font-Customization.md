@@ -322,7 +322,7 @@ The example custom system font used in this section is `PopHappiness.ttf`.
 
 ## Previewing the Custom System Font on Lime3DS
 
-You can preview the custom system font on Lime3DS emulator before installing it to a 3DS.
+Optional - You can preview the custom system font on Lime3DS emulator before installing it to a 3DS.
 
 <p class="note-info">
   AES Keys are required to load encrypted contents on Lime3DS.
