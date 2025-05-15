@@ -65,7 +65,7 @@ Install CFW if you haven't already.</a>
 
 - A font you want to install on a 3DS (TTF or OTF)
 
-- [CTR Font Converter](/files/3DS/CTR_FontConverter.zip) (Legal Edition)
+- [CTR Font Converter](/files/3DS/CTR_FontConverter.zip)
 
 - <a href="https://www.python.org/" target="_blank">
   Python</a>
@@ -75,9 +75,9 @@ Install CFW if you haven't already.</a>
 
 - <a href="https://lime3ds.github.io/" target="_blank">
   Lime3DS emulator</a>
-  (for previewing the custom system font)
+  for previewing the custom system font
 
-- At least 1080p of screen resolution (needed for CTR Font Converter)
+- At least 1080p of screen resolution needed for CTR Font Converter
 
 Recommended OS: Windows 10 or 11 - FontTool is not compatible with Linux
 
