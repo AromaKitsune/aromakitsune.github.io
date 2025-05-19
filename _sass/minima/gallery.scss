@@ -36,7 +36,7 @@
   color: white;
   font-weight: bold;
   font-size: 20px;
-  border-radius: 5px;
+  border-radius: 6px;
   user-select: none;
   -webkit-user-select: none;
 }
@@ -45,7 +45,7 @@
 .next_gallery {
   box-sizing: border-box;
   right: 20px;
-  border-radius: 5px;
+  border-radius: 6px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -87,7 +87,7 @@
   box-sizing: border-box;
   float: left;
   width: 25%;
-  padding: 5px;
+  padding: 4px;
 }
 
 /* Add a transparency effect for thumnbail images */
