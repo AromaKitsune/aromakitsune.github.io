@@ -20,7 +20,7 @@ for creating your own custom system font for 3DS!
 
 - [Yuruka Font](#yuruka) (incomplete)
 
-- [Installing the Custom System Font to 3DS / Lime3DS](#installing-the-custom-system-font)
+- [Installing the Custom System Font to 3DS / Azahar](#installing-the-custom-system-font)
 
 - [Restoring the System Font](#restoring-the-system-font)
 
@@ -66,6 +66,8 @@ It is used for the UI in many Nintendo games. It is also used for the tutorial s
 ### Download Font:
 
 - [CIA - for 3DS](/files/3DS/PopHappinessFont.cia)
+
+- [BCFNT - for Azahar Emulator](/files/3DS/PopHappiness.bcfnt.lz)
 
 - [OTF - for anything else](/files/FOT-PopHappinessStd-EB.otf)
 
@@ -119,6 +121,8 @@ It is commonly used for the UI in Paper Mario games.
 ### Download Font:
 
 - [CIA - for 3DS](/files/3DS/PopJoyFont.cia)
+
+- [BCFNT - for Azahar Emulator](/files/3DS/PopJoy.bcfnt.lz)
 
 - [OTF - for anything else](/files/FOT-PopJoyStd-B.otf)
 
@@ -184,6 +188,8 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
 
 - [CIA - for 3DS](/files/3DS/placeholderFont.cia)
 
+- [BCFNT - for Azahar Emulator](/files/3DS/placeholderFont.bcfnt.lz)
+
 - [OTF - for anything else](/files/placeholder.otf)
 
 - [TTF - for anything else](/files/placeholder.ttf) (Fixed side-bearings)
@@ -207,7 +213,7 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
 <!-- Tab links -->
 <div class="tab_0">
   <button class="tablinks_0" onclick="openTab_0(event, '3DS_Install')" id="defaultOpen_0">3DS</button>
-  <button class="tablinks_0" onclick="openTab_0(event, 'Lime3DS_Install')">Lime3DS</button>
+  <button class="tablinks_0" onclick="openTab_0(event, 'Azahar_Install')">Azahar</button>
 </div>
 
 <!-- Tab content -->
@@ -261,10 +267,9 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
     </li>
     <li>
       <p>Select <code>CIA image options...</code> → <code>Install game image</code>.</p>
-  
-      <ul>
-        <li>CIA files are encrypted by default, so there’s no need to re-encrypt it.</li>
-      </ul>
+        <ul>
+          <li>CIA files are encrypted by default, so there’s no need to re-encrypt it.</li>
+        </ul>
     </li>
     <li>
       <p>Reboot the console.</p>
@@ -277,48 +282,35 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
 </div>
 
 <!-- Tab content -->
-<div id="Lime3DS_Install" class="tabcontent_0">
+<div id="Azahar_Install" class="tabcontent_0">
   <p>
     You can also install the custom system font to
-    <a href="https://lime3ds.github.io/" target="_blank">
-    Lime3DS emulator</a>.
+    <a href="https://azahar-emu.org/" target="_blank">
+    Azahar emulator</a>.
   </p>
 
   <p class="note-info">
-    AES Keys are required to load encrypted contents on Lime3DS.
+    The system files need to be installed to a virtual NAND before continuing.
     Follow the instructions for 
-    <a href="https://github.com/Lime3DS/Lime3DS/tree/master/dist/dumpkeys" target="_blank">
-    dumping keys from a real 3DS</a>.
-    <br>
-    The installation process also works with Citra emulator.
+    <a href="https://github.com/azahar-emu/ArticSetupTool" target="_blank">
+    setting up system files</a> on an emulator. A real 3DS is required.
   </p>
 
   <ol>
     <li>
-      <p>Launch Lime3DS emulator. If the system firmware is already installed, skip to step 6.</p>
+      <p>Rename the downloaded BCFNT file to <code>cbf_std.bcfnt.lz</code>.</p>
     </li>
     <li>
-      <p>Go to <code>Emulation</code> → <code>Configure...</code> → <code>System</code>.</p>
+      <p>Launch Azahar emulator.</p>
     </li>
     <li>
-      <p>Under the <code>3GX Plugins Loader</code> options, pick the system model and system region, then click <code>Download</code>.</p>
+      <p>Go to <code>File</code> → <code>Open Azahar Folder</code>.</p>
     </li>
     <li>
-      <p>Wait for the system firmware download to complete.</p>
-      <div align="center">
-        <p class="image">
-          <img src="/images/3DS/3DS-System-Font-Customization_10.png">
-        </p>
-      </div>
+      <p>Navigate to <code>/load/mods/0004009B00014002/romfs</code>. Create folders if those don’t exist.</p>
     </li>
     <li>
-      <p>Close the configuration window.</p>
-    </li>
-    <li>
-      <p>Go to <code>File</code> → <code>Install CIA...</code>.</p>
-    </li>
-    <li>
-      <p>Select the downloaded CIA file.</p>
+      <p>Add the <code>cbf_std.bcfnt.lz</code> file here.</p>
     </li>
     <li>
       <p>Launch the Home Menu by going to <code>File</code> → <code>Boot Home Menu</code> → <code>EUR</code>/<code>USA</code>/<code>JPN</code>.</p>
@@ -336,7 +328,7 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
 <!-- Tab links -->
 <div class="tab_1">
   <button class="tablinks_1" onclick="openTab_1(event, '3DS_Uninstall')" id="defaultOpen_1">3DS</button>
-  <button class="tablinks_1" onclick="openTab_1(event, 'Lime3DS_Uninstall')">Lime3DS</button>
+  <button class="tablinks_1" onclick="openTab_1(event, 'Azahar_Uninstall')">Azahar</button>
 </div>
 
 <!-- Tab content -->
@@ -368,19 +360,19 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
 </div>
 
 <!-- Tab content -->
-<div id="Lime3DS_Uninstall" class="tabcontent_1">
+<div id="Azahar_Uninstall" class="tabcontent_1">
   <ol>
     <li>
-      <p>Download the <a href="/files/3DS/SystemFont.cia">original system font</a>.</p>
+      <p>Launch Azahar emulator.</p>
     </li>
     <li>
-      <p>Launch Lime3DS.</p>
+      <p>Go to <code>File</code> → <code>Open Azahar Folder</code>.</p>
     </li>
     <li>
-      <p>Go to <code>File</code> → <code>Install CIA...</code>.</p>
+      <p>Navigate to <code>/load/mods/0004009B00014002/romfs</code>.</p>
     </li>
     <li>
-      <p>Select the <code>SystemFont.cia</code> file.</p>
+      <p>Delete or rename the <code>cbf_std.bcfnt.lz</code> file.</p>
     </li>
     <li>
       <p>Launch the Home Menu by going to <code>File</code> → <code>Boot Home Menu</code> → <code>EUR</code>/<code>USA</code>/<code>JPN</code>.</p>

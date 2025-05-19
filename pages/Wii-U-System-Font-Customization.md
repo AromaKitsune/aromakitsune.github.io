@@ -25,7 +25,7 @@ Aroma custom firmware is required to use the mod.
 <a href="https://wiiu.hacks.guide/" target="_blank">
 Install CFW if you haven't already.</a>
 
-<p class="note-blue">
+<p class="note-info">
   No system files in the MLC NAND are modified in the process. The custom system font is loaded into RAM only,
   so it's safe to install a custom system font without worrying about bricking the console.
 </p>
@@ -60,7 +60,7 @@ There are 2 ways to merge the fonts: CLI & GUI
 The CLI method involves in using a Python script that calls the FontForge program to merge the fonts automatically,
 while the GUI method involves in using FontForge itself to merge the fonts manually.
 
-<p class="note-blue">
+<p class="note-info">
   The CLI method is faster than the GUI method.
   If the CLI method does not work for you, go to the
   <a href="#method-2-fontforge-only">
@@ -237,7 +237,7 @@ You can also install the custom system font to
 <a href="https://cemu.info/" target="_blank">
 Cemu emulator</a>.
 
-<p class="note-blue">
+<p class="note-info">
   The font files in <code>/Cemu/resources/sharedFonts</code> are replacement system fonts
   which are used if the real system fonts don't exist in a virtual MLC NAND.
   <br>
@@ -262,3 +262,19 @@ Cemu emulator</a>.
 <p class="note-green">
   The custom system font has been installed.
 </p>
+
+
+## Restoring the System Font
+
+1.  Open the Plugin menu (`L + D-Pad ↓ + Select`).
+
+2.  Turn off this plugin.
+
+3.  Reboot the console.
+
+<p class="note-green">
+  The system font has been restored.
+</p>
+
+To restore the system font on Cemu emulator,
+navigate to `/sys/title/0005001b/10042400/content` and rename/delete the `CafeStd.ttf` file.

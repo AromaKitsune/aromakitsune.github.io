@@ -66,7 +66,7 @@ A customized Home Menu UI made by me.
 <br>
 
 Target system firmware version: `11.17.0-50`
-<br>and future FW versions, unless major changes were made to Home Menu
+<br>and future FW versions, unless major changes are made to Home Menu
 
 The system font is a separate system file. To install a custom system font, [go here](/3DS-Custom-System-Fonts).
 
@@ -128,7 +128,7 @@ Last updated: 2024-10-07
 <!-- Tab links -->
 <div class="tab_1">
   <button class="tablinks_1" onclick="openTab_1(event, '3DS_Install')" id="defaultOpen_1">3DS</button>
-  <button class="tablinks_1" onclick="openTab_1(event, 'Lime3DS_Install')">Lime3DS</button>
+  <button class="tablinks_1" onclick="openTab_1(event, 'Azahar_Install')">Azahar</button>
 </div>
 
 <!-- Tab content -->
@@ -182,45 +182,26 @@ Last updated: 2024-10-07
 </div>
 
 <!-- Tab content -->
-<div id="Lime3DS_Install" class="tabcontent_1">
+<div id="Azahar_Install" class="tabcontent_1">
   <p>
     You can also add the Home Menu applet patch to
-    <a href="https://lime3ds.github.io/" target="_blank">
-    Lime3DS emulator</a>.
+    <a href="https://azahar-emu.org/" target="_blank">
+    Azahar emulator</a>.
   </p>
 
   <p class="note-info">
-    AES Keys are required to load encrypted contents on Lime3DS.
+    The system files need to be installed to a virtual NAND before continuing.
     Follow the instructions for 
-    <a href="https://github.com/Lime3DS/Lime3DS/tree/master/dist/dumpkeys" target="_blank">
-    dumping keys from a real 3DS</a>.
-    <br>
-    The installation process also works with Citra emulator.
+    <a href="https://github.com/azahar-emu/ArticSetupTool" target="_blank">
+    setting up system files</a> on an emulator. A real 3DS is required.
   </p>
 
   <ol>
     <li>
-      <p>Launch Lime3DS emulator. If the system firmware is already installed, skip to step 6.</p>
+      <p>Launch Azahar emulator.</p>
     </li>
     <li>
-      <p>Go to <code>Emulation</code> → <code>Configure...</code> → <code>System</code>.</p>
-    </li>
-    <li>
-      <p>Under the <code>3GX Plugins Loader</code> options, pick the system model and system region, then click <code>Download</code>.</p>
-    </li>
-    <li>
-      <p>Wait for the system firmware download to complete.</p>
-      <div align="center">
-        <p class="image">
-          <img src="/images/3DS/3DS-System-Font-Customization_10.png">
-        </p>
-      </div>
-    </li>
-    <li>
-      <p>Close the configuration window.</p>
-    </li>
-    <li>
-      <p>Go to <code>File</code> → <code>Open Lime3DS Folder</code>.</p>
+      <p>Go to <code>File</code> → <code>Open Azahar Folder</code>.</p>
     </li>
     <li>
       <p>Go to <code>/load/mods</code>. Create folders if those don’t exist.</p>
@@ -250,7 +231,7 @@ Last updated: 2024-10-07
 <!-- Tab links -->
 <div class="tab_2">
   <button class="tablinks_2" onclick="openTab_2(event, '3DS_Uninstall')" id="defaultOpen_2">3DS</button>
-  <button class="tablinks_2" onclick="openTab_2(event, 'Lime3DS_Uninstall')">Lime3DS</button>
+  <button class="tablinks_2" onclick="openTab_2(event, 'Azahar_Uninstall')">Azahar</button>
 </div>
 
 <!-- Tab content -->
@@ -264,7 +245,6 @@ Last updated: 2024-10-07
     </li>
     <li>
       <p>Delete or rename the <code>000400300000??02</code> folder.</p>
-  
       <ul>
         <li>
           <p>EUR: <code>0004003000009802</code></p>
@@ -288,20 +268,19 @@ Last updated: 2024-10-07
 </div>
 
 <!-- Tab content -->
-<div id="Lime3DS_Uninstall" class="tabcontent_2">
+<div id="Azahar_Uninstall" class="tabcontent_2">
   <ol>
     <li>
-      <p>Launch Lime3DS emulator.</p>
+      <p>Launch Azahar emulator.</p>
     </li>
     <li>
-      <p>Go to <code>File</code> → <code>Open Lime3DS Folder</code>.</p>
+      <p>Go to <code>File</code> → <code>Open Azahar Folder</code>.</p>
     </li>
     <li>
       <p>Go to <code>/load/mods</code>.</p>
     </li>
     <li>
       <p>Delete or rename the <code>000400300000??02</code> folder.</p>
-  
       <ul>
         <li>
           <p>EUR: <code>0004003000009802</code></p>
@@ -346,7 +325,7 @@ Install CFW if you haven't already.</a>
 
 4.  Proceed dumping this system applet.
 
-5.  When asked to decrypt the CIA file, pick "No".
+5.  If it asks you to decrypt the CIA file afterwards, select "No".
 
 <p class="note-green">
   The <code>homemenu.cia</code> file is saved to <code>SDCARD:/gm9/out</code>.
@@ -461,7 +440,6 @@ Install CFW if you haven't already.</a>
   <ol>
     <li>
       <p>Download the original Home Menu applet:</p>
-  
       <ul>
         <li>
           <a href="/files/3DS/HomeMenu_EUR.cia">EUR</a> |
@@ -520,7 +498,6 @@ Install CFW if you haven't already.</a>
     </li>
     <li>
       <p>Enter the firmware folder and find the <code>.cia</code> file for Home Menu inside the <code>updates</code> folder.</p>
-  
       <ul>
         <li>
           <p>EUR: <code>0004003000009802.cia</code></p>

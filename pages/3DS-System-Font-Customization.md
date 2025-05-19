@@ -73,10 +73,6 @@ Install CFW if you haven't already.</a>
 
 - [FontTool](/files/3DS/FontTool.zip) (tweaked to work with Python 3)
 
-- <a href="https://lime3ds.github.io/" target="_blank">
-  Lime3DS emulator</a>
-  for previewing the custom system font
-
 - At least 1080p of screen resolution needed for CTR Font Converter
 
 Recommended OS: Windows 10 or 11 - FontTool is not compatible with Linux
@@ -97,7 +93,7 @@ There are 2 ways to merge the fonts: CLI & GUI
 The CLI method involves in using a Python script that calls the FontForge program to merge the fonts automatically,
 while the GUI method involves in using FontForge itself to merge the fonts manually.
 
-<p class="note-blue">
+<p class="note-info">
   The CLI method is faster than the GUI method.
   If the CLI method does not work for you, go to the
   <a href="#method-2-fontforge-only">
@@ -319,48 +315,8 @@ The example custom system font used in this section is `PopHappiness.ttf`.
 
     Rename `SystemFont` to match the actual font name, in this case: `PopHappinessFont.cia`.
 
-
-## Previewing the Custom System Font on Lime3DS
-
-Optional - You can preview the custom system font on Lime3DS emulator before installing it to a 3DS.
-
-<p class="note-info">
-  AES Keys are required to load encrypted contents on Lime3DS.
-  Follow the instructions for 
-  <a href="https://github.com/Lime3DS/Lime3DS/tree/master/dist/dumpkeys" target="_blank">
-  dumping keys from a real 3DS</a>.
-  <br>
-  The installation process also works with Citra emulator.
-</p>
-
-1.  Launch Lime3DS emulator. If the system firmware is already installed, skip to step 6.
-
-2.  Go to `Emulation` → `Configure...` → `System`.
-
-3.  Under the `3GX Plugins Loader` options, pick the system model and system region, then click `Download`.
-
-4.  Wait for the system firmware download to complete.
-
-    <div align="center">
-      <p class="image">
-        <img src="/images/3DS/3DS-System-Font-Customization_10.png">
-      </p>
-    </div>
-
-5.  Close the configuration window.
-
-6.  Go to `File` → `Install CIA...`.
-
-7.  Select the generated CIA file.
-
-8.  Launch any of the system apps and see how the custom system font looks.
-
-<p class="note-blue">
-  If the font size is too big/small, repeat the
-  <a href="#generating-the-custom-system-font">
-  Generating the Custom System Font</a>
-  section and try a different font size until you get it right.
-</p>
+    (Incomplete) If you want to install it to Azahar emulator, launch `compress-bcfnt-file.cmd`
+    and the font file will be compressed as `SystemFont.bcfnt.lz`.
 
 
 ## Installing the Custom System Font to 3DS
@@ -394,6 +350,36 @@ Optional - You can preview the custom system font on Lime3DS emulator before ins
 </div>
 
 
+## Installing the Custom System Font to Azahar
+
+(Incomplete) You can also install the custom system font to
+<a href="https://azahar-emu.org/" target="_blank">
+Azahar emulator</a>.
+
+<p class="note-info">
+  The system files need to be installed to a virtual NAND before continuing.
+  Follow the instructions for 
+  <a href="https://github.com/azahar-emu/ArticSetupTool" target="_blank">
+  setting up system files</a> on an emulator. A real 3DS is required.
+</p>
+
+1.  Rename the compressed font file to `cbf_std.bcfnt.lz`.
+
+2.  Launch Azahar emulator.
+
+3.  Go to `File` → `Open Azahar Folder`.
+
+4.  Navigate to `/load/mods/0004009B00014002/romfs`. Create folders if those don't exist.
+
+5.  Add the `cbf_std.bcfnt.lz` file here.
+
+6.  Launch the Home Menu by going to `File` → `Boot Home Menu` → `EUR`/`USA`/`JPN`.
+
+<p class="note-green">
+  The custom system font has been installed.
+</p>
+
+
 ## Restoring the System Font
 
 1.  Download the [original system font](/files/3DS/SystemFont.cia).
@@ -412,7 +398,8 @@ Optional - You can preview the custom system font on Lime3DS emulator before ins
   The system font has been restored.
 </p>
 
-To restore the system font on Lime3DS, go to `File` → `Install CIA...` and select the `SystemFont.cia` file.
+To restore the system font on Azahar emulator,
+navigate to `/load/mods/0004009B00014002/romfs` and rename/delete the `cbf_std.bcfnt.lz` file.
 
 
 ## Tools Used

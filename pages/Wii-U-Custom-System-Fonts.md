@@ -218,7 +218,7 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
     Install CFW if you haven't already.</a>
   </p>
 
-  <p class="note-blue">
+  <p class="note-info">
     No system files in the MLC NAND are modified in the process. The custom system font is loaded into RAM only,
     so it's safe to install a custom system font without worrying about bricking the console.
   </p>
@@ -266,7 +266,7 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
     Cemu emulator</a>.
   </p>
 
-  <p class="note-blue">
+  <p class="note-info">
     The font files in <code>/Cemu/resources/sharedFonts</code> are replacement system fonts
     which are used if the real system fonts don't exist in a virtual MLC NAND.
     <br>
@@ -315,7 +315,7 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
 <div id="Wii-U_Uninstall" class="tabcontent_1">
   <ol>
     <li>
-      <p>Open the Plugin menu (<code class="language-plaintext highlighter-rouge">L + D-Pad ↓ + Select</code>).</p>
+      <p>Open the Plugin menu (<code>L + D-Pad ↓ + Select</code>).</p>
     </li>
     <li>
       <p>Turn off this plugin.</p>
