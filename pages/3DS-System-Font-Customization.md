@@ -319,7 +319,7 @@ The example custom system font used in this section is `PopHappiness.ttf`.
     and the font file will be compressed as `SystemFont.bcfnt.lz`.
 
 
-## Installing the Custom System Font to 3DS / Azahar
+## Installing the Custom System Font
 
 <!-- Tab links -->
 <div class="tab_0">
@@ -387,7 +387,7 @@ The example custom system font used in this section is `PopHappiness.ttf`.
       <p>Rename the compressed font file to <code>cbf_std.bcfnt.lz</code>.</p>
     </li>
     <li>
-      <p>Launch Azahar emulator.</p>
+      <p>Launch Azahar.</p>
     </li>
     <li>
       <p>Go to <code>File</code> → <code>Open Azahar Folder</code>.</p>
@@ -461,7 +461,7 @@ The example custom system font used in this section is `PopHappiness.ttf`.
 <div id="Azahar_Uninstall" class="tabcontent_1">
   <ol>
     <li>
-      <p>Launch Azahar emulator.</p>
+      <p>Launch Azahar.</p>
     </li>
     <li>
       <p>Go to <code>File</code> → <code>Open Azahar Folder</code>.</p>

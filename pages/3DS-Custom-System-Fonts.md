@@ -301,7 +301,7 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
       <p>Rename the downloaded BCFNT file to <code>cbf_std.bcfnt.lz</code>.</p>
     </li>
     <li>
-      <p>Launch Azahar emulator.</p>
+      <p>Launch Azahar.</p>
     </li>
     <li>
       <p>Go to <code>File</code> → <code>Open Azahar Folder</code>.</p>
@@ -363,7 +363,7 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
 <div id="Azahar_Uninstall" class="tabcontent_1">
   <ol>
     <li>
-      <p>Launch Azahar emulator.</p>
+      <p>Launch Azahar.</p>
     </li>
     <li>
       <p>Go to <code>File</code> → <code>Open Azahar Folder</code>.</p>

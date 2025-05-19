@@ -1,7 +1,6 @@
 // Tabs
 // https://www.w3schools.com/howto/howto_js_tabs.asp
 
-
 /* Style the tab */
 .tab_1 {
   overflow: hidden;
@@ -38,7 +37,7 @@
 /* Style the tab content */
 .tabcontent_1 {
   display: none;
-  padding: 16px 12px;
+  padding: 16px 12px 0px;
   border: 1px solid $dm-brand-color-dark;
   border-top: none;
   animation: fadeEffect 1s; /* Fading effect takes 1 second */

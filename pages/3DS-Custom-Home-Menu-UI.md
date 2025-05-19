@@ -198,7 +198,7 @@ Last updated: 2024-10-07
 
   <ol>
     <li>
-      <p>Launch Azahar emulator.</p>
+      <p>Launch Azahar.</p>
     </li>
     <li>
       <p>Go to <code>File</code> → <code>Open Azahar Folder</code>.</p>
@@ -271,7 +271,7 @@ Last updated: 2024-10-07
 <div id="Azahar_Uninstall" class="tabcontent_2">
   <ol>
     <li>
-      <p>Launch Azahar emulator.</p>
+      <p>Launch Azahar.</p>
     </li>
     <li>
       <p>Go to <code>File</code> → <code>Open Azahar Folder</code>.</p>

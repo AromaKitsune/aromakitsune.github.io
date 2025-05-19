@@ -212,7 +212,7 @@ The example custom system font used in this section is `PopHappiness.ttf`.
     </div>
 
 
-## Installing the Custom System Font to Wii U / Cemu
+## Installing the Custom System Font
 
 <!-- Tab links -->
 <div class="tab_0">
