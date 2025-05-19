@@ -319,87 +319,168 @@ The example custom system font used in this section is `PopHappiness.ttf`.
     and the font file will be compressed as `SystemFont.bcfnt.lz`.
 
 
-## Installing the Custom System Font to 3DS
+## Installing the Custom System Font to 3DS / Azahar
 
-1.  Add the generated CIA file to the SD Card.
-
-2.  Launch GodMode9.
-
-3.  Browse and select the CIA file.
-
-4.  Select `CIA image options...` → `Install game image`.
-
-    - CIA files are encrypted by default, so there's no need to re-encrypt it.
-
-5.  Reboot the console.
-
-<p class="note-green">
-  The custom system font has been installed!
-</p>
-
-<div align="center">
-  <p class="image">
-    <img src="/images/3DS/3DS-System-Font-Customization_11.png">
-    <br>
-    <small>
-      The button glyphs should be preserved.
-      <br>
-      The ZL/ZR/C-Stick/Start glyphs are part of the game's digital manual, not the system font.
-    </small>
-  </p>
+<!-- Tab links -->
+<div class="tab_0">
+  <button class="tablinks_0" onclick="openTab_0(event, '3DS_Install')" id="defaultOpen_0">3DS</button>
+  <button class="tablinks_0" onclick="openTab_0(event, 'Azahar_Install')">Azahar</button>
 </div>
 
+<!-- Tab content -->
+<div id="3DS_Install" class="tabcontent_0">
+  <ol>
+    <li>
+      <p>Add the generated CIA file to the SD Card.</p>
+    </li>
+    <li>
+      <p>Launch GodMode9.</p>
+    </li>
+    <li>
+      <p>Browse and select the CIA file.</p>
+    </li>
+    <li>
+      <p>Select <code>CIA image options...</code> → <code>Install game image</code>.</p>
+        <ul>
+          <li>CIA files are encrypted by default, so there’s no need to re-encrypt it.</li>
+        </ul>
+    </li>
+    <li>
+      <p>Reboot the console.</p>
+    </li>
+  </ol>
 
-## Installing the Custom System Font to Azahar
+  <p class="note-green">
+    The custom system font has been installed!
+  </p>
 
-(Incomplete) You can also install the custom system font to
-<a href="https://azahar-emu.org/" target="_blank">
-Azahar emulator</a>.
+  <div align="center">
+    <p class="image">
+      <img src="/images/3DS/3DS-System-Font-Customization_11.png">
+      <br>
+      <small>
+        The button glyphs should be preserved.
+        <br>
+        The ZL/ZR/C-Stick/Start glyphs are part of the game's digital manual, not the system font.
+      </small>
+    </p>
+  </div>
+</div>
 
-<p class="note-info">
-  The system files need to be installed to a virtual NAND before continuing.
-  Follow the instructions for 
-  <a href="https://github.com/azahar-emu/ArticSetupTool" target="_blank">
-  setting up system files</a> on an emulator. A real 3DS is required.
-</p>
+<!-- Tab content -->
+<div id="Azahar_Install" class="tabcontent_0">
+  <p>
+    You can also install the custom system font to
+    <a href="https://azahar-emu.org/" target="_blank">
+    Azahar emulator</a>.
+  </p>
 
-1.  Rename the compressed font file to `cbf_std.bcfnt.lz`.
+  <p class="note-info">
+    The system files need to be installed to a virtual NAND before continuing.
+    Follow the instructions for 
+    <a href="https://github.com/azahar-emu/ArticSetupTool" target="_blank">
+    setting up system files</a> on an emulator. A real 3DS is required.
+  </p>
 
-2.  Launch Azahar emulator.
+  <ol>
+    <li>
+      <p>Rename the compressed font file to <code>cbf_std.bcfnt.lz</code>.</p>
+    </li>
+    <li>
+      <p>Launch Azahar emulator.</p>
+    </li>
+    <li>
+      <p>Go to <code>File</code> → <code>Open Azahar Folder</code>.</p>
+    </li>
+    <li>
+      <p>Navigate to <code>/load/mods/0004009B00014002/romfs</code>. Create folders if those don’t exist.</p>
+    </li>
+    <li>
+      <p>Add the <code>cbf_std.bcfnt.lz</code> file here.</p>
+    </li>
+    <li>
+      <p>Launch the Home Menu by going to <code>File</code> → <code>Boot Home Menu</code> → <code>EUR</code>/<code>USA</code>/<code>JPN</code>.</p>
+    </li>
+  </ol>
 
-3.  Go to `File` → `Open Azahar Folder`.
+  <p class="note-green">
+    The custom system font has been installed!
+  </p>
 
-4.  Navigate to `/load/mods/0004009B00014002/romfs`. Create folders if those don't exist.
-
-5.  Add the `cbf_std.bcfnt.lz` file here.
-
-6.  Launch the Home Menu by going to `File` → `Boot Home Menu` → `EUR`/`USA`/`JPN`.
-
-<p class="note-green">
-  The custom system font has been installed.
-</p>
+  <div align="center">
+    <p class="image">
+      <img src="/images/3DS/3DS-System-Font-Customization_11.png">
+      <br>
+      <small>
+        The button glyphs should be preserved.
+        <br>
+        The ZL/ZR/C-Stick/Start glyphs are part of the game's digital manual, not the system font.
+      </small>
+    </p>
+  </div>
+</div>
 
 
 ## Restoring the System Font
 
-1.  Download the [original system font](/files/3DS/SystemFont.cia).
+<!-- Tab links -->
+<div class="tab_1">
+  <button class="tablinks_1" onclick="openTab_1(event, '3DS_Uninstall')" id="defaultOpen_1">3DS</button>
+  <button class="tablinks_1" onclick="openTab_1(event, 'Azahar_Uninstall')">Azahar</button>
+</div>
 
-2.  Add the `SystemFont.cia` file to the SD Card.
+<!-- Tab content -->
+<div id="3DS_Uninstall" class="tabcontent_1">
+  <ol>
+    <li>
+      <p>Download the <a href="/files/3DS/SystemFont.cia">original system font</a>.</p>
+    </li>
+    <li>
+      <p>Add the <code>SystemFont.cia</code> file to the SD Card.</p>
+    </li>
+    <li>
+      <p>Launch GodMode9.</p>
+    </li>
+    <li>
+      <p>Browse and select the <code>SystemFont.cia</code> file.</p>
+    </li>
+    <li>
+      <p>Select <code>CIA image options...</code> → <code>Install game image</code>.</p>
+    </li>
+    <li>
+      <p>Reboot the console.</p>
+    </li>
+  </ol>
 
-3.  Launch GodMode9.
+  <p class="note-green">
+    The system font has been restored.
+  </p>
+</div>
 
-4.  Browse and select the `SystemFont.cia` file.
+<!-- Tab content -->
+<div id="Azahar_Uninstall" class="tabcontent_1">
+  <ol>
+    <li>
+      <p>Launch Azahar emulator.</p>
+    </li>
+    <li>
+      <p>Go to <code>File</code> → <code>Open Azahar Folder</code>.</p>
+    </li>
+    <li>
+      <p>Navigate to <code>/load/mods/0004009B00014002/romfs</code>.</p>
+    </li>
+    <li>
+      <p>Delete or rename the <code>cbf_std.bcfnt.lz</code> file.</p>
+    </li>
+    <li>
+      <p>Launch the Home Menu by going to <code>File</code> → <code>Boot Home Menu</code> → <code>EUR</code>/<code>USA</code>/<code>JPN</code>.</p>
+    </li>
+  </ol>
 
-5.  Select `CIA image options...` → `Install game image`.
-
-6.  Reboot the console.
-
-<p class="note-green">
-  The system font has been restored.
-</p>
-
-To restore the system font on Azahar emulator,
-navigate to `/load/mods/0004009B00014002/romfs` and rename/delete the `cbf_std.bcfnt.lz` file.
+  <p class="note-green">
+    The system font has been restored.
+  </p>
+</div>
 
 
 ## Tools Used
@@ -415,3 +496,6 @@ by dnasdw
 <a href="https://github.com/Tiger21820/ctr_toolkit" target="_blank">
 make_cia</a>
 by Tiger21820 & 3DSGuy
+
+<script src="/assets/js/tabs_0.js"></script>
+<script src="/assets/js/tabs_1.js"></script>

@@ -65,7 +65,7 @@ It is used for the UI in many Nintendo games. It is also used for the tutorial s
 
 ### Download Font:
 
-- [TTF - for Wii U](/files/Wii-U/PopHappiness.ttf)
+- [TTF - for Wii U / Cemu Emulator](/files/Wii-U/PopHappiness.ttf)
 
 - [OTF - for anything else](/files/FOT-PopHappinessStd-EB.otf)
 
@@ -118,7 +118,7 @@ It is commonly used for the UI in Paper Mario games.
 
 ### Download Font:
 
-- [TTF - for Wii U](/files/Wii-U/PopJoy.ttf)
+- [TTF - for Wii U / Cemu Emulator](/files/Wii-U/PopJoy.ttf)
 
 - [OTF - for anything else](/files/FOT-PopJoyStd-B.otf)
 
@@ -182,7 +182,7 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
 
 ### Download Font:
 
-- [TTF - for Wii U](/files/Wii-U/placeholder.ttf)
+- [TTF - for Wii U / Cemu Emulator](/files/Wii-U/placeholder.ttf)
 
 - [OTF - for anything else](/files/placeholder.otf)
 
@@ -316,6 +316,9 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
   <ol>
     <li>
       <p>Open the Plugin menu (<code>L + D-Pad ↓ + Select</code>).</p>
+    </li>
+    <li>
+      <p>Go to System Font Replacer.</p>
     </li>
     <li>
       <p>Turn off this plugin.</p>

@@ -212,69 +212,144 @@ The example custom system font used in this section is `PopHappiness.ttf`.
     </div>
 
 
-## Installing the Custom System Font to Wii U
+## Installing the Custom System Font to Wii U / Cemu
 
-1.  Add the merged font file to `SDCARD:/wiiu/fonts`.
+<!-- Tab links -->
+<div class="tab_0">
+  <button class="tablinks_0" onclick="openTab_0(event, 'Wii-U_Install')" id="defaultOpen_0">Wii U</button>
+  <button class="tablinks_0" onclick="openTab_0(event, 'Cemu_Install')">Cemu</button>
+</div>
 
-2.  Open the Plugin menu (`L + D-Pad ↓ + Select`).
+<!-- Tab content -->
+<div id="Wii-U_Install" class="tabcontent_0">
+  <ol>
+    <li>
+      <p>Add the merged font file to <code>SDCARD:/wiiu/fonts</code>.</p>
+    </li>
+    <li>
+      <p>Open the Plugin menu (<code>L + D-Pad ↓ + Select</code>).</p>
+    </li>
+    <li>
+      <p>Go to System Font Replacer.</p>
+    </li>
+    <li>
+      <p>Activate this plugin.</p>
+    </li>
+    <li>
+      <p>Select the merged font file for Standard font.</p>
+    </li>
+    <li>
+      <p>Disable <code>Use custom fonts only for Wii U Menu</code> to apply the font system-wide.</p>
+    </li>
+    <li>
+      <p>Reboot the console.</p>
+    </li>
+  </ol>
 
-3.  Go to System Font Replacer.
+  <p class="note-green">
+    The custom system font has been installed!
+  </p>
+</div>
 
-4.  Select the merged font file for Standard font.
+<!-- Tab content -->
+<div id="Cemu_Install" class="tabcontent_0">
+  <p>
+    You can also install the custom system font to
+    <a href="https://cemu.info/" target="_blank">
+    Cemu emulator</a>.
+  </p>
 
-5.  Disable `Use custom fonts only for Wii U Menu` to apply the font system-wide.
+  <p class="note-info">
+    The font files in <code>/Cemu/resources/sharedFonts</code> are replacement system fonts
+    which are used if the real system fonts don't exist in a virtual MLC NAND.
+    <br>
+    Do not add the custom/real system fonts to this folder,
+    as those added fonts will be overwritten with replacement ones after Cemu updates.
+    <br>
+    Instead, the custom/real system fonts should be added to a virtual MLC NAND.
+  </p>
 
-6.  Reboot the console.
+  <ol>
+    <li>
+      <p>Rename the merged font file to <code>CafeStd.ttf</code>.</p>
+    </li>
+    <li>
+      <p>Launch Cemu.</p>
+    </li>
+    <li>
+      <p>Go to <code>File</code> → <code>Open MLC folder</code>.</p>
+    </li>
+    <li>
+      <p>Navigate to <code>/sys/title/0005001b/10042400/content</code>. Create folders if those don’t exist.</p>
+    </li>
+    <li>
+      <p>Add the <code>CafeStd.ttf</code> file here.</p>
+    </li>
+    <li>
+      <p>Launch any of the system apps (if installed) and see how the custom system font looks.</p>
+    </li>
+  </ol>
 
-<p class="note-green">
-  The custom system font has been installed!
-</p>
-
-
-## Installing the Custom System Font to Cemu
-
-You can also install the custom system font to
-<a href="https://cemu.info/" target="_blank">
-Cemu emulator</a>.
-
-<p class="note-info">
-  The font files in <code>/Cemu/resources/sharedFonts</code> are replacement system fonts
-  which are used if the real system fonts don't exist in a virtual MLC NAND.
-  <br>
-  Do not add the custom/real system fonts to this folder,
-  as those added fonts will be overwritten with replacement ones after Cemu updates.
-  <br>
-  Instead, the custom/real system fonts should be added to a virtual MLC NAND.
-</p>
-
-1.  Rename the merged font file to `CafeStd.ttf`.
-
-2.  Launch Cemu.
-
-3.  Go to `File` → `Open MLC folder`.
-
-4.  Navigate to `/sys/title/0005001b/10042400/content`. Create folders if those don't exist.
-
-5.  Add the `CafeStd.ttf` file here.
-
-6.  Launch any of the system apps (if installed) and see how the custom system font looks.
-
-<p class="note-green">
-  The custom system font has been installed.
-</p>
+  <p class="note-green">
+    The custom system font has been installed!
+  </p>
+</div>
 
 
 ## Restoring the System Font
 
-1.  Open the Plugin menu (`L + D-Pad ↓ + Select`).
+<!-- Tab links -->
+<div class="tab_1">
+  <button class="tablinks_1" onclick="openTab_1(event, 'Wii-U_Uninstall')" id="defaultOpen_1">Wii U</button>
+  <button class="tablinks_1" onclick="openTab_1(event, 'Cemu_Uninstall')">Cemu</button>
+</div>
 
-2.  Turn off this plugin.
+<!-- Tab content -->
+<div id="Wii-U_Uninstall" class="tabcontent_1">
+  <ol>
+    <li>
+      <p>Open the Plugin menu (<code>L + D-Pad ↓ + Select</code>).</p>
+    </li>
+    <li>
+      <p>Go to System Font Replacer.</p>
+    </li>
+    <li>
+      <p>Turn off this plugin.</p>
+    </li>
+    <li>
+      <p>Reboot the console.</p>
+    </li>
+  </ol>
 
-3.  Reboot the console.
+  <p class="note-green">
+    The system font has been restored.
+  </p>
+</div>
 
-<p class="note-green">
-  The system font has been restored.
-</p>
+<!-- Tab content -->
+<div id="Cemu_Uninstall" class="tabcontent_1">
+  <ol>
+    <li>
+      <p>Launch Cemu.</p>
+    </li>
+    <li>
+      <p>Go to <code>File</code> → <code>Open MLC folder</code>.</p>
+    </li>
+    <li>
+      <p>Navigate to <code>/sys/title/0005001b/10042400/content</code>.</p>
+    </li>
+    <li>
+      <p>Delete or rename the <code>CafeStd.ttf</code> file.</p>
+    </li>
+    <li>
+      <p>Launch any of the system apps (if installed) and see how the original system font looks.</p>
+    </li>
+  </ol>
 
-To restore the system font on Cemu emulator,
-navigate to `/sys/title/0005001b/10042400/content` and rename/delete the `CafeStd.ttf` file.
+  <p class="note-green">
+    The system font has been restored.
+  </p>
+</div>
+
+<script src="/assets/js/tabs_0.js"></script>
+<script src="/assets/js/tabs_1.js"></script>
