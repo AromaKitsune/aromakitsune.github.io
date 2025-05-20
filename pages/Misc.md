@@ -78,11 +78,11 @@ Wrapped:
   The quick brown fox jumps over the lazy dog.
 </p>
 
-<details>
+<details class="note-details">
   <summary>
     <b>Details</b>
   </summary>
-  <p class="note-blue">
+  <p>
     The quick <code>brown fox</code> jumps over the <code>lazy dog</code>.
     <br>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

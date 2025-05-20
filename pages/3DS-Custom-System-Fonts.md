@@ -139,7 +139,6 @@ It is commonly used for the UI in Paper Mario games.
     <br>
     and the following glyphs: <code>° ´ ‘ ’ “ ” ′ ″</code>
     <br>
-    <br>
     The glyphs' horizontal scale has been adjusted to be less wider.
     <br>
     Both tweaks are included in the 3DS system font to avoid text clipping/wrapping.
@@ -194,11 +193,11 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
 
 - [TTF - for anything else](/files/placeholder.ttf) (Fixed side-bearings)
 
-<details>
+<details class="note-details">
   <summary>
     <b>Side-bearings info</b>
   </summary>
-  <p class="note-blue">
+  <p>
     Fixed the side-bearings (spacing) for Greek glyphs, Cyrillic glyphs,
     <br>
     and the following glyphs: <code>° ´ ‘ ’ “ ” ′ ″</code>

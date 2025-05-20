@@ -315,7 +315,7 @@ The example custom system font used in this section is `PopHappiness.ttf`.
 
     Rename `SystemFont` to match the actual font name, in this case: `PopHappinessFont.cia`.
 
-    (Incomplete) If you want to install it to Azahar emulator, launch `compress-bcfnt-file.cmd`
+    If you want to install it to Azahar emulator, launch `compress-bcfnt-file.cmd`
     and the font file will be compressed as `SystemFont.bcfnt.lz`.
 
 

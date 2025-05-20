@@ -115,8 +115,8 @@ Last updated: 2024-10-07
     </li>
   </ul>
 
-  <p>
-    For those who don’t use a Miiverse replacement service such as Pretendo Network’s Juxtaposition
+  <p class="note-blue">
+    For those who don’t want to use a Miiverse replacement service such as Pretendo Network’s Juxtaposition
   </p>
 </div>
 
