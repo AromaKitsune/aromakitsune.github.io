@@ -362,15 +362,20 @@ Install CFW if you haven't already.</a>
   Only uninstall CFW if you don't need it anymore and you wanna give/sell away your console.
 </p>
 
-<p class="note-blue">
-  System Update will fail while the custom Home Menu applet is installed.
-  To update your system, you must restore the Home Menu applet back to its original state.
-  <br>
-  After a system update, backup the <code>homemenu.cia</code> file again in case the Home Menu is also updated.
-  <br><br>
-  The current Home Menu mod is likely compatible with future system firmware versions.
-  If this mod stops working, I will update the base Home Menu applet for this mod.
-</p>
+<details class="note-details">
+  <summary>
+    <b>System Update note</b>
+  </summary>
+  <p>
+    System Update will fail while the custom Home Menu applet is installed.
+    To update your system, you must restore the Home Menu applet back to its original state.
+    <br>
+    After a system update, backup the <code>homemenu.cia</code> file again in case the Home Menu is also updated.
+    <br><br>
+    The current Home Menu mod is likely compatible with future system firmware versions.
+    If this mod stops working, I will update the base Home Menu applet for this mod.
+  </p>
+</details>
 
 <p class="note-blue">
   The CIA file must be installed with GodMode9. Do not install it with FBI,

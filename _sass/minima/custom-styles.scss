@@ -171,6 +171,19 @@ code {
   padding: 16px;
 }
 
+.note-details {
+  background-color: #2c3f48;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 16px;
+  margin-bottom: 15px;
+}
+
+.note-details:open summary + p {
+  padding-top: 8px;
+  margin-bottom: 0px;
+}
+
 .code-block-wrap {
   color: #7ee787;
   font-family: $code-font-family;

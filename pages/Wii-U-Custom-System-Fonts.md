@@ -71,11 +71,11 @@ It is used for the UI in many Nintendo games. It is also used for the tutorial s
 
 - [TTF - for anything else](/files/PopHappinessStd-EB.ttf) (Fixed side-bearings)
 
-<details>
+<details class="note-details">
   <summary>
-    <b>Side-bearings Notes</b>
+    <b>Side-bearings info</b>
   </summary>
-  <p class="note-blue">
+  <p>
     Fixed the side-bearings (spacing) for Greek glyphs, Cyrillic glyphs,
     <br>
     and the following glyphs: <code>° ´ ‘ ’ “ ” ′ ″</code>
@@ -126,11 +126,11 @@ It is commonly used for the UI in Paper Mario games.
 
 - [TTF - for anything else](/files/PopJoyStd-B_Scaled.ttf) (Fixed side-bearings + Scaled)
 
-<details>
+<details class="note-details">
   <summary>
-    <b>Side-bearings Notes</b>
+    <b>Side-bearings info</b>
   </summary>
-  <p class="note-blue">
+  <p>
     Fixed the side-bearings (spacing) for Greek glyphs, Cyrillic glyphs,
     <br>
     and the following glyphs: <code>° ´ ‘ ’ “ ” ′ ″</code>
@@ -190,7 +190,7 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
 
 <details>
   <summary>
-    <b>Side-bearings Notes</b>
+    <b>Side-bearings info</b>
   </summary>
   <p class="note-blue">
     Fixed the side-bearings (spacing) for Greek glyphs, Cyrillic glyphs,
