@@ -21,7 +21,7 @@ Back to this page</a>
 #### Header (4)
 
 
-## Basic
+## Font Display
 
 *Sample*
 
@@ -110,7 +110,6 @@ Row 5 - Column 1 | Column 2 | Column 3
   </p>
 </div>
 
-
 <div align="center">
   <p class="image">
     <a href="/images/Sample/Windows11_Light.jpg">
@@ -127,25 +126,22 @@ Row 5 - Column 1 | Column 2 | Column 3
   </p>
 </div>
 
-
-<!-- Container for the image gallery -->
 <div class="container_gallery">
-
   <!-- Full-width images with number text -->
   <div class="mySlides_gallery" align="center">
-      <img src="/images/Sample/Windows11_Light.jpg">
+    <img src="/images/Sample/Windows11_Light.jpg">
   </div>
 
   <div class="mySlides_gallery" align="center">
-      <img src="/images/Sample/Windows11_Dark.jpg">
+    <img src="/images/Sample/Windows11_Dark.jpg">
   </div>
 
   <div class="mySlides_gallery" align="center">
-      <img src="/images/Sample/Glow.jpg">
+    <img src="/images/Sample/Glow.jpg">
   </div>
 
   <div class="mySlides_gallery" align="center">
-      <img src="/images/Sample/CapturedMotion.jpg">
+    <img src="/images/Sample/CapturedMotion.jpg">
   </div>
 
   <!-- Next and previous buttons -->
@@ -176,12 +172,9 @@ Row 5 - Column 1 | Column 2 | Column 3
     </div>
   </div>
 </div>
-<br>
 
 
 ## Tabs
-
-[Source](https://www.w3schools.com/howto/howto_js_tabs.asp)
 
 <!-- Tab links -->
 <div class="tab_0">

@@ -362,9 +362,7 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
 
 Some screenshots of games officially using those fonts.
 
-<!-- Container for the image gallery -->
 <div class="container_gallery">
-
   <!-- Full-width images with number text -->
   <div class="mySlides_gallery" align="center">
     <img src="/images/Super-Mario-Galaxy_Dialogue.png">
