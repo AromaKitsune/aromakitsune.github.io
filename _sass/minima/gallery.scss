@@ -82,7 +82,7 @@
   clear: both;
 }
 
-/* Six columns side by side */
+/* 4 columns side by side */
 .column_gallery {
   box-sizing: border-box;
   float: left;
@@ -101,4 +101,21 @@
 .demo_gallery:hover {
   box-sizing: border-box;
   border: solid 3px #648fa3;
+}
+
+
+/* If the page width is <600px */
+@media screen and (max-width: 600px) {
+
+/* Remove the Next & Previous buttons */
+  .prev_gallery,
+  .next_gallery {
+    box-sizing: border-box;
+    display: none;
+  }
+
+/* 3 columns side by side */
+  .column_gallery {
+    width: 33.335%;
+  }
 }
