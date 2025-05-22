@@ -131,8 +131,8 @@ The example custom system font used in this section is `PopHappiness.ttf`.
 
 <p class="note-blue">
   Continue to the
-  <a href="#installing-the-custom-system-font-to-wii-u">
-  Installing the Custom System Font to Wii U</a>
+  <a href="#installing-the-custom-system-font">
+  Installing the Custom System Font</a>
   section.
 </p>
 
