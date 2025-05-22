@@ -102,12 +102,3 @@
   box-sizing: border-box;
   border: solid 3px #648fa3;
 }
-
-/* Remove the Next & Previous buttons if the page width is <600px */
-@media screen and (max-width: 600px) {
-  .prev_gallery,
-  .next_gallery {
-    box-sizing: border-box;
-    display: none;
-  }
-}
