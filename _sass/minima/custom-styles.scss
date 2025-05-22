@@ -14,12 +14,12 @@
 }
 
 
-// Base --------------------------------------------------------
+// Base
+// -------------------------------------------------------------
 
 html {
   scroll-behavior: smooth;
 }
-
 
 // Set `margin-bottom` to maintain vertical rhythm
 hr {
@@ -28,12 +28,10 @@ hr {
   border-top: 1px solid $dm-brand-color-dark;
 }
 
-
 // Headings
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
 }
-
 
 // Code formatting
 pre,
@@ -47,7 +45,8 @@ code {
 }
 
 
-// Layout ------------------------------------------------------
+// Layout
+// -------------------------------------------------------------
 
 // Site header
 .site-title {
@@ -65,7 +64,6 @@ code {
     font-size: clamp(1rem, 6.75vw, 2rem);
   }
 }
-
 
 // Posts
 .post-header {
@@ -105,7 +103,8 @@ code {
 }
 
 
-// Custom ------------------------------------------------------
+// Custom
+// -------------------------------------------------------------
 
 // Boxes
 .note-info {
