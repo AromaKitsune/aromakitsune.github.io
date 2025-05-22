@@ -61,7 +61,6 @@ A customized Home Menu UI made by me.
     </div>
   </div>
 </div>
-<br>
 
 Target system firmware version: `11.17.0-50`
 <br>and future FW versions, unless major changes are made to Home Menu
