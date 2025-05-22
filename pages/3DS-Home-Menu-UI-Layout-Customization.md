@@ -41,11 +41,9 @@ A guide for customizing the Home Menu UI layout (BCLYT files) on the Nintendo 3D
   <summary>
     <b>BCLYT files info</b>
   </summary>
-
   <p>
     BCLYT files are the layout files used on the 3DS, they control how UI elements and HUD's are shown in games. It is similar to BRLYT files used on the Wii.
   </p>
-
   <p>
     BCLAN (Layout Animation) and BCLIM (Layout Image) editing are not covered in this guide.
     For BCLAN, check out
@@ -53,16 +51,13 @@ A guide for customizing the Home Menu UI layout (BCLYT files) on the Nintendo 3D
     lividhen's animations guide</a>,
     it covers only the spinning animation.
   </p>
-
   <p>
     We will be editing the BCLYT files with Switch-Toolbox, a tool that edits many game assets for the 3DS, Wii U, and Switch.
   </p>
-
   <p>
     This is not simple, Switch-Toolbox's layout editor has a bug that it corrupts the BCLYT files of Home Menu when editing them,
     resulting in broken UI elements or Home Menu crash. This is not the case with the other BCLYT files in some games such as Mario Kart 7.
   </p>
-
   <p>
     Let's fix the BCLYT file.
   </p>
