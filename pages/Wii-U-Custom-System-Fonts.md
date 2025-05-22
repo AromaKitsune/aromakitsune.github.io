@@ -362,123 +362,108 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
 
 Some screenshots of games officially using those fonts.
 
-<div align="center">
-  <small>
-    Click any of the screenshots below for full view.
-  </small>
-</div>
+<!-- Container for the image gallery -->
+<div class="container_gallery">
 
-<div align="center">
-  <p class="image">
-    <a href="/images/Super-Mario-Galaxy_Dialogue.png">
-      <img src="/images/Super-Mario-Galaxy_Dialogue.png">
-    </a>
-    <br>
+  <!-- Full-width images with number text -->
+  <div class="mySlides_gallery" align="center">
+    <img src="/images/Super-Mario-Galaxy_Dialogue.png">
     Super Mario Galaxy
     <br>
     Pop Happiness font used for the UI.
     <br>
-    <small>
-      Screenshot taken with Dolphin Emulator
-    </small>
-  </p>
-</div>
-
-<div align="center">
-  <p class="image">
-    <a href="/images/Hyperdimension-Neptunia-mk2_Tutorial.png">
-      <img src="/images/Hyperdimension-Neptunia-mk2_Tutorial.png">
-    </a>
     <br>
+  </div>
+
+  <div class="mySlides_gallery" align="center">
+    <img src="/images/Hyperdimension-Neptunia-mk2_Tutorial.png">
     Hyperdimension Neptunia mk2
     <br>
     Pop Happiness font used for the tutorial sections.
     <br>
-    <small>
-      Screenshot taken with RPCS3 emulator
-    </small>
-  </p>
-</div>
-
-<div align="center">
-  <p class="image">
-    <a href="/images/Hyperdimension-Neptunia-Victory_Teach-Me-Histy.png">
-      <img src="/images/Hyperdimension-Neptunia-Victory_Teach-Me-Histy.png">
-    </a>
     <br>
+  </div>
+
+  <div class="mySlides_gallery" align="center">
+    <img src="/images/Hyperdimension-Neptunia-Victory_Teach-Me-Histy.png">
     Hyperdimension Neptunia Victory / Re;Birth3: V Generation
     <br>
     Pop Happiness font used for the "Teach Me, Histy!" display text, it is shown each time a tutorial is unlocked.
-    <br>
-    <small>
-      Screenshot taken with RPCS3 emulator (Victory)
-    </small>
-  </p>
-</div>
+  </div>
 
-<div align="center">
-  <p class="image">
-    <a href="/images/Paper-Mario-The-Thousand-Year-Door_Dialogue.png">
-      <img src="/images/Paper-Mario-The-Thousand-Year-Door_Dialogue.png">
-    </a>
-    <br>
+  <div class="mySlides_gallery" align="center">
+    <img src="/images/Paper-Mario-The-Thousand-Year-Door_Dialogue.png">
     Paper Mario: The Thousand-Year Door
     <br>
     Pop Joy font used for the UI.
     <br>
-    <small>
-      Screenshot taken with Dolphin Emulator
-    </small>
-  </p>
-</div>
-
-<div align="center">
-  <p class="image">
-    <a href="/images/Hyperdimension-Neptunia-Victory_Tutorial.png">
-      <img src="/images/Hyperdimension-Neptunia-Victory_Tutorial.png">
-    </a>
     <br>
+  </div>
+
+  <div class="mySlides_gallery" align="center">
+    <img src="/images/Hyperdimension-Neptunia-Victory_Tutorial.png">
     Hyperdimension Neptunia Victory
     <br>
     Pop Joy font used for the tutorial sections.
     <br>
-    <small>
-      Screenshot taken with RPCS3 emulator
-    </small>
-  </p>
-</div>
-
-<div align="center">
-  <p class="image">
-    <a href="/images/Paper-Mario-Color-Splash_Dialogue.png">
-      <img src="/images/Paper-Mario-Color-Splash_Dialogue.png">
-    </a>
     <br>
+  </div>
+
+  <div class="mySlides_gallery" align="center">
+    <img src="/images/Paper-Mario-Color-Splash_Dialogue.png">
     Paper Mario: Color Splash
     <br>
     Pop Joy font used for the UI.
     <br>
-    <small>
-      Screenshot taken with Cemu emulator
-    </small>
-  </p>
-</div>
-
-<div align="center">
-  <p class="image">
-    <a href="/images/Paper-Mario-The-Origami-King_Dialogue.png">
-      <img src="/images/Paper-Mario-The-Origami-King_Dialogue.png">
-    </a>
     <br>
+  </div>
+
+  <div class="mySlides_gallery" align="center">
+    <img src="/images/Paper-Mario-The-Origami-King_Dialogue.png">
     Paper Mario: The Origami King
     <br>
     Pop Joy font used for the UI.
     <br>
-    <small>
-      Screenshot taken with Ryujinx emulator
-    </small>
-  </p>
-</div>
+    <br>
+  </div>
 
+  <!-- Next and previous buttons -->
+  <a class="prev_gallery" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next_gallery" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Thumbnail images -->
+  <div class="row_gallery">
+    <div class="column_gallery">
+      <img class="demo_gallery cursor_gallery" src="/images/Super-Mario-Galaxy_Dialogue.png" style="width:100%" onclick="currentSlide(1)">
+    </div>
+
+    <div class="column_gallery">
+      <img class="demo_gallery cursor_gallery" src="/images/Hyperdimension-Neptunia-mk2_Tutorial.png" style="width:100%" onclick="currentSlide(2)">
+    </div>
+
+    <div class="column_gallery">
+      <img class="demo_gallery cursor_gallery" src="/images/Hyperdimension-Neptunia-Victory_Teach-Me-Histy.png" style="width:100%" onclick="currentSlide(3)">
+    </div>
+
+    <div class="column_gallery">
+      <img class="demo_gallery cursor_gallery" src="/images/Paper-Mario-The-Thousand-Year-Door_Dialogue.png" style="width:100%" onclick="currentSlide(4)">
+    </div>
+
+    <div class="column_gallery">
+      <img class="demo_gallery cursor_gallery" src="/images/Hyperdimension-Neptunia-Victory_Tutorial.png" style="width:100%" onclick="currentSlide(5)">
+    </div>
+
+    <div class="column_gallery">
+      <img class="demo_gallery cursor_gallery" src="/images/Paper-Mario-Color-Splash_Dialogue.png" style="width:100%" onclick="currentSlide(6)">
+    </div>
+
+    <div class="column_gallery">
+      <img class="demo_gallery cursor_gallery" src="/images/Paper-Mario-The-Origami-King_Dialogue.png" style="width:100%" onclick="currentSlide(7)">
+    </div>
+  </div>
+</div>
+<br>
+
+<script src="/assets/js/gallery.js"></script>
 <script src="/assets/js/tabs_0.js"></script>
 <script src="/assets/js/tabs_1.js"></script>

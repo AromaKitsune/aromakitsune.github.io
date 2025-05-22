@@ -20,19 +20,19 @@ A customized Home Menu UI made by me.
 
   <!-- Full-width images with number text -->
   <div class="mySlides_gallery" align="center">
-      <img src="/images/3DS/3DS-Custom-Home-Menu-UI_1.gif">
+    <img src="/images/3DS/3DS-Custom-Home-Menu-UI_1.gif">
   </div>
 
   <div class="mySlides_gallery" align="center">
-      <img src="/images/3DS/3DS-Custom-Home-Menu-UI_2.png">
+    <img src="/images/3DS/3DS-Custom-Home-Menu-UI_2.png">
   </div>
 
   <div class="mySlides_gallery" align="center">
-      <img src="/images/3DS/3DS-Custom-Home-Menu-UI_3.png">
+    <img src="/images/3DS/3DS-Custom-Home-Menu-UI_3.png">
   </div>
 
   <div class="mySlides_gallery" align="center">
-      <img src="/images/3DS/3DS-Custom-Home-Menu-UI_4.png">
+    <img src="/images/3DS/3DS-Custom-Home-Menu-UI_4.png">
   </div>
 
   <!-- Next and previous buttons -->
