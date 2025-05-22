@@ -488,7 +488,6 @@ Some screenshots of games officially using those fonts.
     </div>
   </div>
 </div>
-<br>
 
 <script src="/assets/js/gallery.js"></script>
 <script src="/assets/js/tabs_0.js"></script>
