@@ -178,9 +178,12 @@ code {
   margin-bottom: 15px;
 }
 
+.note-details:open {
+  padding: 16px 16px 0px;
+}
+
 .note-details:open summary + p {
   padding-top: 8px;
-  margin-bottom: 0px;
 }
 
 .code-block-wrap {
