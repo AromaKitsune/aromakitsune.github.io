@@ -182,8 +182,8 @@ code {
   padding: 16px 16px 0px;
 }
 
-.note-details:open summary + p {
-  padding-top: 8px;
+.note-details:open summary {
+  padding-bottom: 8px;
 }
 
 .code-block-wrap {
