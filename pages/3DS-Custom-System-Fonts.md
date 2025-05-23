@@ -45,14 +45,6 @@ It is used for the UI in many Nintendo games. It is also used for the tutorial s
   </p>
 </div>
 
-<details class="note-details">
-<div align="center">
-  <p class="image">
-    <img src="/images/3DS/Pop-Happiness-Font.png">
-  </p>
-</div>
-</details>
-
 ### List of Games Using this Font for the UI:
 - Luigi's Mansion
 - Super Mario Sunshine
