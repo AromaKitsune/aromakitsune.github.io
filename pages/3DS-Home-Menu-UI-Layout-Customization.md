@@ -63,6 +63,29 @@ A guide for customizing the Home Menu UI layout (BCLYT files) on the Nintendo 3D
   </p>
 </details>
 
+<details class="note-details">
+  <summary>
+    <b>Table of Contents</b>
+  </summary>
+  <ul>
+    <li>
+      <p><a href="#getting-started">Getting Started</a></p>
+    </li>
+    <li>
+      <p><a href="#preparing-for-ui-layout-customization">Preparing for UI Layout Customization</a></p>
+    </li>
+    <li>
+      <p><a href="#editing-the-ui-layout">Editing the UI Layout</a></p>
+    </li>
+    <li>
+      <p><a href="#fixing-the-ui-layout-file">Fixing the UI Layout File</a></p>
+    </li>
+    <li>
+      <p><a href="#ui-element-colors">UI Element Colors</a></p>
+    </li>
+  </ul>
+</details>
+
 
 ## Getting Started
 

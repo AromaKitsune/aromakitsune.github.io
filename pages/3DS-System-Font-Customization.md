@@ -18,6 +18,38 @@ A guide for customizing the system-wide font on the Nintendo 3DS.
   </p>
 </div>
 
+<details class="note-details">
+  <summary>
+    <b>Table of Contents</b>
+  </summary>
+  <ul>
+    <li>
+      <p><a href="#getting-started">Getting Started</a></p>
+    </li>
+    <li>
+      <p><a href="#merging-the-fonts">Merging the Fonts</a></p>
+      <ul>
+        <li><p><a href="#method-1-fontforge--python-script">Method 1: FontForge + Python script</a></p></li>
+      </ul>
+      <ul>
+        <li><p><a href="#method-2-fontforge-only">Method 2: FontForge only</a></p></li>
+      </ul>
+    </li>
+    <li>
+      <p><a href="#generating-the-custom-system-font">Generating the Custom System Font</a></p>
+    </li>
+    <li>
+      <p><a href="#installing-the-custom-system-font">Installing the Custom System Font</a></p>
+    </li>
+    <li>
+      <p><a href="#restoring-the-system-font">Restoring the System Font</a></p>
+    </li>
+    <li>
+      <p><a href="#tools-used">Tools Used</a></p>
+    </li>
+  </ul>
+</details>
+
 
 ## Getting Started
 
@@ -100,7 +132,7 @@ The CLI method involves in using a Python script that calls the FontForge progra
 while the GUI method involves in using FontForge itself to merge the fonts manually.
 
 <p class="note-info">
-  The CLI method is faster than the GUI method.
+  The CLI method process is shorter than the GUI method.
   If the CLI method does not work for you, go to the
   <a href="#method-2-fontforge-only">
   GUI method</a> section.
