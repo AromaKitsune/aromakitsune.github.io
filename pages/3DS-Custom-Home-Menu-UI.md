@@ -10,6 +10,43 @@ Check out the
 [Home Menu UI Layout Customization Guide](/3DS-Home-Menu-UI-Layout-Customization)
 for creating your own customized Home Menu UI for 3DS!
 
+---
+
+<details class="note-details">
+  <summary>
+    <b>Table of Contents</b>
+  </summary>
+  <ul>
+    <li>
+      <p><a href="#kitsunes-custom-home-menu-ui">Kitsune's Custom Home Menu UI</a></p>
+    </li>
+    <li>
+      <p>Installation Method 1: LayeredFS</p>
+      <ul>
+        <li><p><a href="#adding-the-home-menu-applet-patch">Adding the Home Menu Applet Patch</a></p></li>
+      </ul>
+      <ul>
+        <li><p><a href="#removing-the-home-menu-applet-patch">Removing the Home Menu Applet Patch</a></p></li>
+      </ul>
+    </li>
+    <li>
+      <p>Installation Method 2: CIA File</p>
+      <ul>
+        <li><p><a href="#backing-up-the-home-menu-applet">Backing Up the Home Menu Applet</a></p></li>
+      </ul>
+      <ul>
+        <li><p><a href="#installing-the-custom-home-menu-applet">Installing the Custom Home Menu Applet</a></p></li>
+      </ul>
+      <ul>
+        <li><p><a href="#restoring-the-home-menu-applet">Restoring the Home Menu Applet</a></p></li>
+      </ul>
+    </li>
+    <li>
+      <p><a href="#extra-stuff">Extra Stuff</a></p>
+    </li>
+  </ul>
+</details>
+
 
 ## Kitsune's Custom Home Menu UI
 

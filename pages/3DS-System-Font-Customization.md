@@ -347,9 +347,9 @@ The example custom system font used in this section is `PopHappiness.ttf`.
     </li>
     <li>
       <p>Select <code>CIA image options...</code> → <code>Install game image</code>.</p>
-        <ul>
-          <li>CIA files are encrypted by default, so there’s no need to re-encrypt it.</li>
-        </ul>
+      <ul>
+        <li>CIA files are encrypted by default, so there’s no need to re-encrypt it.</li>
+      </ul>
     </li>
     <li>
       <p>Reboot the console.</p>

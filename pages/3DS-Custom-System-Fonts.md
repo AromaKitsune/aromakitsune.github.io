@@ -12,19 +12,31 @@ for creating your own custom system font for 3DS!
 
 ---
 
-### Table of Contents:
-
-- [Pop Happiness Font](#pop-happiness)
-
-- [Pop Joy Font](#pop-joy)
-
-- [Yuruka Font](#yuruka) (incomplete)
-
-- [Installing the Custom System Font to 3DS / Azahar](#installing-the-custom-system-font)
-
-- [Restoring the System Font](#restoring-the-system-font)
-
-- [Some screenshots of games officially using those fonts](#screenshots)
+<details class="note-details">
+  <summary>
+    <b>Table of Contents</b>
+  </summary>
+  <ul>
+    <li>
+      <p><a href="#pop-happiness">Pop Happiness Font</a></p>
+    </li>
+    <li>
+      <p><a href="#pop-joy">Pop Joy Font</a></p>
+    </li>
+    <li>
+      <p><a href="#yuruka">Yuruka Font</a> (incomplete)</p>
+    </li>
+    <li>
+      <p><a href="#installing-the-custom-system-font">Installing the Custom System Font to 3DS / Azahar</a></p>
+    </li>
+    <li>
+      <p><a href="#restoring-the-system-font">Restoring the System Font</a></p>
+    </li>
+    <li>
+      <p><a href="#screenshots">Some screenshots of games officially using those fonts</a></p>
+    </li>
+  </ul>
+</details>
 
 
 ## Pop Happiness
@@ -271,9 +283,9 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
     </li>
     <li>
       <p>Select <code>CIA image options...</code> → <code>Install game image</code>.</p>
-        <ul>
-          <li>CIA files are encrypted by default, so there’s no need to re-encrypt it.</li>
-        </ul>
+      <ul>
+        <li>CIA files are encrypted by default, so there’s no need to re-encrypt it.</li>
+      </ul>
     </li>
     <li>
       <p>Reboot the console.</p>
