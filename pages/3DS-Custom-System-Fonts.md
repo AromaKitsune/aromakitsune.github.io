@@ -246,7 +246,8 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
   </p>
   
   <p class="note-warning">
-    Never uninstall CFW while any modded system files are installed, doing so will brick the console! A
+    Never uninstall CFW while any modded system files are installed, doing so will brick the console!
+    If you bricked your console that way, a
     <a href="https://www.flashcarts.net/ds-quick-start-guide" target="_blank">
     DS flashcart with ntrboot</a>
     is required to re-install B9S.

@@ -178,6 +178,10 @@ code {
   margin-bottom: 15px;
 }
 
+.note-details summary {
+  cursor: pointer;
+}
+
 .note-details:open {
   padding: 16px 16px 0px;
 }
