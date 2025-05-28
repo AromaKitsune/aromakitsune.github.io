@@ -376,16 +376,20 @@ Install CFW if you haven't already.</a>
   <br>
   Modifying the Home Menu applet is safe and can be restored by re-installing the original Home Menu applet, instead of restoring a NAND backup.
   <br>
+  If you messed up and the Home Menu fails to launch, it is NOT "bricked",
+  you can still access GodMode9 and install an original <code>.cia</code> file for Home Menu applet to fix it.
+  <br>
   To restore the Home Menu applet, see the
   <a href="#restoring-the-home-menu-applet">
   restore section</a>.
 </p>
 
 <p class="note-warning">
-  Never uninstall CFW while any modded system files are installed, doing so will brick the console! A
+  Never uninstall CFW while any modded system files are installed, doing so will <b>actually</b> brick the console!
+  If you bricked your console that way, you'll need a
   <a href="https://www.flashcarts.net/ds-quick-start-guide" target="_blank">
   DS flashcart with ntrboot</a>
-  is required to re-install B9S.
+  to re-install Boot9Strap to unbrick your console.
   <br>
   Modified system files are not signed which they don't work on the original firmware, as the signature check fails.
   <br>
