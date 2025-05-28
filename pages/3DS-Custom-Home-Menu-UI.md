@@ -409,7 +409,8 @@ Install CFW if you haven't already.</a>
     To update your system, you must restore the Home Menu applet back to its original state.
     <br>
     After a system update, backup the <code>homemenu.cia</code> file again in case the Home Menu is also updated.
-    <br><br>
+  </p>
+  <p>
     The current Home Menu mod is likely compatible with future system firmware versions.
     If this mod stops working, I will update the base Home Menu applet for this mod.
   </p>
