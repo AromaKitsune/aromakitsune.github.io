@@ -12,7 +12,7 @@ for creating your own customized Home Menu UI for 3DS!
 
 ---
 
-<details class="note-details">
+<details class="expandable-details">
   <summary>
     <b>Table of Contents</b>
   </summary>
@@ -400,7 +400,7 @@ Install CFW if you haven't already.</a>
   Only uninstall CFW if you don't need it anymore and you wanna give/sell away your console.
 </p>
 
-<details class="note-details">
+<details class="expandable-details">
   <summary>
     <b>System Update note</b>
   </summary>

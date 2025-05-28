@@ -12,7 +12,7 @@ for creating your own custom system font for Wii U!
 
 ---
 
-<details class="note-details">
+<details class="expandable-details">
   <summary>
     <b>Table of Contents</b>
   </summary>
@@ -83,7 +83,7 @@ It is used for the UI in many Nintendo games. It is also used for the tutorial s
 
 - [TTF - for anything else](/files/PopHappinessStd-EB.ttf) (Fixed side-bearings)
 
-<details class="note-details">
+<details class="expandable-details">
   <summary>
     <b>Side-bearings info</b>
   </summary>
@@ -138,7 +138,7 @@ It is commonly used for the UI in Paper Mario games.
 
 - [TTF - for anything else](/files/PopJoyStd-B_Scaled.ttf) (Fixed side-bearings + Scaled)
 
-<details class="note-details">
+<details class="expandable-details">
   <summary>
     <b>Side-bearings info</b>
   </summary>
@@ -199,7 +199,7 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
 
 - [TTF - for anything else](/files/placeholder.ttf) (Fixed side-bearings)
 
-<details class="note-details">
+<details class="expandable-details">
   <summary>
     <b>Side-bearings info</b>
   </summary>

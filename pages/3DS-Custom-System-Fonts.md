@@ -12,7 +12,7 @@ for creating your own custom system font for 3DS!
 
 ---
 
-<details class="note-details">
+<details class="expandable-details">
   <summary>
     <b>Table of Contents</b>
   </summary>
@@ -85,7 +85,7 @@ It is used for the UI in many Nintendo games. It is also used for the tutorial s
 
 - [TTF - for anything else](/files/PopHappinessStd-EB.ttf) (Fixed side-bearings)
 
-<details class="note-details">
+<details class="expandable-details">
   <summary>
     <b>Side-bearings info</b>
   </summary>
@@ -142,7 +142,7 @@ It is commonly used for the UI in Paper Mario games.
 
 - [TTF - for anything else](/files/PopJoyStd-B_Scaled.ttf) (Fixed side-bearings + Scaled)
 
-<details class="note-details">
+<details class="expandable-details">
   <summary>
     <b>Side-bearings info</b>
   </summary>
@@ -205,7 +205,7 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
 
 - [TTF - for anything else](/files/placeholder.ttf) (Fixed side-bearings)
 
-<details class="note-details">
+<details class="expandable-details">
   <summary>
     <b>Side-bearings info</b>
   </summary>
@@ -264,7 +264,7 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
     Only uninstall CFW if you don't need it anymore and you wanna give/sell away your console.
   </p>
 
-  <details class="note-details">
+  <details class="expandable-details">
     <summary>
       <b>Why install patched CIA file instead of LayeredFS?</b>
     </summary>

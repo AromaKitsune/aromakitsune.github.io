@@ -18,7 +18,7 @@ A guide for customizing the system-wide font on the Wii U.
   </p>
 </div>
 
-<details class="note-details">
+<details class="expandable-details">
   <summary>
     <b>Table of Contents</b>
   </summary>

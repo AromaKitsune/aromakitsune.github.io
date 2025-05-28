@@ -37,7 +37,7 @@ A guide for customizing the Home Menu UI layout (BCLYT files) on the Nintendo 3D
   </small>
 </p>
 
-<details class="note-details">
+<details class="expandable-details">
   <summary>
     <b>BCLYT files info</b>
   </summary>
@@ -63,7 +63,7 @@ A guide for customizing the Home Menu UI layout (BCLYT files) on the Nintendo 3D
   </p>
 </details>
 
-<details class="note-details">
+<details class="expandable-details">
   <summary>
     <b>Table of Contents</b>
   </summary>

@@ -78,7 +78,7 @@ Wrapped:
   The quick brown fox jumps over the lazy dog.
 </p>
 
-<details class="note-details">
+<details class="expandable-details">
   <summary>
     <b>Details</b>
   </summary>
