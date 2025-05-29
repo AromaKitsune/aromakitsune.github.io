@@ -479,31 +479,38 @@ Some screenshots of games officially using those fonts.
   <!-- Thumbnail images -->
   <div class="row_gallery">
     <div class="column_gallery">
-      <img class="demo_gallery cursor_gallery" src="/images/Super-Mario-Galaxy_Dialogue.png" style="width:100%" onclick="currentSlide(1)">
+      <img class="demo_gallery cursor_gallery" src="/images/Super-Mario-Galaxy_Dialogue.png" style="width:100%"
+        onclick="currentSlide(1)">
     </div>
 
     <div class="column_gallery">
-      <img class="demo_gallery cursor_gallery" src="/images/Hyperdimension-Neptunia-mk2_Tutorial.png" style="width:100%" onclick="currentSlide(2)">
+      <img class="demo_gallery cursor_gallery" src="/images/Hyperdimension-Neptunia-mk2_Tutorial.png" style="width:100%"
+        onclick="currentSlide(2)">
     </div>
 
     <div class="column_gallery">
-      <img class="demo_gallery cursor_gallery" src="/images/Hyperdimension-Neptunia-Victory_Teach-Me-Histy.png" style="width:100%" onclick="currentSlide(3)">
+      <img class="demo_gallery cursor_gallery" src="/images/Hyperdimension-Neptunia-Victory_Teach-Me-Histy.png"
+        style="width:100%" onclick="currentSlide(3)">
     </div>
 
     <div class="column_gallery">
-      <img class="demo_gallery cursor_gallery" src="/images/Paper-Mario-The-Thousand-Year-Door_Dialogue.png" style="width:100%" onclick="currentSlide(4)">
+      <img class="demo_gallery cursor_gallery" src="/images/Paper-Mario-The-Thousand-Year-Door_Dialogue.png"
+        style="width:100%" onclick="currentSlide(4)">
     </div>
 
     <div class="column_gallery">
-      <img class="demo_gallery cursor_gallery" src="/images/Hyperdimension-Neptunia-Victory_Tutorial.png" style="width:100%" onclick="currentSlide(5)">
+      <img class="demo_gallery cursor_gallery" src="/images/Hyperdimension-Neptunia-Victory_Tutorial.png"
+        style="width:100%" onclick="currentSlide(5)">
     </div>
 
     <div class="column_gallery">
-      <img class="demo_gallery cursor_gallery" src="/images/Paper-Mario-Color-Splash_Dialogue.png" style="width:100%" onclick="currentSlide(6)">
+      <img class="demo_gallery cursor_gallery" src="/images/Paper-Mario-Color-Splash_Dialogue.png" style="width:100%"
+        onclick="currentSlide(6)">
     </div>
 
     <div class="column_gallery">
-      <img class="demo_gallery cursor_gallery" src="/images/Paper-Mario-The-Origami-King_Dialogue.png" style="width:100%" onclick="currentSlide(7)">
+      <img class="demo_gallery cursor_gallery" src="/images/Paper-Mario-The-Origami-King_Dialogue.png"
+        style="width:100%" onclick="currentSlide(7)">
     </div>
   </div>
 </div>

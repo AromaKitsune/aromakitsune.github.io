@@ -156,19 +156,23 @@ Row 5 - Column 1 | Column 2 | Column 3
   <!-- Thumbnail images -->
   <div class="row_gallery">
     <div class="column_gallery">
-      <img class="demo_gallery cursor_gallery" src="/images/Sample/Windows11_Light.jpg" style="width:100%" onclick="currentSlide(1)" alt="Windows 11 - Light">
+      <img class="demo_gallery cursor_gallery" src="/images/Sample/Windows11_Light.jpg" style="width:100%"
+        onclick="currentSlide(1)" alt="Windows 11 - Light">
     </div>
 
     <div class="column_gallery">
-      <img class="demo_gallery cursor_gallery" src="/images/Sample/Windows11_Dark.jpg" style="width:100%" onclick="currentSlide(2)" alt="Windows 11 - Dark">
+      <img class="demo_gallery cursor_gallery" src="/images/Sample/Windows11_Dark.jpg" style="width:100%"
+        onclick="currentSlide(2)" alt="Windows 11 - Dark">
     </div>
 
     <div class="column_gallery">
-      <img class="demo_gallery cursor_gallery" src="/images/Sample/Glow.jpg" style="width:100%" onclick="currentSlide(3)" alt="Glow">
+      <img class="demo_gallery cursor_gallery" src="/images/Sample/Glow.jpg" style="width:100%"
+        onclick="currentSlide(3)" alt="Glow">
     </div>
 
     <div class="column_gallery">
-      <img class="demo_gallery cursor_gallery" src="/images/Sample/CapturedMotion.jpg" style="width:100%" onclick="currentSlide(4)" alt="Captured Motion">
+      <img class="demo_gallery cursor_gallery" src="/images/Sample/CapturedMotion.jpg" style="width:100%"
+        onclick="currentSlide(4)" alt="Captured Motion">
     </div>
   </div>
 </div>

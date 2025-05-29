@@ -82,19 +82,23 @@ A customized Home Menu UI made by me.
   <!-- Thumbnail images -->
   <div class="row_gallery">
     <div class="column_gallery">
-      <img class="demo_gallery cursor_gallery" src="/images/3DS/3DS-Custom-Home-Menu-UI_1.gif" style="width:100%" onclick="currentSlide(1)" alt="Spinning Cursor">
+      <img class="demo_gallery cursor_gallery" src="/images/3DS/3DS-Custom-Home-Menu-UI_1.gif" style="width:100%"
+        onclick="currentSlide(1)" alt="Spinning Cursor">
     </div>
 
     <div class="column_gallery">
-      <img class="demo_gallery cursor_gallery" src="/images/3DS/3DS-Custom-Home-Menu-UI_2.png" style="width:100%" onclick="currentSlide(2)" alt="Blue Applets">
+      <img class="demo_gallery cursor_gallery" src="/images/3DS/3DS-Custom-Home-Menu-UI_2.png" style="width:100%"
+        onclick="currentSlide(2)" alt="Blue Applets">
     </div>
 
     <div class="column_gallery">
-      <img class="demo_gallery cursor_gallery" src="/images/3DS/3DS-Custom-Home-Menu-UI_3.png" style="width:100%" onclick="currentSlide(3)" alt="No Miiverse Applet">
+      <img class="demo_gallery cursor_gallery" src="/images/3DS/3DS-Custom-Home-Menu-UI_3.png" style="width:100%"
+        onclick="currentSlide(3)" alt="No Miiverse Applet">
     </div>
 
     <div class="column_gallery">
-      <img class="demo_gallery cursor_gallery" src="/images/3DS/3DS-Custom-Home-Menu-UI_4.png" style="width:100%" onclick="currentSlide(4)" alt="Blue Shutdown Screen">
+      <img class="demo_gallery cursor_gallery" src="/images/3DS/3DS-Custom-Home-Menu-UI_4.png" style="width:100%"
+        onclick="currentSlide(4)" alt="Blue Shutdown Screen">
     </div>
   </div>
 </div>
