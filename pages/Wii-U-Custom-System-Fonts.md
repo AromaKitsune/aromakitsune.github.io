@@ -18,22 +18,40 @@ for creating your own custom system font for Wii U!
   </summary>
   <ul>
     <li>
-      <p><a href="#pop-happiness">Pop Happiness Font</a></p>
+      <p>
+        <a href="#pop-happiness">
+        Pop Happiness Font</a>
+      </p>
     </li>
     <li>
-      <p><a href="#pop-joy">Pop Joy Font</a></p>
+      <p>
+        <a href="#pop-joy">
+        Pop Joy Font</a>
+      </p>
     </li>
     <li>
-      <p><a href="#yuruka">Yuruka Font</a> (incomplete)</p>
+      <p>
+        <a href="#yuruka">
+        Yuruka Font (incomplete)</a>
+      </p>
     </li>
     <li>
-      <p><a href="#installing-the-custom-system-font">Installing the Custom System Font to Wii U / Cemu</a></p>
+      <p>
+        <a href="#installing-the-custom-system-font">
+        Installing the Custom System Font to Wii U / Cemu</a>
+      </p>
     </li>
     <li>
-      <p><a href="#restoring-the-system-font">Restoring the System Font</a></p>
+      <p>
+        <a href="#restoring-the-system-font">
+        Restoring the System Font</a>
+      </p>
     </li>
     <li>
-      <p><a href="#screenshots">Some screenshots of games officially using those fonts</a></p>
+      <p>
+        <a href="#screenshots">
+        Some screenshots of games officially using those fonts</a>
+      </p>
     </li>
   </ul>
 </details>

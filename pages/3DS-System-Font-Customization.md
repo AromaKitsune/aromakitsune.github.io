@@ -24,28 +24,56 @@ A guide for customizing the system-wide font on the Nintendo 3DS.
   </summary>
   <ul>
     <li>
-      <p><a href="#getting-started">Getting Started</a></p>
+      <p>
+        <a href="#getting-started">
+        Getting Started</a>
+      </p>
     </li>
     <li>
-      <p><a href="#merging-the-fonts">Merging the Fonts</a></p>
+      <p>
+        <a href="#merging-the-fonts">
+        Merging the Fonts</a>
+      </p>
       <ul>
-        <li><p><a href="#method-1-fontforge--python-script">Method 1: FontForge + Python script</a></p></li>
+        <li>
+          <p>
+            <a href="#method-1-fontforge--python-script">
+            Method 1: FontForge + Python script</a>
+          </p>
+        </li>
       </ul>
       <ul>
-        <li><p><a href="#method-2-fontforge-only">Method 2: FontForge only</a></p></li>
+        <li>
+          <p>
+            <a href="#method-2-fontforge-only">
+            Method 2: FontForge only</a>
+          </p>
+        </li>
       </ul>
     </li>
     <li>
-      <p><a href="#generating-the-custom-system-font">Generating the Custom System Font</a></p>
+      <p>
+        <a href="#generating-the-custom-system-font">
+        Generating the Custom System Font</a>
+      </p>
     </li>
     <li>
-      <p><a href="#installing-the-custom-system-font">Installing the Custom System Font</a></p>
+      <p>
+        <a href="#installing-the-custom-system-font">
+        Installing the Custom System Font</a>
+      </p>
     </li>
     <li>
-      <p><a href="#restoring-the-system-font">Restoring the System Font</a></p>
+      <p>
+        <a href="#restoring-the-system-font">
+        Restoring the System Font</a>
+      </p>
     </li>
     <li>
-      <p><a href="#tools-used">Tools Used</a></p>
+      <p>
+        <a href="#tools-used">
+        Tools Used</a>
+      </p>
     </li>
   </ul>
 </details>
@@ -371,6 +399,13 @@ The example custom system font used in this section is `PopHappiness.ttf`.
 
 <!-- Tab content -->
 <div id="3DS_Install" class="tabcontent_0">
+  <p>
+    You must have GodMode9 v2.0.0 or higher to be able to install <code>.cia</code> files.
+    Get the
+    <a href="https://github.com/d0k3/GodMode9" target="_blank">
+    latest version of GodMode9 here</a>.
+  </p>
+
   <ol>
     <li>
       <p>Add the generated CIA file to the SD Card.</p>

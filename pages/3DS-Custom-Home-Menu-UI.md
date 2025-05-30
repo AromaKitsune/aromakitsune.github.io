@@ -18,31 +18,62 @@ for creating your own customized Home Menu UI for 3DS!
   </summary>
   <ul>
     <li>
-      <p><a href="#kitsunes-custom-home-menu-ui">Kitsune's Custom Home Menu UI</a></p>
+      <p>
+        <a href="#kitsunes-custom-home-menu-ui">
+        Kitsune's Custom Home Menu UI</a>
+      </p>
     </li>
     <li>
       <p>Installation Method 1: LayeredFS</p>
       <ul>
-        <li><p><a href="#adding-the-home-menu-applet-patch">Adding the Home Menu Applet Patch</a></p></li>
+        <li>
+          <p>
+            <a href="#adding-the-home-menu-applet-patch">
+            Adding the Home Menu Applet Patch</a>
+          </p>
+        </li>
       </ul>
       <ul>
-        <li><p><a href="#removing-the-home-menu-applet-patch">Removing the Home Menu Applet Patch</a></p></li>
+        <li>
+          <p>
+            <a href="#removing-the-home-menu-applet-patch">
+            Removing the Home Menu Applet Patch</a>
+          </p>
+        </li>
       </ul>
     </li>
     <li>
       <p>Installation Method 2: CIA File</p>
       <ul>
-        <li><p><a href="#backing-up-the-home-menu-applet">Backing Up the Home Menu Applet</a></p></li>
+        <li>
+          <p>
+            <a href="#backing-up-the-home-menu-applet">
+            Backing Up the Home Menu Applet</a>
+          </p>
+        </li>
       </ul>
       <ul>
-        <li><p><a href="#installing-the-custom-home-menu-applet">Installing the Custom Home Menu Applet</a></p></li>
+        <li>
+          <p>
+            <a href="#installing-the-custom-home-menu-applet">
+            Installing the Custom Home Menu Applet</a>
+          </p>
+        </li>
       </ul>
       <ul>
-        <li><p><a href="#restoring-the-home-menu-applet">Restoring the Home Menu Applet</a></p></li>
+        <li>
+          <p>
+            <a href="#restoring-the-home-menu-applet">
+            Restoring the Home Menu Applet</a>
+          </p>
+        </li>
       </ul>
     </li>
     <li>
-      <p><a href="#extra-stuff">Extra Stuff</a></p>
+      <p>
+        <a href="#extra-stuff">
+        Extra Stuff</a>
+      </p>
     </li>
   </ul>
 </details>
@@ -122,16 +153,28 @@ Last updated: 2024-10-07
 <div id="Normal" class="tabcontent_0">
   <ul>
     <li>
-      <p><a href="/files/3DS/Kitsune-CustomHomeMenuUI.zip">LayeredFS</a></p>
+      <p>
+        <a href="/files/3DS/Kitsune-CustomHomeMenuUI.zip">
+        LayeredFS</a>
+      </p>
     </li>
     <li>
-      <p><a href="/files/3DS/Kitsune-CustomHomeMenuUI_EUR.cia">CIA - for EUR console</a></p>
+      <p>
+        <a href="/files/3DS/Kitsune-CustomHomeMenuUI_EUR.cia">
+        CIA - for EUR console</a>
+      </p>
     </li>
     <li>
-      <p><a href="/files/3DS/Kitsune-CustomHomeMenuUI_USA.cia">CIA - for USA console</a></p>
+      <p>
+        <a href="/files/3DS/Kitsune-CustomHomeMenuUI_USA.cia">
+        CIA - for USA console</a>
+      </p>
     </li>
     <li>
-      <p><a href="/files/3DS/Kitsune-CustomHomeMenuUI_JPN.cia">CIA - for JPN console</a></p>
+      <p>
+        <a href="/files/3DS/Kitsune-CustomHomeMenuUI_JPN.cia">
+        CIA - for JPN console</a>
+      </p>
     </li>
   </ul>
 </div>
@@ -140,16 +183,28 @@ Last updated: 2024-10-07
 <div id="NoMvs" class="tabcontent_0">
   <ul>
     <li>
-      <p><a href="/files/3DS/Kitsune-CustomHomeMenuUI_NoMvs.zip">LayeredFS</a></p>
+      <p>
+        <a href="/files/3DS/Kitsune-CustomHomeMenuUI_NoMvs.zip">
+        LayeredFS</a>
+      </p>
     </li>
     <li>
-      <p><a href="/files/3DS/Kitsune-CustomHomeMenuUI_EUR_NoMvs.cia">CIA - for EUR console</a></p>
+      <p>
+        <a href="/files/3DS/Kitsune-CustomHomeMenuUI_EUR_NoMvs.cia">
+        CIA - for EUR console</a>
+      </p>
     </li>
     <li>
-      <p><a href="/files/3DS/Kitsune-CustomHomeMenuUI_USA_NoMvs.cia">CIA - for USA console</a></p>
+      <p>
+        <a href="/files/3DS/Kitsune-CustomHomeMenuUI_USA_NoMvs.cia">
+        CIA - for USA console</a>
+      </p>
     </li>
     <li>
-      <p><a href="/files/3DS/Kitsune-CustomHomeMenuUI_JPN_NoMvs.cia">CIA - for JPN console</a></p>
+      <p>
+        <a href="/files/3DS/Kitsune-CustomHomeMenuUI_JPN_NoMvs.cia">
+        CIA - for JPN console</a>
+      </p>
     </li>
   </ul>
 
@@ -423,6 +478,13 @@ Install CFW if you haven't already.</a>
 <p class="note-blue">
   The CIA file must be installed with GodMode9. Do not install it with FBI,
   the installation will fail as the Home Menu applet is being used by another process.
+</p>
+
+<p>
+  You must have GodMode9 v2.0.0 or higher to be able to install <code>.cia</code> files.
+  Get the
+  <a href="https://github.com/d0k3/GodMode9" target="_blank">
+  latest version of GodMode9 here</a>.
 </p>
 
 1.  Add the downloaded CIA file to the SD Card.

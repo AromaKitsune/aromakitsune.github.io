@@ -24,22 +24,44 @@ A guide for customizing the system-wide font on the Wii U.
   </summary>
   <ul>
     <li>
-      <p><a href="#getting-started">Getting Started</a></p>
+      <p>
+        <a href="#getting-started">
+        Getting Started</a>
+      </p>
     </li>
     <li>
-      <p><a href="#merging-the-fonts">Merging the Fonts</a></p>
+      <p>
+        <a href="#merging-the-fonts">
+        Merging the Fonts</a>
+      </p>
       <ul>
-        <li><p><a href="#method-1-fontforge--python-script">Method 1: FontForge + Python script</a></p></li>
+        <li>
+          <p>
+            <a href="#method-1-fontforge--python-script">
+            Method 1: FontForge + Python script</a>
+          </p>
+        </li>
       </ul>
       <ul>
-        <li><p><a href="#method-2-fontforge-only">Method 2: FontForge only</a></p></li>
+        <li>
+          <p>
+            <a href="#method-2-fontforge-only">
+            Method 2: FontForge only</a>
+          </p>
+        </li>
       </ul>
     </li>
     <li>
-      <p><a href="#installing-the-custom-system-font">Installing the Custom System Font</a></p>
+      <p>
+        <a href="#installing-the-custom-system-font">
+        Installing the Custom System Font</a>
+      </p>
     </li>
     <li>
-      <p><a href="#restoring-the-system-font">Restoring the System Font</a></p>
+      <p>
+        <a href="#restoring-the-system-font">
+        Restoring the System Font</a>
+      </p>
     </li>
   </ul>
 </details>

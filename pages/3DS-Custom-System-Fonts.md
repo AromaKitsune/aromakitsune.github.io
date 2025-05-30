@@ -18,22 +18,40 @@ for creating your own custom system font for 3DS!
   </summary>
   <ul>
     <li>
-      <p><a href="#pop-happiness">Pop Happiness Font</a></p>
+      <p>
+        <a href="#pop-happiness">
+        Pop Happiness Font</a>
+      </p>
     </li>
     <li>
-      <p><a href="#pop-joy">Pop Joy Font</a></p>
+      <p>
+        <a href="#pop-joy">
+        Pop Joy Font</a>
+      </p>
     </li>
     <li>
-      <p><a href="#yuruka">Yuruka Font</a> (incomplete)</p>
+      <p>
+        <a href="#yuruka">
+        Yuruka Font (incomplete)</a>
+      </p>
     </li>
     <li>
-      <p><a href="#installing-the-custom-system-font">Installing the Custom System Font to 3DS / Azahar</a></p>
+      <p>
+        <a href="#installing-the-custom-system-font">
+        Installing the Custom System Font to 3DS / Azahar</a>
+      </p>
     </li>
     <li>
-      <p><a href="#restoring-the-system-font">Restoring the System Font</a></p>
+      <p>
+        <a href="#restoring-the-system-font">
+        Restoring the System Font</a>
+      </p>
     </li>
     <li>
-      <p><a href="#screenshots">Some screenshots of games officially using those fonts</a></p>
+      <p>
+        <a href="#screenshots">
+        Some screenshots of games officially using those fonts</a>
+      </p>
     </li>
   </ul>
 </details>
@@ -274,6 +292,13 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
       but it currently doesn't work with a system font, so we have to modify a system file instead.
     </p>
   </details>
+
+  <p>
+    You must have GodMode9 v2.0.0 or higher to be able to install <code>.cia</code> files.
+    Get the
+    <a href="https://github.com/d0k3/GodMode9" target="_blank">
+    latest version of GodMode9 here</a>.
+  </p>
 
   <ol>
     <li>
