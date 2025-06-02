@@ -24,50 +24,10 @@ for creating your own customized Home Menu UI for 3DS!
       </p>
     </li>
     <li>
-      <p>Installation Method 1: LayeredFS</p>
-      <ul>
-        <li>
-          <p>
-            <a href="#adding-the-home-menu-applet-patch">
-            Adding the Home Menu Applet Patch</a>
-          </p>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <p>
-            <a href="#removing-the-home-menu-applet-patch">
-            Removing the Home Menu Applet Patch</a>
-          </p>
-        </li>
-      </ul>
-    </li>
-    <li>
-      <p>Installation Method 2: CIA File</p>
-      <ul>
-        <li>
-          <p>
-            <a href="#backing-up-the-home-menu-applet">
-            Backing Up the Home Menu Applet</a>
-          </p>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <p>
-            <a href="#installing-the-custom-home-menu-applet">
-            Installing the Custom Home Menu Applet</a>
-          </p>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <p>
-            <a href="#restoring-the-home-menu-applet">
-            Restoring the Home Menu Applet</a>
-          </p>
-        </li>
-      </ul>
+      <p>
+        <a href="#choose-how-you-want-to-install-the-mod">
+        Installing & Uninstalling the Mod</a>
+      </p>
     </li>
     <li>
       <p>
