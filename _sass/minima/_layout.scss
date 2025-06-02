@@ -7,14 +7,14 @@
   min-height: $spacing-unit * 1.865;
   line-height: $base-line-height * $base-font-size * 2.25;
   background-color: $background-color;
-  border-top: 5px solid $border-color-03;
+  //! border-top: 5px solid $border-color-03;
   border-bottom: 1px solid $border-color-01;
 }
 
 .site-title {
   @include relative-font-size(1.625);
-  font-weight: 300;
-  letter-spacing: -1px;
+  //! font-weight: 300;
+  //! letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
 
@@ -238,72 +238,72 @@
 /**
  * Posts
  */
-.post-header {
-  margin-bottom: $spacing-unit;
-  padding-bottom: 18px;
-  text-align: center;
-  border-bottom: 1px solid $border-color-01;
-}
-
-.post-meta {
-  .bullet-divider { padding-inline: 15px }
-  .meta-label { font-weight: 600 }
-
-  .force-inline {
-    display: inline;
-    &::before {
-      content: "•";
-      padding-inline: 5px;
-    }
-  }
-  .post-authors { margin-top: 3px }
-}
-
-.post-title,
-.post-content h1 {
-  margin-bottom: 10px;
-  @include relative-font-size(2.625);
-  font-weight: $base-font-weight;
-  letter-spacing: -1px;
-  line-height: 1.15;
-
-  @media screen and (min-width: $on-large) {
-    @include relative-font-size(2.625);
-  }
-}
-
-.post-content {
-  margin-bottom: $spacing-unit;
-
-  h1, h2, h3, h4, h5, h6 { margin-top: $spacing-unit }
-
-  h2 {
-    @include relative-font-size(1.75);
-
-    @media screen and (min-width: $on-large) {
-      @include relative-font-size(2);
-    }
-  }
-
-  h3 {
-    @include relative-font-size(1.375);
-
-    @media screen and (min-width: $on-large) {
-      @include relative-font-size(1.625);
-    }
-  }
-
-  h4 {
-    @include relative-font-size(1.25);
-  }
-
-  h5 {
-    @include relative-font-size(1.125);
-  }
-  h6 {
-    @include relative-font-size(1.0625);
-  }
-}
+//! .post-header {
+//!   margin-bottom: $spacing-unit;
+//!   padding-bottom: 18px;
+//!   text-align: center;
+//!   border-bottom: 1px solid $border-color-01;
+//! }
+//! 
+//! .post-meta {
+//!   .bullet-divider { padding-inline: 15px }
+//!   .meta-label { font-weight: 600 }
+//! 
+//!   .force-inline {
+//!     display: inline;
+//!     &::before {
+//!       content: "•";
+//!       padding-inline: 5px;
+//!     }
+//!   }
+//!   .post-authors { margin-top: 3px }
+//! }
+//! 
+//! .post-title,
+//! .post-content h1 {
+//!   margin-bottom: 10px;
+//!   @include relative-font-size(2.625);
+//!   font-weight: $base-font-weight;
+//!   letter-spacing: -1px;
+//!   line-height: 1.15;
+//! 
+//!   @media screen and (min-width: $on-large) {
+//!     @include relative-font-size(2.625);
+//!   }
+//! }
+//! 
+//! .post-content {
+//!   margin-bottom: $spacing-unit;
+//! 
+//!   h1, h2, h3, h4, h5, h6 { margin-top: $spacing-unit }
+//! 
+//!   h2 {
+//!     @include relative-font-size(1.75);
+//! 
+//!     @media screen and (min-width: $on-large) {
+//!       @include relative-font-size(2);
+//!     }
+//!   }
+//! 
+//!   h3 {
+//!     @include relative-font-size(1.375);
+//! 
+//!     @media screen and (min-width: $on-large) {
+//!       @include relative-font-size(1.625);
+//!     }
+//!   }
+//! 
+//!   h4 {
+//!     @include relative-font-size(1.25);
+//!   }
+//! 
+//!   h5 {
+//!     @include relative-font-size(1.125);
+//!   }
+//!   h6 {
+//!     @include relative-font-size(1.0625);
+//!   }
+//! }
 
 .comments-disabled-message {
   text-align: center;

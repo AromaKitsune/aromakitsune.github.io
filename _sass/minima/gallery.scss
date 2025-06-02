@@ -1,0 +1,121 @@
+// Slideshow Gallery
+// https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp
+
+/* Position the image container (needed to position the left and right arrows) */
+.container_gallery {
+  box-sizing: border-box;
+  position: relative;
+  background-color: #2c3f48;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+/* Hide the images by default */
+.mySlides_gallery {
+  box-sizing: border-box;
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor_gallery {
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev_gallery,
+.next_gallery {
+  box-sizing: border-box;
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 6px;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next_gallery {
+  box-sizing: border-box;
+  right: 20px;
+  border-radius: 6px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev_gallery:hover,
+.next_gallery:hover {
+  box-sizing: border-box;
+  color: white;
+  text-decoration: none;
+  background-color: #648fa3;
+}
+
+/* Number text (1/3 etc) */
+.numbertext_gallery {
+  box-sizing: border-box;
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container_gallery {
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #2c3f48;
+  padding: 2px 16px;
+}
+
+.row_gallery:after {
+  box-sizing: border-box;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* 4 columns side by side */
+.column_gallery {
+  box-sizing: border-box;
+  float: left;
+  width: 25%;
+  padding: 4px;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo_gallery {
+  box-sizing: border-box;
+  opacity: 1;
+  border: solid 3px #2c3f48;
+}
+
+.active_gallery,
+.demo_gallery:hover {
+  box-sizing: border-box;
+  border: solid 3px #648fa3;
+}
+
+
+// 600px page width layout
+@media screen and (max-width: 600px) {
+/* Remove the Next & Previous buttons */
+  .prev_gallery,
+  .next_gallery {
+    box-sizing: border-box;
+    display: none;
+  }
+
+/* 3 columns side by side */
+  .column_gallery {
+    width: 33.335%;
+  }
+}
