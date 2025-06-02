@@ -683,10 +683,14 @@ Last updated: 2024-10-07
 
 ## Extra Stuff
 
-### Mods Made by Other People
+### Home Menu Mods Made by Other People
 
 - <a href="https://github.com/cooolgamer/Custom-Homemenu-3DS" target="_blank">
   Custom Homemenu 3DS by Cooolgamer</a>
+
+- <a href="https://github.com/James-Makoto/3ds-battery-patches" target="_blank">
+  3DS Battery Patches by James Makoto</a> - Show the battery percentage in the status bar
+  and make the battery icon display each bar as 25% of battery of charge.
 
 - <a href="https://github.com/lividhen/HomeMenu_Custom" target="_blank">
   Fairly Simple Custom Home Menu by Lividhen</a>
