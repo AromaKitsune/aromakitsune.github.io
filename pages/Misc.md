@@ -224,6 +224,54 @@ Row 5 - Column 1 | Column 2 | Column 3
   <p>This is Tab6</p>
 </div>
 
+<!-- Tab links -->
+<div class="tab_fullwidth_0">
+  <button class="tablinks_fullwidth_0" onclick="openTab_fullwidth_0(event, 'Tab7')" id="defaultOpen_fullwidth_0">Tab7</button>
+  <button class="tablinks_fullwidth_0" onclick="openTab_fullwidth_0(event, 'Tab8')">Tab8</button>
+  <button class="tablinks_fullwidth_0" onclick="openTab_fullwidth_0(event, 'Tab9')">Tab9</button>
+</div>
+
+<!-- Tab content -->
+<div id="Tab7" class="tabcontent_fullwidth_0">
+  <!-- Tab links -->
+  <div class="tab_2">
+    <button class="tablinks_2" onclick="openTab_2(event, 'Tab10')" id="defaultOpen_2">Tab10</button>
+    <button class="tablinks_2" onclick="openTab_2(event, 'Tab11')">Tab11</button>
+    <button class="tablinks_2" onclick="openTab_2(event, 'Tab12')">Tab12</button>
+  </div>
+  
+  <!-- Tab content -->
+  <div id="Tab10" class="tabcontent_2">
+    <p>This is Tab10</p>
+  </div>
+  
+  <!-- Tab content -->
+  <div id="Tab11" class="tabcontent_2">
+    <p>This is Tab11</p>
+  </div>
+  
+  <!-- Tab content -->
+  <div id="Tab12" class="tabcontent_2">
+    <p>This is Tab12</p>
+  </div>
+</div>
+
+<!-- Tab content -->
+<div id="Tab8" class="tabcontent_fullwidth_0">
+  <p class="note-blue">
+    The quick brown fox jumps over the lazy dog.
+  </p>
+</div>
+
+<!-- Tab content -->
+<div id="Tab9" class="tabcontent_fullwidth_0">
+  <p>This is Tab9</p>
+</div>
+
+<p class="note-blue">
+  The quick brown fox jumps over the lazy dog.
+</p>
+
 
 ## Buttons
 
@@ -246,3 +294,5 @@ Jump to top page</a>
 <script src="/assets/js/gallery.js"></script>
 <script src="/assets/js/tabs_0.js"></script>
 <script src="/assets/js/tabs_1.js"></script>
+<script src="/assets/js/tabs_2.js"></script>
+<script src="/assets/js/tabs_fullwidth_0.js"></script>

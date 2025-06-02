@@ -1,0 +1,49 @@
+// Tabs
+// https://www.w3schools.com/howto/howto_js_tabs.asp
+
+/* Style the tab */
+.tab_fullwidth_1 {
+  overflow: hidden;
+  border-bottom: 1px solid $dm-brand-color-dark;
+  background-color: $dm-background-color;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab_fullwidth_1 button {
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  color: $dm-text-color;
+  background-color: $dm-background-color;
+  float: left;
+  border: none;
+  border-bottom: 3px solid $dm-background-color;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab_fullwidth_1 button:hover {
+  color: #5c73e7;
+}
+
+/* Create an active/current tablink class */
+.tab_fullwidth_1 button.active_tab {
+  color: #79b8ff;
+  border-bottom: 3px solid #79b8ff;
+}
+
+/* Style the tab content */
+.tabcontent_fullwidth_1 {
+  display: none;
+  padding-top: 16px;
+  margin-bottom: 15px;
+  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
