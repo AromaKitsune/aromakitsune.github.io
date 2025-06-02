@@ -34,22 +34,6 @@ A guide for customizing the system-wide font on the Nintendo 3DS.
         <a href="#merging-the-fonts">
         Merging the Fonts</a>
       </p>
-      <ul>
-        <li>
-          <p>
-            <a href="#method-1-fontforge--python-script">
-            Method 1: FontForge + Python script</a>
-          </p>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <p>
-            <a href="#method-2-fontforge-only">
-            Method 2: FontForge only</a>
-          </p>
-        </li>
-      </ul>
     </li>
     <li>
       <p>
@@ -166,145 +150,168 @@ while the GUI method involves in using FontForge itself to merge the fonts manua
 
 <p class="note-info">
   The CLI method process is shorter than the GUI method.
-  If the CLI method does not work for you, go to the
-  <a href="#method-2-fontforge-only">
-  GUI method</a> section.
+  If the CLI method does not work for you, try the GUI method instead.
 </p>
 
+<!-- Tab links -->
+<div class="tab_fullwidth_0">
+  <button class="tablinks_fullwidth_0" onclick="openTab_fullwidth_0(event, 'CLI')" id="defaultOpen_fullwidth_0">CLI: FontForge + Python script</button>
+  <button class="tablinks_fullwidth_0" onclick="openTab_fullwidth_0(event, 'GUI')">GUI: FontForge only</button>
+</div>
 
-#### Method 1: FontForge + Python script
-
-The example custom system font used in this section is `PopHappiness.ttf`.
-
-1.  Go to the
-    <a href="https://github.com/dkosmari/System-Font-Replacer" target="_blank">
-    Wii U System Font Replacer plugin repository</a>.
-
-2.  Download a Python script: `merge-fonts.py`
-
-    - <a href="https://github.com/dkosmari/System-Font-Replacer#missing-symbols" target="_blank">
-      More info about how it works</a>
-
-3.  Place those 3 files in a folder:
-
-    - `merge-fonts.py`
-
-    - 3DS font - `nintendo_NTLG-DB_001.ttf`
-
-    - A custom font - `PopHappiness.ttf` (OTF also works)
-
-4.  Launch the Terminal app by right-clicking on File Explorer's empty space and clicking `Open in Terminal`.
-
-    <div align="center">
-      <p class="image">
-        <img src="/images/3DS/3DS-System-Font-Customization-Python_1.png">
+<!-- Tab content -->
+<div id="CLI" class="tabcontent_fullwidth_0">
+  <ol>
+    <li>
+      <p>Go to the
+        <a href="https://github.com/dkosmari/System-Font-Replacer" target="_blank">
+        Wii U System Font Replacer plugin repository</a>.
       </p>
-    </div>
-
-5.  Input this command (pick one):
-
-    PowerShell:
-
-    <p class="code-block-wrap">
-      & 'C:\Program Files (x86)\FontForgeBuilds\bin\fontforge.exe'
-      merge-fonts.py PopHappiness.ttf nintendo_NTLG-DB_001.ttf PopHappiness_Merged.ttf
-    </p>
-
-    Command Prompt (CMD):
-
-    <p class="code-block-wrap">
-      "C:\Program Files (x86)\FontForgeBuilds\bin\fontforge.exe"
-      merge-fonts.py PopHappiness.ttf nintendo_NTLG-DB_001.ttf PopHappiness_Merged.ttf
-    </p>
-
-    Those are single line commands - they are wrapped so the whole commands are displayed for easy copy without horizontally scrolling.
-
-    <div align="center">
-      <p class="image">
-        <img src="/images/3DS/3DS-System-Font-Customization-Python_2.png">
+    </li>
+    <li>
+      <p>Download a Python script: <code>merge-fonts.py</code></p>
+      <ul>
+        <li>
+          <p>
+            <a href="https://github.com/dkosmari/System-Font-Replacer#missing-symbols" target="_blank">
+            More info about how it works</a>
+          </p>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <p>Place those 3 files in a folder:</p>
+      <ul>
+        <li>
+          <p><code>merge-fonts.py</code></p>
+        </li>
+        <li>
+          <p>3DS font - <code>nintendo_NTLG-DB_001.ttf</code></p>
+        </li>
+        <li>
+          <p>A custom font - <code>PopHappiness.ttf</code> (OTF also works)</p>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <p>Launch the Terminal app by right-clicking on File Explorer’s empty space and clicking <code>Open in Terminal</code>.</p>
+      <div align="center">
+        <p class="image">
+          <img src="/images/3DS/3DS-System-Font-Customization-Python_1.png">
+        </p>
+      </div>
+    </li>
+    <li>
+      <p>Input this command (pick one):</p>
+      <p>PowerShell:</p>
+      <p class="code-block-wrap">
+        &amp; 'C:\Program Files (x86)\FontForgeBuilds\bin\fontforge.exe'
+        merge-fonts.py PopHappiness.ttf nintendo_NTLG-DB_001.ttf PopHappiness_Merged.ttf
       </p>
-    </div>
-
-    The fonts have been merged as `PopHappiness_Merged.ttf`.
-
-6.  On a File Explorer window, open the merged font file and install it.
-
-<p class="note-blue">
-  Continue to the
-  <a href="#generating-the-custom-system-font">
-  Generating the Custom System Font</a>
-  section.
-</p>
-
-
-#### Method 2: FontForge only
-
-1.  Launch FontForge.
-
-2.  Open the custom font file (TTF/OTF).
-
-    <div align="center">
-      <p class="image">
-        <img src="/images/3DS/3DS-System-Font-Customization_02.png">
+      <p>Command Prompt (CMD):</p>
+      <p class="code-block-wrap">
+        "C:\Program Files (x86)\FontForgeBuilds\bin\fontforge.exe"
+        merge-fonts.py PopHappiness.ttf nintendo_NTLG-DB_001.ttf PopHappiness_Merged.ttf
       </p>
-    </div>
+      <p>Those are single line commands - they are wrapped so the whole commands are displayed for easy copy without horizontally scrolling.</p>
+      <div align="center">
+        <p class="image">
+          <img src="/images/3DS/3DS-System-Font-Customization-Python_2.png">
+        </p>
+      </div>
+      <p>The fonts have been merged as <code>PopHappiness_Merged.ttf</code>.</p>
+    </li>
+    <li>
+      <p>On a File Explorer window, open the merged font file and install it.</p>
+      <div align="center">
+        <p class="image">
+          <img src="/images/3DS/3DS-System-Font-Customization_07.png">
+        </p>
+      </div>
+    </li>
+  </ol>
+</div>
 
-3.  Go to `Element` → `Font Info...` → `General`.
-
-4.  Set the `Em Size` value to `1000` and click `OK`.
-    The custom font size will be adjusted so it matches the 3DS font size.
-    Skip if em size is already 1,000.
-
-    <div align="center">
-      <p class="image">
-        <img src="/images/3DS/3DS-System-Font-Customization_03.png">
+<!-- Tab content -->
+<div id="GUI" class="tabcontent_fullwidth_0">
+  <ol>
+    <li>
+      <p>Launch FontForge.</p>
+    </li>
+    <li>
+      <p>Open the custom font file (TTF/OTF).</p>
+      <div align="center">
+        <p class="image">
+          <img src="/images/3DS/3DS-System-Font-Customization_02.png">
+        </p>
+      </div>
+    </li>
+    <li>
+      <p>Go to <code>Element</code> → <code>Font Info...</code> → <code>General</code>.</p>
+    </li>
+    <li>
+      <p>
+        Set the <code>Em Size</code> value to <code>1000</code> and click <code>OK</code>.
+        The custom font size will be adjusted so it matches the 3DS font size.
+        Skip if the em size is already 1,000.
       </p>
-    </div>
-
-5.  Go to `View` → `Goto`, input `U+E000` into the text box to jump to the Private Use Area block.
-
-6.  If the custom font contains any non-3DS glyphs in the PUA block, go to `File` → `Execute Script`, input this code into the text box:
-
-    ```
-    fontforge.activeFont().selection.select(("ranges", None), 0xE000, 0xE07E)
-    fontforge.activeFont().clear()
-    ```
-
-    and click `OK`. This will clear out all the non-3DS glyphs in this block.
-
-    <div align="center">
-      <p class="image">
-        <img src="/images/3DS/3DS-System-Font-Customization_04.png">
+      <div align="center">
+        <p class="image">
+          <img src="/images/3DS/3DS-System-Font-Customization_03.png">
+        </p>
+      </div>
+    </li>
+    <li>
+      <p>Go to <code>View</code> → <code>Goto</code>, input <code>U+E000</code> into the text box to jump to the Private Use Area block.</p>
+    </li>
+    <li>
+      <p>If the custom font contains any non-3DS glyphs in the PUA block, go to <code>File</code> → <code>Execute Script</code>, input this code into the text box:
       </p>
-    </div>
 
-7.  Go to `Element` → `Merge Fonts...` and select the 3DS font file.
+<pre class="highlight"><code>fontforge.activeFont().selection.select(("ranges", None), 0xE000, 0xE07E)
+fontforge.activeFont().clear()
+</code></pre>
 
-8.  Click `Yes` when prompted to retain kerning info.
-
-    <div align="center">
-      <p class="image">
-        <img src="/images/3DS/3DS-System-Font-Customization_05.png">
+      <p>and click <code>OK</code>. This will clear out all the non-3DS glyphs in this block.</p>
+      <div align="center">
+        <p class="image">
+          <img src="/images/3DS/3DS-System-Font-Customization_04.png">
+        </p>
+      </div>
+    </li>
+    <li>
+      <p>Go to <code>Element</code> → <code>Merge Fonts...</code> and select the 3DS font file.</p>
+    </li>
+    <li>
+      <p>Click <code>Yes</code> when prompted to retain kerning info.</p>
+      <div align="center">
+        <p class="image">
+          <img src="/images/3DS/3DS-System-Font-Customization_05.png">
+        </p>
+      </div>
+    </li>
+    <li>
+      <p>Go to <code>File</code> → <code>Generate Fonts...</code>.</p>
+    </li>
+    <li>
+      <p>Pick <code>TrueType</code> in the combo-box, uncheck <code>Validate Before Saving</code>, then click <code>Generate</code>.
       </p>
-    </div>
-
-9.  Go to `File` → `Generate Fonts...`.
-
-10. Pick `TrueType` in the combo-box, uncheck `Validate Before Saving`, then click `Generate`.
-
-    <div align="center">
-      <p class="image">
-        <img src="/images/3DS/3DS-System-Font-Customization_06.png">
-      </p>
-    </div>
-
-11. On a File Explorer window, open the merged font file and install it.
-
-    <div align="center">
-      <p class="image">
-        <img src="/images/3DS/3DS-System-Font-Customization_07.png">
-      </p>
-    </div>
+      <div align="center">
+        <p class="image">
+          <img src="/images/3DS/3DS-System-Font-Customization_06.png">
+        </p>
+      </div>
+    </li>
+    <li>
+      <p>On a File Explorer window, open the merged font file and install it.</p>
+      <div align="center">
+        <p class="image">
+          <img src="/images/3DS/3DS-System-Font-Customization_07.png">
+        </p>
+      </div>
+    </li>
+  </ol>
+</div>
 
 
 ## Generating the Custom System Font
@@ -577,3 +584,4 @@ by Tiger21820 & 3DSGuy
 
 <script src="/assets/js/tabs_0.js"></script>
 <script src="/assets/js/tabs_1.js"></script>
+<script src="/assets/js/tabs_fullwidth_0.js"></script>

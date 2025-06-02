@@ -212,9 +212,7 @@ Last updated: 2024-10-07
       during the whole session (after booting the system).
       <br>
       <b>This method should be used for testing purposes.</b>
-      To avoid crashes,
-      <a href="#installation-method-2-cia-file">
-      install this mod with the CIA file instead</a>.
+      To avoid crashes, install this mod with the CIA file instead.
     </p>
   
     <ol>

@@ -44,6 +44,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 ```
 
+<pre class="highlight"><code>The quick brown fox jumps over the lazy dog.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</code></pre>
+
 Wrapped:
 
 <p class="code-block-wrap">
@@ -224,48 +229,45 @@ Row 5 - Column 1 | Column 2 | Column 3
   <p>This is Tab6</p>
 </div>
 
+
+### Full-width Tabs
+
 <!-- Tab links -->
 <div class="tab_fullwidth_0">
-  <button class="tablinks_fullwidth_0" onclick="openTab_fullwidth_0(event, 'Tab7')" id="defaultOpen_fullwidth_0">Tab7</button>
-  <button class="tablinks_fullwidth_0" onclick="openTab_fullwidth_0(event, 'Tab8')">Tab8</button>
-  <button class="tablinks_fullwidth_0" onclick="openTab_fullwidth_0(event, 'Tab9')">Tab9</button>
+  <button class="tablinks_fullwidth_0" onclick="openTab_fullwidth_0(event, 'FullWidthTab1')" id="defaultOpen_fullwidth_0">FullWidthTab1</button>
+  <button class="tablinks_fullwidth_0" onclick="openTab_fullwidth_0(event, 'FullWidthTab2')">FullWidthTab2</button>
 </div>
 
 <!-- Tab content -->
-<div id="Tab7" class="tabcontent_fullwidth_0">
+<div id="FullWidthTab1" class="tabcontent_fullwidth_0">
   <!-- Tab links -->
   <div class="tab_2">
-    <button class="tablinks_2" onclick="openTab_2(event, 'Tab10')" id="defaultOpen_2">Tab10</button>
-    <button class="tablinks_2" onclick="openTab_2(event, 'Tab11')">Tab11</button>
-    <button class="tablinks_2" onclick="openTab_2(event, 'Tab12')">Tab12</button>
+    <button class="tablinks_2" onclick="openTab_2(event, 'NestedTab1')" id="defaultOpen_2">NestedTab1</button>
+    <button class="tablinks_2" onclick="openTab_2(event, 'NestedTab2')">NestedTab2</button>
+    <button class="tablinks_2" onclick="openTab_2(event, 'NestedTab3')">NestedTab3</button>
   </div>
   
   <!-- Tab content -->
-  <div id="Tab10" class="tabcontent_2">
-    <p>This is Tab10</p>
+  <div id="NestedTab1" class="tabcontent_2">
+    <p>This is NestedTab1</p>
   </div>
   
   <!-- Tab content -->
-  <div id="Tab11" class="tabcontent_2">
-    <p>This is Tab11</p>
+  <div id="NestedTab2" class="tabcontent_2">
+    <p>This is NestedTab2</p>
   </div>
   
   <!-- Tab content -->
-  <div id="Tab12" class="tabcontent_2">
-    <p>This is Tab12</p>
+  <div id="NestedTab3" class="tabcontent_2">
+    <p>This is NestedTab3</p>
   </div>
 </div>
 
 <!-- Tab content -->
-<div id="Tab8" class="tabcontent_fullwidth_0">
+<div id="FullWidthTab2" class="tabcontent_fullwidth_0">
   <p class="note-blue">
     The quick brown fox jumps over the lazy dog.
   </p>
-</div>
-
-<!-- Tab content -->
-<div id="Tab9" class="tabcontent_fullwidth_0">
-  <p>This is Tab9</p>
 </div>
 
 <p class="note-blue">
