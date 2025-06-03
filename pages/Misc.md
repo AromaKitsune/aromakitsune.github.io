@@ -44,11 +44,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 ```
 
-<pre class="highlight"><code>The quick brown fox jumps over the lazy dog.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-</code></pre>
-
 Wrapped:
 
 <p class="code-block-wrap">
@@ -94,6 +89,43 @@ Wrapped:
     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
   </p>
 </details>
+
+
+## Lists
+
+<ul>
+  <li>
+    <p>ListItem1</p>
+  </li>
+  <li>
+    <p>
+      ListItem2 with
+      <a href="https://github.com/" target="_blank">
+      link</a>.
+    </p>
+  </li>
+  <li>
+    <p>ListItem3</p>
+    <ul>
+      <li>
+        <p>SubListItem1</p>
+      </li>
+      <li>
+        <p>
+          SubListItem2 with
+          <a href="https://github.com/" target="_blank">
+          link</a>.
+        </p>
+      </li>
+      <li>
+        <p>SubListItem3</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>ListItem4</p>
+  </li>
+</ul>
 
 
 ## Tables
@@ -246,17 +278,17 @@ Row 5 - Column 1 | Column 2 | Column 3
     <button class="tablinks_2" onclick="openTab_2(event, 'NestedTab2')">NestedTab2</button>
     <button class="tablinks_2" onclick="openTab_2(event, 'NestedTab3')">NestedTab3</button>
   </div>
-  
+
   <!-- Tab content -->
   <div id="NestedTab1" class="tabcontent_2">
     <p>This is NestedTab1</p>
   </div>
-  
+
   <!-- Tab content -->
   <div id="NestedTab2" class="tabcontent_2">
     <p>This is NestedTab2</p>
   </div>
-  
+
   <!-- Tab content -->
   <div id="NestedTab3" class="tabcontent_2">
     <p>This is NestedTab3</p>
@@ -265,14 +297,16 @@ Row 5 - Column 1 | Column 2 | Column 3
 
 <!-- Tab content -->
 <div id="FullWidthTab2" class="tabcontent_fullwidth_0">
+
+<pre class="highlight"><code>The quick brown fox jumps over the lazy dog.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</code></pre>
+
   <p class="note-blue">
     The quick brown fox jumps over the lazy dog.
   </p>
 </div>
-
-<p class="note-blue">
-  The quick brown fox jumps over the lazy dog.
-</p>
 
 
 ## Buttons

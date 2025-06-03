@@ -75,7 +75,7 @@ It is used for the UI in many Nintendo games. It is also used for the tutorial s
   </p>
 </div>
 
-### List of Games Using this Font for the UI:
+### List of Games using this Font for the UI:
 - Luigi's Mansion
 - Super Mario Sunshine
 - Mario Golf: Toadstool Tour
@@ -133,7 +133,7 @@ It is commonly used for the UI in Paper Mario games.
   </p>
 </div>
 
-### List of Games Using this Font for the UI:
+### List of Games using this Font for the UI:
 - Dr. Mario 64
 - Mario Golf: Toadstool Tour
 - Paper Mario: The Thousand-Year Door
@@ -196,7 +196,7 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
   </p>
 </div>
 
-### List of Games Using this Font for the UI:
+### List of Games using this Font for the UI:
 - Kirby and the Rainbow Curse
 - Dr. Mario: Miracle Cure
 - WarioWare Gold

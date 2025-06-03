@@ -186,13 +186,13 @@ Last updated: 2024-10-07
 <div id="LayeredFS" class="tabcontent_fullwidth_0">
   <h2 id="adding-the-home-menu-applet-patch">
   Adding the Home Menu Applet Patch</h2>
-  
+
   <!-- Tab links -->
   <div class="tab_1">
     <button class="tablinks_1" onclick="openTab_1(event, '3DS_Install')" id="defaultOpen_1">3DS</button>
     <button class="tablinks_1" onclick="openTab_1(event, 'Azahar_Install')">Azahar</button>
   </div>
-  
+
   <!-- Tab content -->
   <div id="3DS_Install" class="tabcontent_1">
     <p>
@@ -200,11 +200,11 @@ Last updated: 2024-10-07
       <a href="https://3ds.hacks.guide/" target="_blank">
       Install CFW if you haven't already.</a>
     </p>
-  
+
     <p class="note-info">
       LayeredFS is a Luma3DS feature that redirects games/apps assets to modded assets files in the SD Card without patching the ROMs or system files directly.
     </p>
-  
+
     <p class="note-warning-yellow">
       LayeredFS patching is unstable for system applets which causes Home Menu to crash.
       This happens when Home Menu is opened 11 times total
@@ -214,7 +214,7 @@ Last updated: 2024-10-07
       <b>This method should be used for testing purposes.</b>
       To avoid crashes, install this mod with the CIA file instead.
     </p>
-  
+
     <ol>
       <li>
         <p>Unpack the downloaded archive file and enter the <code>LayeredFS</code> folder.</p>
@@ -235,12 +235,12 @@ Last updated: 2024-10-07
         <p>Save and exit.</p>
       </li>
     </ol>
-  
+
     <p class="note-green">
       The custom Home Menu UI has been installed.
     </p>
   </div>
-  
+
   <!-- Tab content -->
   <div id="Azahar_Install" class="tabcontent_1">
     <p>
@@ -248,14 +248,14 @@ Last updated: 2024-10-07
       <a href="https://azahar-emu.org/" target="_blank">
       Azahar emulator</a>.
     </p>
-  
+
     <p class="note-info">
       The system files need to be installed to a virtual NAND before continuing.
       Follow the instructions for 
       <a href="https://github.com/azahar-emu/ArticSetupTool" target="_blank">
       setting up system files</a> on an emulator. A real 3DS is required.
     </p>
-  
+
     <ol>
       <li>
         <p>Launch Azahar.</p>
@@ -279,22 +279,22 @@ Last updated: 2024-10-07
         <p>Launch the Home Menu by going to <code>File</code> → <code>Boot Home Menu</code> → <code>EUR</code>/<code>USA</code>/<code>JPN</code>.</p>
       </li>
     </ol>
-  
+
     <p class="note-green">
       The custom Home Menu UI has been installed.
     </p>
   </div>
-  
-  
+
+
   <h2 id="removing-the-home-menu-applet-patch">
   Removing the Home Menu Applet Patch</h2>
-  
+
   <!-- Tab links -->
   <div class="tab_2">
     <button class="tablinks_2" onclick="openTab_2(event, '3DS_Uninstall')" id="defaultOpen_2">3DS</button>
     <button class="tablinks_2" onclick="openTab_2(event, 'Azahar_Uninstall')">Azahar</button>
   </div>
-  
+
   <!-- Tab content -->
   <div id="3DS_Uninstall" class="tabcontent_2">
     <ol>
@@ -322,12 +322,12 @@ Last updated: 2024-10-07
         <p>Reboot the console.</p>
       </li>
     </ol>
-  
+
     <p class="note-green">
       The Home Menu UI has been restored.
     </p>
   </div>
-  
+
   <!-- Tab content -->
   <div id="Azahar_Uninstall" class="tabcontent_2">
     <ol>
@@ -358,7 +358,7 @@ Last updated: 2024-10-07
         <p>Launch the Home Menu by going to <code>File</code> → <code>Boot Home Menu</code> → <code>EUR</code>/<code>USA</code>/<code>JPN</code>.</p>
       </li>
     </ol>
-  
+
     <p class="note-green">
       The Home Menu UI has been restored.
     </p>
@@ -398,13 +398,13 @@ Last updated: 2024-10-07
       <p>If it asks you to decrypt the CIA file afterwards, select "No".</p>
     </li>
   </ol>
-  
+
   <p class="note-green">
     The <code>homemenu.cia</code> file is saved to <code>SDCARD:/gm9/out</code>.
     Copy that file to a safe place in your computer.
   </p>
-  
-  
+
+
   <h2 id="installing-the-custom-home-menu-applet">
   Installing the Custom Home Menu Applet</h2>
 
@@ -454,12 +454,12 @@ Last updated: 2024-10-07
       If this mod stops working, I will update the base Home Menu applet for this mod.
     </p>
   </details>
-  
+
   <p class="note-blue">
     The CIA file must be installed with GodMode9. Do not install it with FBI,
     the installation will fail as the Home Menu applet is being used by another process.
   </p>
-  
+
   <p>
     You must have GodMode9 v2.0.0 or higher to be able to install <code>.cia</code> files.
     Get the
@@ -489,28 +489,28 @@ Last updated: 2024-10-07
       <p>Reboot the console.</p>
     </li>
   </ol>
-  
+
   <p class="note-green">
     The custom Home Menu applet has been installed.
   </p>
-  
-  
+
+
   <h2 id="restoring-the-home-menu-applet">
   Restoring the Home Menu Applet</h2>
-  
+
   <!-- Tab links -->
   <div class="tab_3">
     <button class="tablinks_3" onclick="openTab_3(event, 'Restore1')" id="defaultOpen_3">Method 1</button>
     <button class="tablinks_3" onclick="openTab_3(event, 'Restore2')">Method 2</button>
     <button class="tablinks_3" onclick="openTab_3(event, 'Restore3')">Method 3</button>
   </div>
-  
+
   <!-- Tab content -->
   <div id="Restore1" class="tabcontent_3">
     <p class="note-blue">
       If you've dumped the <code>homemenu.cia</code> file with GodMode9, follow this section.
     </p>
-  
+
     <ol>
       <li>
         <p>Launch GodMode9.</p>
@@ -525,12 +525,12 @@ Last updated: 2024-10-07
         <p>Reboot the console.</p>
       </li>
     </ol>
-  
+
     <p class="note-green">
       The Home Menu applet has been restored.
     </p>
   </div>
-  
+
   <!-- Tab content -->
   <div id="Restore2" class="tabcontent_3">
     <p class="note-blue">
@@ -538,7 +538,7 @@ Last updated: 2024-10-07
       <br>
       The target system firmware version is <code>11.17.0-50</code>.
     </p>
-  
+
     <ol>
       <li>
         <p>Download the original Home Menu applet:</p>
@@ -566,18 +566,18 @@ Last updated: 2024-10-07
         <p>Reboot the console.</p>
       </li>
     </ol>
-  
+
     <p class="note-green">
       The Home Menu applet has been restored.
     </p>
   </div>
-  
+
   <!-- Tab content -->
   <div id="Restore3" class="tabcontent_3">
     <p class="note-blue">
       Alternatively, download the system file for your system firmware version other than <code>11.17.0-50</code>.
     </p>
-  
+
     <ol>
       <li>
         <p>
@@ -631,7 +631,7 @@ Last updated: 2024-10-07
         <p>Reboot the console.</p>
       </li>
     </ol>
-  
+
     <p class="note-green">
       The Home Menu applet has been restored.
     </p>
@@ -648,7 +648,7 @@ Last updated: 2024-10-07
 
 - <a href="https://github.com/James-Makoto/3ds-battery-patches" target="_blank">
   3DS Battery Patches by James Makoto</a> - Show the battery percentage in the status bar
-  and make the battery icon display each bar as 25% of battery of charge.
+  and make the battery icon display each bar as 25% of battery charge.
 
 - <a href="https://github.com/lividhen/HomeMenu_Custom" target="_blank">
   Fairly Simple Custom Home Menu by Lividhen</a>
