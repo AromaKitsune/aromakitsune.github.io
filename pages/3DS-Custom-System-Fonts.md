@@ -205,7 +205,7 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
 - Dr. Mario: Miracle Cure
 - WarioWare Gold
 - Yoshi's Crafted World
-- Hatsune Miku: Colorful Stage! (stamp text)
+- Hatsune Miku / Project Sekai: Colorful Stage! (stamp text)
 - WarioWare: Get It Together!
 - WarioWare: Move It!
 - Super Mario Party Jamboree (reaction text)
