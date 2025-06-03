@@ -91,7 +91,7 @@ It is used for the UI in many Nintendo games. It is also used for the tutorial s
 - Mario Golf: World Tour
 - Pokémon Super Mystery Dungeon
 - <a href="https://www.mariowiki.com/List_of_fonts#Pop_Happiness" target="_blank">
-  Complete list of Mario related games using this font</a>
+  Complete list of Super Mario games using this font</a>
 
 ### Download Font:
 
@@ -144,7 +144,7 @@ It is commonly used for the UI in Paper Mario games.
 - Paper Mario: Color Splash
 - Paper Mario: The Origami King
 - <a href="https://www.mariowiki.com/List_of_fonts#Pop_Joy" target="_blank">
-  Complete list of Mario related games using this font</a>
+  Complete list of Super Mario games using this font</a>
 
 ### Download Font:
 
@@ -207,7 +207,7 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
 - Super Mario Party Jamboree (reaction text)
 - Mario & Luigi: Brothership
 - <a href="https://www.mariowiki.com/List_of_fonts#Yuruka" target="_blank">
-  Complete list of Mario related games using this font</a>
+  Complete list of Super Mario games using this font</a>
 
 ### Download Font:
 
