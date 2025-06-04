@@ -54,6 +54,10 @@ code {
 .site-title {
   @include relative-font-size(2);
   font-family: PopHappiness;
+
+  @media screen and (max-width: 600px) {
+    font-size: clamp(1rem, 6.5vw, 2rem);
+  }
 }
 
 .site-title:hover {
@@ -61,19 +65,13 @@ code {
   text-decoration: none;
 }
 
-@media screen and (max-width: 600px) {
-  .site-title {
-    font-size: clamp(1rem, 6.5vw, 2rem);
-  }
-}
-
 // Site footer
 .footer-col-wrapper {
   color: #a0a0a0;
-}
 
-.footer-col-wrapper a {
-  color: #e6e6e6;
+  a {
+    color: #e6e6e6;
+  }
 }
 
 .footer-col {

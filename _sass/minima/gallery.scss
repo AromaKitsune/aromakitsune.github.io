@@ -40,6 +40,12 @@
   border-radius: 6px;
   user-select: none;
   -webkit-user-select: none;
+
+  /* Remove the Next & Previous buttons */
+  @media screen and (max-width: 600px) {
+    box-sizing: border-box;
+    display: none;
+  }
 }
 
 /* Position the "next button" to the right */
@@ -89,6 +95,11 @@
   float: left;
   width: 25%;
   padding: 4px;
+
+  /* 3 columns side by side */
+  @media screen and (max-width: 600px) {
+    width: 33.335%;
+  }
 }
 
 /* Add a transparency effect for thumnbail images */
@@ -102,20 +113,4 @@
 .demo_gallery:hover {
   box-sizing: border-box;
   border: solid 3px #648fa3;
-}
-
-
-// 600px page width layout
-@media screen and (max-width: 600px) {
-/* Remove the Next & Previous buttons */
-  .prev_gallery,
-  .next_gallery {
-    box-sizing: border-box;
-    display: none;
-  }
-
-/* 3 columns side by side */
-  .column_gallery {
-    width: 33.335%;
-  }
 }
