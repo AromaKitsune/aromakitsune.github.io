@@ -169,7 +169,7 @@ Last updated: 2024-10-07
   </ul>
 
   <p class="note-blue">
-    For those who don’t want to use a Miiverse replacement service such as Pretendo Network’s Juxtaposition
+    For those who don't want to use a Miiverse replacement service such as Pretendo Network's Juxtaposition
   </p>
 </div>
 
@@ -229,7 +229,7 @@ Last updated: 2024-10-07
         <p>Launch the Luma3DS config by holding the <code>Select</code> button while booting.</p>
       </li>
       <li>
-        <p>Activate “Enable game patching”.</p>
+        <p>Activate &quot;Enable game patching&quot;.</p>
       </li>
       <li>
         <p>Save and exit.</p>
@@ -264,7 +264,7 @@ Last updated: 2024-10-07
         <p>Go to <code>File</code> → <code>Open Azahar Folder</code>.</p>
       </li>
       <li>
-        <p>Go to <code>/load/mods</code>. Create folders if those don’t exist.</p>
+        <p>Go to <code>/load/mods</code>. Create folders if those don't exist.</p>
       </li>
       <li>
         <p>Unpack the downloaded archive file and enter the <code>LayeredFS</code> folder.</p>
@@ -395,7 +395,7 @@ Last updated: 2024-10-07
       <p>Proceed dumping this system applet.</p>
     </li>
     <li>
-      <p>If it asks you to decrypt the CIA file afterwards, select "No".</p>
+      <p>If it asks you to decrypt the CIA file afterwards, select &quot;No&quot;.</p>
     </li>
   </ol>
 
@@ -415,7 +415,7 @@ Last updated: 2024-10-07
     <br>
     Modifying the Home Menu applet is safe and can be restored by re-installing the original Home Menu applet, instead of restoring a NAND backup.
     <br>
-    If you messed up and the Home Menu fails to launch, it is NOT "bricked",
+    If you messed up and the Home Menu fails to launch, it is NOT &quot;bricked&quot;,
     you can still access GodMode9 and install an original <code>.cia</code> file for Home Menu applet to fix it.
     <br>
     To restore the Home Menu applet, see the
@@ -590,13 +590,13 @@ Last updated: 2024-10-07
         <p>Launch 3DNUS.</p>
       </li>
       <li>
-        <p>Input your system’s current firmware version and region (ex: <code>11.15.0-47E</code>).</p>
+        <p>Input your system's current firmware version and region (ex: <code>11.15.0-47E</code>).</p>
       </li>
       <li>
-        <p>Click “New 3DS” or “Old 3DS” for your 3DS system model.</p>
+        <p>Click &quot;New 3DS&quot; or &quot;Old 3DS&quot; for your 3DS system model.</p>
       </li>
       <li>
-        <p>Click “Begin Download”, and wait for the download to complete.</p>
+        <p>Click &quot;Begin Download&quot;, and wait for the download to complete.</p>
       </li>
       <li>
         <p>Enter the firmware folder and find the <code>.cia</code> file for Home Menu inside the <code>updates</code> folder.</p>

@@ -118,7 +118,7 @@ Install CFW if you haven't already.</a>
   <br>
   Modifying the Home Menu applet is safe and can be restored by re-installing the original Home Menu applet, instead of restoring a NAND backup.
   <br>
-  If you messed up and the Home Menu fails to launch, it is NOT "bricked",
+  If you messed up and the Home Menu fails to launch, it is NOT &quot;bricked&quot;,
   you can still access GodMode9 and install an original <code>.cia</code> file for Home Menu applet to fix it.
   <br>
   To restore the Home Menu applet, see the
@@ -175,7 +175,7 @@ Here's a list of known layout files for customization.
     <tr>
       <td><p class="code-block-wrap">launcher.LZ/blyt/LncBase_U_00.bclyt</p></td>
       <td>
-        Top screen layout - "L+R" caption, notification caption, suspended game info.
+        Top screen layout - &quot;L+R&quot; caption, notification caption, suspended game info.
         For HUD's, those are stored in the <code>hud.LZ</code> file.
       </td>
     </tr>
@@ -370,7 +370,7 @@ To find other layouts:
 
 6.  Go to the `B.bclyt` tab.
 
-7.  Position a cursor before the selected byte (ex: `0x1567`).
+7.  Position the cursor before the selected byte (ex: `0x1567`).
 
 8.  Select a few lines of bytes forward (ex: from `80` to `3F`).
 
@@ -397,7 +397,7 @@ To find other layouts:
       </p>
     </div>
 
-14. Position a cursor before the selected bytes (ex: `0x1717`).
+14. Position the cursor before the selected bytes (ex: `0x1717`).
 
     <div align="center">
       <p class="image">
@@ -425,7 +425,7 @@ To find other layouts:
 
 18. Go to the `C.bclyt` tab.
 
-19. Same as before: Position a cursor before the selected byte (ex: `0x1567`).
+19. Same as before: Position the cursor before the selected byte (ex: `0x1567`).
 
 20. Click to deselect.
 

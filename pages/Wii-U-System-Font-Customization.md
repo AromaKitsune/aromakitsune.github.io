@@ -10,7 +10,7 @@ A guide for customizing the system-wide font on the Wii U.
   <p class="image">
     <img src="/images/Wii-U/Pop-Happiness-Font.png">
     <br>
-    Custom system font shown in this screenshot is "Pop Happiness".
+    System Settings with a custom system font &quot;Pop Happiness&quot;.
     <br>
     <a href="/Wii-U-Custom-System-Fonts">
     Download the custom system fonts here</a>
@@ -138,7 +138,7 @@ while the GUI method involves in using FontForge itself to merge the fonts manua
       </ul>
     </li>
     <li>
-      <p>Launch the Terminal app by right-clicking on File Explorer’s empty space and clicking <code>Open in Terminal</code>.</p>
+      <p>Launch the Terminal app by right-clicking on File Explorer's empty space and clicking <code>Open in Terminal</code>.</p>
       <div align="center">
         <p class="image">
           <img src="/images/Wii-U/Wii-U-System-Font-Customization-Python_1.png">
@@ -259,7 +259,7 @@ fontforge.activeFont().clear()
         </li>
         <li>
           <p>
-            <code>TrueType</code> or <code>OpenType</code> on the window title bar doesn’t matter,
+            <code>TrueType</code> or <code>OpenType</code> on the window title bar doesn't matter,
             as long as its outlines format is TrueType Outlines.
           </p>
         </li>
@@ -342,7 +342,7 @@ fontforge.activeFont().clear()
       <p>Go to <code>File</code> → <code>Open MLC folder</code>.</p>
     </li>
     <li>
-      <p>Navigate to <code>/sys/title/0005001b/10042400/content</code>. Create folders if those don’t exist.</p>
+      <p>Navigate to <code>/sys/title/0005001b/10042400/content</code>. Create folders if those don't exist.</p>
     </li>
     <li>
       <p>Add the <code>CafeStd.ttf</code> file here.</p>

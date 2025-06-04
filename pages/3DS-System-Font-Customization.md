@@ -10,7 +10,7 @@ A guide for customizing the system-wide font on the Nintendo 3DS.
   <p class="image">
     <img src="/images/3DS/Pop-Happiness-Font.png">
     <br>
-    Custom system font shown in this screenshot is "Pop Happiness".
+    System Settings with a custom system font &quot;Pop Happiness&quot;.
     <br>
     <a href="/3DS-Custom-System-Fonts">
     Download the custom system fonts here</a>
@@ -74,7 +74,7 @@ Install CFW if you haven't already.</a>
   <br>
   Modifying the system font is safe and can be restored by re-installing the original system font, instead of restoring a NAND backup.
   <br>
-  If you messed up and the Home Menu fails to launch, it is NOT "bricked",
+  If you messed up and the Home Menu fails to launch, it is NOT &quot;bricked&quot;,
   you can still access GodMode9 and install an original <code>.cia</code> file for system font to fix it.
   <br>
   To restore the system font, see the
@@ -194,7 +194,7 @@ while the GUI method involves in using FontForge itself to merge the fonts manua
       </ul>
     </li>
     <li>
-      <p>Launch the Terminal app by right-clicking on File Explorer’s empty space and clicking <code>Open in Terminal</code>.</p>
+      <p>Launch the Terminal app by right-clicking on File Explorer's empty space and clicking <code>Open in Terminal</code>.</p>
       <div align="center">
         <p class="image">
           <img src="/images/3DS/3DS-System-Font-Customization-Python_1.png">
@@ -427,7 +427,7 @@ fontforge.activeFont().clear()
     <li>
       <p>Select <code>CIA image options...</code> → <code>Install game image</code>.</p>
       <ul>
-        <li>CIA files are encrypted by default, so there’s no need to re-encrypt it.</li>
+        <li>CIA files are encrypted by default, so there's no need to re-encrypt it.</li>
       </ul>
     </li>
     <li>
@@ -478,7 +478,7 @@ fontforge.activeFont().clear()
       <p>Go to <code>File</code> → <code>Open Azahar Folder</code>.</p>
     </li>
     <li>
-      <p>Navigate to <code>/load/mods/0004009B00014002/romfs</code>. Create folders if those don’t exist.</p>
+      <p>Navigate to <code>/load/mods/0004009B00014002/romfs</code>. Create folders if those don't exist.</p>
     </li>
     <li>
       <p>Add the <code>cbf_std.bcfnt.lz</code> file here.</p>

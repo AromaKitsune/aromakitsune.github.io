@@ -316,7 +316,7 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
       <p>Go to <code>File</code> → <code>Open MLC folder</code>.</p>
     </li>
     <li>
-      <p>Navigate to <code>/sys/title/0005001b/10042400/content</code>. Create folders if those don’t exist.</p>
+      <p>Navigate to <code>/sys/title/0005001b/10042400/content</code>. Create folders if those don't exist.</p>
     </li>
     <li>
       <p>Add the <code>CafeStd.ttf</code> file here.</p>
@@ -416,7 +416,9 @@ Some screenshots of games officially using those fonts.
     <img src="/images/Hyperdimension-Neptunia-Victory_Teach-Me-Histy.png">
     Hyperdimension Neptunia Victory / Re;Birth3: V Generation
     <br>
-    Pop Happiness font used for the "Teach Me, Histy!" display text, it is shown each time a tutorial is unlocked.
+    Pop Happiness font used for the &quot;Teach Me, Histy!&quot; display text, it is shown each time a tutorial is unlocked.
+    <br>
+    <br>
   </div>
 
   <div class="mySlides_gallery" align="center">

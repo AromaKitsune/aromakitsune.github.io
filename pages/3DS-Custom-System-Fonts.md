@@ -258,7 +258,7 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
     <br>
     Modifying the system font is safe and can be restored by re-installing the original system font, instead of restoring a NAND backup.
     <br>
-    If you messed up and the Home Menu fails to launch, it is NOT "bricked",
+    If you messed up and the Home Menu fails to launch, it is NOT &quot;bricked&quot;,
     you can still access GodMode9 and install an original <code>.cia</code> file for system font to fix it.
     <br>
     To restore the system font, see the
@@ -313,7 +313,7 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
     <li>
       <p>Select <code>CIA image options...</code> → <code>Install game image</code>.</p>
       <ul>
-        <li>CIA files are encrypted by default, so there’s no need to re-encrypt it.</li>
+        <li>CIA files are encrypted by default, so there's no need to re-encrypt it.</li>
       </ul>
     </li>
     <li>
@@ -352,7 +352,7 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
       <p>Go to <code>File</code> → <code>Open Azahar Folder</code>.</p>
     </li>
     <li>
-      <p>Navigate to <code>/load/mods/0004009B00014002/romfs</code>. Create folders if those don’t exist.</p>
+      <p>Navigate to <code>/load/mods/0004009B00014002/romfs</code>. Create folders if those don't exist.</p>
     </li>
     <li>
       <p>Add the <code>cbf_std.bcfnt.lz</code> file here.</p>
@@ -458,7 +458,9 @@ Some screenshots of games officially using those fonts.
     <img src="/images/Hyperdimension-Neptunia-Victory_Teach-Me-Histy.png">
     Hyperdimension Neptunia Victory / Re;Birth3: V Generation
     <br>
-    Pop Happiness font used for the "Teach Me, Histy!" display text, it is shown each time a tutorial is unlocked.
+    Pop Happiness font used for the &quot;Teach Me, Histy!&quot; display text, it is shown each time a tutorial is unlocked.
+    <br>
+    <br>
   </div>
 
   <div class="mySlides_gallery" align="center">
