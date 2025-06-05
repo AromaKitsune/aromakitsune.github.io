@@ -378,7 +378,7 @@ Last updated: 2024-10-07
 
   <p class="note-blue">
     It is <strong>recommended</strong> to backup your Home Menu applet
-    as you'll be able to restore it later on if the custom Home Menu applet is installed with the CIA file.
+    so if you modified the Home Menu applet, you can restore it.
   </p>
 
   <ol>
@@ -408,35 +408,22 @@ Last updated: 2024-10-07
   <h2 id="installing-the-custom-home-menu-applet">
   Installing the Custom Home Menu Applet</h2>
 
-  <p class="note-yellow">
+  <p class="note-blue">
     Create a NAND backup before modifying any system files!
-    <br>
-    Make sure you have a backup of the Home Menu applet before proceeding.
-    <br>
-    Modifying the Home Menu applet is safe and can be restored by re-installing the original Home Menu applet, instead of restoring a NAND backup.
-    <br>
-    If you messed up and the Home Menu fails to launch, it is NOT &quot;bricked&quot;,
-    you can still access GodMode9 and install an original <code>.cia</code> file for Home Menu applet to fix it.
-    <br>
-    To restore the Home Menu applet, see the
+    Modifying the Home Menu applet is safe since Boot9Strap provides brick protection,
+    allowing recovery with GodMode9.
+    If you messed up and the Home Menu fails to launch, use GodMode9 to
     <a href="#restoring-the-home-menu-applet">
-    restore section</a>.
+    restore the Home Menu applet</a>.
   </p>
 
   <p class="note-red">
-    Never uninstall CFW while any modded system files are installed, doing so will <b>actually</b> brick the console!
-    If you bricked your console that way, you'll need a
+    Never uninstall CFW while any modded system files are installed,
+    doing so will remove Boot9Strap and <b>fully</b> brick the console!
+    If you fully bricked your console, you'll need a
     <a href="https://www.flashcarts.net/ds-quick-start-guide" target="_blank">
     DS flashcart with ntrboot</a>
     to re-install Boot9Strap to unbrick your console.
-    <br>
-    Modified system files are not signed which they don't work on the original firmware, as the signature check fails.
-    <br>
-    To safely uninstall CFW, you must restore the system files first, then follow the
-    <a href="https://3ds.hacks.guide/uninstall-cfw" target="_blank">
-    CFW uninstallation instructions</a>.
-    <br>
-    Only uninstall CFW if you don't need it anymore and you wanna give/sell away your console.
   </p>
 
   <details class="expandable-details">
@@ -461,7 +448,7 @@ Last updated: 2024-10-07
   </p>
 
   <p>
-    You must have GodMode9 v2.0.0 or higher to be able to install <code>.cia</code> files.
+    GodMode9 v2.0.0 or higher is required to be able to install <code>.cia</code> files.
     Get the
     <a href="https://github.com/d0k3/GodMode9" target="_blank">
     latest version of GodMode9 here</a>.

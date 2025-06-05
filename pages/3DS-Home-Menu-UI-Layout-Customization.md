@@ -108,38 +108,21 @@ Luma3DS custom firmware is required to use the mod.
 <a href="https://3ds.hacks.guide/" target="_blank">
 Install CFW if you haven't already.</a>
 
-<p class="note-yellow">
+<p class="note-blue">
   Create a NAND backup before modifying any system files!
-  <br>
-  Make sure you have a
-  <a href="/3DS-Custom-Home-Menu-UI#backing-up-the-home-menu-applet" target="_blank">
-  backup of the Home Menu applet</a>
-  before proceeding.
-  <br>
-  Modifying the Home Menu applet is safe and can be restored by re-installing the original Home Menu applet, instead of restoring a NAND backup.
-  <br>
-  If you messed up and the Home Menu fails to launch, it is NOT &quot;bricked&quot;,
-  you can still access GodMode9 and install an original <code>.cia</code> file for Home Menu applet to fix it.
-  <br>
-  To restore the Home Menu applet, see the
-  <a href="/3DS-Custom-Home-Menu-UI#restoring-the-home-menu-applet---method-1" target="_blank">
-  restore section</a>.
+  Modifying the Home Menu applet is safe since Boot9Strap provides brick protection,
+  allowing recovery with GodMode9.
+  If you messed up and the Home Menu fails to launch,
+  use GodMode9 to restore the Home Menu applet.
 </p>
 
 <p class="note-red">
-  Never uninstall CFW while any modded system files are installed, doing so will <b>actually</b> brick the console!
-  If you bricked your console that way, you'll need a
+  Never uninstall CFW while any modded system files are installed,
+  doing so will remove Boot9Strap and <b>fully</b> brick the console!
+  If you fully bricked your console, you'll need a
   <a href="https://www.flashcarts.net/ds-quick-start-guide" target="_blank">
   DS flashcart with ntrboot</a>
   to re-install Boot9Strap to unbrick your console.
-  <br>
-  Modified system files are not signed which they don't work on the original firmware, as the signature check fails.
-  <br>
-  To safely uninstall CFW, you must restore the system files first, then follow the
-  <a href="https://3ds.hacks.guide/uninstall-cfw" target="_blank">
-  CFW uninstallation instructions</a>.
-  <br>
-  Only uninstall CFW if you don't need it anymore and you wanna give/sell away your console.
 </p>
 
 ### What You Need:
