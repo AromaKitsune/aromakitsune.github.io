@@ -222,6 +222,9 @@ To find other layouts:
 
 2.  Drag & drop the `*.LZ` file in the Kuriimu2 window.
 
+    - If it asks for a plugin, Kuriimu2 doesn't support some archive files.
+      [Try this version of Kuriimu2.](/files/3DS/Kuriimu2_1.2.1-2524747179.zip)
+
 3.  On the left pane, click the `blyt` folder and the list of items should appear on the right pane.
 
 4.  Extract the BCLYT file you want to edit.
