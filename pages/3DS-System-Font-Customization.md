@@ -139,7 +139,7 @@ There are 2 ways to merge the fonts: CLI & GUI
 The CLI method involves in using a Python script that calls the FontForge program to merge the fonts automatically,
 while the GUI method involves in using FontForge itself to merge the fonts manually.
 
-<p class="note-info">
+<p class="note-blue">
   The CLI method process is shorter than the GUI method.
   If the CLI method does not work for you, try the GUI method instead.
 </p>
@@ -399,7 +399,7 @@ fontforge.activeFont().clear()
 <!-- Tab content -->
 <div id="3DS_Install" class="tabcontent_0">
   <p class="note-blue">
-    GodMode9 v2.0.0 or higher is required to be able to install <code>.cia</code> files.
+    GodMode9 v2.0.0 or higher is required to install <code>.cia</code> files.
     Get the
     <a href="https://github.com/d0k3/GodMode9" target="_blank">
     latest version of GodMode9 here</a>.
@@ -453,7 +453,7 @@ fontforge.activeFont().clear()
     Azahar emulator</a>.
   </p>
 
-  <p class="note-info">
+  <p class="note-blue">
     The system files need to be installed to a virtual NAND before continuing.
     Follow the instructions for 
     <a href="https://github.com/azahar-emu/ArticSetupTool" target="_blank">

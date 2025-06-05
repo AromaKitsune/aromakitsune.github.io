@@ -57,7 +57,7 @@ Aroma custom firmware is required to use the mod.
 <a href="https://wiiu.hacks.guide/" target="_blank">
 Install CFW if you haven't already.</a>
 
-<p class="note-info">
+<p class="note-blue">
   No system files in the MLC NAND are modified in the process. The custom system font is loaded into RAM only,
   so it's safe to install a custom system font without worrying about bricking the console.
 </p>
@@ -92,7 +92,7 @@ There are 2 ways to merge the fonts: CLI & GUI
 The CLI method involves in using a Python script that calls the FontForge program to merge the fonts automatically,
 while the GUI method involves in using FontForge itself to merge the fonts manually.
 
-<p class="note-info">
+<p class="note-blue">
   The CLI method process is shorter than the GUI method.
   If the CLI method does not work for you, try the GUI method instead.
 </p>
@@ -321,7 +321,7 @@ fontforge.activeFont().clear()
     Cemu emulator</a>.
   </p>
 
-  <p class="note-info">
+  <p class="note-blue">
     The font files in <code>/Cemu/resources/sharedFonts</code> are replacement system fonts
     which are used if the real system fonts don't exist in a virtual MLC NAND.
     <br>

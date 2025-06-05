@@ -201,7 +201,7 @@ Last updated: 2024-10-07
       Install CFW if you haven't already.</a>
     </p>
 
-    <p class="note-info">
+    <p class="note-blue">
       LayeredFS is a Luma3DS feature that redirects games/apps assets to modded assets files in the SD Card without patching the ROMs or system files directly.
     </p>
 
@@ -249,7 +249,7 @@ Last updated: 2024-10-07
       Azahar emulator</a>.
     </p>
 
-    <p class="note-info">
+    <p class="note-blue">
       The system files need to be installed to a virtual NAND before continuing.
       Follow the instructions for 
       <a href="https://github.com/azahar-emu/ArticSetupTool" target="_blank">
@@ -446,7 +446,7 @@ Last updated: 2024-10-07
     The CIA file must be installed with GodMode9. Do not install it with FBI,
     the installation will fail as the Home Menu applet is being used by another process.
     <br>
-    GodMode9 v2.0.0 or higher is required to be able to install <code>.cia</code> files.
+    GodMode9 v2.0.0 or higher is required to install <code>.cia</code> files.
     Get the
     <a href="https://github.com/d0k3/GodMode9" target="_blank">
     latest version of GodMode9 here</a>.

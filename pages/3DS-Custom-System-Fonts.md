@@ -283,7 +283,7 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
   </details>
 
   <p class="note-blue">
-    GodMode9 v2.0.0 or higher is required to be able to install <code>.cia</code> files.
+    GodMode9 v2.0.0 or higher is required to install <code>.cia</code> files.
     Get the
     <a href="https://github.com/d0k3/GodMode9" target="_blank">
     latest version of GodMode9 here</a>.
@@ -325,7 +325,7 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
     Azahar emulator</a>.
   </p>
 
-  <p class="note-info">
+  <p class="note-blue">
     The system files need to be installed to a virtual NAND before continuing.
     Follow the instructions for 
     <a href="https://github.com/azahar-emu/ArticSetupTool" target="_blank">
