@@ -69,7 +69,7 @@ Luma3DS custom firmware is required to use the mod.
 <a href="https://3ds.hacks.guide/" target="_blank">
 Install CFW if you haven't already.</a>
 
-<p class="note-info">
+<p class="note-yellow">
   Create a NAND backup before modifying any system files!
   <br>
   Modifying the system font is safe and can be restored by re-installing the original system font, instead of restoring a NAND backup.
@@ -82,7 +82,7 @@ Install CFW if you haven't already.</a>
   restore section</a>.
 </p>
 
-<p class="note-warning">
+<p class="note-red">
   Never uninstall CFW while any modded system files are installed, doing so will <b>actually</b> brick the console!
   If you bricked your console that way, you'll need a
   <a href="https://www.flashcarts.net/ds-quick-start-guide" target="_blank">
