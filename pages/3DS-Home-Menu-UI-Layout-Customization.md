@@ -104,9 +104,11 @@ A guide for customizing the Home Menu UI layout (BCLYT files) on the Nintendo 3D
 
 ## Getting Started
 
-Luma3DS custom firmware is required to use the mod.
-<a href="https://3ds.hacks.guide/" target="_blank">
-Install CFW if you haven't already.</a>
+<p class="note-blue">
+  Luma3DS custom firmware is required to use the mod.
+  <a href="https://3ds.hacks.guide/" target="_blank">
+  Install CFW if you haven't already.</a>
+</p>
 
 <p class="note-blue">
   Create a NAND backup before modifying any system files!
@@ -132,7 +134,7 @@ Install CFW if you haven't already.</a>
 
 - <a href="https://dotnet.microsoft.com/en-us/download/dotnet/3.1" target="_blank">
   .NET Desktop Runtime 3.1</a>
-  (for Kuriimu2)
+  for Kuriimu2 to launch
 
 - <a href="https://mh-nexus.de/en/hxd/" target="_blank">
   HxD - Hex Editor</a>
@@ -140,7 +142,7 @@ Install CFW if you haven't already.</a>
 - <a href="https://github.com/KillzXGaming/Switch-Toolbox" target="_blank">
   Switch-Toolbox</a>
 
-- Decompressed DARC files (`*.LZ`, not `*_LZ.bin`)
+- DARC files, can be either compressed (`*_LZ.bin`) or decompressed (`*.LZ`)
 
 
 ## Preparing for UI Layout Customization

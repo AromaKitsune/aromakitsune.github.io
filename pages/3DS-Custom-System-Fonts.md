@@ -247,7 +247,7 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
 
 <!-- Tab content -->
 <div id="3DS_Install" class="tabcontent_0">
-  <p>
+  <p class="note-blue">
     Luma3DS custom firmware is required to use the mod.
     <a href="https://3ds.hacks.guide/" target="_blank">
     Install CFW if you haven't already.</a>
@@ -282,7 +282,7 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
     </p>
   </details>
 
-  <p>
+  <p class="note-blue">
     GodMode9 v2.0.0 or higher is required to be able to install <code>.cia</code> files.
     Get the
     <a href="https://github.com/d0k3/GodMode9" target="_blank">
@@ -302,7 +302,9 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
     <li>
       <p>Select <code>CIA image options...</code> → <code>Install game image</code>.</p>
       <ul>
-        <li>CIA files are encrypted by default, so there's no need to re-encrypt it.</li>
+        <li>
+          <p>CIA files downloaded from this page are already encrypted, so there's no need to re-encrypt it.</p>
+        </li>
       </ul>
     </li>
     <li>
