@@ -294,7 +294,7 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
       <p>Add the downloaded CIA file to the SD Card.</p>
     </li>
     <li>
-      <p>Launch GodMode9.</p>
+      <p>Boot the console while holding the <code>Start</code> button to launch GodMode9.</p>
     </li>
     <li>
       <p>Browse and select the CIA file.</p>
@@ -377,7 +377,7 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
       <p>Add the <code>SystemFont.cia</code> file to the SD Card.</p>
     </li>
     <li>
-      <p>Launch GodMode9.</p>
+      <p>Boot the console while holding the <code>Start</code> button to launch GodMode9.</p>
     </li>
     <li>
       <p>Browse and select the <code>SystemFont.cia</code> file.</p>

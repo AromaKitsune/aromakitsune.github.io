@@ -299,7 +299,7 @@ Last updated: 2024-10-07
   <div id="3DS_Uninstall" class="tabcontent_2">
     <ol>
       <li>
-        <p>Launch GodMode9.</p>
+        <p>Boot the console while holding the <code>Start</code> button to launch GodMode9.</p>
       </li>
       <li>
         <p>Go to <code>SDCARD:/luma/titles</code>.</p>
@@ -383,7 +383,7 @@ Last updated: 2024-10-07
 
   <ol>
     <li>
-      <p>Launch GodMode9.</p>
+      <p>Boot the console while holding the <code>Start</code> button to launch GodMode9.</p>
     </li>
     <li>
       <p>Press the <code>Home</code> button.</p>
@@ -457,7 +457,7 @@ Last updated: 2024-10-07
       <p>Add the downloaded CIA file to the SD Card.</p>
     </li>
     <li>
-      <p>Launch GodMode9.</p>
+      <p>Boot the console while holding the <code>Start</code> button to launch GodMode9.</p>
     </li>
     <li>
       <p>Browse and select the CIA file.</p>
@@ -498,7 +498,7 @@ Last updated: 2024-10-07
 
     <ol>
       <li>
-        <p>Launch GodMode9.</p>
+        <p>Boot the console while holding the <code>Start</code> button to launch GodMode9.</p>
       </li>
       <li>
         <p>Go to <code>SDCARD:/gm9/out</code> and select the <code>homemenu.cia</code> file.</p>
@@ -539,7 +539,7 @@ Last updated: 2024-10-07
         <p>Add the <code>HomeMenu_???.cia</code> file to the SD Card.</p>
       </li>
       <li>
-        <p>Launch GodMode9.</p>
+        <p>Boot the console while holding the <code>Start</code> button to launch GodMode9.</p>
       </li>
       <li>
         <p>Browse and select the <code>HomeMenu_???.cia</code> file.</p>
@@ -604,7 +604,7 @@ Last updated: 2024-10-07
         <p>Place it in the SD Card.</p>
       </li>
       <li>
-        <p>Launch GodMode9.</p>
+        <p>Boot the console while holding the <code>Start</code> button to launch GodMode9.</p>
       </li>
       <li>
         <p>Browse and select the <code>HomeMenu.cia</code> file.</p>
@@ -643,18 +643,83 @@ Last updated: 2024-10-07
   My Custom Home Menu UI with Coool's custom assets such as animations and dialogs
 
 <p class="note-blue">
-  These releases contain only the RomFS folder. Again, LayeredFS patching for applets is unstable, so crash may happen.
+  These releases contain only the RomFS folder. Again, LayeredFS patching for applets is unstable,
+  Home Menu crashes if the Home Menu is opened 11 times.
+  <br>
   It is recommended to compile a CIA file and install it so Home Menu doesn't crash.
-  <br>
-  <br>
-  To build it as a CIA file, follow
-  <a href="https://3ds.codeberg.page/homemenu/" target="_blank">
-  derberg's 3DS Home Menu Customization Guide</a>
-  for RomFS extraction (do not decompress all LZ files).
-  After extracting, copy the mod's RomFS contents to <code>/HMRT/ExtractedRomFS</code> (overwrite all),
-  launch HMRT and build a CIA file.
-  Launch GodMode9, encrypt the compiled CIA file and install it.
 </p>
+
+<ol>
+  <li>
+    <p>
+      Follow
+      <a href="https://3ds.codeberg.page/homemenu/" target="_blank">
+      derberg's 3DS Home Menu Customization Guide</a>
+      for RomFS extraction (do not decompress all LZ files).
+    </p>
+  </li>
+  <li>
+    <p>After extracting, copy the mod's RomFS contents to <code>/HMRT/ExtractedRomFS</code> (overwrite all).</p>
+    <ul>
+      <li>
+        <p>For ExeFS:</p>
+      </li>
+      <li>
+        <p><code>code.bin</code> goes to <code>/HMRT/ExtractedExeFS</code></p>
+      </li>
+      <li>
+        <p><code>exheader.bin</code> renamed as <code>DecryptedExHeader.bin</code> goes to <code>/HMRT/HMRT</code></p>
+      </li>
+      <li>
+        <p>
+          Instead of <code>code.bin</code>, the <code>code.ips</code> file is provided
+          and you must patch your original <code>code.bin</code> file with
+          <a href="https://fusoya.eludevisibility.org/lips/" target="_blank">
+          Lunar IPS</a>.
+        </p>
+      </li>
+      <li>
+        <p>Launch Lunar IPS.</p>
+      </li>
+      <li>
+        <p>Click "Apply IPS Patch".</p>
+      </li>
+      <li>
+        <p>Select the <code>code.ips</code> file and click "Open".</p>
+      </li>
+      <li>
+        <p>Click the "Most Common ROM Files" combo-box and select "All Files".</p>
+      </li>
+      <li>
+        <p>Select the original <code>code.bin</code> file and click "Open" to patch it.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Launch HMRT and build a CIA file.</p>
+  </li>
+  <li>
+    <p>Add the CIA file to the SD card.</p>
+  </li>
+  <li>
+    <p>Boot the console while holding the <code>Start</code> button to launch GodMode9.</p>
+  </li>
+  <li>
+    <p>Browse and select the compiled CIA file.</p>
+  </li>
+  <li>
+    <p>Select <code>CIA image options...</code> → <code>Encrypt file</code> → <code>Encrypt inplace</code>.</p>
+  </li>
+  <li>
+    <p>Select the encrypted CIA file again.</p>
+  </li>
+  <li>
+    <p>Select <code>CIA image options...</code> → <code>Install game image</code>.</p>
+  </li>
+  <li>
+    <p>Reboot the console.</p>
+  </li>
+</ol>
 
 <script src="/assets/js/gallery.js"></script>
 <script src="/assets/js/tabs_0.js"></script>

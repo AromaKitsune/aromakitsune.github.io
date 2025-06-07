@@ -41,11 +41,6 @@
   border: 1px solid $dm-brand-color-dark;
   border-top: none;
   margin-bottom: 15px;
-  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+  scroll-behavior: smooth;
 }
 
-/* Go from zero to full opacity */
-@keyframes fadeEffect {
-  from {opacity: 0;}
-  to {opacity: 1;}
-}
