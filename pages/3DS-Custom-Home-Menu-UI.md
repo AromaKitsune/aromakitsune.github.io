@@ -639,8 +639,8 @@ Last updated: 2024-10-07
   Fairly Simple Custom Home Menu by Lividhen</a>
 
 - <a href="https://github.com/AromaKitsune/aromakitsune.github.io/issues/1#issuecomment-2540272922" target="_blank">
-  Kitsune + Cooolgamer's Custom Home Menu</a> - 
-  My Custom Home Menu UI with Coool's custom assets such as animations and dialogs
+  Kitsune + Cooolgamer's Custom Home Menu by Misteryesman</a> - 
+  My Custom Home Menu UI combined with Coool's custom assets such as animations and dialogs
 
 <p class="note-blue">
   These releases contain only the RomFS folder. Again, LayeredFS patching for applets is unstable,
@@ -678,21 +678,26 @@ Last updated: 2024-10-07
           Lunar IPS</a>.
         </p>
       </li>
-      <li>
-        <p>Launch Lunar IPS.</p>
-      </li>
-      <li>
-        <p>Click "Apply IPS Patch".</p>
-      </li>
-      <li>
-        <p>Select the <code>code.ips</code> file and click "Open".</p>
-      </li>
-      <li>
-        <p>Click the "Most Common ROM Files" combo-box and select "All Files".</p>
-      </li>
-      <li>
-        <p>Select the original <code>code.bin</code> file and click "Open" to patch it.</p>
-      </li>
+      <ol>
+        <li>
+          <p>Launch Lunar IPS.</p>
+        </li>
+        <li>
+          <p>Click "Apply IPS Patch".</p>
+        </li>
+        <li>
+          <p>Select the <code>code.ips</code> file and click "Open".</p>
+        </li>
+        <li>
+          <p>Click the "Most Common ROM Files" combo-box and select "All Files".</p>
+        </li>
+        <li>
+          <p>Select the original <code>code.bin</code> file and click "Open" to patch it.</p>
+        </li>
+        <li>
+          <p>Copy the patched <code>code.bin</code> file to <code>/HMRT/ExtractedExeFS</code>.</p>
+        </li>
+      </ol>
     </ul>
   </li>
   <li>
