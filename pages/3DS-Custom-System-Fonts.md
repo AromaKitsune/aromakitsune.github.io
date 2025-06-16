@@ -283,7 +283,7 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
   </details>
 
   <p class="note-blue">
-    GodMode9 v2.0.0 or higher is required to install <code>.cia</code> files.
+    GodMode9 v2.0.0 or above is required to install <code>.cia</code> files.
     Get the
     <a href="https://github.com/d0k3/GodMode9" target="_blank">
     latest version of GodMode9 here</a>.
@@ -291,13 +291,13 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
 
   <ol>
     <li>
-      <p>Add the downloaded CIA file to the SD Card.</p>
+      <p>Add a downloaded CIA file to the SD Card.</p>
     </li>
     <li>
       <p>Boot the console while holding the <code>Start</code> button to launch GodMode9.</p>
     </li>
     <li>
-      <p>Browse and select the CIA file.</p>
+      <p>Browse and select a CIA file.</p>
     </li>
     <li>
       <p>Select <code>CIA image options...</code> → <code>Install game image</code>.</p>
@@ -346,7 +346,7 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
       <p>Navigate to <code>/load/mods/0004009B00014002/romfs</code>. Create folders if those don't exist.</p>
     </li>
     <li>
-      <p>Add the <code>cbf_std.bcfnt.lz</code> file here.</p>
+      <p>Add a <code>cbf_std.bcfnt.lz</code> file here.</p>
     </li>
     <li>
       <p>Launch the Home Menu by going to <code>File</code> → <code>Boot Home Menu</code> → <code>EUR</code>/<code>USA</code>/<code>JPN</code>.</p>
@@ -374,13 +374,13 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
       <p>Download the <a href="/files/3DS/SystemFont.cia">original system font</a>.</p>
     </li>
     <li>
-      <p>Add the <code>SystemFont.cia</code> file to the SD Card.</p>
+      <p>Add a <code>SystemFont.cia</code> file to the SD Card.</p>
     </li>
     <li>
       <p>Boot the console while holding the <code>Start</code> button to launch GodMode9.</p>
     </li>
     <li>
-      <p>Browse and select the <code>SystemFont.cia</code> file.</p>
+      <p>Browse and select a <code>SystemFont.cia</code> file.</p>
     </li>
     <li>
       <p>Select <code>CIA image options...</code> → <code>Install game image</code>.</p>

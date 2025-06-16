@@ -225,7 +225,7 @@ fontforge.activeFont().clear()
       </div>
     </li>
     <li>
-      <p>Go to <code>Element</code> → <code>Merge Fonts...</code> and select the Wii U font file.</p>
+      <p>Go to <code>Element</code> → <code>Merge Fonts...</code> and select a Wii U font file.</p>
     </li>
     <li>
       <p>Click <code>Yes</code> when prompted to retain kerning info.</p>
@@ -286,7 +286,7 @@ fontforge.activeFont().clear()
 <div id="Wii-U_Install" class="tabcontent_0">
   <ol>
     <li>
-      <p>Add the merged font file to <code>SDCARD:/wiiu/fonts</code>.</p>
+      <p>Add a merged font file to <code>SDCARD:/wiiu/fonts</code>.</p>
     </li>
     <li>
       <p>Open the Plugin menu (<code>L + D-Pad ↓ + Select</code>).</p>
@@ -298,7 +298,7 @@ fontforge.activeFont().clear()
       <p>Activate this plugin.</p>
     </li>
     <li>
-      <p>Select the merged font file for Standard font.</p>
+      <p>Select a merged font file for Standard font.</p>
     </li>
     <li>
       <p>Disable <code>Use custom fonts only for Wii U Menu</code> to apply the font system-wide.</p>
@@ -345,7 +345,7 @@ fontforge.activeFont().clear()
       <p>Navigate to <code>/sys/title/0005001b/10042400/content</code>. Create folders if those don't exist.</p>
     </li>
     <li>
-      <p>Add the <code>CafeStd.ttf</code> file here.</p>
+      <p>Add a <code>CafeStd.ttf</code> file here.</p>
     </li>
     <li>
       <p>Launch any of the system apps (if installed) and see how the custom system font looks.</p>

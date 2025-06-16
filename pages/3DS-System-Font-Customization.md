@@ -271,7 +271,7 @@ fontforge.activeFont().clear()
       </div>
     </li>
     <li>
-      <p>Go to <code>Element</code> → <code>Merge Fonts...</code> and select the 3DS font file.</p>
+      <p>Go to <code>Element</code> → <code>Merge Fonts...</code> and select a 3DS font file.</p>
     </li>
     <li>
       <p>Click <code>Yes</code> when prompted to retain kerning info.</p>
@@ -330,7 +330,7 @@ fontforge.activeFont().clear()
     - If you're on a laptop and the screen resolution is 1080p with high DPI scaling, launch Settings,
       go to `System` → `Display` → `Scale & layout`, and temporarily set the `Scaling` value to `100%`.
 
-5.  Activate the `Use filter` check-box, click `Select file`, go to the `xllt` folder and select the `3ds_bitmap_font_std.xllt` file.
+5.  Activate the `Use filter` check-box, click `Select file`, go to the `xllt` folder and select a `3ds_bitmap_font_std.xllt` file.
 
     - This will clear out all the glyphs not used in 3DS games/apps, reducing the font file size.
       Max file size for compressed BCFNT file (after running FontTool) is 1.5 MiB.
@@ -399,7 +399,7 @@ fontforge.activeFont().clear()
 <!-- Tab content -->
 <div id="3DS_Install" class="tabcontent_0">
   <p class="note-blue">
-    GodMode9 v2.0.0 or higher is required to install <code>.cia</code> files.
+    GodMode9 v2.0.0 or above is required to install <code>.cia</code> files.
     Get the
     <a href="https://github.com/d0k3/GodMode9" target="_blank">
     latest version of GodMode9 here</a>.
@@ -407,13 +407,13 @@ fontforge.activeFont().clear()
 
   <ol>
     <li>
-      <p>Add the generated CIA file to the SD Card.</p>
+      <p>Add a generated CIA file to the SD Card.</p>
     </li>
     <li>
       <p>Boot the console while holding the <code>Start</code> button to launch GodMode9.</p>
     </li>
     <li>
-      <p>Browse and select the CIA file.</p>
+      <p>Browse and select a CIA file.</p>
     </li>
     <li>
       <p>Select <code>CIA image options...</code> → <code>Install game image</code>.</p>
@@ -474,7 +474,7 @@ fontforge.activeFont().clear()
       <p>Navigate to <code>/load/mods/0004009B00014002/romfs</code>. Create folders if those don't exist.</p>
     </li>
     <li>
-      <p>Add the <code>cbf_std.bcfnt.lz</code> file here.</p>
+      <p>Add a <code>cbf_std.bcfnt.lz</code> file here.</p>
     </li>
     <li>
       <p>Launch the Home Menu by going to <code>File</code> → <code>Boot Home Menu</code> → <code>EUR</code>/<code>USA</code>/<code>JPN</code>.</p>
@@ -514,13 +514,13 @@ fontforge.activeFont().clear()
       <p>Download the <a href="/files/3DS/SystemFont.cia">original system font</a>.</p>
     </li>
     <li>
-      <p>Add the <code>SystemFont.cia</code> file to the SD Card.</p>
+      <p>Add a <code>SystemFont.cia</code> file to the SD Card.</p>
     </li>
     <li>
       <p>Boot the console while holding the <code>Start</code> button to launch GodMode9.</p>
     </li>
     <li>
-      <p>Browse and select the <code>SystemFont.cia</code> file.</p>
+      <p>Browse and select a <code>SystemFont.cia</code> file.</p>
     </li>
     <li>
       <p>Select <code>CIA image options...</code> → <code>Install game image</code>.</p>

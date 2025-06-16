@@ -446,7 +446,7 @@ Last updated: 2024-10-07
     The CIA file must be installed with GodMode9. Do not install it with FBI,
     the installation will fail as the Home Menu applet is being used by another process.
     <br>
-    GodMode9 v2.0.0 or higher is required to install <code>.cia</code> files.
+    GodMode9 v2.0.0 or above is required to install <code>.cia</code> files.
     Get the
     <a href="https://github.com/d0k3/GodMode9" target="_blank">
     latest version of GodMode9 here</a>.
@@ -454,13 +454,13 @@ Last updated: 2024-10-07
 
   <ol>
     <li>
-      <p>Add the downloaded CIA file to the SD Card.</p>
+      <p>Add a downloaded CIA file to the SD Card.</p>
     </li>
     <li>
       <p>Boot the console while holding the <code>Start</code> button to launch GodMode9.</p>
     </li>
     <li>
-      <p>Browse and select the CIA file.</p>
+      <p>Browse and select a CIA file.</p>
     </li>
     <li>
       <p>Select <code>CIA image options...</code> → <code>Install game image</code>.</p>
@@ -501,7 +501,7 @@ Last updated: 2024-10-07
         <p>Boot the console while holding the <code>Start</code> button to launch GodMode9.</p>
       </li>
       <li>
-        <p>Go to <code>SDCARD:/gm9/out</code> and select the <code>homemenu.cia</code> file.</p>
+        <p>Go to <code>SDCARD:/gm9/out</code> and select a <code>homemenu.cia</code> file.</p>
       </li>
       <li>
         <p>Select <code>CIA image options...</code> → <code>Install game image</code>.</p>
@@ -536,13 +536,13 @@ Last updated: 2024-10-07
         </ul>
       </li>
       <li>
-        <p>Add the <code>HomeMenu_???.cia</code> file to the SD Card.</p>
+        <p>Add a <code>HomeMenu_???.cia</code> file to the SD Card.</p>
       </li>
       <li>
         <p>Boot the console while holding the <code>Start</code> button to launch GodMode9.</p>
       </li>
       <li>
-        <p>Browse and select the <code>HomeMenu_???.cia</code> file.</p>
+        <p>Browse and select a <code>HomeMenu_???.cia</code> file.</p>
       </li>
       <li>
         <p>Select <code>CIA image options...</code> → <code>Install game image</code>.</p>
@@ -607,7 +607,7 @@ Last updated: 2024-10-07
         <p>Boot the console while holding the <code>Start</code> button to launch GodMode9.</p>
       </li>
       <li>
-        <p>Browse and select the <code>HomeMenu.cia</code> file.</p>
+        <p>Browse and select a <code>HomeMenu.cia</code> file.</p>
       </li>
       <li>
         <p>Select <code>CIA image options...</code> → <code>Install game image</code>.</p>
@@ -686,13 +686,13 @@ Last updated: 2024-10-07
           <p>Click "Apply IPS Patch".</p>
         </li>
         <li>
-          <p>Select the <code>code.ips</code> file and click "Open".</p>
+          <p>Select a <code>code.ips</code> file and click "Open".</p>
         </li>
         <li>
           <p>Click the "Most Common ROM Files" combo-box and select "All Files".</p>
         </li>
         <li>
-          <p>Select the original <code>code.bin</code> file and click "Open" to patch it.</p>
+          <p>Select an original <code>code.bin</code> file and click "Open" to patch it.</p>
         </li>
         <li>
           <p>Copy the patched <code>code.bin</code> file to <code>/HMRT/ExtractedExeFS</code>.</p>
@@ -704,19 +704,19 @@ Last updated: 2024-10-07
     <p>Launch HMRT and build a CIA file.</p>
   </li>
   <li>
-    <p>Add the CIA file to the SD card.</p>
+    <p>Add a CIA file to the SD card.</p>
   </li>
   <li>
     <p>Boot the console while holding the <code>Start</code> button to launch GodMode9.</p>
   </li>
   <li>
-    <p>Browse and select the compiled CIA file.</p>
+    <p>Browse and select a compiled CIA file.</p>
   </li>
   <li>
     <p>Select <code>CIA image options...</code> → <code>Encrypt file</code> → <code>Encrypt inplace</code>.</p>
   </li>
   <li>
-    <p>Select the encrypted CIA file again.</p>
+    <p>Select an encrypted CIA file again.</p>
   </li>
   <li>
     <p>Select <code>CIA image options...</code> → <code>Install game image</code>.</p>
