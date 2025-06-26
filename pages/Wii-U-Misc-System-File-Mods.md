@@ -6,6 +6,19 @@ permalink: /Wii-U-Misc-System-File-Mods
 
 A variety of miscellaneous system file mods for the Wii U.
 
+<p class="note-yellow">
+  You are about to modify system files in the MLC NAND! Proceed with caution.
+</p>
+
+
+## Custom Keyboard Layout
+
+A custom keyboard made by RoGamer97, it contains additional glyphs/symbols that normally cannot be typed in.
+
+### Download:
+
+[from YouTube video](https://youtu.be/Ddflr63MkSM)
+
 
 ## Remove Profanity Filter
 
@@ -20,10 +33,6 @@ Based on a [3DS version of filter removal mod by SeanTheGleaming on r/3DSHacks R
 - [Enable filter](/files/Wii-U/EnableFilter.zip)
 
 ### Installation
-
-<p class="note-yellow">
-  You are about to modify system files in the MLC NAND! Proceed with caution.
-</p>
 
 This setup requires FTPiiU for Wii U, FTP client such as WinSCP for PC.
 

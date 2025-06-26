@@ -21,7 +21,7 @@ A custom keyboard made by Cooolgamer, it contains additional glyphs/symbols that
 
 ### Download:
 
-[Download from GitHub](https://github.com/cooolgamer/3DS-custom-keyboard)
+[from GitHub repo](https://github.com/cooolgamer/3DS-custom-keyboard)
 
 
 ## Remove Profanity Filter
