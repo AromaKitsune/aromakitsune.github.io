@@ -32,7 +32,7 @@ for creating your own custom system font for 3DS!
     <li>
       <p>
         <a href="#yuruka">
-        Yuruka Font (incomplete)</a>
+        Yuruka Font</a>
       </p>
     </li>
     <li>
@@ -178,10 +178,6 @@ It is commonly used for the UI in Paper Mario games.
 
 ## Yuruka
 
-<p class="note-blue">
-  Incomplete section. These font files will be added soon!
-</p>
-
 Yuruka (ユールカ) is a Point of Purchase typeface
 <a href="https://fontworks.co.jp/fontsearch/yurukastd-ub/" target="_blank">
 designed by Fontworks</a>.
@@ -190,13 +186,11 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
 
 <div align="center">
   <p class="image">
-    <img src="/images/Placeholder-Screenshot_Yuruka-Font.png">
+    <img src="/images/3DS/Yuruka-Font.png">
     <br><br>
-    <img src="/images/3DS/placeholder-Font.png">
+    <img src="/images/Yuruka-Font_1.png">
     <br><br>
-    <img src="/images/placeholder-Font_1.png">
-    <br><br>
-    <img src="/images/placeholder-Font_2.png">
+    <img src="/images/Yuruka-Font_2.png">
   </p>
 </div>
 
@@ -215,13 +209,13 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
 
 ### Download Font:
 
-- [CIA - for 3DS](/files/3DS/placeholderFont.cia)
+- [CIA - for 3DS](/files/3DS/YurukaFont.cia)
 
-- [BCFNT - for Azahar Emulator](/files/3DS/placeholderFont.bcfnt.lz)
+- [BCFNT - for Azahar Emulator](/files/3DS/Yuruka.bcfnt.lz)
 
-- [OTF - for anything else](/files/placeholder.otf)
+- [OTF - for anything else](/files/FOT-YurukaStd-UB.otf)
 
-- [TTF - for anything else](/files/placeholder.ttf) (Fixed side-bearings)
+- [TTF - for anything else](/files/YurukaStd-UB.ttf) (Fixed side-bearings)
 
 <details class="expandable-details">
   <summary>
@@ -490,6 +484,26 @@ Some screenshots of games officially using those fonts.
     <br>
   </div>
 
+  <div class="mySlides_gallery" align="center">
+    <img src="/images/Project-Sekai_Stamps.png">
+    Hatsune Miku: Colorful Stage!
+    <br>
+    Yuruka font used for
+    <a href="https://projectsekai.fandom.com/wiki/Stamps" target="_blank">
+    Stamps</a>.
+    <br>
+    <br>
+  </div>
+
+  <div class="mySlides_gallery" align="center">
+    <img src="/images/Mario-&-Luigi-Brothership_Main-Menu.png">
+    Mario & Luigi: Brothership
+    <br>
+    Yuruka font used for menus and HUD's.
+    <br>
+    <br>
+  </div>
+
   <!-- Next and previous buttons -->
   <a class="prev_gallery" onclick="plusSlides(-1)">&#10094;</a>
   <a class="next_gallery" onclick="plusSlides(1)">&#10095;</a>
@@ -529,6 +543,16 @@ Some screenshots of games officially using those fonts.
     <div class="column_gallery">
       <img class="demo_gallery cursor_gallery" src="/images/Paper-Mario-The-Origami-King_Dialogue.png"
         style="width:100%" onclick="currentSlide(7)">
+    </div>
+
+    <div class="column_gallery">
+      <img class="demo_gallery cursor_gallery" src="/images/Project-Sekai_Stamps_GalleryPreview.png"
+        style="width:100%" onclick="currentSlide(8)">
+    </div>
+
+    <div class="column_gallery">
+      <img class="demo_gallery cursor_gallery" src="/images/Mario-&-Luigi-Brothership_Main-Menu.png"
+        style="width:100%" onclick="currentSlide(9)">
     </div>
   </div>
 </div>
