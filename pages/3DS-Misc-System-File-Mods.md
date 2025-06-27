@@ -28,7 +28,7 @@ A custom keyboard made by Cooolgamer, it contains additional glyphs/symbols that
 
 This mod completely removes the profanity filter from the system, allowing you to type profanity words.
 
-Filter removal mod by [SeanTheGleaming on r/3DSHacks Reddit](https://www.reddit.com/r/3dshacks/comments/w9vmtw).
+Profanity filter removal mod by [SeanTheGleaming on r/3DSHacks Reddit](https://www.reddit.com/r/3dshacks/comments/w9vmtw).
 
 ### Download:
 

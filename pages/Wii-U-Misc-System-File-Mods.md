@@ -24,7 +24,7 @@ A custom keyboard made by RoGamer97, it contains additional glyphs/symbols that 
 
 This mod completely removes the profanity filter from the system, allowing you to type profanity words.
 
-Based on a [3DS version of filter removal mod by SeanTheGleaming on r/3DSHacks Reddit](https://www.reddit.com/r/3dshacks/comments/w9vmtw).
+Based on a [3DS version of profanity filter removal mod by SeanTheGleaming on r/3DSHacks Reddit](https://www.reddit.com/r/3dshacks/comments/w9vmtw).
 
 ### Download:
 
