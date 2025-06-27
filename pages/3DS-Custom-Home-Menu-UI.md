@@ -638,7 +638,7 @@ Last updated: 2024-10-07
 - <a href="https://github.com/lividhen/HomeMenu_Custom" target="_blank">
   Fairly Simple Custom Home Menu by Lividhen</a>
 
-- <a href="https://github.com/AromaKitsune/aromakitsune.github.io/issues/1#issuecomment-2540272922" target="_blank">
+- <a href="https://github.com/AromaKitsune/aromakitsune.github.io/discussions/3#discussioncomment-13598964" target="_blank">
   Kitsune + Cooolgamer's Custom Home Menu by Misteryesman</a> - 
   My Custom Home Menu UI combined with Coool's custom assets such as animations and dialogs
 
