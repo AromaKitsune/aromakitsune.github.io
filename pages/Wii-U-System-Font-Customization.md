@@ -53,9 +53,11 @@ A guide for customizing the system-wide font on the Wii U.
 
 ## Getting Started
 
-Aroma custom firmware is required to use the mod.
-<a href="https://wiiu.hacks.guide/" target="_blank">
-Install CFW if you haven't already.</a>
+<p class="note-blue">
+  Aroma custom firmware is required to use the mod.
+  <a href="https://wiiu.hacks.guide/" target="_blank">
+  Install CFW if you haven't already.</a>
+</p>
 
 <p class="note-blue">
   No system files in the MLC NAND are modified in the process. The custom system font is loaded into RAM only,

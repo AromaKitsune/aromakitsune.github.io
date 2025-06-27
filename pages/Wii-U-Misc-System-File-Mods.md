@@ -6,6 +6,12 @@ permalink: /Wii-U-Misc-System-File-Mods
 
 A variety of miscellaneous system file mods for the Wii U.
 
+<p class="note-blue">
+  Aroma custom firmware is required to use the mod.
+  <a href="https://wiiu.hacks.guide/" target="_blank">
+  Install CFW if you haven't already.</a>
+</p>
+
 <p class="note-yellow">
   You are about to modify system files in the MLC NAND! Proceed with caution.
 </p>

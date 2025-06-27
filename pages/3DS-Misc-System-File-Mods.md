@@ -7,6 +7,12 @@ permalink: /3DS-Misc-System-File-Mods
 A variety of miscellaneous system file mods for the Nintendo 3DS.
 
 <p class="note-blue">
+  Luma3DS custom firmware is required to use the mod.
+  <a href="https://3ds.hacks.guide/" target="_blank">
+  Install CFW if you haven't already.</a>
+</p>
+
+<p class="note-blue">
   Create a NAND backup before modifying any system files!
   Modifying the system file is safe since Boot9Strap provides brick protection,
   allowing recovery with GodMode9.

@@ -235,7 +235,7 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
 
 <!-- Tab content -->
 <div id="Wii-U_Install" class="tabcontent_0">
-  <p>
+  <p class="note-blue">
     Aroma custom firmware is required to use the mod.
     <a href="https://wiiu.hacks.guide/" target="_blank">
     Install CFW if you haven't already.</a>
