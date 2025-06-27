@@ -6,6 +6,11 @@ permalink: /3DS-Custom-System-Fonts
 
 A variety of custom system-wide fonts for the Nintendo 3DS.
 
+This page provides Fontworks fonts for 3DS. If you want a collection of these OTF fonts for other uses,
+you can get them from the
+<a href="https://archive.org/details/Fontworks" target="_blank">
+Internet Archive</a>.
+
 Check out the
 [System Font Customization Guide](/3DS-System-Font-Customization)
 for creating your own custom system font for 3DS!

@@ -13,7 +13,7 @@ A variety of miscellaneous system file mods for the Wii U.
 </p>
 
 <p class="note-yellow">
-  You are about to modify system files in the MLC NAND! Proceed with caution.
+  You are about to modify system files in the MLC/SLC NAND! Proceed with caution.
 </p>
 
 
@@ -23,14 +23,14 @@ A custom keyboard layout made by RoGamer97, it contains additional glyphs/symbol
 
 ### Download:
 
-[from YouTube video](https://youtu.be/Ddflr63MkSM)
+[from RoGamer97's YouTube video](https://youtu.be/Ddflr63MkSM)
 
 
 ## Remove Profanity Filter
 
-This mod completely removes the profanity filter from the system, allowing you to type profanity words.
+A mod that completely removes the profanity filter from the system, allowing you to type profanity words.
 
-Based on a [3DS version of profanity filter removal mod by SeanTheGleaming on r/3DSHacks Reddit](https://www.reddit.com/r/3dshacks/comments/w9vmtw).
+Based on a 3DS version of profanity filter removal mod by [SeanTheGleaming on r/3DSHacks Reddit](https://www.reddit.com/r/3dshacks/comments/w9vmtw).
 
 ### Download:
 
@@ -42,7 +42,7 @@ Based on a [3DS version of profanity filter removal mod by SeanTheGleaming on r/
 
 This setup requires FTPiiU for Wii U, FTP client such as WinSCP for PC.
 
-1. Open the Plugin menu (`L + D-Pad ↓ + Select`).
+1. Open the Plugin menu (`L` + `D-Pad ↓` + `Select`).
 
 2. Go to FTPiiU.
 

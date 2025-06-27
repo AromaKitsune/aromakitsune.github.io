@@ -27,12 +27,12 @@ A custom keyboard layout made by Cooolgamer, it contains additional glyphs/symbo
 
 ### Download:
 
-[from GitHub repo](https://github.com/cooolgamer/3DS-custom-keyboard)
+[from Cooolgamer's GitHub repo](https://github.com/cooolgamer/3DS-custom-keyboard)
 
 
 ## Remove Profanity Filter
 
-This mod completely removes the profanity filter from the system, allowing you to type profanity words.
+A mod that completely removes the profanity filter from the system, allowing you to type profanity words.
 
 Profanity filter removal mod by [SeanTheGleaming on r/3DSHacks Reddit](https://www.reddit.com/r/3dshacks/comments/w9vmtw).
 

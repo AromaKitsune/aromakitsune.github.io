@@ -6,6 +6,11 @@ permalink: /Wii-U-Custom-System-Fonts
 
 A variety of custom system-wide fonts for the Wii U.
 
+This page provides Fontworks fonts for Wii U. If you want a collection of these OTF fonts for other uses,
+you can get them from the
+<a href="https://archive.org/details/Fontworks" target="_blank">
+Internet Archive</a>.
+
 Check out the
 [System Font Customization Guide](/Wii-U-System-Font-Customization)
 for creating your own custom system font for Wii U!
@@ -175,7 +180,7 @@ It is commonly used for the UI in Paper Mario games.
 ## Yuruka
 
 Yuruka (ユールカ) is a Point of Purchase typeface
-<a href="https://fontworks.co.jp/fontsearch/pophappinessstd-eb/" target="_blank">
+<a href="https://fontworks.co.jp/fontsearch/yurukastd-ub/" target="_blank">
 designed by Fontworks</a>.
 
 It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Miku: Colorful Stage!.
@@ -257,7 +262,7 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
       <p>Add a downloaded font file to <code>SDCARD:/wiiu/fonts</code>.</p>
     </li>
     <li>
-      <p>Open the Plugin menu (<code>L + D-Pad ↓ + Select</code>).</p>
+      <p>Open the Plugin menu (<code>L</code> + <code>D-Pad ↓</code> + <code>Select</code>).</p>
     </li>
     <li>
       <p>Go to System Font Replacer.</p>
@@ -338,7 +343,7 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
 <div id="Wii-U_Uninstall" class="tabcontent_1">
   <ol>
     <li>
-      <p>Open the Plugin menu (<code>L + D-Pad ↓ + Select</code>).</p>
+      <p>Open the Plugin menu (<code>L</code> + <code>D-Pad ↓</code> + <code>Select</code>).</p>
     </li>
     <li>
       <p>Go to System Font Replacer.</p>

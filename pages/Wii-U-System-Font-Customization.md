@@ -291,7 +291,7 @@ fontforge.activeFont().clear()
       <p>Add a merged font file to <code>SDCARD:/wiiu/fonts</code>.</p>
     </li>
     <li>
-      <p>Open the Plugin menu (<code>L + D-Pad ↓ + Select</code>).</p>
+      <p>Open the Plugin menu (<code>L</code> + <code>D-Pad ↓</code> + <code>Select</code>).</p>
     </li>
     <li>
       <p>Go to System Font Replacer.</p>
@@ -372,7 +372,7 @@ fontforge.activeFont().clear()
 <div id="Wii-U_Uninstall" class="tabcontent_1">
   <ol>
     <li>
-      <p>Open the Plugin menu (<code>L + D-Pad ↓ + Select</code>).</p>
+      <p>Open the Plugin menu (<code>L</code> + <code>D-Pad ↓</code> + <code>Select</code>).</p>
     </li>
     <li>
       <p>Go to System Font Replacer.</p>
