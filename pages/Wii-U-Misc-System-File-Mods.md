@@ -13,7 +13,7 @@ A variety of miscellaneous system file mods for the Wii U.
 
 ## Custom Keyboard Layout
 
-A custom keyboard made by RoGamer97, it contains additional glyphs/symbols that normally cannot be typed in.
+A custom keyboard layout made by RoGamer97, it contains additional glyphs/symbols that normally cannot be typed in.
 
 ### Download:
 
