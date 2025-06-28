@@ -21,9 +21,10 @@ A variety of miscellaneous system file mods for the Wii U.
 
 A custom keyboard layout made by RoGamer97, it contains additional glyphs/symbols that can be typed in.
 
-### Download:
+### Download from:
 
-[from RoGamer97's YouTube video](https://youtu.be/Ddflr63MkSM)
+<a href="https://youtu.be/Ddflr63MkSM" target="_blank">
+RoGamer97's YouTube video</a>
 
 Please watch this video carefuly! Ro tells you to backup your original keyboard so you can restore it if you dont want their keyboard anymore!
 
@@ -32,7 +33,9 @@ Please watch this video carefuly! Ro tells you to backup your original keyboard 
 
 A mod that completely removes the profanity filter from the system, allowing you to type profanity words.
 
-Based on a 3DS version of profanity filter removal mod by [SeanTheGleaming on r/3DSHacks Reddit](https://www.reddit.com/r/3dshacks/comments/w9vmtw).
+Based on a 3DS version of profanity filter removal mod by
+<a href="https://www.reddit.com/r/3dshacks/comments/w9vmtw" target="_blank">
+SeanTheGleaming on r/3DSHacks Reddit</a>.
 
 ### Download:
 

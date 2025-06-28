@@ -25,18 +25,22 @@ A variety of miscellaneous system file mods for the Nintendo 3DS.
 
 Some custom keyboard layouts made by other people, these contain additional glyphs/symbols that can be typed in.
 
-### Download:
+### Download from:
 
-[from Cooolgamer's GitHub repo](https://github.com/cooolgamer/3DS-custom-keyboard)
+<a href="https://github.com/cooolgamer/3DS-custom-keyboard" target="_blank">
+Cooolgamer's GitHub repo</a>
 
-[Jess's Custom Keyboard repo (made by fwdrxyy to preserve it)](https://github.com/fwdrxyy/JESS-3DS-Custom-Keyboard)
+<a href="https://github.com/fwdrxyy/JESS-3DS-Custom-Keyboard" target="_blank">
+Jess's Custom Keyboard repo (made by fwdrxyy to preserve it)</a>
 
 
 ## Remove Profanity Filter
 
 A mod that completely removes the profanity filter from the system, allowing you to type profanity words.
 
-Profanity filter removal mod by [SeanTheGleaming on r/3DSHacks Reddit](https://www.reddit.com/r/3dshacks/comments/w9vmtw).
+Profanity filter removal mod by
+<a href="https://www.reddit.com/r/3dshacks/comments/w9vmtw" target="_blank">
+SeanTheGleaming on r/3DSHacks Reddit</a>.
 
 ### Download:
 
