@@ -28,6 +28,7 @@ A custom keyboard layout made by Cooolgamer, it contains additional glyphs/symbo
 ### Download:
 
 [from Cooolgamer's GitHub repo](https://github.com/cooolgamer/3DS-custom-keyboard)
+[Jess's Custom Keyboard repo (made by fwdrxyy to preserve it](https://github.com/fwdrxyy/JESS-3DS-Custom-Keyboard)
 
 
 ## Remove Profanity Filter
