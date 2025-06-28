@@ -23,12 +23,13 @@ A variety of miscellaneous system file mods for the Nintendo 3DS.
 
 ## Custom Keyboard Layout
 
-A custom keyboard layout made by Cooolgamer, it contains additional glyphs/symbols that normally cannot be typed in.
+Some custom keyboard layouts made by other people, these contain additional glyphs/symbols that can be typed in.
 
 ### Download:
 
 [from Cooolgamer's GitHub repo](https://github.com/cooolgamer/3DS-custom-keyboard)
-[Jess's Custom Keyboard repo (made by fwdrxyy to preserve it](https://github.com/fwdrxyy/JESS-3DS-Custom-Keyboard)
+
+[Jess's Custom Keyboard repo (made by fwdrxyy to preserve it)](https://github.com/fwdrxyy/JESS-3DS-Custom-Keyboard)
 
 
 ## Remove Profanity Filter

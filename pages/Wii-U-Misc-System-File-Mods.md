@@ -19,11 +19,12 @@ A variety of miscellaneous system file mods for the Wii U.
 
 ## Custom Keyboard Layout
 
-A custom keyboard layout made by RoGamer97, it contains additional glyphs/symbols that normally cannot be typed in.
+A custom keyboard layout made by RoGamer97, it contains additional glyphs/symbols that can be typed in.
 
 ### Download:
 
 [from RoGamer97's YouTube video](https://youtu.be/Ddflr63MkSM)
+
 Please watch this video carefuly! Ro tells you to backup your original keyboard so you can restore it if you dont want their keyboard anymore!
 
 
