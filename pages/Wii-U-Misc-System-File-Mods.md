@@ -66,6 +66,6 @@ This setup requires FTPiiU for Wii U, FTP client such as WinSCP for PC.
 9. Reboot the console.
 
 <p class="note-yellow">
-  Take care not to send something offensive on custom online services such as Pretendo Network.
+  Do not send something offensive on custom online services such as Pretendo Network.
   You may get banned from those services for doing so.
 </p>

@@ -51,6 +51,6 @@ SeanTheGleaming on r/3DSHacks Reddit</a>.
 To use it, install a CIA file with FBI or GodMode9.
 
 <p class="note-yellow">
-  Take care not to send something offensive on custom online services such as Pretendo Network or NetPass.
+  Do not send something offensive on custom online services such as Pretendo Network or NetPass.
   You may get banned from those services for doing so.
 </p>
