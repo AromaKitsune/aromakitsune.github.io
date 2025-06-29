@@ -212,7 +212,7 @@ Last updated: 2024-10-07
       during the whole session (after booting the system).
       <br>
       <b>This method should be used for testing purposes.</b>
-      To avoid crashes, install this mod with the CIA file instead.
+      To avoid crashes, install this mod with a CIA file instead.
     </p>
 
     <ol>
@@ -376,7 +376,7 @@ Last updated: 2024-10-07
     Install CFW if you haven't already.</a>
   </p>
 
-  <p>
+  <p class="note-blue">
     The Home Menu applet will be backed up to the SD card
     so if you modified the Home Menu applet, you can restore it.
   </p>
