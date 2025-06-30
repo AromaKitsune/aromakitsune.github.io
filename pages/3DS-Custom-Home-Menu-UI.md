@@ -299,8 +299,9 @@ Last updated: 2024-10-07
   <div id="3DS_Uninstall" class="tabcontent_2">
     <p class="note-blue">
       This section is for removing a LayeredFS patch.
-      If you intend to undo the system file replacement (CIA file),
-      scroll up and switch to the <code>System File Replacement (CIA File)</code> tab.
+      If you replaced the system file with a CIA file:
+      scroll up, switch to the <code>System File Replacement (CIA File)</code> tab,
+      and scroll down again to the <code>Restoring the Home Menu Applet</code> section.
     </p>
 
     <ol>
