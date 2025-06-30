@@ -297,6 +297,12 @@ Last updated: 2024-10-07
 
   <!-- Tab content -->
   <div id="3DS_Uninstall" class="tabcontent_2">
+    <p class="note-blue">
+      This section is for removing a LayeredFS patch.
+      If you intend to undo the system file replacement (CIA file),
+      scroll up and switch to the <code>System File Replacement (CIA File)</code> tab.
+    </p>
+
     <ol>
       <li>
         <p>Boot the console while holding the <code>Start</code> button to launch GodMode9.</p>
