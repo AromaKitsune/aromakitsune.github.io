@@ -33,7 +33,9 @@ Twitter</a>
 <a href="https://www.youtube.com/@AromaKitsune" target="_blank">
 YouTube</a>
 
-For general questions about my mods, you can DM me on Discord.
+For general discussions/questions about my mods, you can DM me on Discord, or post on the
+<a href="https://github.com/AromaKitsune/aromakitsune.github.io/discussions" target="_blank">
+Discussions section on my GitHub repo</a>.
 
 If you find any errors on this site, post a report on
 <a href="https://github.com/AromaKitsune/aromakitsune.github.io/issues" target="_blank">
