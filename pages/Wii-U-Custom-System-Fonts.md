@@ -6,7 +6,7 @@ permalink: /Wii-U-Custom-System-Fonts
 
 A variety of custom system-wide fonts for the Wii U.
 
-This page provides Fontworks fonts for Wii U. If you want a collection of these OTF fonts for other uses,
+This page provides a few Fontworks fonts for Wii U. If you want a collection of these OTF fonts for other uses,
 you can get them from the
 <a href="https://archive.org/details/Fontworks" target="_blank">
 Internet Archive</a>.
