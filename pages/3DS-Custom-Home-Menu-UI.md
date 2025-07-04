@@ -26,7 +26,13 @@ for creating your own customized Home Menu UI for 3DS!
     <li>
       <p>
         <a href="#choose-how-you-want-to-install-the-mod">
-        Installing & Uninstalling the Mod</a>
+        Installing the Mod</a>
+      </p>
+    </li>
+    <li>
+      <p>
+        <a href="#uninstalling-the-mod">
+        Uninstalling the Mod</a>
       </p>
     </li>
     <li>
@@ -178,12 +184,12 @@ Last updated: 2024-10-07
 
 <!-- Tab links -->
 <div class="tab_fullwidth_0">
-  <button class="tablinks_fullwidth_0" onclick="openTab_fullwidth_0(event, 'LayeredFS')" id="defaultOpen_fullwidth_0">SD Card File Redirection (LayeredFS)</button>
-  <button class="tablinks_fullwidth_0" onclick="openTab_fullwidth_0(event, 'CIA_File')">System File Replacement (CIA File)</button>
+  <button class="tablinks_fullwidth_0" onclick="openTab_fullwidth_0(event, 'LayeredFS_Install')" id="defaultOpen_fullwidth_0">SD Card File Redirection (LayeredFS)</button>
+  <button class="tablinks_fullwidth_0" onclick="openTab_fullwidth_0(event, 'CIA_File_Install')">System File Replacement (CIA File)</button>
 </div>
 
 <!-- Tab content -->
-<div id="LayeredFS" class="tabcontent_fullwidth_0">
+<div id="LayeredFS_Install" class="tabcontent_fullwidth_0">
   <h2 id="adding-the-home-menu-applet-patch">
   Adding the Home Menu Applet Patch</h2>
 
@@ -284,8 +290,133 @@ Last updated: 2024-10-07
       The custom Home Menu UI has been installed.
     </p>
   </div>
+</div>
+
+<!-- Tab content -->
+<div id="CIA_File_Install" class="tabcontent_fullwidth_0">
+  <h2 id="backing-up-the-home-menu-applet">
+  Backing Up the Home Menu Applet</h2>
+
+  <p class="note-blue">
+    Luma3DS custom firmware is required to use the mod.
+    <a href="https://3ds.hacks.guide/" target="_blank">
+    Install CFW if you haven't already.</a>
+  </p>
+
+  <p class="note-blue">
+    The Home Menu applet will be backed up to the SD card
+    so if you modified the Home Menu applet, you can restore it.
+  </p>
+
+  <ol>
+    <li>
+      <p>Boot the console while holding the <code>Start</code> button to launch GodMode9.</p>
+    </li>
+    <li>
+      <p>Press the <code>Home</code> button.</p>
+    </li>
+    <li>
+      <p>Select <code>Scripts...</code> → <code>GM9Megascript</code> → <code>Miscellaneous</code> → <code>Title Options</code> → <code>Dump HomeMenu to .cia</code>.</p>
+    </li>
+    <li>
+      <p>Proceed dumping this system applet.</p>
+    </li>
+    <li>
+      <p>If it asks you to decrypt the CIA file afterwards, select &quot;No&quot;.</p>
+    </li>
+  </ol>
+
+  <p class="note-green">
+    The <code>homemenu.cia</code> file is saved to <code>SDCARD:/gm9/out</code>.
+    Copy that file to a safe place in your computer.
+  </p>
 
 
+  <h2 id="installing-the-custom-home-menu-applet">
+  Installing the Custom Home Menu Applet</h2>
+
+  <p class="note-blue">
+    Create a NAND backup before modifying any system files!
+    Modifying the Home Menu applet is safe since Boot9Strap provides brick protection,
+    allowing recovery with GodMode9.
+    If you messed up and the Home Menu fails to launch,
+    use GodMode9 to restore the Home Menu applet.
+  </p>
+
+  <p class="note-red">
+    Never uninstall CFW while any modded system files are installed,
+    doing so will remove Boot9Strap and <b>fully</b> brick the console!
+    If you fully bricked your console, you'll need a
+    <a href="https://www.flashcarts.net/ds-quick-start-guide" target="_blank">
+    DS flashcart with ntrboot</a>
+    to re-install Boot9Strap to unbrick your console.
+  </p>
+
+  <details class="expandable-details">
+    <summary>
+      <b>System Update note</b>
+    </summary>
+    <p>
+      System Update will fail while the custom Home Menu applet is installed.
+      To update your system, you must restore the Home Menu applet back to its original state.
+      <br>
+      After a system update, backup the <code>homemenu.cia</code> file again in case the Home Menu is also updated.
+    </p>
+    <p>
+      The current Home Menu mod is likely compatible with future system firmware versions.
+      If this mod stops working, I will update the base Home Menu applet for this mod.
+    </p>
+  </details>
+
+  <p class="note-blue">
+    The CIA file must be installed with GodMode9. Do not install it with FBI,
+    the installation will fail as the Home Menu applet is being used by another process.
+    <br>
+    GodMode9 v2.0.0 or above is required to install <code>.cia</code> files.
+    Get the
+    <a href="https://github.com/d0k3/GodMode9" target="_blank">
+    latest version of GodMode9 here</a>.
+  </p>
+
+  <ol>
+    <li>
+      <p>Add a downloaded CIA file to the SD Card.</p>
+    </li>
+    <li>
+      <p>Boot the console while holding the <code>Start</code> button to launch GodMode9.</p>
+    </li>
+    <li>
+      <p>Browse and select a CIA file.</p>
+    </li>
+    <li>
+      <p>Select <code>CIA image options...</code> → <code>Install game image</code>.</p>
+      <ul>
+        <li>
+          <p>CIA files downloaded from this page are already encrypted, so there's no need to re-encrypt it.</p>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <p>Reboot the console.</p>
+    </li>
+  </ol>
+
+  <p class="note-green">
+    The custom Home Menu applet has been installed.
+  </p>
+</div>
+
+
+### Uninstalling the mod:
+
+<!-- Tab links -->
+<div class="tab_fullwidth_1">
+  <button class="tablinks_fullwidth_1" onclick="openTab_fullwidth_1(event, 'LayeredFS_Uninstall')" id="defaultOpen_fullwidth_1">SD Card File Redirection (LayeredFS)</button>
+  <button class="tablinks_fullwidth_1" onclick="openTab_fullwidth_1(event, 'CIA_File_Uninstall')">System File Replacement (CIA File)</button>
+</div>
+
+<!-- Tab content -->
+<div id="LayeredFS_Uninstall" class="tabcontent_fullwidth_1">
   <h2 id="removing-the-home-menu-applet-patch">
   Removing the Home Menu Applet Patch</h2>
 
@@ -297,13 +428,6 @@ Last updated: 2024-10-07
 
   <!-- Tab content -->
   <div id="3DS_Uninstall" class="tabcontent_2">
-    <p class="note-blue">
-      This section is for removing a LayeredFS patch.
-      If you replaced the system file with a CIA file:
-      scroll up, switch to the <code>System File Replacement (CIA File)</code> tab,
-      and scroll down again to the <code>Restoring the Home Menu Applet</code> section.
-    </p>
-
     <ol>
       <li>
         <p>Boot the console while holding the <code>Start</code> button to launch GodMode9.</p>
@@ -373,120 +497,7 @@ Last updated: 2024-10-07
 </div>
 
 <!-- Tab content -->
-<div id="CIA_File" class="tabcontent_fullwidth_0">
-  <h2 id="backing-up-the-home-menu-applet">
-  Backing Up the Home Menu Applet</h2>
-
-  <p class="note-blue">
-    Luma3DS custom firmware is required to use the mod.
-    <a href="https://3ds.hacks.guide/" target="_blank">
-    Install CFW if you haven't already.</a>
-  </p>
-
-  <p class="note-blue">
-    The Home Menu applet will be backed up to the SD card
-    so if you modified the Home Menu applet, you can restore it.
-  </p>
-
-  <ol>
-    <li>
-      <p>Boot the console while holding the <code>Start</code> button to launch GodMode9.</p>
-    </li>
-    <li>
-      <p>Press the <code>Home</code> button.</p>
-    </li>
-    <li>
-      <p>Select <code>Scripts...</code> → <code>GM9Megascript</code> → <code>Miscellaneous</code> → <code>Title Options</code> → <code>Dump HomeMenu to .cia</code>.</p>
-    </li>
-    <li>
-      <p>Proceed dumping this system applet.</p>
-    </li>
-    <li>
-      <p>If it asks you to decrypt the CIA file afterwards, select &quot;No&quot;.</p>
-    </li>
-  </ol>
-
-  <p class="note-green">
-    The <code>homemenu.cia</code> file is saved to <code>SDCARD:/gm9/out</code>.
-    Copy that file to a safe place in your computer.
-  </p>
-
-
-  <h2 id="installing-the-custom-home-menu-applet">
-  Installing the Custom Home Menu Applet</h2>
-
-  <p class="note-blue">
-    Create a NAND backup before modifying any system files!
-    Modifying the Home Menu applet is safe since Boot9Strap provides brick protection,
-    allowing recovery with GodMode9.
-    If you messed up and the Home Menu fails to launch, use GodMode9 to
-    <a href="#restoring-the-home-menu-applet">
-    restore the Home Menu applet</a>.
-  </p>
-
-  <p class="note-red">
-    Never uninstall CFW while any modded system files are installed,
-    doing so will remove Boot9Strap and <b>fully</b> brick the console!
-    If you fully bricked your console, you'll need a
-    <a href="https://www.flashcarts.net/ds-quick-start-guide" target="_blank">
-    DS flashcart with ntrboot</a>
-    to re-install Boot9Strap to unbrick your console.
-  </p>
-
-  <details class="expandable-details">
-    <summary>
-      <b>System Update note</b>
-    </summary>
-    <p>
-      System Update will fail while the custom Home Menu applet is installed.
-      To update your system, you must restore the Home Menu applet back to its original state.
-      <br>
-      After a system update, backup the <code>homemenu.cia</code> file again in case the Home Menu is also updated.
-    </p>
-    <p>
-      The current Home Menu mod is likely compatible with future system firmware versions.
-      If this mod stops working, I will update the base Home Menu applet for this mod.
-    </p>
-  </details>
-
-  <p class="note-blue">
-    The CIA file must be installed with GodMode9. Do not install it with FBI,
-    the installation will fail as the Home Menu applet is being used by another process.
-    <br>
-    GodMode9 v2.0.0 or above is required to install <code>.cia</code> files.
-    Get the
-    <a href="https://github.com/d0k3/GodMode9" target="_blank">
-    latest version of GodMode9 here</a>.
-  </p>
-
-  <ol>
-    <li>
-      <p>Add a downloaded CIA file to the SD Card.</p>
-    </li>
-    <li>
-      <p>Boot the console while holding the <code>Start</code> button to launch GodMode9.</p>
-    </li>
-    <li>
-      <p>Browse and select a CIA file.</p>
-    </li>
-    <li>
-      <p>Select <code>CIA image options...</code> → <code>Install game image</code>.</p>
-      <ul>
-        <li>
-          <p>CIA files downloaded from this page are already encrypted, so there's no need to re-encrypt it.</p>
-        </li>
-      </ul>
-    </li>
-    <li>
-      <p>Reboot the console.</p>
-    </li>
-  </ol>
-
-  <p class="note-green">
-    The custom Home Menu applet has been installed.
-  </p>
-
-
+<div id="CIA_File_Uninstall" class="tabcontent_fullwidth_1">
   <h2 id="restoring-the-home-menu-applet">
   Restoring the Home Menu Applet</h2>
 
