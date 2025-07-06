@@ -132,6 +132,9 @@ A customized Home Menu UI made by me.
     <li>
       <p>Removed the Miiverse applet icon (optional)</p>
     </li>
+    <li>
+      <p>Blue shutdown screen</p>
+    </li>
   </ul>
 </details>
 
