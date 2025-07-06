@@ -100,6 +100,41 @@ A customized Home Menu UI made by me.
   </div>
 </div>
 
+<details class="expandable-details">
+  <summary>
+    <b>What's edited</b>
+  </summary>
+  <ul>
+    <li>
+      <p>Clock HUD moved to the top center of the top screen</p>
+    </li>
+    <li>
+      <p>Green battery indicator icon</p>
+    </li>
+    <li>
+      <p>Top screen, top left corner: Removed the connection bar, leaving only the signal indicator</p>
+    </li>
+    <li>
+      <p>Date HUD moved to the bottom right corner of the top screen</p>
+    </li>
+    <li>
+      <p>Play Coins count and steps count moved to the bottom left corner of the top screen</p>
+    </li>
+    <li>
+      <p>Blue applet icons</p>
+    </li>
+    <li>
+      <p>Slightly rotated applet and app icons</p>
+    </li>
+    <li>
+      <p>Rotating cursor</p>
+    </li>
+    <li>
+      <p>Removed the Miiverse applet icon (optional)</p>
+    </li>
+  </ul>
+</details>
+
 Target system firmware version: `11.17.0-50`
 <br>and future FW versions, unless major changes are made to Home Menu
 
