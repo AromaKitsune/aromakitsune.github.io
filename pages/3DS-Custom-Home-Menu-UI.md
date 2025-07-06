@@ -112,7 +112,7 @@ A customized Home Menu UI made by me.
       <p>Green battery indicator icon</p>
     </li>
     <li>
-      <p>Top screen, top left corner: Removed the connection bar, leaving only the signal indicator</p>
+      <p>Removed the connection bar and its texts (Internet, StreetPass, etc.), leaving only the signal indicator</p>
     </li>
     <li>
       <p>Date HUD moved to the bottom right corner of the top screen</p>
@@ -127,7 +127,7 @@ A customized Home Menu UI made by me.
       <p>Slightly rotated applet and app icons</p>
     </li>
     <li>
-      <p>Rotating cursor</p>
+      <p>Spinning cursor</p>
     </li>
     <li>
       <p>Removed the Miiverse applet icon (optional)</p>
