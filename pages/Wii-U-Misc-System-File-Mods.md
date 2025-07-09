@@ -80,6 +80,6 @@ SeanTheGleaming on r/3DSHacks Reddit</a>.
 9. Reboot the console.
 
 <p class="note-yellow">
-  Do not send something offensive on custom online services such as Pretendo Network.
-  You may get banned from those services for doing so.
+  Do not send something offensive on Pretendo Network.
+  You may get banned from this service for doing so.
 </p>
