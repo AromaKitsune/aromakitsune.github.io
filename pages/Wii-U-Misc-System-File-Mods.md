@@ -45,13 +45,21 @@ SeanTheGleaming on r/3DSHacks Reddit</a>.
 
 ### Installation
 
-This setup requires:
-
-- FTPiiU plugin for Wii U - Download this plugin from the Aroma Updater app
-
-- FTP client for PC - Download
-  <a href="https://winscp.net/" target="_blank">
-  WinSCP</a> for Windows, or FileZilla for Linux or macOS
+<div class="note-blue-div">
+  <p>This setup requires:</p>
+  <ul>
+    <li>
+      <p>FTPiiU plugin for Wii U - Download this plugin from the Aroma Updater app</p>
+    </li>
+    <li>
+      <p>
+        FTP client for PC - Download
+        <a href="https://winscp.net/" target="_blank">
+        WinSCP</a> for Windows, or FileZilla for Linux or macOS
+      </p>
+    </li>
+  </ul>
+</div>
 
 1. Open the Plugin menu (`L` + `D-Pad ↓` + `Select`).
 
