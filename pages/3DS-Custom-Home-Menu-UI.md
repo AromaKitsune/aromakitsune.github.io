@@ -687,9 +687,9 @@ Last updated: 2024-10-07
 - <a href="https://github.com/cooolgamer/Custom-Homemenu-3DS" target="_blank">
   Custom Homemenu 3DS by Cooolgamer</a>
 
-- <a href="https://github.com/James-Makoto/3ds-battery-patches" target="_blank">
-  3DS Battery Patches by James Makoto</a> - Show the battery percentage in the status bar
-  and make the battery icon display each bar as 25% of battery charge.
+- <a href="https://github.com/R-YaTian/3ds-battery-patches" target="_blank">
+  3DS Battery Patches by R-YaTian</a> - Show the battery percentage in the status bar
+  and have the battery icon bars divided in 25% chunks.
 
 - <a href="https://github.com/lividhen/HomeMenu_Custom" target="_blank">
   Fairly Simple Custom Home Menu by Lividhen</a>
