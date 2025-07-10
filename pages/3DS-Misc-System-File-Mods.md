@@ -20,6 +20,10 @@ A variety of miscellaneous system file mods for the Nintendo 3DS.
   restore the system file.
 </p>
 
+<p class="note-red">
+  These modded system files are not signed, do NOT uninstall CFW!
+</p>
+
 
 ## Custom Keyboard Layout
 
