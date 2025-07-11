@@ -18,8 +18,6 @@ Back to this page</a>
 
 ### Header (3)
 
-#### Header (4)
-
 
 ## Font Display
 

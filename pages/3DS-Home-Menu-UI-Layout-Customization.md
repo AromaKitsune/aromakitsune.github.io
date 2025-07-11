@@ -362,7 +362,7 @@ To find other layouts:
       </div>
     </div>
 
-5.  Click the Maximize button on one of the MDI windows.
+5.  Click the Maximise button on one of the MDI windows.
 
     <div align="center">
       <div class="image">

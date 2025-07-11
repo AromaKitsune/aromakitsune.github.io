@@ -8,7 +8,7 @@ The custom Home Menu UI for the Nintendo 3DS.
 
 Check out the
 [Home Menu UI Layout Customisation Guide](/3DS-Home-Menu-UI-Layout-Customization)
-for creating your own customised Home Menu UI for 3DS!
+for creating your own custom Home Menu UI for 3DS!
 
 ---
 
