@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Wii U - System Font Customization Guide
+title: Wii U - System Font Customisation Guide
 permalink: /Wii-U-System-Font-Customization
 ---
 
-A guide for customizing the system-wide font on the Wii U.
+A guide for customising the system-wide font on the Wii U.
 
 <div align="center">
-  <p class="image">
+  <div class="image">
     <img src="/images/Wii-U/Pop-Happiness-Font.png">
     <br>
     System Settings with a custom system font &quot;Pop Happiness&quot;.
@@ -15,7 +15,7 @@ A guide for customizing the system-wide font on the Wii U.
     <a href="/Wii-U-Custom-System-Fonts">
     Download the custom system fonts here</a>
     <br>
-  </p>
+  </div>
 </div>
 
 <details class="expandable-details">
@@ -53,16 +53,20 @@ A guide for customizing the system-wide font on the Wii U.
 
 ## Getting Started
 
-<p class="note-blue">
-  Aroma custom firmware is required to use the mod.
-  <a href="https://wiiu.hacks.guide/" target="_blank">
-  Install CFW if you haven't already.</a>
-</p>
+<div class="note-blue">
+  <p>
+    Aroma custom firmware is required to use the mod.
+    <a href="https://wiiu.hacks.guide/" target="_blank">
+    Install CFW if you haven't already.</a>
+  </p>
+</div>
 
-<p class="note-blue">
-  No system files in the MLC NAND are modified in the process. The custom system font is loaded into RAM only,
-  so it's safe to install a custom system font without worrying about bricking the console.
-</p>
+<div class="note-blue">
+  <p>
+    No system files in the MLC NAND are modified in the process. The custom system font is loaded into RAM only,
+    so it's safe to install a custom system font without worrying about bricking the console.
+  </p>
+</div>
 
 ### What You Need:
 
@@ -84,9 +88,9 @@ Recommended OS: Windows 10 or 11, Linux
 A Wii U font will be merged into a custom system font so the icon glyphs are preserved.
 
 <div align="center">
-  <p class="image">
+  <div class="image">
     <img src="/images/Wii-U/Wii-U-System-Font-Customization_01.png">
-  </p>
+  </div>
 </div>
 
 There are 2 ways to merge the fonts: CLI & GUI
@@ -94,10 +98,12 @@ There are 2 ways to merge the fonts: CLI & GUI
 The CLI method involves in using a Python script that calls the FontForge program to merge the fonts automatically,
 while the GUI method involves in using FontForge itself to merge the fonts manually.
 
-<p class="note-blue">
-  The CLI method process is shorter than the GUI method.
-  If the CLI method does not work for you, try the GUI method instead.
-</p>
+<div class="note-blue">
+  <p>
+    The CLI method process is shorter than the GUI method.
+    If the CLI method does not work for you, try the GUI method instead.
+  </p>
+</div>
 
 <!-- Tab links -->
 <div class="tab_fullwidth_0">
@@ -142,9 +148,9 @@ while the GUI method involves in using FontForge itself to merge the fonts manua
     <li>
       <p>Launch the Terminal app by right-clicking on File Explorer's empty space and clicking <code>Open in Terminal</code>.</p>
       <div align="center">
-        <p class="image">
+        <div class="image">
           <img src="/images/Wii-U/Wii-U-System-Font-Customization-Python_1.png">
-        </p>
+        </div>
       </div>
     </li>
     <li>
@@ -165,15 +171,15 @@ while the GUI method involves in using FontForge itself to merge the fonts manua
       </p>
       <p>Those are single line commands - they are wrapped so the whole commands are displayed for easy copy without horizontally scrolling.</p>
       <div align="center">
-        <p class="image">
+        <div class="image">
           <img src="/images/Wii-U/Wii-U-System-Font-Customization-Python_2.png">
-        </p>
+        </div>
       </div>
       <p>The fonts have been merged as <code>PopHappiness_Merged.ttf</code>.</p>
       <div align="center">
-        <p class="image">
+        <div class="image">
           <img src="/images/Wii-U/Wii-U-System-Font-Customization_07.png">
-        </p>
+        </div>
       </div>
     </li>
   </ol>
@@ -188,9 +194,9 @@ while the GUI method involves in using FontForge itself to merge the fonts manua
     <li>
       <p>Open the custom font file (TTF/OTF).</p>
       <div align="center">
-        <p class="image">
+        <div class="image">
           <img src="/images/Wii-U/Wii-U-System-Font-Customization_02.png">
-        </p>
+        </div>
       </div>
     </li>
     <li>
@@ -203,9 +209,9 @@ while the GUI method involves in using FontForge itself to merge the fonts manua
         Skip if the em size is already 1,000.
       </p>
       <div align="center">
-        <p class="image">
+        <div class="image">
           <img src="/images/Wii-U/Wii-U-System-Font-Customization_03.png">
-        </p>
+        </div>
       </div>
     </li>
     <li>
@@ -221,9 +227,9 @@ fontforge.activeFont().clear()
 
       <p>and click <code>OK</code>. This will clear out all the non-Wii U glyphs in this block.</p>
       <div align="center">
-        <p class="image">
+        <div class="image">
           <img src="/images/Wii-U/Wii-U-System-Font-Customization_04.png">
-        </p>
+        </div>
       </div>
     </li>
     <li>
@@ -232,9 +238,9 @@ fontforge.activeFont().clear()
     <li>
       <p>Click <code>Yes</code> when prompted to retain kerning info.</p>
       <div align="center">
-        <p class="image">
+        <div class="image">
           <img src="/images/Wii-U/Wii-U-System-Font-Customization_05.png">
-        </p>
+        </div>
       </div>
     </li>
     <li>
@@ -244,9 +250,9 @@ fontforge.activeFont().clear()
       <p>Pick <code>TrueType</code> in the combo-box, uncheck <code>Validate Before Saving</code>, then click <code>Generate</code>.
       </p>
       <div align="center">
-        <p class="image">
+        <div class="image">
           <img src="/images/Wii-U/Wii-U-System-Font-Customization_06.png">
-        </p>
+        </div>
       </div>
     </li>
     <li>
@@ -267,9 +273,9 @@ fontforge.activeFont().clear()
         </li>
       </ul>
       <div align="center">
-        <p class="image">
+        <div class="image">
           <img src="/images/Wii-U/Wii-U-System-Font-Customization_07.png">
-        </p>
+        </div>
       </div>
     </li>
   </ol>
@@ -310,9 +316,11 @@ fontforge.activeFont().clear()
     </li>
   </ol>
 
-  <p class="note-green">
-    The custom system font has been installed!
-  </p>
+  <div class="note-green">
+    <p>
+      The custom system font has been installed!
+    </p>
+  </div>
 </div>
 
 <!-- Tab content -->
@@ -323,15 +331,18 @@ fontforge.activeFont().clear()
     Cemu emulator</a>.
   </p>
 
-  <p class="note-blue">
-    The font files in <code>/Cemu/resources/sharedFonts</code> are replacement system fonts
-    which are used if the real system fonts don't exist in a virtual MLC NAND.
-    <br>
-    Do not add the custom/real system fonts to this folder,
-    as those added fonts will be overwritten with replacement ones after Cemu updates.
-    <br>
-    Instead, the custom/real system fonts should be added to a virtual MLC NAND.
-  </p>
+  <div class="note-blue">
+    <p>
+      The font files in <code>/Cemu/resources/sharedFonts</code> are replacement system fonts
+      which are used if the real system fonts don't exist in a virtual MLC NAND.
+    </p>
+    <p>
+      Do not add the custom/real system fonts to this folder,
+      as those added fonts will be overwritten with replacement ones after Cemu updates.
+      <br>
+      Instead, the custom/real system fonts should be added to a virtual MLC NAND.
+    </p>
+  </div>
 
   <ol>
     <li>
@@ -354,9 +365,11 @@ fontforge.activeFont().clear()
     </li>
   </ol>
 
-  <p class="note-green">
-    The custom system font has been installed!
-  </p>
+  <div class="note-green">
+    <p>
+      The custom system font has been installed!
+    </p>
+  </div>
 </div>
 
 
@@ -385,9 +398,11 @@ fontforge.activeFont().clear()
     </li>
   </ol>
 
-  <p class="note-green">
-    The system font has been restored.
-  </p>
+  <div class="note-green">
+    <p>
+      The system font has been restored.
+    </p>
+  </div>
 </div>
 
 <!-- Tab content -->
@@ -410,9 +425,11 @@ fontforge.activeFont().clear()
     </li>
   </ol>
 
-  <p class="note-green">
-    The system font has been restored.
-  </p>
+  <div class="note-green">
+    <p>
+      The system font has been restored.
+    </p>
+  </div>
 </div>
 
 <script src="/assets/js/tabs_0.js"></script>

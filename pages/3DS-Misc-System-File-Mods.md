@@ -6,23 +6,29 @@ permalink: /3DS-Misc-System-File-Mods
 
 A variety of miscellaneous system file mods for the Nintendo 3DS.
 
-<p class="note-blue">
-  Luma3DS custom firmware is required to use the mod.
-  <a href="https://3ds.hacks.guide/" target="_blank">
-  Install CFW if you haven't already.</a>
-</p>
+<div class="note-blue">
+  <p>
+    Luma3DS custom firmware is required to use the mod.
+    <a href="https://3ds.hacks.guide/" target="_blank">
+    Install CFW if you haven't already.</a>
+  </p>
+</div>
 
-<p class="note-blue">
-  Create a NAND backup before modifying any system files!
-  Modifying the system file is safe since Boot9Strap provides brick protection,
-  allowing recovery with GodMode9.
-  If you messed up and the Home Menu fails to launch, use GodMode9 to
-  restore the system file.
-</p>
+<div class="note-blue">
+  <p>
+    Create a NAND backup before modifying any system files!
+    Modifying the system file is safe since Boot9Strap provides brick protection,
+    allowing recovery with GodMode9.
+    If you messed up and the Home Menu fails to launch, use GodMode9 to
+    restore the system file.
+  </p>
+</div>
 
-<p class="note-red">
-  These modded system files are not signed, do NOT uninstall CFW!
-</p>
+<div class="note-red">
+  <p>
+    These modded system files are not signed, do NOT uninstall CFW!
+  </p>
+</div>
 
 
 ## Custom Keyboard Layout
@@ -54,7 +60,9 @@ SeanTheGleaming on r/3DSHacks Reddit</a>.
 
 To use it, install a CIA file with FBI or GodMode9.
 
-<p class="note-yellow">
-  Do not send something offensive on custom online services such as Pretendo Network or NetPass.
-  You may get banned from those services for doing so.
-</p>
+<div class="note-yellow">
+  <p>
+    Do not send something offensive on custom online services such as Pretendo Network or NetPass.
+    You may get banned from those services for doing so.
+  </p>
+</div>

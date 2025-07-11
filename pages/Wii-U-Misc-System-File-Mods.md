@@ -6,15 +6,20 @@ permalink: /Wii-U-Misc-System-File-Mods
 
 A variety of miscellaneous system file mods for the Wii U.
 
-<p class="note-blue">
-  Aroma custom firmware is required to use the mod.
-  <a href="https://wiiu.hacks.guide/" target="_blank">
-  Install CFW if you haven't already.</a>
-</p>
+<div class="note-blue">
+  <p>
+    Aroma custom firmware is required to use the mod.
+    <a href="https://wiiu.hacks.guide/" target="_blank">
+    Install CFW if you haven't already.</a>
+  </p>
+</div>
 
-<p class="note-yellow">
-  You are about to modify system files in the MLC/SLC NAND! Proceed with caution.
-</p>
+<div class="note-yellow">
+  <p>
+    You are about to modify system files in the MLC/SLC NAND!
+    Be careful not to randomly delete any system files.
+  </p>
+</div>
 
 
 ## Custom Keyboard Layout
@@ -45,7 +50,7 @@ SeanTheGleaming on r/3DSHacks Reddit</a>.
 
 ### Installation
 
-<div class="note-blue-div">
+<div class="note-blue">
   <p>This setup requires:</p>
   <ul>
     <li>
@@ -79,7 +84,9 @@ SeanTheGleaming on r/3DSHacks Reddit</a>.
 
 9. Reboot the console.
 
-<p class="note-yellow">
-  Do not send something offensive on Pretendo Network.
-  You may get banned from this service for doing so.
-</p>
+<div class="note-yellow">
+  <p>
+    Do not send something offensive on Pretendo Network.
+    You may get banned from this service for doing so.
+  </p>
+</div>

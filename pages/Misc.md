@@ -70,21 +70,29 @@ Wrapped:
   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 </p>
 
-<p class="note-blue">
-  The quick brown fox jumps over the lazy dog.
-</p>
+<div class="note-blue">
+  <p>
+    The quick brown fox jumps over the lazy dog.
+  </p>
+</div>
 
-<p class="note-green">
-  The quick brown fox jumps over the lazy dog.
-</p>
+<div class="note-green">
+  <p>
+    The quick brown fox jumps over the lazy dog.
+  </p>
+</div>
 
-<p class="note-yellow">
-  The quick brown fox jumps over the lazy dog.
-</p>
+<div class="note-yellow">
+  <p>
+    The quick brown fox jumps over the lazy dog.
+  </p>
+</div>
 
-<p class="note-red">
-  The quick brown fox jumps over the lazy dog.
-</p>
+<div class="note-red">
+  <p>
+    The quick brown fox jumps over the lazy dog.
+  </p>
+</div>
 
 <details class="expandable-details">
   <summary>
@@ -150,13 +158,13 @@ Row 5 - Column 1 | Column 2 | Column 3
 ## Images
 
 <div align="center">
-  <p class="image">
+  <div class="image">
     <img src="/images/Sample/Windows11_Light.jpg">
-  </p>
+  </div>
 </div>
 
 <div align="center">
-  <p class="image">
+  <div class="image">
     <a href="/images/Sample/Windows11_Light.jpg">
       <img src="/images/Sample/Windows11_Light.jpg">
     </a>
@@ -168,7 +176,7 @@ Row 5 - Column 1 | Column 2 | Column 3
     <small>
       Description3
     </small>
-  </p>
+  </div>
 </div>
 
 <div class="container_gallery">
@@ -311,9 +319,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 </code></pre>
 
-  <p class="note-blue">
-    The quick brown fox jumps over the lazy dog.
-  </p>
+  <div class="note-blue">
+    <p>
+      The quick brown fox jumps over the lazy dog.
+    </p>
+  </div>
 </div>
 
 

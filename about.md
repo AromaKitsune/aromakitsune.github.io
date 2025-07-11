@@ -4,7 +4,7 @@ title: About
 permalink: /About
 ---
 
-This site hosts various system UI customizations for Nintendo 3DS and Wii U.
+This site hosts various system UI customisations for Nintendo 3DS and Wii U.
 
 You need custom firmware installed on your console to use those mods.
 
@@ -46,7 +46,7 @@ my GitHub repo</a>.
 <a href="https://github.com/LumaTeam/Luma3DS" target="_blank">
 Luma3DS logo by LumaTeam</a>
 
-Theme color scheme based on 3DS Hacks Guide
+Theme colour scheme based on 3DS Hacks Guide
 <a href="https://web.archive.org/web/20240901100849/https://3ds.hacks.guide/" target="_blank">
 before the redesign on 2024-09-27</a>
 (pls do not follow this archived guide)

@@ -7,8 +7,8 @@ permalink: /3DS-Custom-Home-Menu-UI
 The custom Home Menu UI for the Nintendo 3DS.
 
 Check out the
-[Home Menu UI Layout Customization Guide](/3DS-Home-Menu-UI-Layout-Customization)
-for creating your own customized Home Menu UI for 3DS!
+[Home Menu UI Layout Customisation Guide](/3DS-Home-Menu-UI-Layout-Customization)
+for creating your own customised Home Menu UI for 3DS!
 
 ---
 
@@ -47,7 +47,7 @@ for creating your own customized Home Menu UI for 3DS!
 
 ## Kitsune's Custom Home Menu UI
 
-A customized Home Menu UI made by me.
+A customised Home Menu UI made by me.
 
 <div class="container_gallery">
   <!-- Full-width images with number text -->
@@ -212,9 +212,11 @@ Last updated: 2024-10-07
     </li>
   </ul>
 
-  <p class="note-blue">
-    For those who don't want to use a Miiverse replacement service such as Pretendo Network's Juxtaposition
-  </p>
+  <div class="note-blue">
+    <p>
+      For those who don't want to use a Miiverse replacement service such as Pretendo Network's Juxtaposition
+    </p>
+  </div>
 </div>
 
 
@@ -239,25 +241,31 @@ Last updated: 2024-10-07
 
   <!-- Tab content -->
   <div id="3DS_Install" class="tabcontent_1">
-    <p class="note-blue">
-      Luma3DS custom firmware is required to use the mod.
-      <a href="https://3ds.hacks.guide/" target="_blank">
-      Install CFW if you haven't already.</a>
-    </p>
+    <div class="note-blue">
+      <p>
+        Luma3DS custom firmware is required to use the mod.
+        <a href="https://3ds.hacks.guide/" target="_blank">
+        Install CFW if you haven't already.</a>
+      </p>
+    </div>
 
-    <p class="note-blue">
-      LayeredFS is a Luma3DS feature that redirects games/apps assets to modded assets files in the SD Card without patching the ROMs or system files directly.
-    </p>
+    <div class="note-blue">
+      <p>
+        LayeredFS is a Luma3DS feature that redirects games/apps assets to modded assets files in the SD Card without patching the ROMs or system files directly.
+      </p>
+    </div>
 
-    <p class="note-yellow">
-      LayeredFS patching is unstable for system applets which causes Home Menu to crash.
-      This happens when Home Menu is opened 11 times total
-      (by suspending a game or exiting an applet)
-      during the whole session (after booting the system).
-      <br>
-      <b>This method should be used for testing purposes.</b>
-      To avoid crashes, install this mod with a CIA file instead.
-    </p>
+    <div class="note-yellow">
+      <p>
+        LayeredFS patching is unstable for system applets which causes Home Menu to crash.
+        This happens when Home Menu is opened 11 times total
+        (by suspending a game or exiting an applet)
+        after booting the system.
+      <p>
+      </p>
+        To avoid crashes, install this mod with a CIA file instead.
+      </p>
+    </div>
 
     <ol>
       <li>
@@ -280,9 +288,11 @@ Last updated: 2024-10-07
       </li>
     </ol>
 
-    <p class="note-green">
-      The custom Home Menu UI has been installed.
-    </p>
+    <div class="note-green">
+      <p>
+        The custom Home Menu UI has been installed.
+      </p>
+    </div>
   </div>
 
   <!-- Tab content -->
@@ -293,12 +303,14 @@ Last updated: 2024-10-07
       Azahar emulator</a>.
     </p>
 
-    <p class="note-blue">
-      The system files need to be installed to a virtual NAND before continuing.
-      Follow the instructions for 
-      <a href="https://github.com/azahar-emu/ArticSetupTool" target="_blank">
-      setting up system files</a> on an emulator. A real 3DS is required.
-    </p>
+    <div class="note-blue">
+      <p>
+        The system files need to be installed to a virtual NAND before continuing.
+        Follow the instructions for 
+        <a href="https://github.com/azahar-emu/ArticSetupTool" target="_blank">
+        setting up system files</a> on an emulator. A real 3DS is required.
+      </p>
+    </div>
 
     <ol>
       <li>
@@ -324,9 +336,11 @@ Last updated: 2024-10-07
       </li>
     </ol>
 
-    <p class="note-green">
-      The custom Home Menu UI has been installed.
-    </p>
+    <div class="note-green">
+      <p>
+        The custom Home Menu UI has been installed.
+      </p>
+    </div>
   </div>
 </div>
 
@@ -335,16 +349,20 @@ Last updated: 2024-10-07
   <h2 id="backing-up-the-home-menu-applet">
   Backing Up the Home Menu Applet</h2>
 
-  <p class="note-blue">
-    Luma3DS custom firmware is required to use the mod.
-    <a href="https://3ds.hacks.guide/" target="_blank">
-    Install CFW if you haven't already.</a>
-  </p>
+  <div class="note-blue">
+    <p>
+      Luma3DS custom firmware is required to use the mod.
+      <a href="https://3ds.hacks.guide/" target="_blank">
+      Install CFW if you haven't already.</a>
+    </p>
+  </div>
 
-  <p class="note-blue">
-    The Home Menu applet will be backed up to the SD card
-    so if you modified the Home Menu applet, you can restore it.
-  </p>
+  <div class="note-blue">
+    <p>
+      The Home Menu applet will be backed up to the SD card
+      so if you modified the Home Menu applet, you can restore it.
+    </p>
+  </div>
 
   <ol>
     <li>
@@ -364,31 +382,37 @@ Last updated: 2024-10-07
     </li>
   </ol>
 
-  <p class="note-green">
-    The <code>homemenu.cia</code> file is saved to <code>SDCARD:/gm9/out</code>.
-    Copy that file to a safe place in your computer.
-  </p>
+  <div class="note-green">
+    <p>
+      The <code>homemenu.cia</code> file is saved to <code>SDCARD:/gm9/out</code>.
+      Copy that file to a safe place in your computer.
+    </p>
+  </div>
 
 
   <h2 id="installing-the-custom-home-menu-applet">
   Installing the Custom Home Menu Applet</h2>
 
-  <p class="note-blue">
-    Create a NAND backup before modifying any system files!
-    Modifying the Home Menu applet is safe since Boot9Strap provides brick protection,
-    allowing recovery with GodMode9.
-    If you messed up and the Home Menu fails to launch,
-    use GodMode9 to restore the Home Menu applet.
-  </p>
+  <div class="note-blue">
+    <p>
+      Create a NAND backup before modifying any system files!
+      Modifying the Home Menu applet is safe since Boot9Strap provides brick protection,
+      allowing recovery with GodMode9.
+      If you messed up and the Home Menu fails to launch,
+      use GodMode9 to restore the Home Menu applet.
+    </p>
+  </div>
 
-  <p class="note-red">
-    Never uninstall CFW while any modded system files are installed,
-    doing so will remove Boot9Strap and <b>fully</b> brick the console!
-    If you fully bricked your console, you'll need a
-    <a href="https://www.flashcarts.net/ds-quick-start-guide" target="_blank">
-    DS flashcart with ntrboot</a>
-    to re-install Boot9Strap to unbrick your console.
-  </p>
+  <div class="note-red">
+    <p>
+      Never uninstall CFW while any modded system files are installed,
+      doing so will remove Boot9Strap and <b>fully</b> brick the console!
+      If you fully bricked your console, you'll need a
+      <a href="https://www.flashcarts.net/ds-quick-start-guide" target="_blank">
+      DS flashcart with ntrboot</a>
+      to re-install Boot9Strap to unbrick your console.
+    </p>
+  </div>
 
   <details class="expandable-details">
     <summary>
@@ -406,15 +430,18 @@ Last updated: 2024-10-07
     </p>
   </details>
 
-  <p class="note-blue">
-    The CIA file must be installed with GodMode9. Do not install it with FBI,
-    the installation will fail as the Home Menu applet is being used by another process.
-    <br>
-    GodMode9 v2.0.0 or above is required to install <code>.cia</code> files.
-    Get the
-    <a href="https://github.com/d0k3/GodMode9" target="_blank">
-    latest version of GodMode9 here</a>.
-  </p>
+  <div class="note-blue">
+    <p>
+      The CIA file must be installed with GodMode9. Do not install it with FBI,
+      the installation will fail as the Home Menu applet is being used by another process.
+    </p>
+    <p>
+      GodMode9 v2.0.0 or above is required to install <code>.cia</code> files.
+      Get the
+      <a href="https://github.com/d0k3/GodMode9" target="_blank">
+      latest version of GodMode9 here</a>.
+    </p>
+  </div>
 
   <ol>
     <li>
@@ -439,9 +466,11 @@ Last updated: 2024-10-07
     </li>
   </ol>
 
-  <p class="note-green">
-    The custom Home Menu applet has been installed.
-  </p>
+  <div class="note-green">
+    <p>
+      The custom Home Menu applet has been installed.
+    </p>
+  </div>
 </div>
 
 
@@ -492,9 +521,11 @@ Last updated: 2024-10-07
       </li>
     </ol>
 
-    <p class="note-green">
-      The Home Menu UI has been restored.
-    </p>
+    <div class="note-green">
+      <p>
+        The Home Menu UI has been restored.
+      </p>
+    </div>
   </div>
 
   <!-- Tab content -->
@@ -528,9 +559,11 @@ Last updated: 2024-10-07
       </li>
     </ol>
 
-    <p class="note-green">
-      The Home Menu UI has been restored.
-    </p>
+    <div class="note-green">
+      <p>
+        The Home Menu UI has been restored.
+      </p>
+    </div>
   </div>
 </div>
 
@@ -548,9 +581,11 @@ Last updated: 2024-10-07
 
   <!-- Tab content -->
   <div id="Restore1" class="tabcontent_3">
-    <p class="note-blue">
-      If you've dumped the <code>homemenu.cia</code> file with GodMode9, follow this section.
-    </p>
+    <div class="note-blue">
+      <p>
+        If you've dumped the <code>homemenu.cia</code> file with GodMode9, follow this section.
+      </p>
+    </div>
 
     <ol>
       <li>
@@ -567,18 +602,22 @@ Last updated: 2024-10-07
       </li>
     </ol>
 
-    <p class="note-green">
-      The Home Menu applet has been restored.
-    </p>
+    <div class="note-green">
+      <p>
+        The Home Menu applet has been restored.
+      </p>
+    </div>
   </div>
 
   <!-- Tab content -->
   <div id="Restore2" class="tabcontent_3">
-    <p class="note-blue">
-      If you've lost the <code>homemenu.cia</code> file from your SD Card and computer, follow this section.
-      <br>
-      The target system firmware version is <code>11.17.0-50</code>.
-    </p>
+    <div class="note-blue">
+      <p>
+        If you've lost the <code>homemenu.cia</code> file from your SD Card and computer, follow this section.
+        <br>
+        The target system firmware version is <code>11.17.0-50</code>.
+      </p>
+    </div>
 
     <ol>
       <li>
@@ -608,16 +647,20 @@ Last updated: 2024-10-07
       </li>
     </ol>
 
-    <p class="note-green">
-      The Home Menu applet has been restored.
-    </p>
+    <div class="note-green">
+      <p>
+        The Home Menu applet has been restored.
+      </p>
+    </div>
   </div>
 
   <!-- Tab content -->
   <div id="Restore3" class="tabcontent_3">
-    <p class="note-blue">
-      Alternatively, download the system file for your system firmware version other than <code>11.17.0-50</code>.
-    </p>
+    <div class="note-blue">
+      <p>
+        Alternatively, download the system file for your system firmware version other than <code>11.17.0-50</code>.
+      </p>
+    </div>
 
     <ol>
       <li>
@@ -673,9 +716,11 @@ Last updated: 2024-10-07
       </li>
     </ol>
 
-    <p class="note-green">
-      The Home Menu applet has been restored.
-    </p>
+    <div class="note-green">
+      <p>
+        The Home Menu applet has been restored.
+      </p>
+    </div>
   </div>
 </div>
 
@@ -698,12 +743,15 @@ Last updated: 2024-10-07
   Kitsune + Cooolgamer's Custom Home Menu by Misteryesman</a> - 
   My Custom Home Menu UI combined with Coool's custom assets such as animations and dialogs
 
-<p class="note-blue">
-  These releases contain only the RomFS folder. Again, LayeredFS patching for applets is unstable,
-  Home Menu crashes if the Home Menu is opened 11 times.
-  <br>
-  It is recommended to compile a CIA file and install it so Home Menu doesn't crash.
-</p>
+<div class="note-blue">
+  <p>
+    These releases contain only the RomFS folder. Again, LayeredFS patching for applets is unstable,
+    Home Menu crashes if the Home Menu is opened 11 times.
+  <p>
+  </p>
+    It is recommended to compile a CIA file and install it so Home Menu doesn't crash.
+  </p>
+</div>
 
 <ol>
   <li>

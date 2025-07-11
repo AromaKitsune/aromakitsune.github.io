@@ -1,13 +1,13 @@
 ---
 layout: page
-title: 3DS - System Font Customization Guide
+title: 3DS - System Font Customisation Guide
 permalink: /3DS-System-Font-Customization
 ---
 
-A guide for customizing the system-wide font on the Nintendo 3DS.
+A guide for customising the system-wide font on the Nintendo 3DS.
 
 <div align="center">
-  <p class="image">
+  <div class="image">
     <img src="/images/3DS/Pop-Happiness-Font.png">
     <br>
     System Settings with a custom system font &quot;Pop Happiness&quot;.
@@ -15,7 +15,7 @@ A guide for customizing the system-wide font on the Nintendo 3DS.
     <a href="/3DS-Custom-System-Fonts">
     Download the custom system fonts here</a>
     <br>
-  </p>
+  </div>
 </div>
 
 <details class="expandable-details">
@@ -65,29 +65,35 @@ A guide for customizing the system-wide font on the Nintendo 3DS.
 
 ## Getting Started
 
-<p class="note-blue">
-  Luma3DS custom firmware is required to use the mod.
-  <a href="https://3ds.hacks.guide/" target="_blank">
-  Install CFW if you haven't already.</a>
-</p>
+<div class="note-blue">
+  <p>
+    Luma3DS custom firmware is required to use the mod.
+    <a href="https://3ds.hacks.guide/" target="_blank">
+    Install CFW if you haven't already.</a>
+  </p>
+</div>
 
-<p class="note-blue">
-  Create a NAND backup before modifying any system files!
-  Modifying the system font is safe since Boot9Strap provides brick protection,
-  allowing recovery with GodMode9.
-  If you messed up and the Home Menu fails to launch, use GodMode9 to
-  <a href="#restoring-the-system-font">
-  restore the system font</a>.
-</p>
+<div class="note-blue">
+  <p>
+    Create a NAND backup before modifying any system files!
+    Modifying the system font is safe since Boot9Strap provides brick protection,
+    allowing recovery with GodMode9.
+    If you messed up and the Home Menu fails to launch, use GodMode9 to
+    <a href="#restoring-the-system-font">
+    restore the system font</a>.
+  </p>
+</div>
 
-<p class="note-red">
-  Never uninstall CFW while any modded system files are installed,
-  doing so will remove Boot9Strap and <b>fully</b> brick the console!
-  If you fully bricked your console, you'll need a
-  <a href="https://www.flashcarts.net/ds-quick-start-guide" target="_blank">
-  DS flashcart with ntrboot</a>
-  to re-install Boot9Strap to unbrick your console.
-</p>
+<div class="note-red">
+  <p>
+    Never uninstall CFW while any modded system files are installed,
+    doing so will remove Boot9Strap and <b>fully</b> brick the console!
+    If you fully bricked your console, you'll need a
+    <a href="https://www.flashcarts.net/ds-quick-start-guide" target="_blank">
+    DS flashcart with ntrboot</a>
+    to re-install Boot9Strap to unbrick your console.
+  </p>
+</div>
 
 <details class="expandable-details">
   <summary>
@@ -129,9 +135,9 @@ Recommended OS: Windows 10 or 11 - FontTool is not compatible with Linux
 A 3DS font will be merged into a custom system font so the icon glyphs are preserved.
 
 <div align="center">
-  <p class="image">
+  <div class="image">
     <img src="/images/3DS/3DS-System-Font-Customization_01.png">
-  </p>
+  </div>
 </div>
 
 There are 2 ways to merge the fonts: CLI & GUI
@@ -139,10 +145,12 @@ There are 2 ways to merge the fonts: CLI & GUI
 The CLI method involves in using a Python script that calls the FontForge program to merge the fonts automatically,
 while the GUI method involves in using FontForge itself to merge the fonts manually.
 
-<p class="note-blue">
-  The CLI method process is shorter than the GUI method.
-  If the CLI method does not work for you, try the GUI method instead.
-</p>
+<div class="note-blue">
+  <p>
+    The CLI method process is shorter than the GUI method.
+    If the CLI method does not work for you, try the GUI method instead.
+  </p>
+</div>
 
 <!-- Tab links -->
 <div class="tab_fullwidth_0">
@@ -187,9 +195,9 @@ while the GUI method involves in using FontForge itself to merge the fonts manua
     <li>
       <p>Launch the Terminal app by right-clicking on File Explorer's empty space and clicking <code>Open in Terminal</code>.</p>
       <div align="center">
-        <p class="image">
+        <div class="image">
           <img src="/images/3DS/3DS-System-Font-Customization-Python_1.png">
-        </p>
+        </div>
       </div>
     </li>
     <li>
@@ -206,18 +214,18 @@ while the GUI method involves in using FontForge itself to merge the fonts manua
       </p>
       <p>Those are single line commands - they are wrapped so the whole commands are displayed for easy copy without horizontally scrolling.</p>
       <div align="center">
-        <p class="image">
+        <div class="image">
           <img src="/images/3DS/3DS-System-Font-Customization-Python_2.png">
-        </p>
+        </div>
       </div>
       <p>The fonts have been merged as <code>PopHappiness_Merged.ttf</code>.</p>
     </li>
     <li>
       <p>On a File Explorer window, open the merged font file and install it.</p>
       <div align="center">
-        <p class="image">
+        <div class="image">
           <img src="/images/3DS/3DS-System-Font-Customization_07.png">
-        </p>
+        </div>
       </div>
     </li>
   </ol>
@@ -232,9 +240,9 @@ while the GUI method involves in using FontForge itself to merge the fonts manua
     <li>
       <p>Open the custom font file (TTF/OTF).</p>
       <div align="center">
-        <p class="image">
+        <div class="image">
           <img src="/images/3DS/3DS-System-Font-Customization_02.png">
-        </p>
+        </div>
       </div>
     </li>
     <li>
@@ -247,9 +255,9 @@ while the GUI method involves in using FontForge itself to merge the fonts manua
         Skip if the em size is already 1,000.
       </p>
       <div align="center">
-        <p class="image">
+        <div class="image">
           <img src="/images/3DS/3DS-System-Font-Customization_03.png">
-        </p>
+        </div>
       </div>
     </li>
     <li>
@@ -265,9 +273,9 @@ fontforge.activeFont().clear()
 
       <p>and click <code>OK</code>. This will clear out all the non-3DS glyphs in this block.</p>
       <div align="center">
-        <p class="image">
+        <div class="image">
           <img src="/images/3DS/3DS-System-Font-Customization_04.png">
-        </p>
+        </div>
       </div>
     </li>
     <li>
@@ -276,9 +284,9 @@ fontforge.activeFont().clear()
     <li>
       <p>Click <code>Yes</code> when prompted to retain kerning info.</p>
       <div align="center">
-        <p class="image">
+        <div class="image">
           <img src="/images/3DS/3DS-System-Font-Customization_05.png">
-        </p>
+        </div>
       </div>
     </li>
     <li>
@@ -288,17 +296,17 @@ fontforge.activeFont().clear()
       <p>Pick <code>TrueType</code> in the combo-box, uncheck <code>Validate Before Saving</code>, then click <code>Generate</code>.
       </p>
       <div align="center">
-        <p class="image">
+        <div class="image">
           <img src="/images/3DS/3DS-System-Font-Customization_06.png">
-        </p>
+        </div>
       </div>
     </li>
     <li>
       <p>On a File Explorer window, open the merged font file and install it.</p>
       <div align="center">
-        <p class="image">
+        <div class="image">
           <img src="/images/3DS/3DS-System-Font-Customization_07.png">
-        </p>
+        </div>
       </div>
     </li>
   </ol>
@@ -342,7 +350,7 @@ fontforge.activeFont().clear()
 8.  Click `Convert`.
 
     <div align="center">
-      <p class="image">
+      <div class="image">
         <a href="/images/3DS/3DS-System-Font-Customization_08.png">
           <img src="/images/3DS/3DS-System-Font-Customization_08.png">
         </a>
@@ -350,7 +358,7 @@ fontforge.activeFont().clear()
         <small>
           Click the screenshot for full view.
         </small>
-      </p>
+      </div>
     </div>
 
     Note: The preview section has a different result depending on where the font is installed:
@@ -375,9 +383,9 @@ fontforge.activeFont().clear()
     or launch `convert-system-font.cmd`.
 
     <div align="center">
-      <p class="image">
+      <div class="image">
         <img src="/images/3DS/3DS-System-Font-Customization_09.png">
-      </p>
+      </div>
     </div>
 
     The `SystemFont.cia` file has been generated.
@@ -398,12 +406,14 @@ fontforge.activeFont().clear()
 
 <!-- Tab content -->
 <div id="3DS_Install" class="tabcontent_0">
-  <p class="note-blue">
-    GodMode9 v2.0.0 or above is required to install <code>.cia</code> files.
-    Get the
-    <a href="https://github.com/d0k3/GodMode9" target="_blank">
-    latest version of GodMode9 here</a>.
-  </p>
+  <div class="note-blue">
+    <p>
+      GodMode9 v2.0.0 or above is required to install <code>.cia</code> files.
+      Get the
+      <a href="https://github.com/d0k3/GodMode9" target="_blank">
+      latest version of GodMode9 here</a>.
+    </p>
+  </div>
 
   <ol>
     <li>
@@ -428,12 +438,14 @@ fontforge.activeFont().clear()
     </li>
   </ol>
 
-  <p class="note-green">
-    The custom system font has been installed!
-  </p>
+  <div class="note-green">
+    <p>
+      The custom system font has been installed!
+    </p>
+  </div>
 
   <div align="center">
-    <p class="image">
+    <div class="image">
       <img src="/images/3DS/3DS-System-Font-Customization_11.png">
       <br>
       <small>
@@ -441,7 +453,7 @@ fontforge.activeFont().clear()
         <br>
         The ZL/ZR/C-Stick/Start glyphs are part of the game's digital manual, not the system font.
       </small>
-    </p>
+    </div>
   </div>
 </div>
 
@@ -453,12 +465,14 @@ fontforge.activeFont().clear()
     Azahar emulator</a>.
   </p>
 
-  <p class="note-blue">
-    The system files need to be installed to a virtual NAND before continuing.
-    Follow the instructions for 
-    <a href="https://github.com/azahar-emu/ArticSetupTool" target="_blank">
-    setting up system files</a> on an emulator. A real 3DS is required.
-  </p>
+  <div class="note-blue">
+    <p>
+      The system files need to be installed to a virtual NAND before continuing.
+      Follow the instructions for 
+      <a href="https://github.com/azahar-emu/ArticSetupTool" target="_blank">
+      setting up system files</a> on an emulator. A real 3DS is required.
+    </p>
+  </div>
 
   <ol>
     <li>
@@ -481,12 +495,14 @@ fontforge.activeFont().clear()
     </li>
   </ol>
 
-  <p class="note-green">
-    The custom system font has been installed!
-  </p>
+  <div class="note-green">
+    <p>
+      The custom system font has been installed!
+    </p>
+  </div>
 
   <div align="center">
-    <p class="image">
+    <div class="image">
       <img src="/images/3DS/3DS-System-Font-Customization_11.png">
       <br>
       <small>
@@ -494,7 +510,7 @@ fontforge.activeFont().clear()
         <br>
         The ZL/ZR/C-Stick/Start glyphs are part of the game's digital manual, not the system font.
       </small>
-    </p>
+    </div>
   </div>
 </div>
 
@@ -530,9 +546,11 @@ fontforge.activeFont().clear()
     </li>
   </ol>
 
-  <p class="note-green">
-    The system font has been restored.
-  </p>
+  <div class="note-green">
+    <p>
+      The system font has been restored.
+    </p>
+  </div>
 </div>
 
 <!-- Tab content -->
@@ -555,9 +573,11 @@ fontforge.activeFont().clear()
     </li>
   </ol>
 
-  <p class="note-green">
-    The system font has been restored.
-  </p>
+  <div class="note-green">
+    <p>
+      The system font has been restored.
+    </p>
+  </div>
 </div>
 
 

@@ -12,7 +12,7 @@ you can get them from the
 Internet Archive</a>.
 
 Check out the
-[System Font Customization Guide](/3DS-System-Font-Customization)
+[System Font Customisation Guide](/3DS-System-Font-Customization)
 for creating your own custom system font for 3DS!
 
 ---
@@ -71,13 +71,13 @@ designed by Fontworks</a>.
 It is used for the UI in many Nintendo games. It is also used for the tutorial sections in Hyperdimension Neptunia games for the PlayStation 3.
 
 <div align="center">
-  <p class="image">
+  <div class="image">
     <img src="/images/3DS/Pop-Happiness-Font.png">
     <br><br>
     <img src="/images/Pop-Happiness-Font_1.png">
     <br><br>
     <img src="/images/Pop-Happiness-Font_2.png">
-  </p>
+  </div>
 </div>
 
 ### List of Games using this Font for the UI:
@@ -131,13 +131,13 @@ designed by Fontworks</a>.
 It is commonly used for the UI in Paper Mario games.
 
 <div align="center">
-  <p class="image">
+  <div class="image">
     <img src="/images/3DS/Pop-Joy-Font.png">
     <br><br>
     <img src="/images/Pop-Joy-Font_1.png">
     <br><br>
     <img src="/images/Pop-Joy-Font_2.png">
-  </p>
+  </div>
 </div>
 
 ### List of Games using this Font for the UI:
@@ -190,13 +190,13 @@ designed by Fontworks</a>.
 It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Miku: Colorful Stage!.
 
 <div align="center">
-  <p class="image">
+  <div class="image">
     <img src="/images/3DS/Yuruka-Font.png">
     <br><br>
     <img src="/images/Yuruka-Font_1.png">
     <br><br>
     <img src="/images/Yuruka-Font_2.png">
-  </p>
+  </div>
 </div>
 
 ### List of Games using this Font for the UI:
@@ -246,29 +246,35 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
 
 <!-- Tab content -->
 <div id="3DS_Install" class="tabcontent_0">
-  <p class="note-blue">
-    Luma3DS custom firmware is required to use the mod.
-    <a href="https://3ds.hacks.guide/" target="_blank">
-    Install CFW if you haven't already.</a>
-  </p>
+  <div class="note-blue">
+    <p>
+      Luma3DS custom firmware is required to use the mod.
+      <a href="https://3ds.hacks.guide/" target="_blank">
+      Install CFW if you haven't already.</a>
+    </p>
+  </div>
 
-  <p class="note-blue">
-    Create a NAND backup before modifying any system files!
-    Modifying the system font is safe since Boot9Strap provides brick protection,
-    allowing recovery with GodMode9.
-    If you messed up and the Home Menu fails to launch, use GodMode9 to
-    <a href="#restoring-the-system-font">
-    restore the system font</a>.
-  </p>
+  <div class="note-blue">
+    <p>
+      Create a NAND backup before modifying any system files!
+      Modifying the system font is safe since Boot9Strap provides brick protection,
+      allowing recovery with GodMode9.
+      If you messed up and the Home Menu fails to launch, use GodMode9 to
+      <a href="#restoring-the-system-font">
+      restore the system font</a>.
+    </p>
+  </div>
 
-  <p class="note-red">
-    Never uninstall CFW while any modded system files are installed,
-    doing so will remove Boot9Strap and <b>fully</b> brick the console!
-    If you fully bricked your console, you'll need a
-    <a href="https://www.flashcarts.net/ds-quick-start-guide" target="_blank">
-    DS flashcart with ntrboot</a>
-    to re-install Boot9Strap to unbrick your console.
-  </p>
+  <div class="note-red">
+    <p>
+      Never uninstall CFW while any modded system files are installed,
+      doing so will remove Boot9Strap and <b>fully</b> brick the console!
+      If you fully bricked your console, you'll need a
+      <a href="https://www.flashcarts.net/ds-quick-start-guide" target="_blank">
+      DS flashcart with ntrboot</a>
+      to re-install Boot9Strap to unbrick your console.
+    </p>
+  </div>
 
   <details class="expandable-details">
     <summary>
@@ -281,12 +287,14 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
     </p>
   </details>
 
-  <p class="note-blue">
-    GodMode9 v2.0.0 or above is required to install <code>.cia</code> files.
-    Get the
-    <a href="https://github.com/d0k3/GodMode9" target="_blank">
-    latest version of GodMode9 here</a>.
-  </p>
+  <div class="note-blue">
+    <p>
+      GodMode9 v2.0.0 or above is required to install <code>.cia</code> files.
+      Get the
+      <a href="https://github.com/d0k3/GodMode9" target="_blank">
+      latest version of GodMode9 here</a>.
+    </p>
+  </div>
 
   <ol>
     <li>
@@ -311,9 +319,11 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
     </li>
   </ol>
 
-  <p class="note-green">
-    The custom system font has been installed.
-  </p>
+  <div class="note-green">
+    <p>
+      The custom system font has been installed.
+    </p>
+  </div>
 </div>
 
 <!-- Tab content -->
@@ -324,12 +334,14 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
     Azahar emulator</a>.
   </p>
 
-  <p class="note-blue">
-    The system files need to be installed to a virtual NAND before continuing.
-    Follow the instructions for 
-    <a href="https://github.com/azahar-emu/ArticSetupTool" target="_blank">
-    setting up system files</a> on an emulator. A real 3DS is required.
-  </p>
+  <div class="note-blue">
+    <p>
+      The system files need to be installed to a virtual NAND before continuing.
+      Follow the instructions for 
+      <a href="https://github.com/azahar-emu/ArticSetupTool" target="_blank">
+      setting up system files</a> on an emulator. A real 3DS is required.
+    </p>
+  </div>
 
   <ol>
     <li>
@@ -352,9 +364,11 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
     </li>
   </ol>
 
-  <p class="note-green">
-    The custom system font has been installed.
-  </p>
+  <div class="note-green">
+    <p>
+      The custom system font has been installed.
+    </p>
+  </div>
 </div>
 
 
@@ -389,9 +403,11 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
     </li>
   </ol>
 
-  <p class="note-green">
-    The system font has been restored.
-  </p>
+  <div class="note-green">
+    <p>
+      The system font has been restored.
+    </p>
+  </div>
 </div>
 
 <!-- Tab content -->
@@ -414,9 +430,11 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
     </li>
   </ol>
 
-  <p class="note-green">
-    The system font has been restored.
-  </p>
+  <div class="note-green">
+    <p>
+      The system font has been restored.
+    </p>
+  </div>
 </div>
 
 

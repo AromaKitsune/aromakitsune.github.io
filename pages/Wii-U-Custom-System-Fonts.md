@@ -12,7 +12,7 @@ you can get them from the
 Internet Archive</a>.
 
 Check out the
-[System Font Customization Guide](/Wii-U-System-Font-Customization)
+[System Font Customisation Guide](/Wii-U-System-Font-Customization)
 for creating your own custom system font for Wii U!
 
 ---
@@ -71,13 +71,13 @@ designed by Fontworks</a>.
 It is used for the UI in many Nintendo games. It is also used for the tutorial sections in Hyperdimension Neptunia games for the PlayStation 3.
 
 <div align="center">
-  <p class="image">
+  <div class="image">
     <img src="/images/Wii-U/Pop-Happiness-Font.png">
     <br><br>
     <img src="/images/Pop-Happiness-Font_1.png">
     <br><br>
     <img src="/images/Pop-Happiness-Font_2.png">
-  </p>
+  </div>
 </div>
 
 ### List of Games using this Font for the UI:
@@ -129,13 +129,13 @@ designed by Fontworks</a>.
 It is commonly used for the UI in Paper Mario games.
 
 <div align="center">
-  <p class="image">
+  <div class="image">
     <img src="/images/Wii-U/Pop-Joy-Font.png">
     <br><br>
     <img src="/images/Pop-Joy-Font_1.png">
     <br><br>
     <img src="/images/Pop-Joy-Font_2.png">
-  </p>
+  </div>
 </div>
 
 ### List of Games using this Font for the UI:
@@ -186,13 +186,13 @@ designed by Fontworks</a>.
 It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Miku: Colorful Stage!.
 
 <div align="center">
-  <p class="image">
+  <div class="image">
     <img src="/images/Wii-U/Yuruka-Font.png">
     <br><br>
     <img src="/images/Yuruka-Font_1.png">
     <br><br>
     <img src="/images/Yuruka-Font_2.png">
-  </p>
+  </div>
 </div>
 
 ### List of Games using this Font for the UI:
@@ -240,16 +240,20 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
 
 <!-- Tab content -->
 <div id="Wii-U_Install" class="tabcontent_0">
-  <p class="note-blue">
-    Aroma custom firmware is required to use the mod.
-    <a href="https://wiiu.hacks.guide/" target="_blank">
-    Install CFW if you haven't already.</a>
-  </p>
+  <div class="note-blue">
+    <p>
+      Aroma custom firmware is required to use the mod.
+      <a href="https://wiiu.hacks.guide/" target="_blank">
+      Install CFW if you haven't already.</a>
+    </p>
+  </div>
 
-  <p class="note-blue">
-    No system files in the MLC NAND are modified in the process. The custom system font is loaded into RAM only,
-    so it's safe to install a custom system font without worrying about bricking the console.
-  </p>
+  <div class="note-blue">
+    <p>
+      No system files in the MLC NAND are modified in the process. The custom system font is loaded into RAM only,
+      so it's safe to install a custom system font without worrying about bricking the console.
+    </p>
+  </div>
 
   <ol>
     <li>
@@ -281,9 +285,11 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
     </li>
   </ol>
 
-  <p class="note-green">
-    The custom system font has been installed.
-  </p>
+  <div class="note-green">
+    <p>
+      The custom system font has been installed.
+    </p>
+  </div>
 </div>
 
 <!-- Tab content -->
@@ -294,15 +300,18 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
     Cemu emulator</a>.
   </p>
 
-  <p class="note-blue">
-    The font files in <code>/Cemu/resources/sharedFonts</code> are replacement system fonts
-    which are used if the real system fonts don't exist in a virtual MLC NAND.
-    <br>
-    Do not add the custom/real system fonts to this folder,
-    as those added fonts will be overwritten with replacement ones after Cemu updates.
-    <br>
-    Instead, the custom/real system fonts should be added to a virtual MLC NAND.
-  </p>
+  <div class="note-blue">
+    <p>
+      The font files in <code>/Cemu/resources/sharedFonts</code> are replacement system fonts
+      which are used if the real system fonts don't exist in a virtual MLC NAND.
+    </p>
+    <p>
+      Do not add the custom/real system fonts to this folder,
+      as those added fonts will be overwritten with replacement ones after Cemu updates.
+      <br>
+      Instead, the custom/real system fonts should be added to a virtual MLC NAND.
+    </p>
+  </div>
 
   <ol>
     <li>
@@ -325,9 +334,11 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
     </li>
   </ol>
 
-  <p class="note-green">
-    The custom system font has been installed.
-  </p>
+  <div class="note-green">
+    <p>
+      The custom system font has been installed.
+    </p>
+  </div>
 </div>
 
 
@@ -356,9 +367,11 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
     </li>
   </ol>
 
-  <p class="note-green">
-    The system font has been restored.
-  </p>
+  <div class="note-green">
+    <p>
+      The system font has been restored.
+    </p>
+  </div>
 </div>
 
 <!-- Tab content -->
@@ -381,9 +394,11 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
     </li>
   </ol>
 
-  <p class="note-green">
-    The system font has been restored.
-  </p>
+  <div class="note-green">
+    <p>
+      The system font has been restored.
+    </p>
+  </div>
 </div>
 
 

@@ -1,13 +1,13 @@
 ---
 layout: page
-title: 3DS - Home Menu UI Layout Customization Guide
+title: 3DS - Home Menu UI Layout Customisation Guide
 permalink: /3DS-Home-Menu-UI-Layout-Customization
 ---
 
-A guide for customizing the Home Menu UI layout (BCLYT files) on the Nintendo 3DS.
+A guide for customising the Home Menu UI layout (BCLYT files) on the Nintendo 3DS.
 
 <div align="center">
-  <p class="image">
+  <div class="image">
     <img src="/images/3DS/3DS-Custom-Home-Menu-UI_1.gif">
     <br>
     Custom Home Menu UI mod by me.
@@ -15,27 +15,31 @@ A guide for customizing the Home Menu UI layout (BCLYT files) on the Nintendo 3D
     <a href="/3DS-Custom-Home-Menu-UI">
     Download this mod here</a>
     <br>
+  </div>
+</div>
+
+<div class="note-blue">
+  <p>
+    If this is your first time modding the 3DS Home Menu, follow
+    <a href="https://3ds.codeberg.page/homemenu/" target="_blank">
+    derberg's 3DS Home Menu Customization Guide</a>
+    for setup and extraction before proceeding.
   </p>
 </div>
 
-<p class="note-blue">
-  If this is your first time modding the 3DS Home Menu, follow
-  <a href="https://3ds.codeberg.page/homemenu/" target="_blank">
-  derberg's 3DS Home Menu Customization Guide</a>
-  for setup and extraction before proceeding.
-</p>
-
-<p class="note-blue">
-  We have a Discord server dedicated to 3DS system UI customizations:
-  <a href="https://discord.gg/0z7IGZ5Sv3D0mEN0" target="_blank">
-  Custom 3DS Assets</a>
-  <br>
-  Ask us or me (AromaKitsune) for help with UI customizations.
-  <br>
-  <small>
-    Note: I don't run this Discord server.
-  </small>
-</p>
+<div class="note-blue">
+  <p>
+    We have a Discord server dedicated to 3DS system UI customisations:
+    <a href="https://discord.gg/0z7IGZ5Sv3D0mEN0" target="_blank">
+    Custom 3DS Assets</a>
+    <br>
+    Ask us or me (AromaKitsune) for help with UI customisations.
+    <br>
+    <small>
+      Note: I don't run this Discord server.
+    </small>
+  </p>
+</div>
 
 <details class="expandable-details">
   <summary>
@@ -76,8 +80,8 @@ A guide for customizing the Home Menu UI layout (BCLYT files) on the Nintendo 3D
     </li>
     <li>
       <p>
-        <a href="#preparing-for-ui-layout-customization">
-        Preparing for UI Layout Customization</a>
+        <a href="#preparing-for-ui-layout-customisation">
+        Preparing for UI Layout Customisation</a>
       </p>
     </li>
     <li>
@@ -94,8 +98,8 @@ A guide for customizing the Home Menu UI layout (BCLYT files) on the Nintendo 3D
     </li>
     <li>
       <p>
-        <a href="#ui-element-colors">
-        UI Element Colors</a>
+        <a href="#ui-element-colours">
+        UI Element Colours</a>
       </p>
     </li>
   </ul>
@@ -104,28 +108,34 @@ A guide for customizing the Home Menu UI layout (BCLYT files) on the Nintendo 3D
 
 ## Getting Started
 
-<p class="note-blue">
-  Luma3DS custom firmware is required to use the mod.
-  <a href="https://3ds.hacks.guide/" target="_blank">
-  Install CFW if you haven't already.</a>
-</p>
+<div class="note-blue">
+  <p>
+    Luma3DS custom firmware is required to use the mod.
+    <a href="https://3ds.hacks.guide/" target="_blank">
+    Install CFW if you haven't already.</a>
+  </p>
+</div>
 
-<p class="note-blue">
-  Create a NAND backup before modifying any system files!
-  Modifying the Home Menu applet is safe since Boot9Strap provides brick protection,
-  allowing recovery with GodMode9.
-  If you messed up and the Home Menu fails to launch,
-  use GodMode9 to restore the Home Menu applet.
-</p>
+<div class="note-blue">
+  <p>
+    Create a NAND backup before modifying any system files!
+    Modifying the Home Menu applet is safe since Boot9Strap provides brick protection,
+    allowing recovery with GodMode9.
+    If you messed up and the Home Menu fails to launch,
+    use GodMode9 to restore the Home Menu applet.
+  </p>
+</div>
 
-<p class="note-red">
-  Never uninstall CFW while any modded system files are installed,
-  doing so will remove Boot9Strap and <b>fully</b> brick the console!
-  If you fully bricked your console, you'll need a
-  <a href="https://www.flashcarts.net/ds-quick-start-guide" target="_blank">
-  DS flashcart with ntrboot</a>
-  to re-install Boot9Strap to unbrick your console.
-</p>
+<div class="note-red">
+  <p>
+    Never uninstall CFW while any modded system files are installed,
+    doing so will remove Boot9Strap and <b>fully</b> brick the console!
+    If you fully bricked your console, you'll need a
+    <a href="https://www.flashcarts.net/ds-quick-start-guide" target="_blank">
+    DS flashcart with ntrboot</a>
+    to re-install Boot9Strap to unbrick your console.
+  </p>
+</div>
 
 ### What You Need:
 
@@ -145,9 +155,9 @@ A guide for customizing the Home Menu UI layout (BCLYT files) on the Nintendo 3D
 - DARC files, can be either compressed (`*_LZ.bin`) or decompressed (`*.LZ`)
 
 
-## Preparing for UI Layout Customization
+## Preparing for UI Layout Customisation
 
-Here's a list of known layout files for customization.
+Here's a list of known layout files for customisation.
 
 <table>
   <thead>
@@ -167,7 +177,7 @@ Here's a list of known layout files for customization.
     <tr>
       <td><p class="code-block-wrap">launcher.LZ/blyt/LncBase_D_01.bclyt</p></td>
       <td>
-        Bottom screen layout - The UI elements whose colors are not customizable by Themes are the applets
+        Bottom screen layout - The UI elements whose colours are not customisable by Themes are the applets
       </td>
     </tr>
     <tr>
@@ -199,21 +209,25 @@ To find other layouts:
 
 3.  Search for the `bclyt` files and open any of those to see what it looks like. You might know what those layouts are, based on their file names.
 
-<p class="note-blue">
-  Once you found what you're looking for, you can close Switch-Toolbox.
-</p>
+<div class="note-blue">
+  <p>
+    Once you found what you're looking for, you can close Switch-Toolbox.
+  </p>
+</div>
 
-<p class="note-blue">
-  If you're looking into editing the UI colors for <code>sleep.LZ</code> and applet icons (<code>launcher.LZ</code>),
-  I suggest checking out
-  <a href="https://3ds.codeberg.page/homemenu/" target="_blank">
-  derberg's Home Menu customization guide</a>
-  for those, as hex-editing the <code>*.LZ</code> files directly is easier.
-  <br>
-  Note: Once you import/replace any files into the <code>*.LZ</code> files, the color values are moved to different addresses.
-  <a href="#ui-element-colors">
-  See this section here.</a>
-</p>
+<div class="note-blue">
+  <p>
+    If you're looking into editing the UI colours for <code>sleep.LZ</code> and applet icons (<code>launcher.LZ</code>),
+    I suggest checking out
+    <a href="https://3ds.codeberg.page/homemenu/" target="_blank">
+    derberg's 3DS Home Menu Customization guide</a>
+    for those, as hex-editing the <code>*.LZ</code> files directly is easier.
+    <br>
+    Note: Once you import/replace any files into the <code>*.LZ</code> files, the colour values are moved to different addresses.
+    <a href="#ui-element-colours">
+    See this section here.</a>
+  </p>
+</div>
 
 
 ## Editing the UI Layout
@@ -230,9 +244,9 @@ To find other layouts:
 4.  Extract the BCLYT file you want to edit.
 
     <div align="center">
-      <p class="image">
+      <div class="image">
         <img src="/images/3DS/3DS-Home-Menu-UI-Layout-Customization_01.png">
-      </p>
+      </div>
     </div>
 
 5.  Make 3 copies of the extracted BCLYT file, prepend `A-`, `B-` and `C-` to each file name, for example:
@@ -269,7 +283,7 @@ To find other layouts:
 11. Edit any UI elements however you like.
 
     <div align="center">
-      <p class="image">
+      <div class="image">
         <a href="/images/3DS/3DS-Home-Menu-UI-Layout-Customization_02.png">
           <img src="/images/3DS/3DS-Home-Menu-UI-Layout-Customization_02.png">
         </a>
@@ -277,7 +291,7 @@ To find other layouts:
         <small>
           Click the screenshot for full view.
         </small>
-      </p>
+      </div>
     </div>
 
     - Refer to the
@@ -285,7 +299,7 @@ To find other layouts:
       Assets Documentation</a>
       for some lists of known panes to edit.
 
-    - Each pane has its properties you can edit: positions (translate), size, colors, rotations, transparency, etc.
+    - Each pane has its properties you can edit: positions (translate), size, colours, rotations, transparency, etc.
       You can even change the Picture Panes' size, allowing you to import the BCLIM (Layout Image) files with larger dimensions.
 
     - To hide the UI elements, untick the `Pane visible` checkbox and set the `Alpha` value to `0`.
@@ -320,7 +334,7 @@ To find other layouts:
       Make sure both the `B.bclyt`'s and `C.bclyt`'s file sizes are the same. We will be restoring them on the next steps.
 
     <div align="center">
-      <p class="image">
+      <div class="image">
         <a href="/images/3DS/3DS-Home-Menu-UI-Layout-Customization_03.png">
           <img src="/images/3DS/3DS-Home-Menu-UI-Layout-Customization_03.png">
         </a>
@@ -328,7 +342,7 @@ To find other layouts:
         <small>
           Click the screenshot for full view.
         </small>
-      </p>
+      </div>
     </div>
 
 
@@ -343,17 +357,17 @@ To find other layouts:
 4.  Press `Ctrl`+`K` to compare between the `B.bclyt` & `C.bclyt` files, click `OK`.
 
     <div align="center">
-      <p class="image">
+      <div class="image">
         <img src="/images/3DS/3DS-Home-Menu-UI-Layout-Customization_04.png">
-      </p>
+      </div>
     </div>
 
 5.  Click the Maximize button on one of the MDI windows.
 
     <div align="center">
-      <p class="image">
+      <div class="image">
         <img src="/images/3DS/3DS-Home-Menu-UI-Layout-Customization_05.png">
-      </p>
+      </div>
     </div>
 
 6.  Go to the `B.bclyt` tab.
@@ -365,9 +379,9 @@ To find other layouts:
 9.  Copy.
 
     <div align="center">
-      <p class="image">
+      <div class="image">
         <img src="/images/3DS/3DS-Home-Menu-UI-Layout-Customization_06.png">
-      </p>
+      </div>
     </div>
 
 10. Go to the `A.bclyt` tab.
@@ -380,25 +394,25 @@ To find other layouts:
     If it yields multiple results, try selecting more bytes on the `B.bclyt` tab.
 
     <div align="center">
-      <p class="image">
+      <div class="image">
         <img src="/images/3DS/3DS-Home-Menu-UI-Layout-Customization_07.png">
-      </p>
+      </div>
     </div>
 
 14. Position the cursor before the selected bytes (ex: `0x1717`).
 
     <div align="center">
-      <p class="image">
+      <div class="image">
         <img src="/images/3DS/3DS-Home-Menu-UI-Layout-Customization_08.png">
-      </p>
+      </div>
     </div>
 
 15. Click to deselect.
 
     <div align="center">
-      <p class="image">
+      <div class="image">
         <img src="/images/3DS/3DS-Home-Menu-UI-Layout-Customization_09.png">
-      </p>
+      </div>
     </div>
 
 16. Select the bytes from here, all the way to `0x0` by pressing `Ctrl`+`Shift`+`Home`.
@@ -406,9 +420,9 @@ To find other layouts:
 17. Copy.
 
     <div align="center">
-      <p class="image">
+      <div class="image">
         <img src="/images/3DS/3DS-Home-Menu-UI-Layout-Customization_10.png">
-      </p>
+      </div>
     </div>
 
 18. Go to the `C.bclyt` tab.
@@ -418,17 +432,17 @@ To find other layouts:
 20. Click to deselect.
 
     <div align="center">
-      <p class="image">
+      <div class="image">
         <img src="/images/3DS/3DS-Home-Menu-UI-Layout-Customization_11.png">
-      </p>
+      </div>
     </div>
 
 21. Select the bytes from here, all the way to `0x0` by pressing `Ctrl`+`Shift`+`Home`.
 
     <div align="center">
-      <p class="image">
+      <div class="image">
         <img src="/images/3DS/3DS-Home-Menu-UI-Layout-Customization_12.png">
-      </p>
+      </div>
     </div>
 
 22. Paste with `Ctrl`+`V`. Don't paste-overwrite with `Ctrl`+`B`.
@@ -436,9 +450,9 @@ To find other layouts:
     - The bytes at the beginning of the edited BCLYT file are restored.
 
     <div align="center">
-      <p class="image">
+      <div class="image">
         <img src="/images/3DS/3DS-Home-Menu-UI-Layout-Customization_13.png">
-      </p>
+      </div>
     </div>
 
 23. If done correctly, save it and close HxD.
@@ -451,7 +465,7 @@ To find other layouts:
       step 5 of the [Editing the UI Layout](#editing-the-ui-layout) section.
 
     <div align="center">
-      <p class="image">
+      <div class="image">
         <a href="/images/3DS/3DS-Home-Menu-UI-Layout-Customization_14.png">
           <img src="/images/3DS/3DS-Home-Menu-UI-Layout-Customization_14.png">
         </a>
@@ -459,7 +473,7 @@ To find other layouts:
         <small>
           Click the screenshot for full view.
         </small>
-      </p>
+      </div>
     </div>
 
 24. Go back to Kuriimu2.
@@ -473,12 +487,12 @@ To find other layouts:
 28. Compress the `*.LZ` file and that's it! You can now apply your edited UI to the Home Menu on your 3DS using LayeredFS or build the CIA file.
 
 
-## UI Element Colors
+## UI Element Colours
 
-After importing the BCLYT/BCLAN/BCLIM files into the `*.LZ` files with Kuriimu2, the offsets for the color values are no longer the same,
+After importing the BCLYT/BCLAN/BCLIM files into the `*.LZ` files with Kuriimu2, the offsets for the colour values are no longer the same,
 as these values have been moved to different addresses. If you did that already, you have to hex-edit the BCLYT files instead.
 
-Each value consists of 4 bytes for color & alpha (`RR GG BB AA`). I suggest changing only the RGB values.
+Each value consists of 4 bytes for colour & alpha (`RR GG BB AA`). I suggest changing only the RGB values.
 
 Applets - `launcher.LZ/blyt/LncBase_D_01.bclyt`
 
@@ -486,8 +500,8 @@ Applets - `launcher.LZ/blyt/LncBase_D_01.bclyt`
   <thead>
     <tr>
       <th>Applet icon</th>
-      <th>Color 1</th>
-      <th>Color 2</th>
+      <th>Colour 1</th>
+      <th>Colour 2</th>
     </tr>
   </thead>
   <tbody>
@@ -525,7 +539,7 @@ HUD - `hud.LZ/blyt/HudMenu_00.bclyt`
   <thead>
     <tr>
       <th>HUD element</th>
-      <th>Color</th>
+      <th>Colour</th>
     </tr>
   </thead>
   <tbody>
