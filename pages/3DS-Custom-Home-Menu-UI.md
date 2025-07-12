@@ -269,10 +269,10 @@ Last updated: 2024-10-07
 
     <ol>
       <li>
-        <p>Unpack the downloaded archive file and enter the <code>LayeredFS</code> folder.</p>
+        <p>Unpack the downloaded archive file.</p>
       </li>
       <li>
-        <p>Enter a folder matching your console region.</p>
+        <p>Go to <code>/LayeredFS/[region]</code>.</p>
       </li>
       <li>
         <p>Copy the <code>luma</code> folder to the root of the SD Card.</p>
@@ -323,10 +323,10 @@ Last updated: 2024-10-07
         <p>Go to <code>/load/mods</code>. Create folders if those don't exist.</p>
       </li>
       <li>
-        <p>Unpack the downloaded archive file and enter the <code>LayeredFS</code> folder.</p>
+        <p>Unpack the downloaded archive file.</p>
       </li>
       <li>
-        <p>Go to <code>/[region]/luma/titles</code>.</p>
+        <p>Go to <code>/LayeredFS/[region]/luma/titles</code>.</p>
       </li>
       <li>
         <p>Copy the <code>000400300000??02</code> folder to the <code>mods</code> folder.</p>

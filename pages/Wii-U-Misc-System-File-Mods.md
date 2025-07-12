@@ -80,9 +80,11 @@ SeanTheGleaming on r/3DSHacks Reddit</a>.
 
 7. Navigate to `/storage_mlc/sys/title/0005001b/10053000/content`.
 
-8. Unpack the downloaded archive file and copy the contents to the `content` folder, overwriting those.
+8. Unpack the downloaded archive file.
 
-9. Reboot the console.
+9. Copy the contents (`*.txt` files) to the `content` folder, overwriting those.
+
+10. Reboot the console.
 
 <div class="note-yellow">
   <p>
