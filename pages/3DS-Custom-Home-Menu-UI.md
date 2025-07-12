@@ -503,7 +503,7 @@ Last updated: 2024-10-07
         <p>Go to <code>SDCARD:/luma/titles</code>.</p>
       </li>
       <li>
-        <p>Delete or rename the <code>000400300000??02</code> folder.</p>
+        <p>Delete or rename the <code>000400300000??02</code> folder:</p>
         <ul>
           <li>
             <p>EUR: <code>0004003000009802</code></p>
@@ -541,7 +541,7 @@ Last updated: 2024-10-07
         <p>Go to <code>/load/mods</code>.</p>
       </li>
       <li>
-        <p>Delete or rename the <code>000400300000??02</code> folder.</p>
+        <p>Delete or rename the <code>000400300000??02</code> folder:</p>
         <ul>
           <li>
             <p>EUR: <code>0004003000009802</code></p>
@@ -683,7 +683,7 @@ Last updated: 2024-10-07
         <p>Click &quot;Begin Download&quot;, and wait for the download to complete.</p>
       </li>
       <li>
-        <p>Enter the firmware folder and find the <code>.cia</code> file for Home Menu inside the <code>updates</code> folder.</p>
+        <p>Go to <code>/[firmware]/updates</code> and find the <code>.cia</code> file for Home Menu:</p>
         <ul>
           <li>
             <p>EUR: <code>0004003000009802.cia</code></p>
