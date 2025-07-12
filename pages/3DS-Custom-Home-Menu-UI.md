@@ -764,6 +764,7 @@ Last updated: 2024-10-07
   </li>
   <li>
     <p>After extracting, copy the mod's RomFS contents to <code>/HMRT/ExtractedRomFS</code> (overwrite all).</p>
+
     <ul>
       <li>
         <p>For ExeFS:</p>
@@ -774,34 +775,39 @@ Last updated: 2024-10-07
       <li>
         <p><code>exheader.bin</code> renamed as <code>DecryptedExHeader.bin</code> goes to <code>/HMRT/HMRT</code></p>
       </li>
-      <li>
-        <p>
-          Instead of <code>code.bin</code>, the <code>code.ips</code> file is provided
-          and you must patch your original <code>code.bin</code> file with
-          <a href="https://fusoya.eludevisibility.org/lips/" target="_blank">
-          Lunar IPS</a>.
-        </p>
-      </li>
-      <ol>
-        <li>
-          <p>Launch Lunar IPS.</p>
-        </li>
-        <li>
-          <p>Click "Apply IPS Patch".</p>
-        </li>
-        <li>
-          <p>Select a <code>code.ips</code> file and click "Open".</p>
-        </li>
-        <li>
-          <p>Click the "Most Common ROM Files" combo-box and select "All Files".</p>
-        </li>
-        <li>
-          <p>Select an original <code>code.bin</code> file and click "Open" to patch it.</p>
-        </li>
-        <li>
-          <p>Copy the patched <code>code.bin</code> file to <code>/HMRT/ExtractedExeFS</code>.</p>
-        </li>
-      </ol>
+
+      <details class="expandable-details">
+        <summary>
+          <b>IPS patch note</b>
+        </summary>
+          <p>
+            Instead of <code>code.bin</code>, the <code>code.ips</code> file is provided
+            and you must patch your original <code>code.bin</code> file with
+            <a href="https://fusoya.eludevisibility.org/lips/" target="_blank">
+            Lunar IPS</a>.
+          </p>
+        <ol>
+          <li>
+            <p>Launch Lunar IPS.</p>
+          </li>
+          <li>
+            <p>Click "Apply IPS Patch".</p>
+          </li>
+          <li>
+            <p>Select a <code>code.ips</code> file and click "Open".</p>
+          </li>
+          <li>
+            <p>Click the "Most Common ROM Files" combo-box and select "All Files".</p>
+          </li>
+          <li>
+            <p>Select an original <code>code.bin</code> file and click "Open" to patch it.</p>
+          </li>
+          <li>
+            <p>Copy the patched <code>code.bin</code> file to <code>/HMRT/ExtractedExeFS</code>.</p>
+          </li>
+        </ol>
+      </details>
+
     </ul>
   </li>
   <li>
