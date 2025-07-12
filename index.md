@@ -24,7 +24,7 @@ Here you can find various system UI customisations for Nintendo 3DS and Wii U.
 - [Home Menu UI Layout Customisation Guide](/3DS-Home-Menu-UI-Layout-Customization)
 
 - [Misc System File Mods](/3DS-Misc-System-File-Mods) - Section includes:
-  - Custom Keyboard Layout
+  - Custom Software Keyboard Layout
   - Remove Profanity Filter
 
 ## Wii U
@@ -34,5 +34,5 @@ Here you can find various system UI customisations for Nintendo 3DS and Wii U.
 - [System Font Customisation Guide](/Wii-U-System-Font-Customization)
 
 - [Misc System File Mods](/Wii-U-Misc-System-File-Mods) - Section includes:
-  - Custom Keyboard Layout
+  - Custom Software Keyboard Layout
   - Remove Profanity Filter

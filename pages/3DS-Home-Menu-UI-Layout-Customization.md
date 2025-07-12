@@ -376,7 +376,7 @@ To find other layouts:
 
 8.  Select a few lines of bytes forward (ex: from `80` to `3F`).
 
-9.  Copy.
+9.  Copy it.
 
     <div align="center">
       <div class="image">
@@ -417,7 +417,7 @@ To find other layouts:
 
 16. Select the bytes from here, all the way to `0x0` by pressing `Ctrl`+`Shift`+`Home`.
 
-17. Copy.
+17. Copy it.
 
     <div align="center">
       <div class="image">

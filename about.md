@@ -53,6 +53,10 @@ before the redesign on 2024-09-27</a>
 
 ---
 
+Original 3DS and Wii U assets are properties of Nintendo. I am not affiliated with Nintendo in any way :)
+
+---
+
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
 You can find the source code for Minima at GitHub:

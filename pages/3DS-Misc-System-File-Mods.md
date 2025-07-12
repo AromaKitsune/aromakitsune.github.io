@@ -31,9 +31,9 @@ A variety of miscellaneous system file mods for the Nintendo 3DS.
 </div>
 
 
-## Custom Keyboard Layout
+## Custom Software Keyboard Layout
 
-Some custom keyboard layouts made by other people, these contain additional glyphs/symbols that can be typed in.
+Some custom software keyboard layouts made by other people, these contain additional glyphs/symbols that can be typed in.
 
 ### Download from:
 
@@ -49,16 +49,53 @@ Jess's Custom Keyboard repo (made by fwdrxyy to preserve it)</a>
 A mod that completely removes the profanity filter from the system, allowing you to type profanity words.
 
 Profanity filter removal mod by
-<a href="https://www.reddit.com/r/3dshacks/comments/w9vmtw" target="_blank">
+<a href="https://www.reddit.com/r/3dshacks/comments/w9vmtw/" target="_blank">
 SeanTheGleaming on r/3DSHacks Reddit</a>.
 
 ### Download:
 
-- [Disable filter](/files/3DS/DisableFilter.cia)
+- [Disable profanity filter](/files/3DS/DisableProfanityFilter.cia)
 
-- [Enable filter](/files/3DS/EnableFilter.cia)
+- [Enable profanity filter](/files/3DS/EnableProfanityFilter.cia)
 
-To use it, install a CIA file with FBI or GodMode9.
+<details class="expandable-details">
+  <summary>
+    <b>Installation</b>
+  </summary>
+  <div class="note-blue-nested">
+    <p>
+      GodMode9 v2.0.0 or above is required to install <code>.cia</code> files.
+      Get the
+      <a href="https://github.com/d0k3/GodMode9" target="_blank">
+      latest version of GodMode9 here</a>.
+    </p>
+  </div>
+
+  <ol>
+    <li>
+      <p>Add a downloaded CIA file to the SD Card.</p>
+    </li>
+    <li>
+      <p>Boot the console while holding the <code>Start</code> button to launch GodMode9.</p>
+    </li>
+    <li>
+      <p>Browse and select a CIA file.</p>
+    </li>
+    <li>
+      <p>Select <code>CIA image options...</code> → <code>Install game image</code>.</p>
+      <ul>
+        <li>
+          <p>CIA files downloaded from this page are already encrypted, so there's no need to re-encrypt it.</p>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <p>Reboot the console.</p>
+    </li>
+  </ol>
+</details>
+
+
 
 <div class="note-yellow">
   <p>

@@ -22,9 +22,9 @@ A variety of miscellaneous system file mods for the Wii U.
 </div>
 
 
-## Custom Keyboard Layout
+## Custom Software Keyboard Layout
 
-A custom keyboard layout made by RoGamer97, it contains additional glyphs/symbols that can be typed in.
+A custom software keyboard layout made by RoGamer97, it contains additional glyphs/symbols that can be typed in.
 
 ### Download from:
 
@@ -39,52 +39,68 @@ Please watch this video carefuly! Ro tells you to backup your original keyboard 
 A mod that completely removes the profanity filter from the system, allowing you to type profanity words.
 
 Based on a 3DS version of profanity filter removal mod by
-<a href="https://www.reddit.com/r/3dshacks/comments/w9vmtw" target="_blank">
+<a href="https://www.reddit.com/r/3dshacks/comments/w9vmtw/" target="_blank">
 SeanTheGleaming on r/3DSHacks Reddit</a>.
 
 ### Download:
 
-- [Disable filter](/files/Wii-U/DisableFilter.zip)
+- [Disable profanity filter](/files/Wii-U/DisableProfanityFilter.zip)
 
-- [Enable filter](/files/Wii-U/EnableFilter.zip)
+- [Enable profanity filter](/files/Wii-U/EnableProfanityFilter.zip)
 
-### Installation
+<details class="expandable-details">
+  <summary>
+    <b>Installation</b>
+  </summary>
+  <div class="note-blue-nested">
+    <p>This setup requires:</p>
+    <ul>
+      <li>
+        <p>FTPiiU plugin for Wii U - Download this plugin from the Aroma Updater app</p>
+      </li>
+      <li>
+        <p>
+          FTP client for PC - Download
+          <a href="https://winscp.net/" target="_blank">
+          WinSCP</a> for Windows, or FileZilla for Linux or macOS
+        </p>
+      </li>
+    </ul>
+  </div>
 
-<div class="note-blue">
-  <p>This setup requires:</p>
-  <ul>
+  <ol>
     <li>
-      <p>FTPiiU plugin for Wii U - Download this plugin from the Aroma Updater app</p>
+      <p>Open the Plugin menu (<code>L</code> + <code>D-Pad ↓</code> + <code>Select</code>).</p>
     </li>
     <li>
-      <p>
-        FTP client for PC - Download
-        <a href="https://winscp.net/" target="_blank">
-        WinSCP</a> for Windows, or FileZilla for Linux or macOS
-      </p>
+      <p>Go to FTPiiU.</p>
     </li>
-  </ul>
-</div>
-
-1. Open the Plugin menu (`L` + `D-Pad ↓` + `Select`).
-
-2. Go to FTPiiU.
-
-3. Allow access to system files.
-
-4. Take a note of the Wii U console's IP address.
-
-5. On PC, launch the FTP client app.
-
-6. Connect to the Wii U console with an IP address.
-
-7. Navigate to `/storage_mlc/sys/title/0005001b/10053000/content`.
-
-8. Unpack the downloaded archive file.
-
-9. Copy the contents (`*.txt` files) to the `content` folder, overwriting those.
-
-10. Reboot the console.
+    <li>
+      <p>Allow access to system files.</p>
+    </li>
+    <li>
+      <p>Take a note of the Wii U console’s IP address.</p>
+    </li>
+    <li>
+      <p>On PC, launch the FTP client app.</p>
+    </li>
+    <li>
+      <p>Connect to the Wii U console with an IP address.</p>
+    </li>
+    <li>
+      <p>Navigate to <code>/storage_mlc/sys/title/0005001b/10053000/content</code>.</p>
+    </li>
+    <li>
+      <p>Unpack the downloaded archive file.</p>
+    </li>
+    <li>
+      <p>Copy the contents (<code>*.txt</code> files) to the <code>content</code> folder, overwriting those.</p>
+    </li>
+    <li>
+      <p>Reboot the console.</p>
+    </li>
+  </ol>
+</details>
 
 <div class="note-yellow">
   <p>

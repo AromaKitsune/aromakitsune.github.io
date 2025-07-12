@@ -278,7 +278,7 @@ Last updated: 2024-10-07
         <p>Copy the <code>luma</code> folder to the root of the SD Card.</p>
       </li>
       <li>
-        <p>Launch the Luma3DS config by holding the <code>Select</code> button while booting.</p>
+        <p>Boot the console while holding the <code>Select</code> button to launch Luma3DS configuration.</p>
       </li>
       <li>
         <p>Activate &quot;Enable game patching&quot;.</p>
@@ -631,13 +631,13 @@ Last updated: 2024-10-07
         </ul>
       </li>
       <li>
-        <p>Add a <code>HomeMenu_???.cia</code> file to the SD Card.</p>
+        <p>Add a <code>HomeMenu_[region].cia</code> file to the SD Card.</p>
       </li>
       <li>
         <p>Boot the console while holding the <code>Start</code> button to launch GodMode9.</p>
       </li>
       <li>
-        <p>Browse and select a <code>HomeMenu_???.cia</code> file.</p>
+        <p>Browse and select a <code>HomeMenu_[region].cia</code> file.</p>
       </li>
       <li>
         <p>Select <code>CIA image options...</code> → <code>Install game image</code>.</p>
