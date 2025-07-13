@@ -258,7 +258,7 @@ Last updated: 2024-10-07
     <div class="note-yellow">
       <p>
         LayeredFS patching is unstable for system applets which causes Home Menu to crash.
-        This happens when Home Menu is opened 11 times total
+        This happens when the Home Menu is opened 11 times total
         (by suspending a game or exiting an applet)
         after booting the system.
       <p>
@@ -746,95 +746,94 @@ Last updated: 2024-10-07
 <div class="note-blue">
   <p>
     These releases contain only the RomFS folder. Again, LayeredFS patching for applets is unstable,
-    Home Menu crashes if the Home Menu is opened 11 times.
+    Home Menu crashes if the Home Menu is opened 11 times total after booting the system.
   <p>
   </p>
     It is recommended to compile a CIA file and install it so Home Menu doesn't crash.
   </p>
 </div>
 
-<ol>
-  <li>
-    <p>
-      Follow
-      <a href="https://3ds.codeberg.page/homemenu/" target="_blank">
-      derberg's 3DS Home Menu Customization Guide</a>
-      for RomFS extraction (do not decompress all LZ files).
-    </p>
-  </li>
-  <li>
-    <p>After extracting, copy the mod's RomFS contents to <code>/HMRT/ExtractedRomFS</code> (overwrite all).</p>
-
-    <ul>
-      <li>
-        <p>For ExeFS:</p>
-      </li>
-      <li>
-        <p><code>code.bin</code> goes to <code>/HMRT/ExtractedExeFS</code></p>
-      </li>
-      <li>
-        <p><code>exheader.bin</code> renamed as <code>DecryptedExHeader.bin</code> goes to <code>/HMRT/HMRT</code></p>
-      </li>
-
-      <details class="expandable-details">
-        <summary>
-          <b>IPS patch note</b>
-        </summary>
+<details class="expandable-details">
+  <summary>
+    <b>Compiling a CIA file</b>
+  </summary>
+  <ol>
+    <li>
+      <p>
+        Follow
+        <a href="https://3ds.codeberg.page/homemenu/" target="_blank">
+        derberg's 3DS Home Menu Customization Guide</a>
+        for RomFS extraction (do not decompress all LZ files).
+      </p>
+    </li>
+    <li>
+      <p>After extracting, copy the mod's RomFS contents to <code>/HMRT/ExtractedRomFS</code> (overwrite all).</p>
+      <ul>
+        <li>
+          <p>For ExeFS:</p>
+        </li>
+        <li>
+          <p><code>code.bin</code> goes to <code>/HMRT/ExtractedExeFS</code></p>
+        </li>
+        <li>
+          <p><code>exheader.bin</code> renamed as <code>DecryptedExHeader.bin</code> goes to <code>/HMRT/HMRT</code></p>
+        </li>
+        <div class="note-blue-nested">
           <p>
             Instead of <code>code.bin</code>, the <code>code.ips</code> file is provided
             and you must patch your original <code>code.bin</code> file with
             <a href="https://fusoya.eludevisibility.org/lips/" target="_blank">
             Lunar IPS</a>.
           </p>
-        <ol>
-          <li>
-            <p>Launch Lunar IPS.</p>
-          </li>
-          <li>
-            <p>Click "Apply IPS Patch".</p>
-          </li>
-          <li>
-            <p>Select a <code>code.ips</code> file and click "Open".</p>
-          </li>
-          <li>
-            <p>Click the "Most Common ROM Files" combo-box and select "All Files".</p>
-          </li>
-          <li>
-            <p>Select an original <code>code.bin</code> file and click "Open" to patch it.</p>
-          </li>
-          <li>
-            <p>Copy the patched <code>code.bin</code> file to <code>/HMRT/ExtractedExeFS</code>.</p>
-          </li>
-        </ol>
-      </details>
-
-    </ul>
-  </li>
-  <li>
-    <p>Launch HMRT and build a CIA file.</p>
-  </li>
-  <li>
-    <p>Add a CIA file to the SD card.</p>
-  </li>
-  <li>
-    <p>Boot the console while holding the <code>Start</code> button to launch GodMode9.</p>
-  </li>
-  <li>
-    <p>Browse and select a compiled CIA file.</p>
-  </li>
-  <li>
-    <p>Select <code>CIA image options...</code> → <code>Encrypt file</code> → <code>Encrypt inplace</code>.</p>
-  </li>
-  <li>
-    <p>Select an encrypted CIA file again.</p>
-  </li>
-  <li>
-    <p>Select <code>CIA image options...</code> → <code>Install game image</code>.</p>
-  </li>
-  <li>
-    <p>Reboot the console.</p>
-  </li>
-</ol>
+          <ol>
+            <li>
+              <p>Launch Lunar IPS.</p>
+            </li>
+            <li>
+              <p>Click "Apply IPS Patch".</p>
+            </li>
+            <li>
+              <p>Select a <code>code.ips</code> file and click "Open".</p>
+            </li>
+            <li>
+              <p>Click the "Most Common ROM Files" combo-box and select "All Files".</p>
+            </li>
+            <li>
+              <p>Select an original <code>code.bin</code> file and click "Open" to patch it.</p>
+            </li>
+            <li>
+              <p>Copy the patched <code>code.bin</code> file to <code>/HMRT/ExtractedExeFS</code>.</p>
+            </li>
+          </ol>
+        </div>
+      </ul>
+    </li>
+    <li>
+      <p>Launch HMRT and build a CIA file.</p>
+    </li>
+    <li>
+      <p>Add a CIA file to the SD card.</p>
+    </li>
+    <li>
+      <p>Boot the console while holding the <code>Start</code> button to launch GodMode9.</p>
+    </li>
+    <li>
+      <p>Browse and select a compiled CIA file.</p>
+    </li>
+    <li>
+      <p>Select <code>CIA image options...</code> → <code>Encrypt file</code> → <code>Encrypt inplace</code>.</p>
+    </li>
+    <li>
+      <p>Select an encrypted CIA file again.</p>
+    </li>
+    <li>
+      <p>Select <code>CIA image options...</code> → <code>Install game image</code>.</p>
+    </li>
+    <li>
+      <p>Reboot the console.</p>
+    </li>
+  </ol>
+</details>
 
 <script src="/assets/js/gallery.js"></script>
 <script src="/assets/js/tabs_0.js"></script>

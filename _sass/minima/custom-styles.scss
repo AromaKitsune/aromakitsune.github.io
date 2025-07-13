@@ -195,14 +195,6 @@ code {
   margin-bottom: 15px;
 }
 
-.note-blue-nested {
-  background-color: darken(#2c3f48, 5%);
-  border-radius: 8px;
-  overflow: hidden;
-  padding: 16px 16px 0px;
-  margin-bottom: 15px;
-}
-
 .expandable-details {
   background-color: #2c3f48;
   border-radius: 8px;
@@ -221,6 +213,14 @@ code {
 
 .expandable-details:open summary {
   padding-bottom: 8px;
+}
+
+.note-blue-nested {
+  background-color: darken(#2c3f48, 5%);
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 16px 16px 0px;
+  margin-bottom: 15px;
 }
 
 .code-block-wrap {
