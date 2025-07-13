@@ -762,8 +762,9 @@ Last updated: 2024-10-07
       <p>
         Follow
         <a href="https://3ds.codeberg.page/homemenu/" target="_blank">
-        derberg's 3DS Home Menu Customization Guide</a>
-        for RomFS extraction (do not decompress all LZ files).
+        derberg's 3DS Home Menu Customization Guide</a>,
+        sections 1 and 2 for RomFS extraction. On section 2, step 6, launch the Home Menu Rebuilding Tool
+        and extract the RomFS assets, but don't decompress all LZ files too.
       </p>
     </li>
     <li>
