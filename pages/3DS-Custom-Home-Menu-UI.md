@@ -262,7 +262,7 @@ Last updated: 2024-10-07
         (by suspending a game or exiting an applet)
         after booting the system.
         <a href="https://github.com/LumaTeam/Luma3DS/issues/1954" target="_blank">
-        See this releated issue reported on the Luma3DS repo.</a>
+        See this related issue reported on the Luma3DS repo on GitHub.</a>
       <p>
       </p>
         To avoid crashes, install this mod with a CIA file instead.
