@@ -261,6 +261,8 @@ Last updated: 2024-10-07
         This happens when the Home Menu is opened 11 times total
         (by suspending a game or exiting an applet)
         after booting the system.
+        <a href="https://github.com/LumaTeam/Luma3DS/issues/1954" target="_blank">
+        See this releated issue reported on the Luma3DS repo.</a>
       <p>
       </p>
         To avoid crashes, install this mod with a CIA file instead.
