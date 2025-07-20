@@ -233,11 +233,26 @@ code {
   padding: 8px 12px;
 }
 
- /* Style buttons */
-.btn {
-  background-color: #3282f6;
+// Buttons
+.download-button {
+  background-color: #0067c0;
   border: none;
-  color: white;
+  color: $text-color;
+  width: 50%;
+  border-radius: 6px;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.download-button:hover {
+  background-color: darken(#0067c0, 10%);
+}
+
+.download-button-fullwidth {
+  background-color: #0067c0;
+  border: none;
+  color: $text-color;
   width: 100%;
   border-radius: 6px;
   padding: 12px 30px;
@@ -246,7 +261,6 @@ code {
   margin-bottom: 15px;
 }
 
-/* Darker background on mouse-over */
-.btn:hover {
-  background-color: darken(#3282f6, 10%);
+.download-button-fullwidth:hover {
+  background-color: darken(#0067c0, 10%);
 }

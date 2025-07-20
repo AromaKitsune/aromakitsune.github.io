@@ -100,9 +100,18 @@ It is used for the UI in many Nintendo games. It is also used for the tutorial s
 
 ### Download Font:
 
-- [CIA - for 3DS](/files/3DS/PopHappinessFont.cia)
 
-- [BCFNT - for Azahar Emulator](/files/3DS/PopHappiness.bcfnt.lz)
+<a href="/files/3DS/PopHappinessFont.cia">
+  <button class="download-button">
+    <i class="fa fa-download"></i> CIA - for 3DS console
+  </button> 
+</a>
+
+<a href="/files/3DS/PopHappiness.bcfnt.lz">
+  <button class="download-button">
+    <i class="fa fa-download"></i> BCFNT - for Azahar Emulator
+  </button> 
+</a>
 
 - [OTF - for anything else](/files/FOT-PopHappinessStd-EB.otf)
 
