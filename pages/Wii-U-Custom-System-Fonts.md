@@ -100,7 +100,11 @@ It is used for the UI in many Nintendo games. It is also used for the tutorial s
 
 ### Download Font:
 
-- [TTF - for Wii U / Cemu Emulator](/files/Wii-U/PopHappiness.ttf)
+<a href="/files/Wii-U/PopHappiness.ttf">
+  <button class="download-button">
+    <i class="fa fa-download"></i> TTF - for Wii U console or Cemu Emulator
+  </button> 
+</a>
 
 - [OTF - for anything else](/files/FOT-PopHappinessStd-EB.otf)
 
@@ -153,7 +157,11 @@ It is commonly used for the UI in Paper Mario games.
 
 ### Download Font:
 
-- [TTF - for Wii U / Cemu Emulator](/files/Wii-U/PopJoy.ttf)
+<a href="/files/Wii-U/PopJoy.ttf">
+  <button class="download-button">
+    <i class="fa fa-download"></i> TTF - for Wii U console or Cemu Emulator
+  </button> 
+</a>
 
 - [OTF - for anything else](/files/FOT-PopJoyStd-B.otf)
 
@@ -210,7 +218,11 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
 
 ### Download Font:
 
-- [TTF - for Wii U / Cemu Emulator](/files/Wii-U/Yuruka.ttf)
+<a href="/files/Wii-U/Yuruka.ttf">
+  <button class="download-button">
+    <i class="fa fa-download"></i> TTF - for Wii U console or Cemu Emulator
+  </button> 
+</a>
 
 - [OTF - for anything else](/files/FOT-YurukaStd-UB.otf)
 

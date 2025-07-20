@@ -44,7 +44,11 @@ SeanTheGleaming on r/3DSHacks Reddit</a>.
 
 ### Download:
 
-- [Disable profanity filter](/files/Wii-U/DisableProfanityFilter.zip)
+<a href="/files/Wii-U/DisableProfanityFilter.zip">
+  <button class="download-button">
+    <i class="fa fa-download"></i> Disable profanity filter
+  </button> 
+</a>
 
 - [Enable profanity filter](/files/Wii-U/EnableProfanityFilter.zip)
 

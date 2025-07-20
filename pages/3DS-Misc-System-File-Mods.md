@@ -54,7 +54,11 @@ SeanTheGleaming on r/3DSHacks Reddit</a>.
 
 ### Download:
 
-- [Disable profanity filter](/files/3DS/DisableProfanityFilter.cia)
+<a href="/files/3DS/DisableProfanityFilter.cia">
+  <button class="download-button">
+    <i class="fa fa-download"></i> Disable profanity filter
+  </button> 
+</a>
 
 - [Enable profanity filter](/files/3DS/EnableProfanityFilter.cia)
 

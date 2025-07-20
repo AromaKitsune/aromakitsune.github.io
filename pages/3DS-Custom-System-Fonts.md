@@ -100,7 +100,6 @@ It is used for the UI in many Nintendo games. It is also used for the tutorial s
 
 ### Download Font:
 
-
 <a href="/files/3DS/PopHappinessFont.cia">
   <button class="download-button">
     <i class="fa fa-download"></i> CIA - for 3DS console
@@ -164,9 +163,17 @@ It is commonly used for the UI in Paper Mario games.
 
 ### Download Font:
 
-- [CIA - for 3DS](/files/3DS/PopJoyFont.cia)
+<a href="/files/3DS/PopJoyFont.cia">
+  <button class="download-button">
+    <i class="fa fa-download"></i> CIA - for 3DS console
+  </button> 
+</a>
 
-- [BCFNT - for Azahar Emulator](/files/3DS/PopJoy.bcfnt.lz)
+<a href="/files/3DS/PopJoy.bcfnt.lz">
+  <button class="download-button">
+    <i class="fa fa-download"></i> BCFNT - for Azahar Emulator
+  </button> 
+</a>
 
 - [OTF - for anything else](/files/FOT-PopJoyStd-B.otf)
 
@@ -223,9 +230,17 @@ It is used for the UI in various Nintendo games, WarioWare games, and Hatsune Mi
 
 ### Download Font:
 
-- [CIA - for 3DS](/files/3DS/YurukaFont.cia)
+<a href="/files/3DS/YurukaFont.cia">
+  <button class="download-button">
+    <i class="fa fa-download"></i> CIA - for 3DS console
+  </button> 
+</a>
 
-- [BCFNT - for Azahar Emulator](/files/3DS/Yuruka.bcfnt.lz)
+<a href="/files/3DS/Yuruka.bcfnt.lz">
+  <button class="download-button">
+    <i class="fa fa-download"></i> BCFNT - for Azahar Emulator
+  </button> 
+</a>
 
 - [OTF - for anything else](/files/FOT-YurukaStd-UB.otf)
 
