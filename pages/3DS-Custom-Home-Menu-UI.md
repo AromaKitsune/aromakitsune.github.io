@@ -158,64 +158,50 @@ Last updated: 2024-10-07
 
 <!-- Tab content -->
 <div id="Normal" class="tabcontent_0">
-  <p>
-    <a href="/files/3DS/Kitsune-CustomHomeMenuUI.zip" style="text-decoration: none;">
-      <button class="btn" style="width: 100%">
-      <i class="fa fa-download"></i> LayeredFS (EUR / USA / JPN)
-      </button> 
-    </a>
-  </p>
-  <p>
-    <a href="/files/3DS/Kitsune-CustomHomeMenuUI_EUR.cia" style="text-decoration: none;">
-      <button class="btn" style="width: 32.75%">
-      <img src="/assets/EU.svg"> EUR console
-      <br>
-      (.cia file)
-      </button> 
-    </a>
-    <a href="/files/3DS/Kitsune-CustomHomeMenuUI_USA.cia" style="text-decoration: none;">
-      <button class="btn" style="width: 32.75%">
-      <img src="/assets/US.svg"> USA console
-      <br>
-      (.cia file)
-      </button> 
-    </a>
-    <a href="/files/3DS/Kitsune-CustomHomeMenuUI_JPN.cia" style="text-decoration: none;">
-      <button class="btn" style="width: 32.75%">
-      <img src="/assets/JP.svg"> JPN console
-      <br>
-      (.cia file)
-      </button> 
-    </a>
-  </p>
+  <a href="/files/3DS/Kitsune-CustomHomeMenuUI.zip" style="text-decoration: none">
+    <button class="btn">
+    <i class="fa fa-download"></i> LayeredFS for 3DS console or Azahar Emulator
+    </button> 
+  </a>
+  <a href="/files/3DS/Kitsune-CustomHomeMenuUI_EUR.cia" style="text-decoration: none">
+    <button class="btn">
+    <img src="/assets/EU.svg"> CIA File for EUR 3DS console
+    </button> 
+  </a>
+  <a href="/files/3DS/Kitsune-CustomHomeMenuUI_USA.cia" style="text-decoration: none">
+    <button class="btn">
+    <img src="/assets/US.svg"> CIA File for USA 3DS console
+    </button> 
+  </a>
+  <a href="/files/3DS/Kitsune-CustomHomeMenuUI_JPN.cia" style="text-decoration: none">
+    <button class="btn">
+    <img src="/assets/JP.svg"> CIA File for JPN 3DS console
+    </button> 
+  </a>
 </div>
 
 <!-- Tab content -->
 <div id="NoMvs" class="tabcontent_0">
-  <p>
-    <a href="/files/3DS/Kitsune-CustomHomeMenuUI_NoMvs.zip" style="text-decoration: none;">
-      <button class="btn" style="width: 100%">
-      <i class="fa fa-download"></i> LayeredFS (EUR / USA / JPN)
-      </button> 
-    </a>
-  </p>
-  <p>
-    <a href="/files/3DS/Kitsune-CustomHomeMenuUI_EUR_NoMvs.cia" style="text-decoration: none;">
-      <button class="btn" style="width: 32.75%">
-      <img src="/assets/EU.svg"> EUR console (.cia file)
-      </button> 
-    </a>
-    <a href="/files/3DS/Kitsune-CustomHomeMenuUI_USA_NoMvs.cia" style="text-decoration: none;">
-      <button class="btn" style="width: 32.75%">
-      <img src="/assets/US.svg"> USA console (.cia file)
-      </button> 
-    </a>
-    <a href="/files/3DS/Kitsune-CustomHomeMenuUI_JPN_NoMvs.cia" style="text-decoration: none;">
-      <button class="btn" style="width: 32.75%">
-      <img src="/assets/JP.svg"> JPN console (.cia file)
-      </button> 
-    </a>
-  </p>
+  <a href="/files/3DS/Kitsune-CustomHomeMenuUI_NoMvs.zip" style="text-decoration: none">
+    <button class="btn">
+    <i class="fa fa-download"></i> LayeredFS for 3DS console or Azahar Emulator
+    </button> 
+  </a>
+  <a href="/files/3DS/Kitsune-CustomHomeMenuUI_EUR_NoMvs.cia" style="text-decoration: none">
+    <button class="btn">
+    <img src="/assets/EU.svg"> CIA File for EUR 3DS console
+    </button> 
+  </a>
+  <a href="/files/3DS/Kitsune-CustomHomeMenuUI_USA_NoMvs.cia" style="text-decoration: none">
+    <button class="btn">
+    <img src="/assets/US.svg"> CIA File for USA 3DS console
+    </button> 
+  </a>
+  <a href="/files/3DS/Kitsune-CustomHomeMenuUI_JPN_NoMvs.cia" style="text-decoration: none">
+    <button class="btn">
+    <img src="/assets/JP.svg"> CIA File for JPN 3DS console
+    </button> 
+  </a>
 
   <div class="note-blue">
     <p>

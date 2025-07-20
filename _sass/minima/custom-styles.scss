@@ -235,16 +235,18 @@ code {
 
  /* Style buttons */
 .btn {
-  background-color: #0078D7;
+  background-color: #3282f6;
   border: none;
   color: white;
+  width: 100%;
   border-radius: 6px;
   padding: 12px 30px;
   cursor: pointer;
   font-size: 20px;
+  margin-bottom: 15px;
 }
 
 /* Darker background on mouse-over */
 .btn:hover {
-  background-color: darken(#0078D7, 10%);
+  background-color: darken(#3282f6, 10%);
 }
