@@ -160,22 +160,22 @@ Last updated: 2024-10-07
 <div id="Normal" class="tabcontent_0">
   <a href="/files/3DS/Kitsune-CustomHomeMenuUI.zip" style="text-decoration: none">
     <button class="btn">
-    <i class="fa fa-download"></i> LayeredFS for 3DS console or Azahar Emulator
+      <i class="fa fa-download"></i> LayeredFS for 3DS console or Azahar Emulator
     </button> 
   </a>
   <a href="/files/3DS/Kitsune-CustomHomeMenuUI_EUR.cia" style="text-decoration: none">
     <button class="btn">
-    <img src="/assets/EU.svg"> CIA File for EUR 3DS console
+      <img src="/assets/country-flags/EU.svg"> CIA File for EUR 3DS console
     </button> 
   </a>
   <a href="/files/3DS/Kitsune-CustomHomeMenuUI_USA.cia" style="text-decoration: none">
     <button class="btn">
-    <img src="/assets/US.svg"> CIA File for USA 3DS console
+    <img src="/assets/country-flags/US.svg"> CIA File for USA 3DS console
     </button> 
   </a>
   <a href="/files/3DS/Kitsune-CustomHomeMenuUI_JPN.cia" style="text-decoration: none">
     <button class="btn">
-    <img src="/assets/JP.svg"> CIA File for JPN 3DS console
+      <img src="/assets/country-flags/JP.svg"> CIA File for JPN 3DS console
     </button> 
   </a>
 </div>
@@ -184,22 +184,22 @@ Last updated: 2024-10-07
 <div id="NoMvs" class="tabcontent_0">
   <a href="/files/3DS/Kitsune-CustomHomeMenuUI_NoMvs.zip" style="text-decoration: none">
     <button class="btn">
-    <i class="fa fa-download"></i> LayeredFS for 3DS console or Azahar Emulator
+      <i class="fa fa-download"></i> LayeredFS for 3DS console or Azahar Emulator
     </button> 
   </a>
   <a href="/files/3DS/Kitsune-CustomHomeMenuUI_EUR_NoMvs.cia" style="text-decoration: none">
     <button class="btn">
-    <img src="/assets/EU.svg"> CIA File for EUR 3DS console
+      <img src="/assets/country-flags/EU.svg"> CIA File for EUR 3DS console
     </button> 
   </a>
   <a href="/files/3DS/Kitsune-CustomHomeMenuUI_USA_NoMvs.cia" style="text-decoration: none">
     <button class="btn">
-    <img src="/assets/US.svg"> CIA File for USA 3DS console
+      <img src="/assets/country-flags/US.svg"> CIA File for USA 3DS console
     </button> 
   </a>
   <a href="/files/3DS/Kitsune-CustomHomeMenuUI_JPN_NoMvs.cia" style="text-decoration: none">
     <button class="btn">
-    <img src="/assets/JP.svg"> CIA File for JPN 3DS console
+      <img src="/assets/country-flags/JP.svg"> CIA File for JPN 3DS console
     </button> 
   </a>
 
