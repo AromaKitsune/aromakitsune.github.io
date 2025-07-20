@@ -168,17 +168,23 @@ Last updated: 2024-10-07
   <p>
     <a href="/files/3DS/Kitsune-CustomHomeMenuUI_EUR.cia">
       <button class="btn" style="width: 32.75%">
-      <img src="/assets/EU.svg"> EUR console (.cia file)
+      <img src="/assets/EU.svg"> EUR console
+      <br>
+      (.cia file)
       </button> 
     </a>
     <a href="/files/3DS/Kitsune-CustomHomeMenuUI_USA.cia">
       <button class="btn" style="width: 32.75%">
-      <img src="/assets/US.svg"> USA console (.cia file)
+      <img src="/assets/US.svg"> USA console
+      <br>
+      (.cia file)
       </button> 
     </a>
     <a href="/files/3DS/Kitsune-CustomHomeMenuUI_JPN.cia">
       <button class="btn" style="width: 32.75%">
-      <img src="/assets/JP.svg"> JPN console (.cia file)
+      <img src="/assets/JP.svg"> JPN console
+      <br>
+      (.cia file)
       </button> 
     </a>
   </p>
