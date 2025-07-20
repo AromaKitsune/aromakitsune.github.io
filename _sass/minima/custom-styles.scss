@@ -232,3 +232,23 @@ code {
   background-color: $code-background-color;
   padding: 8px 12px;
 }
+
+ /* Style buttons */
+.btn {
+  background-color: #0078D7;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: darken(#0078D7, 10%);
+}
+
+.btn a {
+  text-decoration: none;
+}

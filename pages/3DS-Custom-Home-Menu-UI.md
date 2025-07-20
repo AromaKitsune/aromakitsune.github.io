@@ -147,6 +147,9 @@ Last updated: 2024-10-07
 
 ### Download Mod:
 
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <!-- Tab links -->
 <div class="tab_0">
   <button class="tablinks_0" onclick="openTab_0(event, 'Normal')" id="defaultOpen_0">Normal</button>
@@ -155,62 +158,58 @@ Last updated: 2024-10-07
 
 <!-- Tab content -->
 <div id="Normal" class="tabcontent_0">
-  <ul>
-    <li>
-      <p>
-        <a href="/files/3DS/Kitsune-CustomHomeMenuUI.zip">
-        LayeredFS</a>
-      </p>
-    </li>
-    <li>
-      <p>
-        <a href="/files/3DS/Kitsune-CustomHomeMenuUI_EUR.cia">
-        CIA - for EUR console</a>
-      </p>
-    </li>
-    <li>
-      <p>
-        <a href="/files/3DS/Kitsune-CustomHomeMenuUI_USA.cia">
-        CIA - for USA console</a>
-      </p>
-    </li>
-    <li>
-      <p>
-        <a href="/files/3DS/Kitsune-CustomHomeMenuUI_JPN.cia">
-        CIA - for JPN console</a>
-      </p>
-    </li>
-  </ul>
+  <p>
+    <a href="/files/3DS/Kitsune-CustomHomeMenuUI.zip">
+      <button class="btn" style="width: 100%">
+      <i class="fa fa-download"></i> LayeredFS (EUR / USA / JPN)
+      </button> 
+    </a>
+  </p>
+  <p>
+    <a href="/files/3DS/Kitsune-CustomHomeMenuUI_EUR.cia">
+      <button class="btn" style="width: 32.75%">
+      <img src="/assets/EU.svg"> EUR console (.cia file)
+      </button> 
+    </a>
+    <a href="/files/3DS/Kitsune-CustomHomeMenuUI_USA.cia">
+      <button class="btn" style="width: 32.75%">
+      <img src="/assets/US.svg"> USA console (.cia file)
+      </button> 
+    </a>
+    <a href="/files/3DS/Kitsune-CustomHomeMenuUI_JPN.cia">
+      <button class="btn" style="width: 32.75%">
+      <img src="/assets/JP.svg"> JPN console (.cia file)
+      </button> 
+    </a>
+  </p>
 </div>
 
 <!-- Tab content -->
 <div id="NoMvs" class="tabcontent_0">
-  <ul>
-    <li>
-      <p>
-        <a href="/files/3DS/Kitsune-CustomHomeMenuUI_NoMvs.zip">
-        LayeredFS</a>
-      </p>
-    </li>
-    <li>
-      <p>
-        <a href="/files/3DS/Kitsune-CustomHomeMenuUI_EUR_NoMvs.cia">
-        CIA - for EUR console</a>
-      </p>
-    </li>
-    <li>
-      <p>
-        <a href="/files/3DS/Kitsune-CustomHomeMenuUI_USA_NoMvs.cia">
-        CIA - for USA console</a>
-      </p>
-    </li>
-    <li>
-      <p>
-        <a href="/files/3DS/Kitsune-CustomHomeMenuUI_JPN_NoMvs.cia">
-        CIA - for JPN console</a>
-      </p>
-    </li>
-  </ul>
+  <p>
+    <a href="/files/3DS/Kitsune-CustomHomeMenuUI_NoMvs.zip">
+      <button class="btn" style="width: 100%">
+      <i class="fa fa-download"></i> LayeredFS (EUR / USA / JPN)
+      </button> 
+    </a>
+  </p>
+  <p>
+    <a href="/files/3DS/Kitsune-CustomHomeMenuUI_EUR_NoMvs.cia">
+      <button class="btn" style="width: 32.75%">
+      <img src="/assets/EU.svg"> EUR console (.cia file)
+      </button> 
+    </a>
+    <a href="/files/3DS/Kitsune-CustomHomeMenuUI_USA_NoMvs.cia">
+      <button class="btn" style="width: 32.75%">
+      <img src="/assets/US.svg"> USA console (.cia file)
+      </button> 
+    </a>
+    <a href="/files/3DS/Kitsune-CustomHomeMenuUI_JPN_NoMvs.cia">
+      <button class="btn" style="width: 32.75%">
+      <img src="/assets/JP.svg"> JPN console (.cia file)
+      </button> 
+    </a>
+  </p>
 
   <div class="note-blue">
     <p>
@@ -262,7 +261,7 @@ Last updated: 2024-10-07
         (by suspending a game or exiting an applet)
         after booting the system.
         <a href="https://github.com/LumaTeam/Luma3DS/issues/1954" target="_blank">
-        See this related issue reported on the Luma3DS repo on GitHub.</a>
+        Refer to this bug reported on the Luma3DS repo on GitHub.</a>
       <p>
       </p>
         To avoid crashes, install this mod with a CIA file instead.

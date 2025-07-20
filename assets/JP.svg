@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="28"
+   height="20"
+   viewBox="0 0 28 20"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="JP.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="28"
+       height="20"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <!-- Generator: sketchtool 46 (44423) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title1">JP</title>
+  <desc
+     id="desc1">Created with sketchtool.</desc>
+  <defs
+     id="defs4">
+    <linearGradient
+       x1="8.8741198"
+       y1="0"
+       x2="8.8741198"
+       y2="17.74824"
+       id="linearGradient-1"
+       gradientTransform="scale(1.183216,0.84515425)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#FFFFFF"
+         offset="0%"
+         id="stop1" />
+      <stop
+         stop-color="#F0F0F0"
+         offset="100%"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       x1="10.5"
+       y1="3"
+       x2="10.5"
+       y2="12"
+       id="linearGradient-2"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#D81441"
+         offset="0%"
+         id="stop3" />
+      <stop
+         stop-color="#BB0831"
+         offset="100%"
+         id="stop4" />
+    </linearGradient>
+  </defs>
+  <g
+     id="Symbols"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd"
+     transform="scale(1.3333333)">
+    <g
+       id="JP">
+      <rect
+         id="FlagBackground"
+         fill="url(#linearGradient-1)"
+         x="0"
+         y="0"
+         width="21"
+         height="15"
+         style="fill:url(#linearGradient-1)" />
+      <circle
+         id="Oval-9"
+         fill="url(#linearGradient-2)"
+         cx="10.5"
+         cy="7.5"
+         r="4.5"
+         style="fill:url(#linearGradient-2)" />
+    </g>
+  </g>
+</svg>
