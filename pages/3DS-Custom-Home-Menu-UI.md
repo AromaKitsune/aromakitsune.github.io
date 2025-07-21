@@ -162,17 +162,17 @@ Last updated: 2024-10-07
   </a>
   <a href="/files/3DS/Kitsune-CustomHomeMenuUI_EUR.cia">
     <button class="download-button-fullwidth">
-      <img src="/assets/country-flags/EU.svg"> CIA File for EUR 3DS console
+      <img src="/assets/country-flags/EU.svg"> CIA File for 3DS console (EUR)
     </button> 
   </a>
   <a href="/files/3DS/Kitsune-CustomHomeMenuUI_USA.cia">
     <button class="download-button-fullwidth">
-    <img src="/assets/country-flags/US.svg"> CIA File for USA 3DS console
+    <img src="/assets/country-flags/US.svg"> CIA File for 3DS console (USA)
     </button> 
   </a>
   <a href="/files/3DS/Kitsune-CustomHomeMenuUI_JPN.cia">
     <button class="download-button-fullwidth">
-      <img src="/assets/country-flags/JP.svg"> CIA File for JPN 3DS console
+      <img src="/assets/country-flags/JP.svg"> CIA File for 3DS console (JPN)
     </button> 
   </a>
 </div>
@@ -186,17 +186,17 @@ Last updated: 2024-10-07
   </a>
   <a href="/files/3DS/Kitsune-CustomHomeMenuUI_EUR_NoMvs.cia">
     <button class="download-button-fullwidth">
-      <img src="/assets/country-flags/EU.svg"> CIA File for EUR 3DS console
+      <img src="/assets/country-flags/EU.svg"> CIA File for 3DS console (EUR)
     </button> 
   </a>
   <a href="/files/3DS/Kitsune-CustomHomeMenuUI_USA_NoMvs.cia">
     <button class="download-button-fullwidth">
-      <img src="/assets/country-flags/US.svg"> CIA File for USA 3DS console
+      <img src="/assets/country-flags/US.svg"> CIA File for 3DS console (USA)
     </button> 
   </a>
   <a href="/files/3DS/Kitsune-CustomHomeMenuUI_JPN_NoMvs.cia">
     <button class="download-button-fullwidth">
-      <img src="/assets/country-flags/JP.svg"> CIA File for JPN 3DS console
+      <img src="/assets/country-flags/JP.svg"> CIA File for 3DS console (JPN)
     </button> 
   </a>
 
