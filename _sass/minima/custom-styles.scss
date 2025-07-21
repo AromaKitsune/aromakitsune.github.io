@@ -236,12 +236,12 @@ code {
 // Buttons
 .download-button {
   background-color: #0067c0;
-  border: none;
   color: $text-color;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
   border-radius: 8px;
   padding: 16px 32px;
-  cursor: pointer;
-  font-size: 20px;
 }
 
 .download-button:hover {
@@ -250,13 +250,13 @@ code {
 
 .download-button-fullwidth {
   background-color: #0067c0;
-  border: none;
-  color: $text-color;
   width: 100%;
+  color: $text-color;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
   border-radius: 8px;
   padding: 16px 32px;
-  cursor: pointer;
-  font-size: 20px;
   margin-bottom: 15px;
 }
 

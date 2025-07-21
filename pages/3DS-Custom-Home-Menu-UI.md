@@ -149,8 +149,8 @@ Last updated: 2024-10-07
 
 <!-- Tab links -->
 <div class="tab_0">
-  <button class="tablinks_0" onclick="openTab_0(event, 'Normal')" id="defaultOpen_0">Normal</button>
-  <button class="tablinks_0" onclick="openTab_0(event, 'NoMvs')">No Miiverse Applet</button>
+  <button class="tablinks_0" onclick="openTab_0(event, 'Normal')" id="defaultOpen_0">Variant 1: Default</button>
+  <button class="tablinks_0" onclick="openTab_0(event, 'NoMvs')">Variant 2: No Miiverse Applet</button>
 </div>
 
 <!-- Tab content -->
