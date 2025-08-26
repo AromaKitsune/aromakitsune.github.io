@@ -36,3 +36,10 @@ Here you can find various system UI customisations for Nintendo 3DS and Wii U.
 - [Misc System File Mods](/Wii-U-Misc-System-File-Mods) - Section includes:
   - Custom Software Keyboard Layout
   - Remove Profanity Filter
+
+## Other UI Customisations
+
+- <a href="https://github.com/AromaKitsune/Windows-XAML-Styles" target="_blank">
+  Windows 11 XAML Styles</a>
+
+- Firefox CSS (soon™)
