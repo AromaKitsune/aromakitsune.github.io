@@ -188,7 +188,7 @@ while the GUI method involves in using FontForge itself to merge the fonts manua
           <p>3DS font - <code>nintendo_NTLG-DB_001.ttf</code></p>
         </li>
         <li>
-          <p>A custom font - <code>PopHappiness.ttf</code> (OTF also works)</p>
+          <p>A custom font - In this case: <code>PopHappiness.ttf</code> (OTF also works)</p>
         </li>
       </ul>
     </li>
