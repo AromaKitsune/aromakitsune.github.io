@@ -253,7 +253,7 @@ Last updated: 2024-10-07
         Refer to this bug reported on the Luma3DS repo on GitHub.</a>
       <p>
       </p>
-        To avoid crashes, install this mod with a CIA file instead.
+        If you open the Home Menu often, I recommend installing this mod with a CIA file instead, as it doesn't crash.
       </p>
     </div>
 

@@ -237,7 +237,16 @@ To find other layouts:
 2.  Drag & drop the `*.LZ` file in the Kuriimu2 window.
 
     - If it asks for a plugin, Kuriimu2 doesn't support some archive files.
-      [Try this version of Kuriimu2.](/files/3DS/Kuriimu2_1.2.1-2524747179.zip)
+      Try the dev build of Kuriimu2:
+
+        for [Windows](/files/3DS/Kuriimu2 Windows.zip) /
+        [Linux](/files/3DS/Kuriimu2 Linux.zip) /
+        [macOS](/files/3DS/Kuriimu2 Mac.zip)
+
+    - Taken from
+      <a href="https://github.com/FanTranslatorsInternational/Kuriimu2/actions/runs/18064391464" target="_blank">
+      GitHub Actions</a> and added here as a GitHub account is required to download artifacts
+      so you don't have to sign up just to download it :)
 
 3.  On the left pane, click the `blyt` folder and the list of items should appear on the right pane.
 
