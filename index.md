@@ -42,4 +42,5 @@ Here you can find various system UI customisations for Nintendo 3DS and Wii U.
 - <a href="https://github.com/AromaKitsune/Windows-XAML-Styles" target="_blank">
   Windows 11 XAML Styles</a>
 
-- Firefox CSS (soon™)
+- <a href="https://github.com/AromaKitsune/Firefox-CSS" target="_blank">
+  Firefox CSS</a>
