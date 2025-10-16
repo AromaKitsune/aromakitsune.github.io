@@ -237,11 +237,9 @@ To find other layouts:
 2.  Drag & drop the `*.LZ` file in the Kuriimu2 window.
 
     - If it asks for a plugin, Kuriimu2 doesn't support some archive files.
-      Try the dev build of Kuriimu2:
 
-        for [Windows](/files/3DS/Kuriimu2 Windows.zip) /
-        [Linux](/files/3DS/Kuriimu2 Linux.zip) /
-        [macOS](/files/3DS/Kuriimu2 Mac.zip)
+      <a href="https://drive.google.com/drive/folders/10ReHjQGAV1RKs0-wx06r3Zw3IQcwn9eW?usp=sharing" target="_blank">
+      Try the dev build of Kuriimu2.</a>
 
     - Taken from
       <a href="https://github.com/FanTranslatorsInternational/Kuriimu2/actions/runs/18064391464" target="_blank">
