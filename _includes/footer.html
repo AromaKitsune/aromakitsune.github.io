@@ -7,24 +7,14 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col">
-      {%- if site.author %}
-        <ul class="contact-list">
-          {% if site.author.name -%}
-            <li class="p-name">{{ site.author.name | escape }}</li>
-          {% endif -%}
-          {% if site.author.email -%}
-            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
-          {%- endif %}
-        </ul>
-      {%- endif %}
+        &copy; 2026 AromaKitsune.
+        Made with
+        <a href="https://github.com/jekyll/minima" target="_blank">
+        Minima</a>
+        &amp;
+        <a href="https://github.com/jekyll/jekyll" target="_blank">
+        Jekyll</a>
       </div>
-      <div class="footer-col">
-        <p>{{ site.description | escape }}</p>
-      </div>
-    </div>
-
-    <div class="social-links">
-      {%- include social.html -%}
     </div>
 
   </div>
