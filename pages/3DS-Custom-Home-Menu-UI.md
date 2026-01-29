@@ -269,7 +269,7 @@ Last updated: 2024-10-07
         a608ad8</a>
       </p>
       <p>
-        Once the new Luma3DS version with this fix is officially released. Those
+        Once the new Luma3DS version with this fix is officially released, those
         patched CIA files here will be removed in the future.
       </p>
     </div>
