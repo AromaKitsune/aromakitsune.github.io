@@ -262,8 +262,7 @@ Last updated: 2024-10-07
         Refer to this bug reported on the Luma3DS repo on GitHub.</a>
       </p>
       <p>
-        If you open the Home Menu often, I recommend trying the experimental
-        version of Luma3DS that fixes the LayeredFS issue, which can be
+        I recommend trying the experimental version of Luma3DS that fixes the LayeredFS issue, which can be
         <a href="/files/3DS/boot.firm">downloaded here</a>.
         Commit version:
         <a href="https://github.com/LumaTeam/Luma3DS/commit/a608ad82412eb9114b1fecc3411c14d270858154" target="_blank">
