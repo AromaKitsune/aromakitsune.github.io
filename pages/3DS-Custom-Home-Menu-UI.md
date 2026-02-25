@@ -835,7 +835,7 @@ Last updated: 2024-10-07
     These releases contain only the RomFS folder. Again, LayeredFS patching for
     applets is unstable, Home Menu crashes if the Home Menu is opened 11 times
     total after booting the system.
-  <p>
+  </p>
   <p>
     I recommend installing the experimental version of Luma3DS that fixes the
     LayeredFS issue, which can be
