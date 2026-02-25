@@ -262,7 +262,8 @@ Last updated: 2024-10-07
         Refer to this bug reported on the Luma3DS repo on GitHub.</a>
       </p>
       <p>
-        I recommend trying the experimental version of Luma3DS that fixes the LayeredFS issue, which can be
+        I recommend installing the experimental version of Luma3DS that fixes
+        the LayeredFS issue, which can be
         <a href="/files/3DS/boot.firm">downloaded here</a>.
         Commit version:
         <a href="https://github.com/LumaTeam/Luma3DS/commit/a608ad82412eb9114b1fecc3411c14d270858154" target="_blank">
@@ -835,120 +836,15 @@ Last updated: 2024-10-07
     applets is unstable, Home Menu crashes if the Home Menu is opened 11 times
     total after booting the system.
   <p>
-  </p>
-    It is recommended to compile a CIA file and install it so Home Menu doesn't
-    crash.
+  <p>
+    I recommend installing the experimental version of Luma3DS that fixes the
+    LayeredFS issue, which can be
+    <a href="/files/3DS/boot.firm">downloaded here</a>.
+    Commit version:
+    <a href="https://github.com/LumaTeam/Luma3DS/commit/a608ad82412eb9114b1fecc3411c14d270858154" target="_blank">
+    a608ad8</a>
   </p>
 </div>
-
-<details class="expandable-details">
-  <summary>
-    <b>Compiling a CIA file</b>
-  </summary>
-  <ol>
-    <li>
-      <p>
-        Follow
-        <a href="https://3ds.codeberg.page/homemenu/" target="_blank">
-        derberg's 3DS Home Menu Customization Guide</a>,
-        sections 1 and 2 for RomFS extraction. On section 2, step 6, launch the
-        Home Menu Rebuilding Tool and extract the RomFS assets, but don't
-        decompress all LZ files too.
-      </p>
-    </li>
-    <li>
-      <p>
-        After extracting, copy the mod's RomFS contents to
-        <code>/HMRT/ExtractedRomFS</code> (overwrite all).
-      </p>
-      <ul>
-        <li>
-          <p>For ExeFS:</p>
-        </li>
-        <li>
-          <p><code>code.bin</code> goes to <code>/HMRT/ExtractedExeFS</code></p>
-        </li>
-        <li>
-          <p>
-            <code>exheader.bin</code> renamed as
-            <code>DecryptedExHeader.bin</code> goes to <code>/HMRT/HMRT</code>
-          </p>
-        </li>
-        <div class="note-blue-nested">
-          <p>
-            Instead of <code>code.bin</code>, the <code>code.ips</code> file is
-            provided and you must patch your original <code>code.bin</code> file
-            with
-            <a href="https://fusoya.eludevisibility.org/lips/" target="_blank">
-            Lunar IPS</a>.
-          </p>
-          <ol>
-            <li>
-              <p>Launch Lunar IPS.</p>
-            </li>
-            <li>
-              <p>Click "Apply IPS Patch".</p>
-            </li>
-            <li>
-              <p>Select a <code>code.ips</code> file and click "Open".</p>
-            </li>
-            <li>
-              <p>
-                Click the "Most Common ROM Files" combo-box and select "All
-                Files".
-              </p>
-            </li>
-            <li>
-              <p>
-                Select an original <code>code.bin</code> file and click "Open"
-                to patch it.
-              </p>
-            </li>
-            <li>
-              <p>
-                Copy the patched <code>code.bin</code> file to
-                <code>/HMRT/ExtractedExeFS</code>.
-              </p>
-            </li>
-          </ol>
-        </div>
-      </ul>
-    </li>
-    <li>
-      <p>Launch HMRT and build a CIA file.</p>
-    </li>
-    <li>
-      <p>Add a CIA file to the SD card.</p>
-    </li>
-    <li>
-      <p>
-        Boot the console while holding the <code>Start</code> button to launch
-        GodMode9.
-      </p>
-    </li>
-    <li>
-      <p>Browse and select a compiled CIA file.</p>
-    </li>
-    <li>
-      <p>
-        Select <code>CIA image options...</code> → <code>Encrypt file</code> →
-        <code>Encrypt inplace</code>.
-      </p>
-    </li>
-    <li>
-      <p>Select an encrypted CIA file again.</p>
-    </li>
-    <li>
-      <p>
-        Select <code>CIA image options...</code> →
-        <code>Install game image</code>.
-      </p>
-    </li>
-    <li>
-      <p>Reboot the console.</p>
-    </li>
-  </ol>
-</details>
 
 <script src="/assets/js/gallery.js"></script>
 <script src="/assets/js/tabs_0.js"></script>

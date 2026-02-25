@@ -24,7 +24,7 @@ A guide for customising the Home Menu UI layout (BCLYT files) on the Nintendo
     If this is your first time modding the 3DS Home Menu, follow
     <a href="https://3ds.codeberg.page/homemenu/" target="_blank">
     derberg's 3DS Home Menu Customization Guide</a>
-    for setup and extraction before proceeding.
+    for setup and assets extraction before proceeding.
   </p>
 </div>
 
