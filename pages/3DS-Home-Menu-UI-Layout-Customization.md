@@ -123,8 +123,10 @@ A guide for customising the Home Menu UI layout (BCLYT files) on the Nintendo
 
 <div class="note-blue">
   <p>
-    No system files in the NAND are modified in the process. The custom Home
-    Menu patch is loaded via LayeredFS.
+    No system files in the NAND are modified in the process. The Home Menu
+    applet patch is loaded via LayeredFS, a Luma3DS feature that redirects
+    games/apps assets to modded assets files in the SD Card without patching the
+    ROMs or system files directly.
   </p>
 </div>
 
