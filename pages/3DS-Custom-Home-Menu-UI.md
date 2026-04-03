@@ -156,12 +156,12 @@ Last updated: 2024-10-07
 
 <!-- Tab links -->
 <div class="tab_0">
-  <button class="tablinks_0" onclick="openTab_0(event, 'Normal')" id="defaultOpen_0">Variant 1: Default</button>
+  <button class="tablinks_0" onclick="openTab_0(event, 'Default')" id="defaultOpen_0">Variant 1: Default</button>
   <button class="tablinks_0" onclick="openTab_0(event, 'NoMvs')">Variant 2: No Miiverse Applet</button>
 </div>
 
 <!-- Tab content -->
-<div id="Normal" class="tabcontent_0">
+<div id="Default" class="tabcontent_0">
   <a href="/files/3DS/Kitsune-CustomHomeMenuUI.zip">
     <button class="download-button-fullwidth">
       <i class="fa fa-download"></i> LayeredFS for 3DS console or Azahar Emulator
@@ -570,22 +570,6 @@ Last updated: 2024-10-07
 - <a href="https://github.com/AromaKitsune/aromakitsune.github.io/discussions/3#discussioncomment-13598964" target="_blank">
   Kitsune + Cooolgamer's Custom Home Menu by Misteryesman</a> - My Custom Home
   Menu UI combined with Coool's custom assets such as animations and dialogs
-
-<div class="note-blue">
-  <p>
-    These releases contain only the RomFS folder. Again, LayeredFS patching for
-    applets is unstable, Home Menu crashes if the Home Menu is opened 11 times
-    total after booting the system.
-  </p>
-  <p>
-    I recommend installing the experimental version of Luma3DS that fixes the
-    LayeredFS issue, which can be
-    <a href="/files/3DS/boot.firm">downloaded here</a>.
-    Commit version:
-    <a href="https://github.com/LumaTeam/Luma3DS/commit/a608ad82412eb9114b1fecc3411c14d270858154" target="_blank">
-    a608ad8</a>
-  </p>
-</div>
 
 <script src="/assets/js/gallery.js"></script>
 <script src="/assets/js/tabs_0.js"></script>
