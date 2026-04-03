@@ -1,2 +1,265 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+@import "gallery.scss";
+@import "tabs_0.scss";
+@import "tabs_1.scss";
+@import "tabs_2.scss";
+@import "tabs_3.scss";
+@import "tabs_4.scss";
+@import "tabs_fullwidth_0.scss";
+@import "tabs_fullwidth_1.scss";
+
+@font-face {
+  font-family: PopHappiness;
+  src: url(/assets/PopHappiness.woff2);
+}
+
+
+// Base
+// -------------------------------------------------------------
+
+html {
+  scroll-behavior: smooth;
+}
+
+// Set `margin-bottom` to maintain vertical rhythm
+hr {
+  display: block;
+  border: 0;
+  border-top: 1px solid $dm-brand-color-dark;
+}
+
+// Headings
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
+// Code formatting
+pre,
+code {
+  border-radius: 4px;
+  color: #7ee787;
+}
+
+.highlight {
+  border-radius: 4px;
+}
+
+
+// Layout
+// -------------------------------------------------------------
+
+// Site header
+.site-title {
+  @include relative-font-size(2);
+  font-family: PopHappiness;
+
+  @media screen and (max-width: 600px) {
+    font-size: clamp(1rem, 6.5vw, 2rem);
+  }
+}
+
+.site-title:hover {
+  color: $dm-site-title-color;
+  text-decoration: none;
+}
+
+// Site footer
+.footer-col-wrapper {
+  color: #a0a0a0;
+
+  a {
+    color: #e6e6e6;
+  }
+}
+
+.footer-col {
+  margin-bottom: 0px;
+}
+
+// Posts
+.post-header {
+  margin-bottom: $spacing-unit;
+}
+
+.post-title,
+.post-content h1 {
+  margin-bottom: 10px;
+  @include relative-font-size(2.25);
+  line-height: 1.15;
+  border-bottom: 1px solid $dm-brand-color-dark;
+  padding-bottom: 0.5em;
+}
+
+.post-content {
+  margin-bottom: $spacing-unit;
+
+  h1, h2, h3 { margin-top: $spacing-unit }
+
+  h2 {
+    @include relative-font-size(1.75);
+    border-bottom: 1px solid $dm-brand-color-dark;
+    padding-bottom: 0.25em;
+  }
+
+  h3 {
+    @include relative-font-size(1.25);
+  }
+}
+
+
+// Custom
+// -------------------------------------------------------------
+
+// Boxes
+.note-info {
+  background-color: $code-background-color;
+  background-image: url(/assets/Qogir-Icons/dialog-information.svg);
+  background-position: 12px 16px;
+  background-repeat: no-repeat;
+  border-left: solid 4px #0b87da;
+  line-height: 24px;
+  overflow: hidden;
+  padding-top: 20px;
+  padding-left: 56px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+}
+
+.note-warning {
+  background-color: $code-background-color;
+  background-image: url(/assets/Qogir-Icons/dialog-error.svg);
+  background-position: 12px 16px;
+  background-repeat: no-repeat;
+  border-left: solid 4px #da0b50;
+  line-height: 24px;
+  overflow: hidden;
+  padding-top: 20px;
+  padding-left: 56px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+}
+
+.note-warning-yellow {
+  background-color: $code-background-color;
+  background-image: url(/assets/Qogir-Icons/dialog-warning.svg);
+  background-position: 12px 16px;
+  background-repeat: no-repeat;
+  border-left: solid 4px #fffd55;
+  line-height: 24px;
+  overflow: hidden;
+  padding-top: 20px;
+  padding-left: 56px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+}
+
+.image {
+  background-color: #2c3f48;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.note-blue {
+  background-color: #2c3f48;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 16px 16px 0px;
+  margin-bottom: 15px;
+}
+
+.note-green {
+  background-color: #2d412f;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 16px 16px 0px;
+  margin-bottom: 15px;
+}
+
+.note-yellow {
+  background-color: #4b3923;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 16px 16px 0px;
+  margin-bottom: 15px;
+}
+
+.note-red {
+  background-color: #503335;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 16px 16px 0px;
+  margin-bottom: 15px;
+}
+
+.expandable-details {
+  background-color: #2c3f48;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 16px;
+  margin-bottom: 15px;
+}
+
+.expandable-details summary {
+  cursor: pointer;
+}
+
+.expandable-details:open {
+  padding: 16px 16px 0px;
+}
+
+.expandable-details:open summary {
+  padding-bottom: 8px;
+}
+
+.note-blue-nested {
+  background-color: darken(#2c3f48, 5%);
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 16px 16px 0px;
+  margin-bottom: 15px;
+}
+
+.code-block-wrap {
+  color: #7ee787;
+  font-family: $code-font-family;
+  font-size: 0.9375em;
+  border: 1px solid $border-color-01;
+  border-radius: 4px;
+  background-color: $code-background-color;
+  padding: 8px 12px;
+}
+
+// Buttons
+.download-button {
+  background-color: #0067c0;
+  color: $text-color;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  padding: 16px 32px;
+}
+
+.download-button:hover {
+  background-color: darken(#0067c0, 10%);
+}
+
+.download-button-fullwidth {
+  background-color: #0067c0;
+  width: 100%;
+  color: $text-color;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  padding: 16px 32px;
+  margin-bottom: 15px;
+}
+
+.download-button-fullwidth:hover {
+  background-color: darken(#0067c0, 10%);
+}
