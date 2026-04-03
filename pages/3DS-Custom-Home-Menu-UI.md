@@ -25,7 +25,7 @@ for creating your own custom Home Menu UI for 3DS!
     </li>
     <li>
       <p>
-        <a href="#choose-how-you-want-to-install-the-mod">
+        <a href="#adding-the-home-menu-applet-patch">
         Installing the Mod</a>
       </p>
     </li>
