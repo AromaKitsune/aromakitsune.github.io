@@ -37,13 +37,14 @@ Here you can find various system UI customisations for Nintendo 3DS and Wii U.
   - Custom Software Keyboard Layout
   - Remove Profanity Filter
 
-## Other UI Customisations
+## Other Projects
 
 - <a href="https://github.com/AromaKitsune/Windows-XAML-Styles" target="_blank">
   Windows XAML Styles</a> - Custom XAML styles for Windows 11 apps
 
 - <a href="https://github.com/AromaKitsune/My-Windhawk-Mods" target="_blank">
-  Windhawk Mods</a> - My mods for tweaking Microsoft Windows' behaviours and UI
+  Windhawk Mods</a> - Windhawk mods for tweaking behaviours and UI of Microsoft
+  Windows and apps
 
 - <a href="https://github.com/AromaKitsune/Firefox-CSS" target="_blank">
   Firefox CSS</a> - Firefox UI customisations
