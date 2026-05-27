@@ -43,8 +43,8 @@ Here you can find various system UI customisations for Nintendo 3DS and Wii U.
   Windows XAML Styles</a> - Custom XAML styles for Windows 11 apps
 
 - <a href="https://github.com/AromaKitsune/My-Windhawk-Mods" target="_blank">
-  Windhawk Mods</a> - Windhawk mods for tweaking behaviours and UI of Microsoft
-  Windows and apps
+  Windhawk Mods</a> - Windhawk mods for tweaking the behaviours and UI of
+  Microsoft Windows and various apps
 
 - <a href="https://github.com/AromaKitsune/Firefox-CSS" target="_blank">
   Firefox CSS</a> - Firefox UI customisations
