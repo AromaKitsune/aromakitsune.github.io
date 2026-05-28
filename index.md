@@ -37,7 +37,7 @@ Here you can find various system UI customisations for Nintendo 3DS and Wii U.
   - Custom Software Keyboard Layout
   - Remove Profanity Filter
 
-## Other Projects
+## My Other Projects
 
 - <a href="https://github.com/AromaKitsune/Windows-XAML-Styles" target="_blank">
   Windows XAML Styles</a> - Custom XAML styles for Windows 11 apps
