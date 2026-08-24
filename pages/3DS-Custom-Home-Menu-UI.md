@@ -165,7 +165,7 @@ Last updated: 2024-10-07
   <a href="/files/3DS/Kitsune-CustomHomeMenuUI.zip">
     <button class="download-button-fullwidth">
       <i class="fa fa-download"></i> LayeredFS for 3DS console or Azahar Emulator
-    </button> 
+    </button>
   </a>
 </div>
 
@@ -174,7 +174,7 @@ Last updated: 2024-10-07
   <a href="/files/3DS/Kitsune-CustomHomeMenuUI_NoMvs.zip">
     <button class="download-button-fullwidth">
       <i class="fa fa-download"></i> LayeredFS for 3DS console or Azahar Emulator
-    </button> 
+    </button>
   </a>
 
   <div class="note-blue">
@@ -187,6 +187,15 @@ Last updated: 2024-10-07
 
 
 ## Adding the Home Menu Applet Patch
+
+<div class="note-blue">
+  <p>
+    I recommend using the
+    <a href="https://github.com/AromaKitsune/3DS-Home-Menu-Mod-Manager" target="_blank">
+    Home Menu Mod Manager</a> app if you have multiple Home Menu mods, this
+    app lets you pick the mod in the SD card, and swaps it for you.
+  </p>
+</div>
 
 <!-- Tab links -->
 <div class="tab_1">
@@ -257,7 +266,7 @@ Last updated: 2024-10-07
   <div class="note-blue">
     <p>
       The system files need to be installed to a virtual NAND before
-      continuing. Follow the instructions for 
+      continuing. Follow the instructions for
       <a href="https://github.com/azahar-emu/ArticSetupTool" target="_blank">
       setting up system files</a> on an emulator. A real 3DS is required.
     </p>
@@ -556,6 +565,14 @@ Last updated: 2024-10-07
 ## Extra Stuff
 
 ### Home Menu Mods Made by Other People
+
+<div class="note-blue">
+  <p>
+    I recommend using the
+    <a href="https://github.com/AromaKitsune/3DS-Home-Menu-Mod-Manager" target="_blank">
+    Home Menu Mod Manager</a> app if you're adding more Home Menu mods below, this app lets you pick the mod in the SD card, and swaps it for you.
+  </p>
+</div>
 
 - <a href="https://github.com/cooolgamer/Custom-Homemenu-3DS" target="_blank">
   Custom Homemenu 3DS by Cooolgamer</a>
