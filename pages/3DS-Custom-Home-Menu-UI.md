@@ -193,7 +193,7 @@ Last updated: 2024-10-07
     I recommend using the
     <a href="https://github.com/AromaKitsune/3DS-Home-Menu-Mod-Manager" target="_blank">
     Home Menu Mod Manager</a> app if you have multiple Home Menu mods, this
-    app lets you pick the mod in the SD card, and swaps it for you.
+    app lets you pick a mod in the SD card, and swaps it for you.
   </p>
 </div>
 
@@ -570,7 +570,8 @@ Last updated: 2024-10-07
   <p>
     I recommend using the
     <a href="https://github.com/AromaKitsune/3DS-Home-Menu-Mod-Manager" target="_blank">
-    Home Menu Mod Manager</a> app if you're adding more Home Menu mods below, this app lets you pick the mod in the SD card, and swaps it for you.
+    Home Menu Mod Manager</a> app if you're adding more Home Menu mods below,
+    this app lets you pick a mod in the SD card, and swaps it for you.
   </p>
 </div>
 
