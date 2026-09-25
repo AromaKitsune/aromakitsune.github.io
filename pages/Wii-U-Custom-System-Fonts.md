@@ -12,44 +12,44 @@ these OTF fonts for other uses, you can get them from the
 Internet Archive</a>.
 
 Check out the
-[System Font Customisation Guide](/Wii-U-System-Font-Customization)
+[system font customisation guide](/Wii-U-System-Font-Customization)
 for creating your own custom system font for Wii U!
 
 ---
 
 <details class="expandable-details">
   <summary>
-    <b>Table of Contents</b>
+    <b>Table of contents</b>
   </summary>
   <ul>
     <li>
       <p>
         <a href="#pop-happiness">
-        Pop Happiness Font</a>
+        Pop Happiness font</a>
       </p>
     </li>
     <li>
       <p>
         <a href="#pop-joy">
-        Pop Joy Font</a>
+        Pop Joy font</a>
       </p>
     </li>
     <li>
       <p>
         <a href="#yuruka">
-        Yuruka Font</a>
+        Yuruka font</a>
       </p>
     </li>
     <li>
       <p>
         <a href="#installing-the-custom-system-font">
-        Installing the Custom System Font to Wii U / Cemu</a>
+        Installing the custom system font to Wii U / Cemu</a>
       </p>
     </li>
     <li>
       <p>
         <a href="#restoring-the-system-font">
-        Restoring the System Font</a>
+        Restoring the system font</a>
       </p>
     </li>
     <li>
@@ -64,7 +64,7 @@ for creating your own custom system font for Wii U!
 
 ## Pop Happiness
 
-Pop Happiness (Popハッピネス) is a Point of Purchase typeface
+Pop Happiness (Popハッピネス) is a "Point of Purchase" typeface
 <a href="https://fontworks.co.jp/fontsearch/pophappinessstd-eb/" target="_blank">
 designed by Fontworks</a>.
 
@@ -81,7 +81,7 @@ sections in Hyperdimension Neptunia games for the PlayStation 3.
   </div>
 </div>
 
-### List of Games using this Font for the UI:
+### List of games using this font for the UI:
 - Luigi's Mansion
 - Super Mario Sunshine
 - Mario Golf: Toadstool Tour
@@ -99,12 +99,12 @@ sections in Hyperdimension Neptunia games for the PlayStation 3.
 - <a href="https://www.mariowiki.com/List_of_fonts#Pop_Happiness" target="_blank">
   Complete list of Super Mario games using this font</a>
 
-### Download Font:
+### Download font:
 
 <a href="/files/Wii-U/PopHappiness.ttf">
   <button class="download-button">
-    <i class="fa fa-download"></i> TTF - for Wii U console or Cemu Emulator
-  </button> 
+    <i class="fa fa-download"></i> TTF - for Wii U console or Cemu emulator
+  </button>
 </a>
 
 - [OTF - for anything else](/files/FOT-PopHappinessStd-EB.otf)
@@ -127,7 +127,7 @@ sections in Hyperdimension Neptunia games for the PlayStation 3.
 
 ## Pop Joy
 
-Pop Joy (Popジョイ) is a rounded Point of Purchase typeface
+Pop Joy (Popジョイ) is a rounded "Point of Purchase" typeface
 <a href="https://fontworks.co.jp/fontsearch/popjoystd-b/" target="_blank">
 designed by Fontworks</a>.
 
@@ -143,7 +143,7 @@ It is commonly used for the UI in Paper Mario games.
   </div>
 </div>
 
-### List of Games using this Font for the UI:
+### List of games using this font for the UI:
 - Dr. Mario 64
 - Mario Golf: Toadstool Tour
 - Paper Mario: The Thousand-Year Door
@@ -156,12 +156,12 @@ It is commonly used for the UI in Paper Mario games.
 - <a href="https://www.mariowiki.com/List_of_fonts#Pop_Joy" target="_blank">
   Complete list of Super Mario games using this font</a>
 
-### Download Font:
+### Download font:
 
 <a href="/files/Wii-U/PopJoy.ttf">
   <button class="download-button">
-    <i class="fa fa-download"></i> TTF - for Wii U console or Cemu Emulator
-  </button> 
+    <i class="fa fa-download"></i> TTF - for Wii U console or Cemu emulator
+  </button>
 </a>
 
 - [OTF - for anything else](/files/FOT-PopJoyStd-B.otf)
@@ -169,7 +169,7 @@ It is commonly used for the UI in Paper Mario games.
 - [TTF - for anything else](/files/PopJoyStd-B.ttf) (Fixed side-bearings)
 
 - [TTF - for anything else](/files/PopJoyStd-B_Scaled.ttf) (Fixed side-bearings
-                            + Scaled)
+                            + scaled)
 
 <details class="expandable-details">
   <summary>
@@ -190,7 +190,7 @@ It is commonly used for the UI in Paper Mario games.
 
 ## Yuruka
 
-Yuruka (ユールカ) is a Point of Purchase typeface
+Yuruka (ユールカ) is a "Point of Purchase" typeface
 <a href="https://fontworks.co.jp/fontsearch/yurukastd-ub/" target="_blank">
 designed by Fontworks</a>.
 
@@ -207,7 +207,7 @@ Miku: Colorful Stage!.
   </div>
 </div>
 
-### List of Games using this Font for the UI:
+### List of games using this font for the UI:
 - Kirby and the Rainbow Curse
 - Dr. Mario: Miracle Cure
 - WarioWare Gold
@@ -220,12 +220,12 @@ Miku: Colorful Stage!.
 - <a href="https://www.mariowiki.com/List_of_fonts#Yuruka" target="_blank">
   Complete list of Super Mario games using this font</a>
 
-### Download Font:
+### Download font:
 
 <a href="/files/Wii-U/Yuruka.ttf">
   <button class="download-button">
-    <i class="fa fa-download"></i> TTF - for Wii U console or Cemu Emulator
-  </button> 
+    <i class="fa fa-download"></i> TTF - for Wii U console or Cemu emulator
+  </button>
 </a>
 
 - [OTF - for anything else](/files/FOT-YurukaStd-UB.otf)
@@ -246,7 +246,7 @@ Miku: Colorful Stage!.
 </details>
 
 
-## Installing the Custom System Font
+## Installing the custom system font
 
 <!-- Tab links -->
 <div class="tab_0">
@@ -295,7 +295,7 @@ Miku: Colorful Stage!.
       <p>Activate this plugin.</p>
     </li>
     <li>
-      <p>Select a downloaded font file for Standard font.</p>
+      <p>Select a downloaded font file as a standard font.</p>
     </li>
     <li>
       <p>
@@ -373,7 +373,7 @@ Miku: Colorful Stage!.
 </div>
 
 
-## Restoring the System Font
+## Restoring the system font
 
 <!-- Tab links -->
 <div class="tab_1">

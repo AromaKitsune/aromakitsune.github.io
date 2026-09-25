@@ -20,50 +20,50 @@ A guide for customising the system-wide font on the Nintendo 3DS.
 
 <details class="expandable-details">
   <summary>
-    <b>Table of Contents</b>
+    <b>Table of contents</b>
   </summary>
   <ul>
     <li>
       <p>
         <a href="#getting-started">
-        Getting Started</a>
+        Getting started</a>
       </p>
     </li>
     <li>
       <p>
         <a href="#merging-the-fonts">
-        Merging the Fonts</a>
+        Merging the fonts</a>
       </p>
     </li>
     <li>
       <p>
         <a href="#generating-the-custom-system-font">
-        Generating the Custom System Font</a>
+        Generating the custom system font</a>
       </p>
     </li>
     <li>
       <p>
         <a href="#installing-the-custom-system-font">
-        Installing the Custom System Font</a>
+        Installing the custom system font</a>
       </p>
     </li>
     <li>
       <p>
         <a href="#restoring-the-system-font">
-        Restoring the System Font</a>
+        Restoring the system font</a>
       </p>
     </li>
     <li>
       <p>
         <a href="#tools-used">
-        Tools Used</a>
+        Tools used</a>
       </p>
     </li>
   </ul>
 </details>
 
 
-## Getting Started
+## Getting started
 
 <div class="note-blue">
   <p>
@@ -109,7 +109,7 @@ A guide for customising the system-wide font on the Nintendo 3DS.
 </details>
 
 
-### What You Need:
+### What you need:
 
 - <a href="https://fontforge.org/" target="_blank">
   FontForge</a>
@@ -132,7 +132,7 @@ A guide for customising the system-wide font on the Nintendo 3DS.
 Recommended OS: Windows 10 or 11 - FontTool is not compatible with Linux
 
 
-## Merging the Fonts
+## Merging the fonts
 
 A 3DS font will be merged into a custom system font so the icon glyphs are
 preserved.
@@ -350,7 +350,7 @@ fontforge.activeFont().clear()
 </div>
 
 
-## Generating the Custom System Font
+## Generating the custom system font
 
 1.  Launch CTR Font Converter.
 
@@ -442,7 +442,7 @@ fontforge.activeFont().clear()
     `SystemFont.bcfnt.lz`.
 
 
-## Installing the Custom System Font
+## Installing the custom system font
 
 <!-- Tab links -->
 <div class="tab_0">
@@ -524,7 +524,7 @@ fontforge.activeFont().clear()
   <div class="note-blue">
     <p>
       The system files need to be installed to a virtual NAND before continuing.
-      Follow the instructions for 
+      Follow the instructions for
       <a href="https://github.com/azahar-emu/ArticSetupTool" target="_blank">
       setting up system files</a> on an emulator. A real 3DS is required.
     </p>
@@ -579,7 +579,7 @@ fontforge.activeFont().clear()
 </div>
 
 
-## Restoring the System Font
+## Restoring the system font
 
 <!-- Tab links -->
 <div class="tab_1">
@@ -658,7 +658,7 @@ fontforge.activeFont().clear()
 </div>
 
 
-## Tools Used
+## Tools used
 
 <a href="https://github.com/astronautlevel2/FontTool" target="_blank">
 FontTool</a>

@@ -23,7 +23,7 @@ A guide for customising the Home Menu UI layout (BCLYT files) on the Nintendo
   <p>
     If this is your first time modding the 3DS Home Menu, follow
     <a href="https://3ds.codeberg.page/homemenu/" target="_blank">
-    derberg's 3DS Home Menu Customization Guide</a>
+    derberg's 3DS Home Menu customization guide</a>
     for setup and assets extraction before proceeding.
   </p>
 </div>
@@ -74,44 +74,44 @@ A guide for customising the Home Menu UI layout (BCLYT files) on the Nintendo
 
 <details class="expandable-details">
   <summary>
-    <b>Table of Contents</b>
+    <b>Table of contents</b>
   </summary>
   <ul>
     <li>
       <p>
         <a href="#getting-started">
-        Getting Started</a>
+        Getting started</a>
       </p>
     </li>
     <li>
       <p>
         <a href="#preparing-for-ui-layout-customisation">
-        Preparing for UI Layout Customisation</a>
+        Preparing for UI layout customisation</a>
       </p>
     </li>
     <li>
       <p>
         <a href="#editing-the-ui-layout">
-        Editing the UI Layout</a>
+        Editing the UI layout</a>
       </p>
     </li>
     <li>
       <p>
         <a href="#fixing-the-ui-layout-file">
-        Fixing the UI Layout File</a>
+        Fixing the UI layout file</a>
       </p>
     </li>
     <li>
       <p>
         <a href="#ui-element-colours">
-        UI Element Colours</a>
+        UI element colours</a>
       </p>
     </li>
   </ul>
 </details>
 
 
-## Getting Started
+## Getting started
 
 <div class="note-blue">
   <p>
@@ -130,7 +130,7 @@ A guide for customising the Home Menu UI layout (BCLYT files) on the Nintendo
   </p>
 </div>
 
-### What You Need:
+### What you need:
 
 - <a href="https://github.com/FanTranslatorsInternational/Kuriimu2" target="_blank">
   Kuriimu2</a>
@@ -148,7 +148,7 @@ A guide for customising the Home Menu UI layout (BCLYT files) on the Nintendo
 - DARC files, can be either compressed (`*_LZ.bin`) or decompressed (`*.LZ`)
 
 
-## Preparing for UI Layout Customisation
+## Preparing for UI layout customisation
 
 Here's a list of known layout files for customisation.
 
@@ -217,7 +217,7 @@ To find other layouts:
     If you're looking into editing the UI colours for <code>sleep.LZ</code> and
     applet icons (<code>launcher.LZ</code>), I suggest checking out
     <a href="https://3ds.codeberg.page/homemenu/" target="_blank">
-    derberg's 3DS Home Menu Customization guide</a> for those, as hex-editing
+    derberg's 3DS Home Menu customization guide</a> for those, as hex-editing
     the <code>*.LZ</code> files directly is easier.
     <br>
     Note: Once you import/replace any files into the <code>*.LZ</code> files,
@@ -228,7 +228,7 @@ To find other layouts:
 </div>
 
 
-## Editing the UI Layout
+## Editing the UI layout
 
 1.  Launch Kuriimu2.
 
@@ -281,8 +281,8 @@ To find other layouts:
 
 7.  Drag & drop the `B.bclyt` file in the Switch-Toolbox window.
 
-8.  Do not edit anything, just save. `Ctrl`+`S` isn't coded to save in Layout
-    Editor, so click the `💾` save button and the "saved" dialog should appear.
+8.  Do not edit anything, just save. `Ctrl`+`S` isn't coded to save in layout
+    editor, so click the `💾` save button and the "saved" dialog should appear.
 
     - You should have the corrupted BCLYT file as its file size has been
       decreased. This is normal.
@@ -307,13 +307,13 @@ To find other layouts:
 
     - Refer to the
       <a href="https://docs.google.com/spreadsheets/d/1Q-Im3P5zSqNi6zYqaXtyS138hCdcIJDY7WxRt_FWdrg" target="_blank">
-      Assets Documentation</a>
+      Home Menu assets documentation</a>
       for some lists of known panes to edit.
 
     - Each pane has its properties you can edit: positions (translate), size,
-      colours, rotations, transparency, etc. You can even change the Picture
-      Panes' size, allowing you to import the BCLIM (Layout Image) files with
-      larger dimensions.
+      colours, rotations, transparency, etc. You can even change the picture
+      panes' size in the `Picture Pane` tab, allowing you to import the BCLIM
+      (Layout Image) files with larger dimensions.
 
     - To hide the UI elements, untick the `Pane visible` checkbox and set the
       `Alpha` value to `0`.
@@ -332,17 +332,17 @@ To find other layouts:
       doesn't corrupt BCLAN files.
 
     - In order to keep the `C.bclyt`'s file size the same as `B.bclyt` file's,
-      you should edit only the values in the Pane and Colors tabs. Adding or
+      you should edit only the values in the `Pane and Colors` tabs. Adding or
       removing some items may change the file size which makes it more difficult to manually fix it with hex editor. Avoid doing the following edits:
 
-        - Adding new Panes
+        - Adding new panes
 
-        - Deleting the existing Panes - It will crash Home Menu, so make them
+        - Deleting the existing panes - It will crash Home Menu, so make them
           invisible instead.
 
-        - Adding/removing links to textures in the Texture Maps tab 
+        - Adding/removing links to textures in the `Texture Maps` tab
 
-        - Editing the texts in the Text Pane - You should
+        - Editing the texts in the `Text Pane` tab - You should
           <a href="https://github.com/IcySon55/3DLandMSBTeditor" target="_blank">
           edit the MSBT files</a>
           instead.
@@ -368,7 +368,7 @@ To find other layouts:
     </div>
 
 
-## Fixing the UI Layout File
+## Fixing the UI layout file
 
 1.  Launch HxD hex editor.
 
@@ -491,7 +491,7 @@ To find other layouts:
 
     - To make another edit to the fixed BCLYT file, make 3 copies of the
       `C.bclyt` file and repeat step 5 of the
-      [Editing the UI Layout](#editing-the-ui-layout) section.
+      [Editing the UI layout](#editing-the-ui-layout) section.
 
     <div align="center">
       <div class="image">
@@ -517,7 +517,7 @@ To find other layouts:
     the Home Menu on your 3DS using LayeredFS.
 
 
-## UI Element Colours
+## UI element colours
 
 After importing the BCLYT/BCLAN/BCLIM files into the `*.LZ` files with Kuriimu2,
 the offsets for the colour values are no longer the same, as these values have

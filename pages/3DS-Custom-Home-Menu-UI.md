@@ -7,14 +7,14 @@ permalink: /3DS-Custom-Home-Menu-UI
 The custom Home Menu UI for the Nintendo 3DS.
 
 Check out the
-[Home Menu UI Layout Customisation Guide](/3DS-Home-Menu-UI-Layout-Customization)
+[Home Menu UI layout customisation guide](/3DS-Home-Menu-UI-Layout-Customization)
 for creating your own custom Home Menu UI for 3DS!
 
 ---
 
 <details class="expandable-details">
   <summary>
-    <b>Table of Contents</b>
+    <b>Table of contents</b>
   </summary>
   <ul>
     <li>
@@ -26,19 +26,19 @@ for creating your own custom Home Menu UI for 3DS!
     <li>
       <p>
         <a href="#adding-the-home-menu-applet-patch">
-        Installing the Mod</a>
+        Installing the mod</a>
       </p>
     </li>
     <li>
       <p>
         <a href="#uninstalling-the-mod">
-        Uninstalling the Mod</a>
+        Uninstalling the mod</a>
       </p>
     </li>
     <li>
       <p>
         <a href="#extra-stuff">
-        Extra Stuff</a>
+        Extra stuff</a>
       </p>
     </li>
   </ul>
@@ -80,22 +80,22 @@ A customised Home Menu UI made by me.
   <div class="row_gallery">
     <div class="column_gallery">
       <img class="demo_gallery cursor_gallery" src="/images/3DS/3DS-Custom-Home-Menu-UI_1.gif" style="width:100%"
-        onclick="currentSlide(1)" alt="Spinning Cursor">
+        onclick="currentSlide(1)" alt="Spinning cursor">
     </div>
 
     <div class="column_gallery">
       <img class="demo_gallery cursor_gallery" src="/images/3DS/3DS-Custom-Home-Menu-UI_2.png" style="width:100%"
-        onclick="currentSlide(2)" alt="Blue Applets">
+        onclick="currentSlide(2)" alt="Blue applets">
     </div>
 
     <div class="column_gallery">
       <img class="demo_gallery cursor_gallery" src="/images/3DS/3DS-Custom-Home-Menu-UI_3.png" style="width:100%"
-        onclick="currentSlide(3)" alt="No Miiverse Applet">
+        onclick="currentSlide(3)" alt="No Miiverse applet">
     </div>
 
     <div class="column_gallery">
       <img class="demo_gallery cursor_gallery" src="/images/3DS/3DS-Custom-Home-Menu-UI_4.png" style="width:100%"
-        onclick="currentSlide(4)" alt="Blue Shutdown Screen">
+        onclick="currentSlide(4)" alt="Blue shutdown screen">
     </div>
   </div>
 </div>
@@ -152,19 +152,19 @@ The system font is a separate system file. To install a custom system font,
 
 Last updated: 2024-10-07
 
-### Download Mod:
+### Download mod:
 
 <!-- Tab links -->
 <div class="tab_0">
   <button class="tablinks_0" onclick="openTab_0(event, 'Default')" id="defaultOpen_0">Variant 1: Default</button>
-  <button class="tablinks_0" onclick="openTab_0(event, 'NoMvs')">Variant 2: No Miiverse Applet</button>
+  <button class="tablinks_0" onclick="openTab_0(event, 'NoMvs')">Variant 2: No Miiverse applet</button>
 </div>
 
 <!-- Tab content -->
 <div id="Default" class="tabcontent_0">
   <a href="/files/3DS/Kitsune-CustomHomeMenuUI.zip">
     <button class="download-button-fullwidth">
-      <i class="fa fa-download"></i> LayeredFS for 3DS console or Azahar Emulator
+      <i class="fa fa-download"></i> LayeredFS for 3DS console or Azahar emulator
     </button>
   </a>
 </div>
@@ -173,7 +173,7 @@ Last updated: 2024-10-07
 <div id="NoMvs" class="tabcontent_0">
   <a href="/files/3DS/Kitsune-CustomHomeMenuUI_NoMvs.zip">
     <button class="download-button-fullwidth">
-      <i class="fa fa-download"></i> LayeredFS for 3DS console or Azahar Emulator
+      <i class="fa fa-download"></i> LayeredFS for 3DS console or Azahar emulator
     </button>
   </a>
 
@@ -186,7 +186,7 @@ Last updated: 2024-10-07
 </div>
 
 
-## Adding the Home Menu Applet Patch
+## Adding the Home Menu applet patch
 
 <div class="note-blue">
   <p>
@@ -316,14 +316,14 @@ Last updated: 2024-10-07
 
 <!-- Tab links -->
 <div class="tab_fullwidth_1">
-  <button class="tablinks_fullwidth_1" onclick="openTab_fullwidth_1(event, 'LayeredFS_Uninstall')" id="defaultOpen_fullwidth_1">SD Card File Redirection (LayeredFS)</button>
-  <button class="tablinks_fullwidth_1" onclick="openTab_fullwidth_1(event, 'CIA_File_Uninstall')">System File Replacement (CIA File)</button>
+  <button class="tablinks_fullwidth_1" onclick="openTab_fullwidth_1(event, 'LayeredFS_Uninstall')" id="defaultOpen_fullwidth_1">SD card file redirection (LayeredFS)</button>
+  <button class="tablinks_fullwidth_1" onclick="openTab_fullwidth_1(event, 'CIA_File_Uninstall')">System file replacement (CIA file)</button>
 </div>
 
 <!-- Tab content -->
 <div id="LayeredFS_Uninstall" class="tabcontent_fullwidth_1">
   <h2 id="removing-the-home-menu-applet-patch">
-  Removing the Home Menu Applet Patch</h2>
+  Removing the Home Menu applet patch</h2>
 
   <!-- Tab links -->
   <div class="tab_2">
@@ -414,7 +414,7 @@ Last updated: 2024-10-07
 <!-- Tab content -->
 <div id="CIA_File_Uninstall" class="tabcontent_fullwidth_1">
   <h2 id="restoring-the-home-menu-applet">
-  Restoring the Home Menu Applet</h2>
+  Restoring the Home Menu applet</h2>
 
   <div class="note-blue">
     <p>
@@ -562,9 +562,9 @@ Last updated: 2024-10-07
 </div>
 
 
-## Extra Stuff
+## Extra stuff
 
-### Home Menu Mods Made by Other People
+### Home Menu mods made by other people
 
 <div class="note-blue">
   <p>

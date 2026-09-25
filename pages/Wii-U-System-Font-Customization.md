@@ -20,38 +20,38 @@ A guide for customising the system-wide font on the Wii U.
 
 <details class="expandable-details">
   <summary>
-    <b>Table of Contents</b>
+    <b>Table of contents</b>
   </summary>
   <ul>
     <li>
       <p>
         <a href="#getting-started">
-        Getting Started</a>
+        Getting started</a>
       </p>
     </li>
     <li>
       <p>
         <a href="#merging-the-fonts">
-        Merging the Fonts</a>
+        Merging the fonts</a>
       </p>
     </li>
     <li>
       <p>
         <a href="#installing-the-custom-system-font">
-        Installing the Custom System Font</a>
+        Installing the custom system font</a>
       </p>
     </li>
     <li>
       <p>
         <a href="#restoring-the-system-font">
-        Restoring the System Font</a>
+        Restoring the system font</a>
       </p>
     </li>
   </ul>
 </details>
 
 
-## Getting Started
+## Getting started
 
 <div class="note-blue">
   <p>
@@ -69,7 +69,7 @@ A guide for customising the system-wide font on the Wii U.
   </p>
 </div>
 
-### What You Need:
+### What you need:
 
 - <a href="https://fontforge.org/" target="_blank">
   FontForge</a>
@@ -84,7 +84,7 @@ A guide for customising the system-wide font on the Wii U.
 Recommended OS: Windows 10 or 11, Linux
 
 
-## Merging the Fonts
+## Merging the fonts
 
 A Wii U font will be merged into a custom system font so the icon glyphs are
 preserved.
@@ -315,7 +315,7 @@ fontforge.activeFont().clear()
 </div>
 
 
-## Installing the Custom System Font
+## Installing the custom system font
 
 <!-- Tab links -->
 <div class="tab_0">
@@ -342,7 +342,7 @@ fontforge.activeFont().clear()
       <p>Activate this plugin.</p>
     </li>
     <li>
-      <p>Select a merged font file for Standard font.</p>
+      <p>Select a merged font file as a standard font.</p>
     </li>
     <li>
       <p>
@@ -420,7 +420,7 @@ fontforge.activeFont().clear()
 </div>
 
 
-## Restoring the System Font
+## Restoring the system font
 
 <!-- Tab links -->
 <div class="tab_1">
